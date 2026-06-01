@@ -1,0 +1,24 @@
+
+> alfo-palette-generator@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.2.0
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.2:3000
+
+ ✓ Starting...
+ ✓ Ready in 2.2s
+ ○ Compiling /generator ...
+ ✓ Compiled /generator in 13.6s (2087 modules)
+ GET /generator 200 in 14614ms
+ GET /generator 200 in 96ms
+ ○ Compiling /tools ...
+ ✓ Compiled /tools in 1394ms (2080 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /tools 200 in 2004ms
+ ○ Compiling /palettes/[slug] ...
+ ✓ Compiled /palettes/[slug] in 1205ms (2191 modules)
+ GET /palettes/palette-1 200 in 3301ms
+ ○ Compiling /colors/[colorname] ...
+ ✓ Compiled /colors/[colorname] in 635ms (2196 modules)
+ GET /colors/absolute-zero 404 in 2131ms

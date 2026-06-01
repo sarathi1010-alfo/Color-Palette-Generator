@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: var(--font-fraunces), serif;
+  --font-sans: var(--font-dm-sans), sans-serif;
+  --font-mono: var(--font-mono), monospace;
+
+  --color-background: #0d0d0f;
+  --color-surface: #1a1a1f;
+  --color-border: #2a2a32;
+  --color-text-primary: #f0f0f5;
+  --color-text-secondary: #8888a0;
+
+  --color-popover: var(--surface);
+  --color-popover-foreground: var(--foreground);
+  --color-accent: var(--border);
+  --color-accent-foreground: var(--foreground);
+  --color-muted: var(--border);
+  --color-muted-foreground: var(--text-secondary);
+}
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #0d0d0f;
+    --surface: #f3f4f6;
+    --border: #e5e7eb;
+    --text-primary: #111827;
+    --text-secondary: #4b5563;
+  }
+
+  .dark {
+    --background: #0d0d0f;
+    --foreground: #f0f0f5;
+    --surface: #1a1a1f;
+    --border: #2a2a32;
+    --text-primary: #f0f0f5;
+    --text-secondary: #8888a0;
+  }
+
+  body {
+    @apply bg-background text-text-primary font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+
+  code, pre {
+    @apply font-mono;
+  }
+}
+
+/* Custom utilities for the palette generator */
+@layer utilities {
+  .full-viewport-height {
+    height: 100vh;
+    height: 100dvh;
+  }
+}

@@ -1,0 +1,9002 @@
+[
+  {
+    "id": "palette-1",
+    "name": "Vibrant Nature 1",
+    "colors": [
+      "#1b8ac6",
+      "#1b51c6",
+      "#1e1bc6",
+      "#571bc6",
+      "#901bc6"
+    ],
+    "tags": [
+      "vibrant",
+      "nature",
+      "analogous"
+    ],
+    "mood": "vibrant",
+    "category": "nature"
+  },
+  {
+    "id": "palette-2",
+    "name": "Nostalgic Fashion 2",
+    "colors": [
+      "#2bd9e8",
+      "#982be8",
+      "#e83a2b",
+      "#7be82b",
+      "#75ffff"
+    ],
+    "tags": [
+      "nostalgic",
+      "fashion",
+      "tetradic"
+    ],
+    "mood": "nostalgic",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-3",
+    "name": "Warm Corporate 3",
+    "colors": [
+      "#cebb96",
+      "#ddad9e",
+      "#d9a5b3",
+      "#bfa5c7",
+      "#96a9ce"
+    ],
+    "tags": [
+      "warm",
+      "corporate",
+      "complementary"
+    ],
+    "mood": "warm",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-4",
+    "name": "Calm Retro 4",
+    "colors": [
+      "#dc2e1b",
+      "#ac7b00",
+      "#6ea334",
+      "#04bb92",
+      "#1bc9dc"
+    ],
+    "tags": [
+      "calm",
+      "retro",
+      "complementary"
+    ],
+    "mood": "calm",
+    "category": "retro"
+  },
+  {
+    "id": "palette-5",
+    "name": "Nostalgic Tech 5",
+    "colors": [
+      "#1a039b",
+      "#4c039b",
+      "#7f039b",
+      "#9b0384",
+      "#9b0352"
+    ],
+    "tags": [
+      "nostalgic",
+      "tech",
+      "analogous"
+    ],
+    "mood": "nostalgic",
+    "category": "tech"
+  },
+  {
+    "id": "palette-6",
+    "name": "Soft Tech 6",
+    "colors": [
+      "#586c41",
+      "#496c41",
+      "#416c47",
+      "#416c55",
+      "#416c64"
+    ],
+    "tags": [
+      "soft",
+      "tech",
+      "analogous"
+    ],
+    "mood": "soft",
+    "category": "tech"
+  },
+  {
+    "id": "palette-7",
+    "name": "Earthy Modern 7",
+    "colors": [
+      "#e7ff9f",
+      "#b1f36b",
+      "#7be636",
+      "#3eb41b",
+      "#008200"
+    ],
+    "tags": [
+      "earthy",
+      "modern",
+      "monochromatic"
+    ],
+    "mood": "earthy",
+    "category": "modern"
+  },
+  {
+    "id": "palette-8",
+    "name": "Earthy Modern 8",
+    "colors": [
+      "#da4986",
+      "#e76951",
+      "#cd9733",
+      "#9bbd51",
+      "#49da9d"
+    ],
+    "tags": [
+      "earthy",
+      "modern",
+      "complementary"
+    ],
+    "mood": "earthy",
+    "category": "modern"
+  },
+  {
+    "id": "palette-9",
+    "name": "Nostalgic Minimal 9",
+    "colors": [
+      "#44de5d",
+      "#44de91",
+      "#44dec4",
+      "#44c5de",
+      "#4491de"
+    ],
+    "tags": [
+      "nostalgic",
+      "minimal",
+      "analogous"
+    ],
+    "mood": "nostalgic",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-10",
+    "name": "Minimal Fashion 10",
+    "colors": [
+      "#f688fc",
+      "#fc88dc",
+      "#fc88b5",
+      "#fc888e",
+      "#fca888"
+    ],
+    "tags": [
+      "minimal",
+      "fashion",
+      "analogous"
+    ],
+    "mood": "minimal",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-11",
+    "name": "Earthy Interior 11",
+    "colors": [
+      "#9bb5e8",
+      "#d3afdf",
+      "#f6afc2",
+      "#fcbba6",
+      "#e8ce9b"
+    ],
+    "tags": [
+      "earthy",
+      "interior",
+      "complementary"
+    ],
+    "mood": "earthy",
+    "category": "interior"
+  },
+  {
+    "id": "palette-12",
+    "name": "Earthy Minimal 12",
+    "colors": [
+      "#e418fb",
+      "#fb18c7",
+      "#fb187b",
+      "#fb182f",
+      "#fb4c18"
+    ],
+    "tags": [
+      "earthy",
+      "minimal",
+      "analogous"
+    ],
+    "mood": "earthy",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-13",
+    "name": "Nostalgic Fashion 13",
+    "colors": [
+      "#8862a4",
+      "#b95e7f",
+      "#c16f58",
+      "#a98b48",
+      "#7ea462"
+    ],
+    "tags": [
+      "nostalgic",
+      "fashion",
+      "complementary"
+    ],
+    "mood": "nostalgic",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-14",
+    "name": "Warm Tech 14",
+    "colors": [
+      "#6d221a",
+      "#5a3f07",
+      "#3e5220",
+      "#1e5e49",
+      "#1a656d"
+    ],
+    "tags": [
+      "warm",
+      "tech",
+      "complementary"
+    ],
+    "mood": "warm",
+    "category": "tech"
+  },
+  {
+    "id": "palette-15",
+    "name": "Dark Brand 15",
+    "colors": [
+      "#25e069",
+      "#253ee0",
+      "#e0259c",
+      "#e0c625",
+      "#6eff99"
+    ],
+    "tags": [
+      "dark",
+      "brand",
+      "tetradic"
+    ],
+    "mood": "dark",
+    "category": "brand"
+  },
+  {
+    "id": "palette-16",
+    "name": "Soft Interior 16",
+    "colors": [
+      "#ffffff",
+      "#ddead4",
+      "#bad4a9",
+      "#8ba47b",
+      "#5c744e"
+    ],
+    "tags": [
+      "soft",
+      "interior",
+      "monochromatic"
+    ],
+    "mood": "soft",
+    "category": "interior"
+  },
+  {
+    "id": "palette-17",
+    "name": "Minimal Interior 17",
+    "colors": [
+      "#db9f5d",
+      "#ef8980",
+      "#e182ae",
+      "#ae8dd3",
+      "#5d99db"
+    ],
+    "tags": [
+      "minimal",
+      "interior",
+      "complementary"
+    ],
+    "mood": "minimal",
+    "category": "interior"
+  },
+  {
+    "id": "palette-18",
+    "name": "Professional Interior 18",
+    "colors": [
+      "#5e4b8e",
+      "#8e4b5a",
+      "#7b8e4b",
+      "#4b8e7f",
+      "#8d77bf"
+    ],
+    "tags": [
+      "professional",
+      "interior",
+      "tetradic"
+    ],
+    "mood": "professional",
+    "category": "interior"
+  },
+  {
+    "id": "palette-19",
+    "name": "Calm Modern 19",
+    "colors": [
+      "#87572e",
+      "#2e8757",
+      "#572e87",
+      "#ba8458",
+      "#572e04"
+    ],
+    "tags": [
+      "calm",
+      "modern",
+      "triadic"
+    ],
+    "mood": "calm",
+    "category": "modern"
+  },
+  {
+    "id": "palette-20",
+    "name": "Pastel Retro 20",
+    "colors": [
+      "#caace2",
+      "#e2caac",
+      "#ace2ca",
+      "#fddeff",
+      "#997db0"
+    ],
+    "tags": [
+      "pastel",
+      "retro",
+      "triadic"
+    ],
+    "mood": "pastel",
+    "category": "retro"
+  },
+  {
+    "id": "palette-21",
+    "name": "Calm Interior 21",
+    "colors": [
+      "#59a297",
+      "#70956d",
+      "#8c8250",
+      "#a06c4e",
+      "#a25964"
+    ],
+    "tags": [
+      "calm",
+      "interior",
+      "complementary"
+    ],
+    "mood": "calm",
+    "category": "interior"
+  },
+  {
+    "id": "palette-22",
+    "name": "Nostalgic Interior 22",
+    "colors": [
+      "#3b73da",
+      "#b962c1",
+      "#ef5d8e",
+      "#f67a5a",
+      "#daa23b"
+    ],
+    "tags": [
+      "nostalgic",
+      "interior",
+      "complementary"
+    ],
+    "mood": "nostalgic",
+    "category": "interior"
+  },
+  {
+    "id": "palette-23",
+    "name": "Vibrant Interior 23",
+    "colors": [
+      "#8bf1d3",
+      "#54bfa3",
+      "#1d8d73",
+      "#0f604a",
+      "#003320"
+    ],
+    "tags": [
+      "vibrant",
+      "interior",
+      "monochromatic"
+    ],
+    "mood": "vibrant",
+    "category": "interior"
+  },
+  {
+    "id": "palette-24",
+    "name": "Warm Interior 24",
+    "colors": [
+      "#038eae",
+      "#3d7ac1",
+      "#9056ab",
+      "#bc2066",
+      "#ae2303"
+    ],
+    "tags": [
+      "warm",
+      "interior",
+      "complementary"
+    ],
+    "mood": "warm",
+    "category": "interior"
+  },
+  {
+    "id": "palette-25",
+    "name": "Soft Interior 25",
+    "colors": [
+      "#f09363",
+      "#bb6537",
+      "#85380c",
+      "#5d1c06",
+      "#350000"
+    ],
+    "tags": [
+      "soft",
+      "interior",
+      "monochromatic"
+    ],
+    "mood": "soft",
+    "category": "interior"
+  },
+  {
+    "id": "palette-26",
+    "name": "Energetic Tech 26",
+    "colors": [
+      "#2afcaa",
+      "#a5d747",
+      "#e2a709",
+      "#ff6b3d",
+      "#fc2a7c"
+    ],
+    "tags": [
+      "energetic",
+      "tech",
+      "complementary"
+    ],
+    "mood": "energetic",
+    "category": "tech"
+  },
+  {
+    "id": "palette-27",
+    "name": "Warm Modern 27",
+    "colors": [
+      "#134866",
+      "#132d66",
+      "#151366",
+      "#311366",
+      "#4c1366"
+    ],
+    "tags": [
+      "warm",
+      "modern",
+      "analogous"
+    ],
+    "mood": "warm",
+    "category": "modern"
+  },
+  {
+    "id": "palette-28",
+    "name": "Professional Modern 28",
+    "colors": [
+      "#db3129",
+      "#7adb29",
+      "#29d3db",
+      "#8a29db",
+      "#ff6853"
+    ],
+    "tags": [
+      "professional",
+      "modern",
+      "tetradic"
+    ],
+    "mood": "professional",
+    "category": "modern"
+  },
+  {
+    "id": "palette-29",
+    "name": "Earthy Modern 29",
+    "colors": [
+      "#473e26",
+      "#503429",
+      "#4f2e35",
+      "#402d42",
+      "#262f47"
+    ],
+    "tags": [
+      "earthy",
+      "modern",
+      "complementary"
+    ],
+    "mood": "earthy",
+    "category": "modern"
+  },
+  {
+    "id": "palette-30",
+    "name": "Nostalgic Modern 30",
+    "colors": [
+      "#62963e",
+      "#3e8e96",
+      "#723e96",
+      "#96463e",
+      "#92c76b"
+    ],
+    "tags": [
+      "nostalgic",
+      "modern",
+      "tetradic"
+    ],
+    "mood": "nostalgic",
+    "category": "modern"
+  },
+  {
+    "id": "palette-31",
+    "name": "Warm Tech 31",
+    "colors": [
+      "#8da9a3",
+      "#a38da9",
+      "#a9a38d",
+      "#bddbd4",
+      "#5f7a74"
+    ],
+    "tags": [
+      "warm",
+      "tech",
+      "triadic"
+    ],
+    "mood": "warm",
+    "category": "tech"
+  },
+  {
+    "id": "palette-32",
+    "name": "Energetic Minimal 32",
+    "colors": [
+      "#3f4bce",
+      "#ce3f92",
+      "#cec23f",
+      "#3fce7b",
+      "#7a77ff"
+    ],
+    "tags": [
+      "energetic",
+      "minimal",
+      "tetradic"
+    ],
+    "mood": "energetic",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-33",
+    "name": "Soft Retro 33",
+    "colors": [
+      "#198bc7",
+      "#ac19c7",
+      "#c75519",
+      "#34c719",
+      "#61bbfa"
+    ],
+    "tags": [
+      "soft",
+      "retro",
+      "tetradic"
+    ],
+    "mood": "soft",
+    "category": "retro"
+  },
+  {
+    "id": "palette-34",
+    "name": "Pastel Minimal 34",
+    "colors": [
+      "#b91c0f",
+      "#916500",
+      "#5d8824",
+      "#0c9f77",
+      "#0facb9"
+    ],
+    "tags": [
+      "pastel",
+      "minimal",
+      "complementary"
+    ],
+    "mood": "pastel",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-35",
+    "name": "Nostalgic Retro 35",
+    "colors": [
+      "#d27b6d",
+      "#bb965c",
+      "#95ad72",
+      "#70bca3",
+      "#6dc4d2"
+    ],
+    "tags": [
+      "nostalgic",
+      "retro",
+      "complementary"
+    ],
+    "mood": "nostalgic",
+    "category": "retro"
+  },
+  {
+    "id": "palette-36",
+    "name": "Nostalgic Fashion 36",
+    "colors": [
+      "#ff7dc7",
+      "#ca4697",
+      "#950f68",
+      "#660840",
+      "#370018"
+    ],
+    "tags": [
+      "nostalgic",
+      "fashion",
+      "monochromatic"
+    ],
+    "mood": "nostalgic",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-37",
+    "name": "Vibrant Tech 37",
+    "colors": [
+      "#e8ffff",
+      "#b6d2d1",
+      "#85a4a3",
+      "#597776",
+      "#2d4a49"
+    ],
+    "tags": [
+      "vibrant",
+      "tech",
+      "monochromatic"
+    ],
+    "mood": "vibrant",
+    "category": "tech"
+  },
+  {
+    "id": "palette-38",
+    "name": "Nostalgic Retro 38",
+    "colors": [
+      "#ca4a6b",
+      "#6bca4a",
+      "#4a6bca",
+      "#ff7b99",
+      "#951141"
+    ],
+    "tags": [
+      "nostalgic",
+      "retro",
+      "triadic"
+    ],
+    "mood": "nostalgic",
+    "category": "retro"
+  },
+  {
+    "id": "palette-39",
+    "name": "Vibrant Fashion 39",
+    "colors": [
+      "#98f771",
+      "#62c43a",
+      "#2c9204",
+      "#166402",
+      "#003600"
+    ],
+    "tags": [
+      "vibrant",
+      "fashion",
+      "monochromatic"
+    ],
+    "mood": "vibrant",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-40",
+    "name": "Energetic Interior 40",
+    "colors": [
+      "#e3ff8b",
+      "#adeb51",
+      "#77d718",
+      "#3ca60c",
+      "#007500"
+    ],
+    "tags": [
+      "energetic",
+      "interior",
+      "monochromatic"
+    ],
+    "mood": "energetic",
+    "category": "interior"
+  },
+  {
+    "id": "palette-41",
+    "name": "Earthy Modern 41",
+    "colors": [
+      "#eb67ea",
+      "#ff5a92",
+      "#ff8e3d",
+      "#d8c500",
+      "#67eb68"
+    ],
+    "tags": [
+      "earthy",
+      "modern",
+      "complementary"
+    ],
+    "mood": "earthy",
+    "category": "modern"
+  },
+  {
+    "id": "palette-42",
+    "name": "Soft Interior 42",
+    "colors": [
+      "#9a55c3",
+      "#be55c3",
+      "#c355a3",
+      "#c3557e",
+      "#c3555a"
+    ],
+    "tags": [
+      "soft",
+      "interior",
+      "analogous"
+    ],
+    "mood": "soft",
+    "category": "interior"
+  },
+  {
+    "id": "palette-43",
+    "name": "Calm Corporate 43",
+    "colors": [
+      "#74d91c",
+      "#1cd3d9",
+      "#811cd9",
+      "#d9221c",
+      "#aaff59"
+    ],
+    "tags": [
+      "calm",
+      "corporate",
+      "tetradic"
+    ],
+    "mood": "calm",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-44",
+    "name": "Earthy Brand 44",
+    "colors": [
+      "#2eb35a",
+      "#8e9503",
+      "#bf6c10",
+      "#d03c4c",
+      "#b32e87"
+    ],
+    "tags": [
+      "earthy",
+      "brand",
+      "complementary"
+    ],
+    "mood": "earthy",
+    "category": "brand"
+  },
+  {
+    "id": "palette-45",
+    "name": "Professional Brand 45",
+    "colors": [
+      "#cc8623",
+      "#e5604f",
+      "#da4a85",
+      "#a456b6",
+      "#2369cc"
+    ],
+    "tags": [
+      "professional",
+      "brand",
+      "complementary"
+    ],
+    "mood": "professional",
+    "category": "brand"
+  },
+  {
+    "id": "palette-46",
+    "name": "Vibrant Minimal 46",
+    "colors": [
+      "#ca2db1",
+      "#fb2461",
+      "#ea6d00",
+      "#aca500",
+      "#2dca46"
+    ],
+    "tags": [
+      "vibrant",
+      "minimal",
+      "complementary"
+    ],
+    "mood": "vibrant",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-47",
+    "name": "Dark Modern 47",
+    "colors": [
+      "#f1cc15",
+      "#ff8324",
+      "#ff0067",
+      "#e700b2",
+      "#153af1"
+    ],
+    "tags": [
+      "dark",
+      "modern",
+      "complementary"
+    ],
+    "mood": "dark",
+    "category": "modern"
+  },
+  {
+    "id": "palette-48",
+    "name": "Pastel Modern 48",
+    "colors": [
+      "#481e78",
+      "#89004c",
+      "#942b1c",
+      "#7c5800",
+      "#4e781e"
+    ],
+    "tags": [
+      "pastel",
+      "modern",
+      "complementary"
+    ],
+    "mood": "pastel",
+    "category": "modern"
+  },
+  {
+    "id": "palette-49",
+    "name": "Nostalgic Tech 49",
+    "colors": [
+      "#d63707",
+      "#07d637",
+      "#3707d6",
+      "#ff6b39",
+      "#9d0000"
+    ],
+    "tags": [
+      "nostalgic",
+      "tech",
+      "triadic"
+    ],
+    "mood": "nostalgic",
+    "category": "tech"
+  },
+  {
+    "id": "palette-50",
+    "name": "Nostalgic Corporate 50",
+    "colors": [
+      "#a15ffc",
+      "#d65ffc",
+      "#fc5fee",
+      "#fc5fba",
+      "#fc5f85"
+    ],
+    "tags": [
+      "nostalgic",
+      "corporate",
+      "analogous"
+    ],
+    "mood": "nostalgic",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-51",
+    "name": "Earthy Minimal 51",
+    "colors": [
+      "#fcaa1a",
+      "#1afc39",
+      "#1a6cfc",
+      "#fc1add",
+      "#ffdc54"
+    ],
+    "tags": [
+      "earthy",
+      "minimal",
+      "tetradic"
+    ],
+    "mood": "earthy",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-52",
+    "name": "Warm Tech 52",
+    "colors": [
+      "#85b69c",
+      "#588870",
+      "#2b5943",
+      "#163122",
+      "#000900"
+    ],
+    "tags": [
+      "warm",
+      "tech",
+      "monochromatic"
+    ],
+    "mood": "warm",
+    "category": "tech"
+  },
+  {
+    "id": "palette-53",
+    "name": "Dark Retro 53",
+    "colors": [
+      "#a4f9a2",
+      "#a2f9bd",
+      "#a2f9da",
+      "#a2f9f7",
+      "#a2def9"
+    ],
+    "tags": [
+      "dark",
+      "retro",
+      "analogous"
+    ],
+    "mood": "dark",
+    "category": "retro"
+  },
+  {
+    "id": "palette-54",
+    "name": "Dark Modern 54",
+    "colors": [
+      "#585f83",
+      "#2d3758",
+      "#030f2d",
+      "#020817",
+      "#000000"
+    ],
+    "tags": [
+      "dark",
+      "modern",
+      "monochromatic"
+    ],
+    "mood": "dark",
+    "category": "modern"
+  },
+  {
+    "id": "palette-55",
+    "name": "Dark Modern 55",
+    "colors": [
+      "#3280be",
+      "#3252be",
+      "#4132be",
+      "#7032be",
+      "#9e32be"
+    ],
+    "tags": [
+      "dark",
+      "modern",
+      "analogous"
+    ],
+    "mood": "dark",
+    "category": "modern"
+  },
+  {
+    "id": "palette-56",
+    "name": "Nostalgic Fashion 56",
+    "colors": [
+      "#895b03",
+      "#898703",
+      "#5e8903",
+      "#318903",
+      "#058903"
+    ],
+    "tags": [
+      "nostalgic",
+      "fashion",
+      "analogous"
+    ],
+    "mood": "nostalgic",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-57",
+    "name": "Energetic Interior 57",
+    "colors": [
+      "#4d8b0a",
+      "#228b0a",
+      "#0a8b1d",
+      "#0a8b48",
+      "#0a8b73"
+    ],
+    "tags": [
+      "energetic",
+      "interior",
+      "analogous"
+    ],
+    "mood": "energetic",
+    "category": "interior"
+  },
+  {
+    "id": "palette-58",
+    "name": "Nostalgic Retro 58",
+    "colors": [
+      "#8e9f2b",
+      "#b76f0b",
+      "#c5303a",
+      "#a80071",
+      "#3c2b9f"
+    ],
+    "tags": [
+      "nostalgic",
+      "retro",
+      "complementary"
+    ],
+    "mood": "nostalgic",
+    "category": "retro"
+  },
+  {
+    "id": "palette-59",
+    "name": "Minimal Interior 59",
+    "colors": [
+      "#75eb5f",
+      "#5f75eb",
+      "#eb5f75",
+      "#abff90",
+      "#3bb82d"
+    ],
+    "tags": [
+      "minimal",
+      "interior",
+      "triadic"
+    ],
+    "mood": "minimal",
+    "category": "interior"
+  },
+  {
+    "id": "palette-60",
+    "name": "Soft Retro 60",
+    "colors": [
+      "#6df7f0",
+      "#ab6df7",
+      "#f76d74",
+      "#b9f76d",
+      "#a5ffff"
+    ],
+    "tags": [
+      "soft",
+      "retro",
+      "tetradic"
+    ],
+    "mood": "soft",
+    "category": "retro"
+  },
+  {
+    "id": "palette-61",
+    "name": "Nostalgic Minimal 61",
+    "colors": [
+      "#80c7b7",
+      "#9ab98d",
+      "#b7a574",
+      "#ca9078",
+      "#c78090"
+    ],
+    "tags": [
+      "nostalgic",
+      "minimal",
+      "complementary"
+    ],
+    "mood": "nostalgic",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-62",
+    "name": "Nostalgic Brand 62",
+    "colors": [
+      "#fbadcf",
+      "#c87ea0",
+      "#954f70",
+      "#662847",
+      "#38001e"
+    ],
+    "tags": [
+      "nostalgic",
+      "brand",
+      "monochromatic"
+    ],
+    "mood": "nostalgic",
+    "category": "brand"
+  },
+  {
+    "id": "palette-63",
+    "name": "Soft Fashion 63",
+    "colors": [
+      "#8ab1d7",
+      "#d68ad7",
+      "#d7b08a",
+      "#8bd78a",
+      "#bce3ff"
+    ],
+    "tags": [
+      "soft",
+      "fashion",
+      "tetradic"
+    ],
+    "mood": "soft",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-64",
+    "name": "Vibrant Modern 64",
+    "colors": [
+      "#e776ee",
+      "#ee76cd",
+      "#ee76a5",
+      "#ee767d",
+      "#ee9776"
+    ],
+    "tags": [
+      "vibrant",
+      "modern",
+      "analogous"
+    ],
+    "mood": "vibrant",
+    "category": "modern"
+  },
+  {
+    "id": "palette-65",
+    "name": "Vibrant Nature 65",
+    "colors": [
+      "#ffff9e",
+      "#ddd06f",
+      "#baa03f",
+      "#887320",
+      "#574700"
+    ],
+    "tags": [
+      "vibrant",
+      "nature",
+      "monochromatic"
+    ],
+    "mood": "vibrant",
+    "category": "nature"
+  },
+  {
+    "id": "palette-66",
+    "name": "Soft Corporate 66",
+    "colors": [
+      "#df1588",
+      "#dfd115",
+      "#15df6c",
+      "#1523df",
+      "#ff5cb8"
+    ],
+    "tags": [
+      "soft",
+      "corporate",
+      "tetradic"
+    ],
+    "mood": "soft",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-67",
+    "name": "Warm Brand 67",
+    "colors": [
+      "#265263",
+      "#263d63",
+      "#262963",
+      "#372663",
+      "#4c2663"
+    ],
+    "tags": [
+      "warm",
+      "brand",
+      "analogous"
+    ],
+    "mood": "warm",
+    "category": "brand"
+  },
+  {
+    "id": "palette-68",
+    "name": "Dark Nature 68",
+    "colors": [
+      "#3de3bb",
+      "#bb3de3",
+      "#e3bb3d",
+      "#7dffed",
+      "#00b08b"
+    ],
+    "tags": [
+      "dark",
+      "nature",
+      "triadic"
+    ],
+    "mood": "dark",
+    "category": "nature"
+  },
+  {
+    "id": "palette-69",
+    "name": "Soft Corporate 69",
+    "colors": [
+      "#b71ca2",
+      "#b71c6f",
+      "#b71c3b",
+      "#b7311c",
+      "#b7641c"
+    ],
+    "tags": [
+      "soft",
+      "corporate",
+      "analogous"
+    ],
+    "mood": "soft",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-70",
+    "name": "Warm Modern 70",
+    "colors": [
+      "#f54bd6",
+      "#d6f54b",
+      "#4bd6f5",
+      "#ff82ff",
+      "#bf00a4"
+    ],
+    "tags": [
+      "warm",
+      "modern",
+      "triadic"
+    ],
+    "mood": "warm",
+    "category": "modern"
+  },
+  {
+    "id": "palette-71",
+    "name": "Soft Retro 71",
+    "colors": [
+      "#0fb7ab",
+      "#570fb7",
+      "#b70f1b",
+      "#6fb70f",
+      "#5feadd"
+    ],
+    "tags": [
+      "soft",
+      "retro",
+      "tetradic"
+    ],
+    "mood": "soft",
+    "category": "retro"
+  },
+  {
+    "id": "palette-72",
+    "name": "Nostalgic Retro 72",
+    "colors": [
+      "#9dd5ff",
+      "#5aa6ec",
+      "#1776d8",
+      "#0c4ea7",
+      "#002576"
+    ],
+    "tags": [
+      "nostalgic",
+      "retro",
+      "monochromatic"
+    ],
+    "mood": "nostalgic",
+    "category": "retro"
+  },
+  {
+    "id": "palette-73",
+    "name": "Nostalgic Corporate 73",
+    "colors": [
+      "#dba362",
+      "#62db67",
+      "#629adb",
+      "#db62d6",
+      "#ffd491"
+    ],
+    "tags": [
+      "nostalgic",
+      "corporate",
+      "tetradic"
+    ],
+    "mood": "nostalgic",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-74",
+    "name": "Professional Retro 74",
+    "colors": [
+      "#d87f19",
+      "#19d87f",
+      "#7f19d8",
+      "#ffaf4c",
+      "#a15200"
+    ],
+    "tags": [
+      "professional",
+      "retro",
+      "triadic"
+    ],
+    "mood": "professional",
+    "category": "retro"
+  },
+  {
+    "id": "palette-75",
+    "name": "Pastel Minimal 75",
+    "colors": [
+      "#e4f6ce",
+      "#ffe6c0",
+      "#ffd6ca",
+      "#ffcee2",
+      "#e0cef6"
+    ],
+    "tags": [
+      "pastel",
+      "minimal",
+      "complementary"
+    ],
+    "mood": "pastel",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-76",
+    "name": "Calm Tech 76",
+    "colors": [
+      "#72dd05",
+      "#d99c00",
+      "#ff2311",
+      "#fc007f",
+      "#7005dd"
+    ],
+    "tags": [
+      "calm",
+      "tech",
+      "complementary"
+    ],
+    "mood": "calm",
+    "category": "tech"
+  },
+  {
+    "id": "palette-77",
+    "name": "Calm Corporate 77",
+    "colors": [
+      "#1ab295",
+      "#951ab2",
+      "#b2951a",
+      "#60e5c5",
+      "#008167"
+    ],
+    "tags": [
+      "calm",
+      "corporate",
+      "triadic"
+    ],
+    "mood": "calm",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-78",
+    "name": "Calm Brand 78",
+    "colors": [
+      "#f6bca5",
+      "#c38d77",
+      "#905e4a",
+      "#623525",
+      "#340d00"
+    ],
+    "tags": [
+      "calm",
+      "brand",
+      "monochromatic"
+    ],
+    "mood": "calm",
+    "category": "brand"
+  },
+  {
+    "id": "palette-79",
+    "name": "Professional Tech 79",
+    "colors": [
+      "#4489fa",
+      "#d076e0",
+      "#ff6ea8",
+      "#ff896b",
+      "#fab544"
+    ],
+    "tags": [
+      "professional",
+      "tech",
+      "complementary"
+    ],
+    "mood": "professional",
+    "category": "tech"
+  },
+  {
+    "id": "palette-80",
+    "name": "Nostalgic Fashion 80",
+    "colors": [
+      "#c8d2ff",
+      "#91a3f6",
+      "#5a73ec",
+      "#2d4bba",
+      "#002288"
+    ],
+    "tags": [
+      "nostalgic",
+      "fashion",
+      "monochromatic"
+    ],
+    "mood": "nostalgic",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-81",
+    "name": "Soft Minimal 81",
+    "colors": [
+      "#ddb468",
+      "#f6977c",
+      "#ef85a5",
+      "#c087cd",
+      "#6891dd"
+    ],
+    "tags": [
+      "soft",
+      "minimal",
+      "complementary"
+    ],
+    "mood": "soft",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-82",
+    "name": "Minimal Modern 82",
+    "colors": [
+      "#6735e4",
+      "#f80098",
+      "#ff4043",
+      "#f8a200",
+      "#b2e435"
+    ],
+    "tags": [
+      "minimal",
+      "modern",
+      "complementary"
+    ],
+    "mood": "minimal",
+    "category": "modern"
+  },
+  {
+    "id": "palette-83",
+    "name": "Minimal Tech 83",
+    "colors": [
+      "#2bc71e",
+      "#b59c00",
+      "#f75600",
+      "#ff006c",
+      "#ba1ec7"
+    ],
+    "tags": [
+      "minimal",
+      "tech",
+      "complementary"
+    ],
+    "mood": "minimal",
+    "category": "tech"
+  },
+  {
+    "id": "palette-84",
+    "name": "Energetic Retro 84",
+    "colors": [
+      "#fff57e",
+      "#eec449",
+      "#dc9214",
+      "#a7660a",
+      "#723a00"
+    ],
+    "tags": [
+      "energetic",
+      "retro",
+      "monochromatic"
+    ],
+    "mood": "energetic",
+    "category": "retro"
+  },
+  {
+    "id": "palette-85",
+    "name": "Nostalgic Corporate 85",
+    "colors": [
+      "#1001a4",
+      "#a40143",
+      "#95a401",
+      "#01a462",
+      "#5b35d7"
+    ],
+    "tags": [
+      "nostalgic",
+      "corporate",
+      "tetradic"
+    ],
+    "mood": "nostalgic",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-86",
+    "name": "Minimal Interior 86",
+    "colors": [
+      "#abf2e8",
+      "#bfe5bd",
+      "#ddd2a0",
+      "#f2bc9f",
+      "#f2abb5"
+    ],
+    "tags": [
+      "minimal",
+      "interior",
+      "complementary"
+    ],
+    "mood": "minimal",
+    "category": "interior"
+  },
+  {
+    "id": "palette-87",
+    "name": "Pastel Interior 87",
+    "colors": [
+      "#b23249",
+      "#b24532",
+      "#b27032",
+      "#b29b32",
+      "#9fb232"
+    ],
+    "tags": [
+      "pastel",
+      "interior",
+      "analogous"
+    ],
+    "mood": "pastel",
+    "category": "interior"
+  },
+  {
+    "id": "palette-88",
+    "name": "Professional Nature 88",
+    "colors": [
+      "#b72a14",
+      "#14b72a",
+      "#2a14b7",
+      "#f05e3e",
+      "#800000"
+    ],
+    "tags": [
+      "professional",
+      "nature",
+      "triadic"
+    ],
+    "mood": "professional",
+    "category": "nature"
+  },
+  {
+    "id": "palette-89",
+    "name": "Pastel Interior 89",
+    "colors": [
+      "#e5d773",
+      "#73e59e",
+      "#7381e5",
+      "#e573ba",
+      "#ffffa3"
+    ],
+    "tags": [
+      "pastel",
+      "interior",
+      "tetradic"
+    ],
+    "mood": "pastel",
+    "category": "interior"
+  },
+  {
+    "id": "palette-90",
+    "name": "Pastel Modern 90",
+    "colors": [
+      "#629753",
+      "#53975a",
+      "#539771",
+      "#539788",
+      "#539097"
+    ],
+    "tags": [
+      "pastel",
+      "modern",
+      "analogous"
+    ],
+    "mood": "pastel",
+    "category": "modern"
+  },
+  {
+    "id": "palette-91",
+    "name": "Pastel Brand 91",
+    "colors": [
+      "#9cff9e",
+      "#52e56c",
+      "#08ca3b",
+      "#04991e",
+      "#006700"
+    ],
+    "tags": [
+      "pastel",
+      "brand",
+      "monochromatic"
+    ],
+    "mood": "pastel",
+    "category": "brand"
+  },
+  {
+    "id": "palette-92",
+    "name": "Nostalgic Tech 92",
+    "colors": [
+      "#2d4559",
+      "#572d59",
+      "#59412d",
+      "#2f592d",
+      "#587086"
+    ],
+    "tags": [
+      "nostalgic",
+      "tech",
+      "tetradic"
+    ],
+    "mood": "nostalgic",
+    "category": "tech"
+  },
+  {
+    "id": "palette-93",
+    "name": "Minimal Nature 93",
+    "colors": [
+      "#766c60",
+      "#767460",
+      "#717660",
+      "#6a7660",
+      "#627660"
+    ],
+    "tags": [
+      "minimal",
+      "nature",
+      "analogous"
+    ],
+    "mood": "minimal",
+    "category": "nature"
+  },
+  {
+    "id": "palette-94",
+    "name": "Vibrant Tech 94",
+    "colors": [
+      "#98fa50",
+      "#5098fa",
+      "#fa5098",
+      "#ceff83",
+      "#62c610"
+    ],
+    "tags": [
+      "vibrant",
+      "tech",
+      "triadic"
+    ],
+    "mood": "vibrant",
+    "category": "tech"
+  },
+  {
+    "id": "palette-95",
+    "name": "Earthy Modern 95",
+    "colors": [
+      "#9dffb7",
+      "#60df87",
+      "#23bf57",
+      "#128e2c",
+      "#005e00"
+    ],
+    "tags": [
+      "earthy",
+      "modern",
+      "monochromatic"
+    ],
+    "mood": "earthy",
+    "category": "modern"
+  },
+  {
+    "id": "palette-96",
+    "name": "Warm Modern 96",
+    "colors": [
+      "#4c6b3a",
+      "#3b6b3a",
+      "#3a6b49",
+      "#3a6b59",
+      "#3a6b6a"
+    ],
+    "tags": [
+      "warm",
+      "modern",
+      "analogous"
+    ],
+    "mood": "warm",
+    "category": "modern"
+  },
+  {
+    "id": "palette-97",
+    "name": "Soft Interior 97",
+    "colors": [
+      "#31f039",
+      "#31f078",
+      "#31f0b8",
+      "#31e8f0",
+      "#31a9f0"
+    ],
+    "tags": [
+      "soft",
+      "interior",
+      "analogous"
+    ],
+    "mood": "soft",
+    "category": "interior"
+  },
+  {
+    "id": "palette-98",
+    "name": "Minimal Nature 98",
+    "colors": [
+      "#1e6656",
+      "#1e5e66",
+      "#1e4666",
+      "#1e2e66",
+      "#261e66"
+    ],
+    "tags": [
+      "minimal",
+      "nature",
+      "analogous"
+    ],
+    "mood": "minimal",
+    "category": "nature"
+  },
+  {
+    "id": "palette-99",
+    "name": "Energetic Corporate 99",
+    "colors": [
+      "#b2ffff",
+      "#70fade",
+      "#2ef4bc",
+      "#17c18d",
+      "#008e5f"
+    ],
+    "tags": [
+      "energetic",
+      "corporate",
+      "monochromatic"
+    ],
+    "mood": "energetic",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-100",
+    "name": "Soft Modern 100",
+    "colors": [
+      "#dd5633",
+      "#dd8e33",
+      "#ddc733",
+      "#badd33",
+      "#82dd33"
+    ],
+    "tags": [
+      "soft",
+      "modern",
+      "analogous"
+    ],
+    "mood": "soft",
+    "category": "modern"
+  },
+  {
+    "id": "palette-101",
+    "name": "Energetic Retro 101",
+    "colors": [
+      "#355512",
+      "#123555",
+      "#551235",
+      "#62823d",
+      "#112b00"
+    ],
+    "tags": [
+      "energetic",
+      "retro",
+      "triadic"
+    ],
+    "mood": "energetic",
+    "category": "retro"
+  },
+  {
+    "id": "palette-102",
+    "name": "Nostalgic Corporate 102",
+    "colors": [
+      "#6fe507",
+      "#dfa400",
+      "#ff2c0d",
+      "#ff0083",
+      "#7d07e5"
+    ],
+    "tags": [
+      "nostalgic",
+      "corporate",
+      "complementary"
+    ],
+    "mood": "nostalgic",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-103",
+    "name": "Earthy Interior 103",
+    "colors": [
+      "#6f9d51",
+      "#a08132",
+      "#bc6046",
+      "#b54a73",
+      "#7f519d"
+    ],
+    "tags": [
+      "earthy",
+      "interior",
+      "complementary"
+    ],
+    "mood": "earthy",
+    "category": "interior"
+  },
+  {
+    "id": "palette-104",
+    "name": "Professional Tech 104",
+    "colors": [
+      "#e1baa6",
+      "#a6e1ba",
+      "#baa6e1",
+      "#ffecd7",
+      "#ae8a77"
+    ],
+    "tags": [
+      "professional",
+      "tech",
+      "triadic"
+    ],
+    "mood": "professional",
+    "category": "tech"
+  },
+  {
+    "id": "palette-105",
+    "name": "Minimal Nature 105",
+    "colors": [
+      "#197f60",
+      "#4d6d2e",
+      "#6c560f",
+      "#7f391a",
+      "#7f1938"
+    ],
+    "tags": [
+      "minimal",
+      "nature",
+      "complementary"
+    ],
+    "mood": "minimal",
+    "category": "nature"
+  },
+  {
+    "id": "palette-106",
+    "name": "Calm Modern 106",
+    "colors": [
+      "#5dfff9",
+      "#5dcfff",
+      "#5d99ff",
+      "#5d63ff",
+      "#8d5dff"
+    ],
+    "tags": [
+      "calm",
+      "modern",
+      "analogous"
+    ],
+    "mood": "calm",
+    "category": "modern"
+  },
+  {
+    "id": "palette-107",
+    "name": "Dark Fashion 107",
+    "colors": [
+      "#6dfef8",
+      "#f86dfe",
+      "#fef86d",
+      "#a6ffff",
+      "#26cac5"
+    ],
+    "tags": [
+      "dark",
+      "fashion",
+      "triadic"
+    ],
+    "mood": "dark",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-108",
+    "name": "Nostalgic Brand 108",
+    "colors": [
+      "#74608e",
+      "#8e7460",
+      "#608e74",
+      "#a38dbe",
+      "#483660"
+    ],
+    "tags": [
+      "nostalgic",
+      "brand",
+      "triadic"
+    ],
+    "mood": "nostalgic",
+    "category": "brand"
+  },
+  {
+    "id": "palette-109",
+    "name": "Energetic Nature 109",
+    "colors": [
+      "#ffa004",
+      "#04ff23",
+      "#0463ff",
+      "#ff04e0",
+      "#ffd14a"
+    ],
+    "tags": [
+      "energetic",
+      "nature",
+      "tetradic"
+    ],
+    "mood": "energetic",
+    "category": "nature"
+  },
+  {
+    "id": "palette-110",
+    "name": "Soft Retro 110",
+    "colors": [
+      "#ed895d",
+      "#79ed5d",
+      "#5dc1ed",
+      "#d15ded",
+      "#ffba8b"
+    ],
+    "tags": [
+      "soft",
+      "retro",
+      "tetradic"
+    ],
+    "mood": "soft",
+    "category": "retro"
+  },
+  {
+    "id": "palette-111",
+    "name": "Calm Corporate 111",
+    "colors": [
+      "#3bcf05",
+      "#053bcf",
+      "#cf053b",
+      "#7aff4e",
+      "#009d00"
+    ],
+    "tags": [
+      "calm",
+      "corporate",
+      "triadic"
+    ],
+    "mood": "calm",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-112",
+    "name": "Soft Minimal 112",
+    "colors": [
+      "#0daa57",
+      "#0daa8c",
+      "#0d94aa",
+      "#0d60aa",
+      "#0d2baa"
+    ],
+    "tags": [
+      "soft",
+      "minimal",
+      "analogous"
+    ],
+    "mood": "soft",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-113",
+    "name": "Vibrant Nature 113",
+    "colors": [
+      "#2e7177",
+      "#2e5877",
+      "#2e4077",
+      "#342e77",
+      "#4d2e77"
+    ],
+    "tags": [
+      "vibrant",
+      "nature",
+      "analogous"
+    ],
+    "mood": "vibrant",
+    "category": "nature"
+  },
+  {
+    "id": "palette-114",
+    "name": "Pastel Fashion 114",
+    "colors": [
+      "#212a08",
+      "#082a22",
+      "#11082a",
+      "#2a0810",
+      "#495330"
+    ],
+    "tags": [
+      "pastel",
+      "fashion",
+      "tetradic"
+    ],
+    "mood": "pastel",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-115",
+    "name": "Earthy Fashion 115",
+    "colors": [
+      "#0c125f",
+      "#5f0c12",
+      "#125f0c",
+      "#44398d",
+      "#000035"
+    ],
+    "tags": [
+      "earthy",
+      "fashion",
+      "triadic"
+    ],
+    "mood": "earthy",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-116",
+    "name": "Minimal Fashion 116",
+    "colors": [
+      "#ddb6ed",
+      "#ac88bb",
+      "#7b598a",
+      "#50305e",
+      "#240833"
+    ],
+    "tags": [
+      "minimal",
+      "fashion",
+      "monochromatic"
+    ],
+    "mood": "minimal",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-117",
+    "name": "Professional Minimal 117",
+    "colors": [
+      "#ab11d0",
+      "#d0ab11",
+      "#11d0ab",
+      "#e155ff",
+      "#77009e"
+    ],
+    "tags": [
+      "professional",
+      "minimal",
+      "triadic"
+    ],
+    "mood": "professional",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-118",
+    "name": "Energetic Modern 118",
+    "colors": [
+      "#3b2e63",
+      "#4c2e63",
+      "#5e2e63",
+      "#632e56",
+      "#632e45"
+    ],
+    "tags": [
+      "energetic",
+      "modern",
+      "analogous"
+    ],
+    "mood": "energetic",
+    "category": "modern"
+  },
+  {
+    "id": "palette-119",
+    "name": "Minimal Fashion 119",
+    "colors": [
+      "#7a435c",
+      "#5c7a43",
+      "#435c7a",
+      "#aa6f89",
+      "#4c1933"
+    ],
+    "tags": [
+      "minimal",
+      "fashion",
+      "triadic"
+    ],
+    "mood": "minimal",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-120",
+    "name": "Earthy Tech 120",
+    "colors": [
+      "#65f777",
+      "#7765f7",
+      "#f77765",
+      "#9dffa8",
+      "#1dc347"
+    ],
+    "tags": [
+      "earthy",
+      "tech",
+      "triadic"
+    ],
+    "mood": "earthy",
+    "category": "tech"
+  },
+  {
+    "id": "palette-121",
+    "name": "Earthy Tech 121",
+    "colors": [
+      "#bc8fff",
+      "#8662e2",
+      "#4f34c5",
+      "#281a95",
+      "#000064"
+    ],
+    "tags": [
+      "earthy",
+      "tech",
+      "monochromatic"
+    ],
+    "mood": "earthy",
+    "category": "tech"
+  },
+  {
+    "id": "palette-122",
+    "name": "Soft Tech 122",
+    "colors": [
+      "#5aeb5c",
+      "#d6c300",
+      "#ff872e",
+      "#ff488c",
+      "#eb5ae9"
+    ],
+    "tags": [
+      "soft",
+      "tech",
+      "complementary"
+    ],
+    "mood": "soft",
+    "category": "tech"
+  },
+  {
+    "id": "palette-123",
+    "name": "Soft Fashion 123",
+    "colors": [
+      "#c5e248",
+      "#ffa31d",
+      "#ff5358",
+      "#f004a3",
+      "#6548e2"
+    ],
+    "tags": [
+      "soft",
+      "fashion",
+      "complementary"
+    ],
+    "mood": "soft",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-124",
+    "name": "Soft Brand 124",
+    "colors": [
+      "#75b0a4",
+      "#75a9b0",
+      "#7595b0",
+      "#7581b0",
+      "#7c75b0"
+    ],
+    "tags": [
+      "soft",
+      "brand",
+      "analogous"
+    ],
+    "mood": "soft",
+    "category": "brand"
+  },
+  {
+    "id": "palette-125",
+    "name": "Professional Minimal 125",
+    "colors": [
+      "#c56600",
+      "#c5a700",
+      "#a1c500",
+      "#5fc500",
+      "#1ec500"
+    ],
+    "tags": [
+      "professional",
+      "minimal",
+      "analogous"
+    ],
+    "mood": "professional",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-126",
+    "name": "Energetic Nature 126",
+    "colors": [
+      "#b7582c",
+      "#2cb758",
+      "#582cb7",
+      "#ee8657",
+      "#822b00"
+    ],
+    "tags": [
+      "energetic",
+      "nature",
+      "triadic"
+    ],
+    "mood": "energetic",
+    "category": "nature"
+  },
+  {
+    "id": "palette-127",
+    "name": "Dark Minimal 127",
+    "colors": [
+      "#87841a",
+      "#a3570c",
+      "#a91634",
+      "#8a0062",
+      "#1a1d87"
+    ],
+    "tags": [
+      "dark",
+      "minimal",
+      "complementary"
+    ],
+    "mood": "dark",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-128",
+    "name": "Warm Retro 128",
+    "colors": [
+      "#0079e2",
+      "#a460cf",
+      "#e4409c",
+      "#f74158",
+      "#e26900"
+    ],
+    "tags": [
+      "warm",
+      "retro",
+      "complementary"
+    ],
+    "mood": "warm",
+    "category": "retro"
+  },
+  {
+    "id": "palette-129",
+    "name": "Soft Modern 129",
+    "colors": [
+      "#ff9dff",
+      "#f858fd",
+      "#f013fb",
+      "#b90ac8",
+      "#830095"
+    ],
+    "tags": [
+      "soft",
+      "modern",
+      "monochromatic"
+    ],
+    "mood": "soft",
+    "category": "modern"
+  },
+  {
+    "id": "palette-130",
+    "name": "Dark Tech 130",
+    "colors": [
+      "#08a945",
+      "#08a97a",
+      "#08a2a9",
+      "#086ca9",
+      "#0837a9"
+    ],
+    "tags": [
+      "dark",
+      "tech",
+      "analogous"
+    ],
+    "mood": "dark",
+    "category": "tech"
+  },
+  {
+    "id": "palette-131",
+    "name": "Nostalgic Brand 131",
+    "colors": [
+      "#78b3e7",
+      "#e378e7",
+      "#e7ac78",
+      "#7be778",
+      "#abe5ff"
+    ],
+    "tags": [
+      "nostalgic",
+      "brand",
+      "tetradic"
+    ],
+    "mood": "nostalgic",
+    "category": "brand"
+  },
+  {
+    "id": "palette-132",
+    "name": "Dark Fashion 132",
+    "colors": [
+      "#9cff99",
+      "#59e267",
+      "#15c436",
+      "#0b931b",
+      "#006200"
+    ],
+    "tags": [
+      "dark",
+      "fashion",
+      "monochromatic"
+    ],
+    "mood": "dark",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-133",
+    "name": "Vibrant Interior 133",
+    "colors": [
+      "#ffce8b",
+      "#e09e5e",
+      "#c16e30",
+      "#8e4218",
+      "#5a1700"
+    ],
+    "tags": [
+      "vibrant",
+      "interior",
+      "monochromatic"
+    ],
+    "mood": "vibrant",
+    "category": "interior"
+  },
+  {
+    "id": "palette-134",
+    "name": "Nostalgic Interior 134",
+    "colors": [
+      "#dc9fe5",
+      "#ff9db5",
+      "#ffb088",
+      "#e1cd7c",
+      "#a8e59f"
+    ],
+    "tags": [
+      "nostalgic",
+      "interior",
+      "complementary"
+    ],
+    "mood": "nostalgic",
+    "category": "interior"
+  },
+  {
+    "id": "palette-135",
+    "name": "Nostalgic Interior 135",
+    "colors": [
+      "#c811a4",
+      "#f60356",
+      "#e66700",
+      "#a7a100",
+      "#11c835"
+    ],
+    "tags": [
+      "nostalgic",
+      "interior",
+      "complementary"
+    ],
+    "mood": "nostalgic",
+    "category": "interior"
+  },
+  {
+    "id": "palette-136",
+    "name": "Energetic Interior 136",
+    "colors": [
+      "#16d360",
+      "#9fae00",
+      "#d97c00",
+      "#ef3d46",
+      "#d31689"
+    ],
+    "tags": [
+      "energetic",
+      "interior",
+      "complementary"
+    ],
+    "mood": "energetic",
+    "category": "interior"
+  },
+  {
+    "id": "palette-137",
+    "name": "Dark Modern 137",
+    "colors": [
+      "#c80698",
+      "#f1144f",
+      "#e06900",
+      "#a4a100",
+      "#06c836"
+    ],
+    "tags": [
+      "dark",
+      "modern",
+      "complementary"
+    ],
+    "mood": "dark",
+    "category": "modern"
+  },
+  {
+    "id": "palette-138",
+    "name": "Energetic Modern 138",
+    "colors": [
+      "#cb132e",
+      "#8acb13",
+      "#13cbb0",
+      "#5413cb",
+      "#ff5557"
+    ],
+    "tags": [
+      "energetic",
+      "modern",
+      "tetradic"
+    ],
+    "mood": "energetic",
+    "category": "modern"
+  },
+  {
+    "id": "palette-139",
+    "name": "Nostalgic Modern 139",
+    "colors": [
+      "#f65f46",
+      "#85f646",
+      "#46ddf6",
+      "#b746f6",
+      "#ff9172"
+    ],
+    "tags": [
+      "nostalgic",
+      "modern",
+      "tetradic"
+    ],
+    "mood": "nostalgic",
+    "category": "modern"
+  },
+  {
+    "id": "palette-140",
+    "name": "Earthy Modern 140",
+    "colors": [
+      "#a9ffff",
+      "#6fd7e6",
+      "#34afcd",
+      "#1a819d",
+      "#00536e"
+    ],
+    "tags": [
+      "earthy",
+      "modern",
+      "monochromatic"
+    ],
+    "mood": "earthy",
+    "category": "modern"
+  },
+  {
+    "id": "palette-141",
+    "name": "Pastel Interior 141",
+    "colors": [
+      "#e959be",
+      "#ff6475",
+      "#fc9637",
+      "#c0c632",
+      "#59e984"
+    ],
+    "tags": [
+      "pastel",
+      "interior",
+      "complementary"
+    ],
+    "mood": "pastel",
+    "category": "interior"
+  },
+  {
+    "id": "palette-142",
+    "name": "Earthy Nature 142",
+    "colors": [
+      "#9c10a0",
+      "#a05410",
+      "#14a010",
+      "#105ca0",
+      "#d04fd2"
+    ],
+    "tags": [
+      "earthy",
+      "nature",
+      "tetradic"
+    ],
+    "mood": "earthy",
+    "category": "nature"
+  },
+  {
+    "id": "palette-143",
+    "name": "Energetic Retro 143",
+    "colors": [
+      "#3979a5",
+      "#746da5",
+      "#a05e8b",
+      "#b25961",
+      "#a56539"
+    ],
+    "tags": [
+      "energetic",
+      "retro",
+      "complementary"
+    ],
+    "mood": "energetic",
+    "category": "retro"
+  },
+  {
+    "id": "palette-144",
+    "name": "Earthy Nature 144",
+    "colors": [
+      "#61f266",
+      "#dcca00",
+      "#ff8f35",
+      "#ff5391",
+      "#f261ed"
+    ],
+    "tags": [
+      "earthy",
+      "nature",
+      "complementary"
+    ],
+    "mood": "earthy",
+    "category": "nature"
+  },
+  {
+    "id": "palette-145",
+    "name": "Nostalgic Tech 145",
+    "colors": [
+      "#e9c201",
+      "#01e94e",
+      "#0128e9",
+      "#e9019c",
+      "#fff44e"
+    ],
+    "tags": [
+      "nostalgic",
+      "tech",
+      "tetradic"
+    ],
+    "mood": "nostalgic",
+    "category": "tech"
+  },
+  {
+    "id": "palette-146",
+    "name": "Earthy Nature 146",
+    "colors": [
+      "#b01b1c",
+      "#b04b1b",
+      "#b07d1b",
+      "#b0af1b",
+      "#80b01b"
+    ],
+    "tags": [
+      "earthy",
+      "nature",
+      "analogous"
+    ],
+    "mood": "earthy",
+    "category": "nature"
+  },
+  {
+    "id": "palette-147",
+    "name": "Energetic Tech 147",
+    "colors": [
+      "#c3b025",
+      "#e77624",
+      "#eb2857",
+      "#be0093",
+      "#2538c3"
+    ],
+    "tags": [
+      "energetic",
+      "tech",
+      "complementary"
+    ],
+    "mood": "energetic",
+    "category": "tech"
+  },
+  {
+    "id": "palette-148",
+    "name": "Nostalgic Modern 148",
+    "colors": [
+      "#2fe467",
+      "#2fe4a4",
+      "#2fe4e0",
+      "#2face4",
+      "#2f6fe4"
+    ],
+    "tags": [
+      "nostalgic",
+      "modern",
+      "analogous"
+    ],
+    "mood": "nostalgic",
+    "category": "modern"
+  },
+  {
+    "id": "palette-149",
+    "name": "Minimal Interior 149",
+    "colors": [
+      "#0f260c",
+      "#0c1c26",
+      "#230c26",
+      "#26160c",
+      "#364e33"
+    ],
+    "tags": [
+      "minimal",
+      "interior",
+      "tetradic"
+    ],
+    "mood": "minimal",
+    "category": "interior"
+  },
+  {
+    "id": "palette-150",
+    "name": "Pastel Fashion 150",
+    "colors": [
+      "#5bba72",
+      "#a1a13d",
+      "#cd7f40",
+      "#db5f6d",
+      "#ba5ba3"
+    ],
+    "tags": [
+      "pastel",
+      "fashion",
+      "complementary"
+    ],
+    "mood": "pastel",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-151",
+    "name": "Earthy Brand 151",
+    "colors": [
+      "#faff8c",
+      "#c5e656",
+      "#90cd1f",
+      "#5c9d10",
+      "#286d00"
+    ],
+    "tags": [
+      "earthy",
+      "brand",
+      "monochromatic"
+    ],
+    "mood": "earthy",
+    "category": "brand"
+  },
+  {
+    "id": "palette-152",
+    "name": "Pastel Brand 152",
+    "colors": [
+      "#9cdef3",
+      "#f39cde",
+      "#def39c",
+      "#cfffff",
+      "#6aacc0"
+    ],
+    "tags": [
+      "pastel",
+      "brand",
+      "triadic"
+    ],
+    "mood": "pastel",
+    "category": "brand"
+  },
+  {
+    "id": "palette-153",
+    "name": "Calm Nature 153",
+    "colors": [
+      "#2ff0f6",
+      "#2fadf6",
+      "#2f6bf6",
+      "#352ff6",
+      "#782ff6"
+    ],
+    "tags": [
+      "calm",
+      "nature",
+      "analogous"
+    ],
+    "mood": "calm",
+    "category": "nature"
+  },
+  {
+    "id": "palette-154",
+    "name": "Nostalgic Brand 154",
+    "colors": [
+      "#ffa0ff",
+      "#fc5ef6",
+      "#f81bec",
+      "#c10eba",
+      "#8b0088"
+    ],
+    "tags": [
+      "nostalgic",
+      "brand",
+      "monochromatic"
+    ],
+    "mood": "nostalgic",
+    "category": "brand"
+  },
+  {
+    "id": "palette-155",
+    "name": "Nostalgic Fashion 155",
+    "colors": [
+      "#d7f8a2",
+      "#a2d7f8",
+      "#f8a2d7",
+      "#ffffd4",
+      "#a5c572"
+    ],
+    "tags": [
+      "nostalgic",
+      "fashion",
+      "triadic"
+    ],
+    "mood": "nostalgic",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-156",
+    "name": "Soft Modern 156",
+    "colors": [
+      "#d63f8c",
+      "#d63f59",
+      "#d6573f",
+      "#d6893f",
+      "#d6bc3f"
+    ],
+    "tags": [
+      "soft",
+      "modern",
+      "analogous"
+    ],
+    "mood": "soft",
+    "category": "modern"
+  },
+  {
+    "id": "palette-157",
+    "name": "Nostalgic Modern 157",
+    "colors": [
+      "#6c8dcf",
+      "#b785c1",
+      "#e0849e",
+      "#e6957b",
+      "#cfae6c"
+    ],
+    "tags": [
+      "nostalgic",
+      "modern",
+      "complementary"
+    ],
+    "mood": "nostalgic",
+    "category": "modern"
+  },
+  {
+    "id": "palette-158",
+    "name": "Vibrant Corporate 158",
+    "colors": [
+      "#029b4b",
+      "#6d8000",
+      "#965d00",
+      "#a83125",
+      "#9b0252"
+    ],
+    "tags": [
+      "vibrant",
+      "corporate",
+      "complementary"
+    ],
+    "mood": "vibrant",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-159",
+    "name": "Dark Fashion 159",
+    "colors": [
+      "#3cbbb8",
+      "#3c93bb",
+      "#3c69bb",
+      "#3c3fbb",
+      "#643cbb"
+    ],
+    "tags": [
+      "dark",
+      "fashion",
+      "analogous"
+    ],
+    "mood": "dark",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-160",
+    "name": "Professional Tech 160",
+    "colors": [
+      "#85e6dd",
+      "#4cb4ac",
+      "#12837c",
+      "#095752",
+      "#002c28"
+    ],
+    "tags": [
+      "professional",
+      "tech",
+      "monochromatic"
+    ],
+    "mood": "professional",
+    "category": "tech"
+  },
+  {
+    "id": "palette-161",
+    "name": "Soft Minimal 161",
+    "colors": [
+      "#0be5e7",
+      "#0b9be7",
+      "#0b52e7",
+      "#0d0be7",
+      "#570be7"
+    ],
+    "tags": [
+      "soft",
+      "minimal",
+      "analogous"
+    ],
+    "mood": "soft",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-162",
+    "name": "Calm Nature 162",
+    "colors": [
+      "#e15b5b",
+      "#cd8a3d",
+      "#a4b156",
+      "#74ce98",
+      "#5be1e1"
+    ],
+    "tags": [
+      "calm",
+      "nature",
+      "complementary"
+    ],
+    "mood": "calm",
+    "category": "nature"
+  },
+  {
+    "id": "palette-163",
+    "name": "Dark Tech 163",
+    "colors": [
+      "#736989",
+      "#7d6989",
+      "#886989",
+      "#89697f",
+      "#896975"
+    ],
+    "tags": [
+      "dark",
+      "tech",
+      "analogous"
+    ],
+    "mood": "dark",
+    "category": "tech"
+  },
+  {
+    "id": "palette-164",
+    "name": "Energetic Tech 164",
+    "colors": [
+      "#63a85c",
+      "#a19034",
+      "#c77044",
+      "#cc5775",
+      "#a15ca8"
+    ],
+    "tags": [
+      "energetic",
+      "tech",
+      "complementary"
+    ],
+    "mood": "energetic",
+    "category": "tech"
+  },
+  {
+    "id": "palette-165",
+    "name": "Nostalgic Tech 165",
+    "colors": [
+      "#bf90c3",
+      "#c3a690",
+      "#94c390",
+      "#90aec3",
+      "#f2c1f6"
+    ],
+    "tags": [
+      "nostalgic",
+      "tech",
+      "tetradic"
+    ],
+    "mood": "nostalgic",
+    "category": "tech"
+  },
+  {
+    "id": "palette-166",
+    "name": "Dark Tech 166",
+    "colors": [
+      "#288364",
+      "#372883",
+      "#832847",
+      "#748328",
+      "#5cb392"
+    ],
+    "tags": [
+      "dark",
+      "tech",
+      "tetradic"
+    ],
+    "mood": "dark",
+    "category": "tech"
+  },
+  {
+    "id": "palette-167",
+    "name": "Professional Minimal 167",
+    "colors": [
+      "#ffffb4",
+      "#eef581",
+      "#ddea4e",
+      "#a9b927",
+      "#758800"
+    ],
+    "tags": [
+      "professional",
+      "minimal",
+      "monochromatic"
+    ],
+    "mood": "professional",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-168",
+    "name": "Calm Tech 168",
+    "colors": [
+      "#70eb82",
+      "#70ebab",
+      "#70ebd4",
+      "#70d9eb",
+      "#70b0eb"
+    ],
+    "tags": [
+      "calm",
+      "tech",
+      "analogous"
+    ],
+    "mood": "calm",
+    "category": "tech"
+  },
+  {
+    "id": "palette-169",
+    "name": "Nostalgic Tech 169",
+    "colors": [
+      "#d247c8",
+      "#ff3a75",
+      "#fa771f",
+      "#bbad00",
+      "#47d251"
+    ],
+    "tags": [
+      "nostalgic",
+      "tech",
+      "complementary"
+    ],
+    "mood": "nostalgic",
+    "category": "tech"
+  },
+  {
+    "id": "palette-170",
+    "name": "Pastel Retro 170",
+    "colors": [
+      "#f3b7be",
+      "#bef3b7",
+      "#b7bef3",
+      "#ffe9f1",
+      "#bf878e"
+    ],
+    "tags": [
+      "pastel",
+      "retro",
+      "triadic"
+    ],
+    "mood": "pastel",
+    "category": "retro"
+  },
+  {
+    "id": "palette-171",
+    "name": "Vibrant Minimal 171",
+    "colors": [
+      "#9fffa3",
+      "#5de373",
+      "#1cc742",
+      "#0e9621",
+      "#006500"
+    ],
+    "tags": [
+      "vibrant",
+      "minimal",
+      "monochromatic"
+    ],
+    "mood": "vibrant",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-172",
+    "name": "Energetic Retro 172",
+    "colors": [
+      "#6c0ef7",
+      "#f76c0e",
+      "#0ef76c",
+      "#a74dff",
+      "#2000c3"
+    ],
+    "tags": [
+      "energetic",
+      "retro",
+      "triadic"
+    ],
+    "mood": "energetic",
+    "category": "retro"
+  },
+  {
+    "id": "palette-173",
+    "name": "Professional Minimal 173",
+    "colors": [
+      "#de16b1",
+      "#de166f",
+      "#de162c",
+      "#de4316",
+      "#de8516"
+    ],
+    "tags": [
+      "professional",
+      "minimal",
+      "analogous"
+    ],
+    "mood": "professional",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-174",
+    "name": "Energetic Modern 174",
+    "colors": [
+      "#09598f",
+      "#092d8f",
+      "#12098f",
+      "#3f098f",
+      "#6b098f"
+    ],
+    "tags": [
+      "energetic",
+      "modern",
+      "analogous"
+    ],
+    "mood": "energetic",
+    "category": "modern"
+  },
+  {
+    "id": "palette-175",
+    "name": "Warm Brand 175",
+    "colors": [
+      "#997085",
+      "#859970",
+      "#708599",
+      "#ca9fb5",
+      "#6a4458"
+    ],
+    "tags": [
+      "warm",
+      "brand",
+      "triadic"
+    ],
+    "mood": "warm",
+    "category": "brand"
+  },
+  {
+    "id": "palette-176",
+    "name": "Calm Minimal 176",
+    "colors": [
+      "#fffff4",
+      "#fed3c3",
+      "#fda691",
+      "#c87865",
+      "#944939"
+    ],
+    "tags": [
+      "calm",
+      "minimal",
+      "monochromatic"
+    ],
+    "mood": "calm",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-177",
+    "name": "Warm Minimal 177",
+    "colors": [
+      "#38aec0",
+      "#36a587",
+      "#6d9345",
+      "#9e761d",
+      "#c04a38"
+    ],
+    "tags": [
+      "warm",
+      "minimal",
+      "complementary"
+    ],
+    "mood": "warm",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-178",
+    "name": "Vibrant Minimal 178",
+    "colors": [
+      "#f001f6",
+      "#ff0081",
+      "#ff6800",
+      "#ddc200",
+      "#07f601"
+    ],
+    "tags": [
+      "vibrant",
+      "minimal",
+      "complementary"
+    ],
+    "mood": "vibrant",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-179",
+    "name": "Nostalgic Modern 179",
+    "colors": [
+      "#ff8aff",
+      "#e345d4",
+      "#c700a9",
+      "#93007b",
+      "#5e004d"
+    ],
+    "tags": [
+      "nostalgic",
+      "modern",
+      "monochromatic"
+    ],
+    "mood": "nostalgic",
+    "category": "modern"
+  },
+  {
+    "id": "palette-180",
+    "name": "Pastel Interior 180",
+    "colors": [
+      "#787163",
+      "#4e483b",
+      "#241f13",
+      "#12100a",
+      "#000000"
+    ],
+    "tags": [
+      "pastel",
+      "interior",
+      "monochromatic"
+    ],
+    "mood": "pastel",
+    "category": "interior"
+  },
+  {
+    "id": "palette-181",
+    "name": "Nostalgic Fashion 181",
+    "colors": [
+      "#9b80ff",
+      "#5854df",
+      "#1528bf",
+      "#0b148f",
+      "#00005f"
+    ],
+    "tags": [
+      "nostalgic",
+      "fashion",
+      "monochromatic"
+    ],
+    "mood": "nostalgic",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-182",
+    "name": "Minimal Tech 182",
+    "colors": [
+      "#f74d71",
+      "#c6f74d",
+      "#4df7d3",
+      "#7e4df7",
+      "#ff829f"
+    ],
+    "tags": [
+      "minimal",
+      "tech",
+      "tetradic"
+    ],
+    "mood": "minimal",
+    "category": "tech"
+  },
+  {
+    "id": "palette-183",
+    "name": "Warm Fashion 183",
+    "colors": [
+      "#b4f681",
+      "#81eff6",
+      "#c381f6",
+      "#f68881",
+      "#e8ffb2"
+    ],
+    "tags": [
+      "warm",
+      "fashion",
+      "tetradic"
+    ],
+    "mood": "warm",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-184",
+    "name": "Minimal Modern 184",
+    "colors": [
+      "#fffcff",
+      "#fbc9e9",
+      "#f796d2",
+      "#c467a2",
+      "#903772"
+    ],
+    "tags": [
+      "minimal",
+      "modern",
+      "monochromatic"
+    ],
+    "mood": "minimal",
+    "category": "modern"
+  },
+  {
+    "id": "palette-185",
+    "name": "Dark Interior 185",
+    "colors": [
+      "#7d4f1e",
+      "#7d6e1e",
+      "#6c7d1e",
+      "#4c7d1e",
+      "#2d7d1e"
+    ],
+    "tags": [
+      "dark",
+      "interior",
+      "analogous"
+    ],
+    "mood": "dark",
+    "category": "interior"
+  },
+  {
+    "id": "palette-186",
+    "name": "Energetic Tech 186",
+    "colors": [
+      "#ff9bb3",
+      "#ec6585",
+      "#d82f57",
+      "#a1182e",
+      "#6a0006"
+    ],
+    "tags": [
+      "energetic",
+      "tech",
+      "monochromatic"
+    ],
+    "mood": "energetic",
+    "category": "tech"
+  },
+  {
+    "id": "palette-187",
+    "name": "Minimal Modern 187",
+    "colors": [
+      "#3d7318",
+      "#1e7318",
+      "#187330",
+      "#18734e",
+      "#18736d"
+    ],
+    "tags": [
+      "minimal",
+      "modern",
+      "analogous"
+    ],
+    "mood": "minimal",
+    "category": "modern"
+  },
+  {
+    "id": "palette-188",
+    "name": "Professional Minimal 188",
+    "colors": [
+      "#c69b9a",
+      "#9ac69b",
+      "#9b9ac6",
+      "#f9cccb",
+      "#956d6c"
+    ],
+    "tags": [
+      "professional",
+      "minimal",
+      "triadic"
+    ],
+    "mood": "professional",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-189",
+    "name": "Earthy Minimal 189",
+    "colors": [
+      "#bbffff",
+      "#88d6ce",
+      "#56ad9c",
+      "#2b7f6f",
+      "#005043"
+    ],
+    "tags": [
+      "earthy",
+      "minimal",
+      "monochromatic"
+    ],
+    "mood": "earthy",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-190",
+    "name": "Dark Minimal 190",
+    "colors": [
+      "#ddeb42",
+      "#a4eb42",
+      "#6ceb42",
+      "#42eb50",
+      "#42eb89"
+    ],
+    "tags": [
+      "dark",
+      "minimal",
+      "analogous"
+    ],
+    "mood": "dark",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-191",
+    "name": "Professional Fashion 191",
+    "colors": [
+      "#c758c3",
+      "#c7589e",
+      "#c75879",
+      "#c75c58",
+      "#c78158"
+    ],
+    "tags": [
+      "professional",
+      "fashion",
+      "analogous"
+    ],
+    "mood": "professional",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-192",
+    "name": "Energetic Modern 192",
+    "colors": [
+      "#2064c3",
+      "#c320b5",
+      "#c37f20",
+      "#20c32e",
+      "#6391f6"
+    ],
+    "tags": [
+      "energetic",
+      "modern",
+      "tetradic"
+    ],
+    "mood": "energetic",
+    "category": "modern"
+  },
+  {
+    "id": "palette-193",
+    "name": "Pastel Tech 193",
+    "colors": [
+      "#ef92ef",
+      "#bc62be",
+      "#89328c",
+      "#5b1960",
+      "#2e0034"
+    ],
+    "tags": [
+      "pastel",
+      "tech",
+      "monochromatic"
+    ],
+    "mood": "pastel",
+    "category": "tech"
+  },
+  {
+    "id": "palette-194",
+    "name": "Energetic Tech 194",
+    "colors": [
+      "#eedc99",
+      "#ffc09c",
+      "#ffabba",
+      "#e1a6dd",
+      "#99abee"
+    ],
+    "tags": [
+      "energetic",
+      "tech",
+      "complementary"
+    ],
+    "mood": "energetic",
+    "category": "tech"
+  },
+  {
+    "id": "palette-195",
+    "name": "Calm Fashion 195",
+    "colors": [
+      "#9e4601",
+      "#019e46",
+      "#46019e",
+      "#d57333",
+      "#6a1900"
+    ],
+    "tags": [
+      "calm",
+      "fashion",
+      "triadic"
+    ],
+    "mood": "calm",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-196",
+    "name": "Energetic Nature 196",
+    "colors": [
+      "#323e54",
+      "#54323e",
+      "#3e5432",
+      "#5d6881",
+      "#09182b"
+    ],
+    "tags": [
+      "energetic",
+      "nature",
+      "triadic"
+    ],
+    "mood": "energetic",
+    "category": "nature"
+  },
+  {
+    "id": "palette-197",
+    "name": "Calm Brand 197",
+    "colors": [
+      "#e8892f",
+      "#e8c62f",
+      "#cce82f",
+      "#8ee82f",
+      "#51e82f"
+    ],
+    "tags": [
+      "calm",
+      "brand",
+      "analogous"
+    ],
+    "mood": "calm",
+    "category": "brand"
+  },
+  {
+    "id": "palette-198",
+    "name": "Energetic Retro 198",
+    "colors": [
+      "#6833aa",
+      "#8f33aa",
+      "#aa339d",
+      "#aa3375",
+      "#aa334e"
+    ],
+    "tags": [
+      "energetic",
+      "retro",
+      "analogous"
+    ],
+    "mood": "energetic",
+    "category": "retro"
+  },
+  {
+    "id": "palette-199",
+    "name": "Minimal Fashion 199",
+    "colors": [
+      "#917eda",
+      "#e678b5",
+      "#ff8b84",
+      "#f2b369",
+      "#c7da7e"
+    ],
+    "tags": [
+      "minimal",
+      "fashion",
+      "complementary"
+    ],
+    "mood": "minimal",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-200",
+    "name": "Nostalgic Tech 200",
+    "colors": [
+      "#ffecd7",
+      "#fffad7",
+      "#f7ffd7",
+      "#eaffd7",
+      "#dcffd7"
+    ],
+    "tags": [
+      "nostalgic",
+      "tech",
+      "analogous"
+    ],
+    "mood": "nostalgic",
+    "category": "tech"
+  },
+  {
+    "id": "palette-201",
+    "name": "Earthy Interior 201",
+    "colors": [
+      "#b24505",
+      "#1bb205",
+      "#0572b2",
+      "#9c05b2",
+      "#ea7437"
+    ],
+    "tags": [
+      "earthy",
+      "interior",
+      "tetradic"
+    ],
+    "mood": "earthy",
+    "category": "interior"
+  },
+  {
+    "id": "palette-202",
+    "name": "Energetic Modern 202",
+    "colors": [
+      "#f56766",
+      "#adf566",
+      "#66f4f5",
+      "#ae66f5",
+      "#ff9994"
+    ],
+    "tags": [
+      "energetic",
+      "modern",
+      "tetradic"
+    ],
+    "mood": "energetic",
+    "category": "modern"
+  },
+  {
+    "id": "palette-203",
+    "name": "Vibrant Fashion 203",
+    "colors": [
+      "#a7919d",
+      "#9da791",
+      "#919da7",
+      "#d9c1ce",
+      "#78636f"
+    ],
+    "tags": [
+      "vibrant",
+      "fashion",
+      "triadic"
+    ],
+    "mood": "vibrant",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-204",
+    "name": "Soft Tech 204",
+    "colors": [
+      "#2f7bbc",
+      "#2f4cbc",
+      "#412fbc",
+      "#702fbc",
+      "#9f2fbc"
+    ],
+    "tags": [
+      "soft",
+      "tech",
+      "analogous"
+    ],
+    "mood": "soft",
+    "category": "tech"
+  },
+  {
+    "id": "palette-205",
+    "name": "Pastel Minimal 205",
+    "colors": [
+      "#51bc35",
+      "#b29400",
+      "#e6571c",
+      "#e9006f",
+      "#a035bc"
+    ],
+    "tags": [
+      "pastel",
+      "minimal",
+      "complementary"
+    ],
+    "mood": "pastel",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-206",
+    "name": "Nostalgic Corporate 206",
+    "colors": [
+      "#5c415f",
+      "#5f4158",
+      "#5f414e",
+      "#5f4144",
+      "#5f4841"
+    ],
+    "tags": [
+      "nostalgic",
+      "corporate",
+      "analogous"
+    ],
+    "mood": "nostalgic",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-207",
+    "name": "Dark Fashion 207",
+    "colors": [
+      "#565acd",
+      "#cd565a",
+      "#5acd56",
+      "#8b87ff",
+      "#12319b"
+    ],
+    "tags": [
+      "dark",
+      "fashion",
+      "triadic"
+    ],
+    "mood": "dark",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-208",
+    "name": "Warm Fashion 208",
+    "colors": [
+      "#9bf3b0",
+      "#9bf3ce",
+      "#9bf3eb",
+      "#9bdef3",
+      "#9bc0f3"
+    ],
+    "tags": [
+      "warm",
+      "fashion",
+      "analogous"
+    ],
+    "mood": "warm",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-209",
+    "name": "Pastel Minimal 209",
+    "colors": [
+      "#678277",
+      "#678280",
+      "#677b82",
+      "#677282",
+      "#676982"
+    ],
+    "tags": [
+      "pastel",
+      "minimal",
+      "analogous"
+    ],
+    "mood": "pastel",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-210",
+    "name": "Soft Corporate 210",
+    "colors": [
+      "#61aa78",
+      "#616eaa",
+      "#aa6193",
+      "#aa9d61",
+      "#91dca7"
+    ],
+    "tags": [
+      "soft",
+      "corporate",
+      "tetradic"
+    ],
+    "mood": "soft",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-211",
+    "name": "Vibrant Minimal 211",
+    "colors": [
+      "#0f21bb",
+      "#bb0f21",
+      "#21bb0f",
+      "#604cef",
+      "#000089"
+    ],
+    "tags": [
+      "vibrant",
+      "minimal",
+      "triadic"
+    ],
+    "mood": "vibrant",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-212",
+    "name": "Nostalgic Fashion 212",
+    "colors": [
+      "#446119",
+      "#2c6119",
+      "#19611e",
+      "#196136",
+      "#19614e"
+    ],
+    "tags": [
+      "nostalgic",
+      "fashion",
+      "analogous"
+    ],
+    "mood": "nostalgic",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-213",
+    "name": "Dark Tech 213",
+    "colors": [
+      "#61976f",
+      "#888850",
+      "#a47450",
+      "#ac6469",
+      "#976189"
+    ],
+    "tags": [
+      "dark",
+      "tech",
+      "complementary"
+    ],
+    "mood": "dark",
+    "category": "tech"
+  },
+  {
+    "id": "palette-214",
+    "name": "Pastel Modern 214",
+    "colors": [
+      "#2aef5c",
+      "#2a5aef",
+      "#ef2abd",
+      "#efbf2a",
+      "#75ff8d"
+    ],
+    "tags": [
+      "pastel",
+      "modern",
+      "tetradic"
+    ],
+    "mood": "pastel",
+    "category": "modern"
+  },
+  {
+    "id": "palette-215",
+    "name": "Warm Retro 215",
+    "colors": [
+      "#8d8ea6",
+      "#a68d9b",
+      "#a6a58d",
+      "#8da699",
+      "#bdbed7"
+    ],
+    "tags": [
+      "warm",
+      "retro",
+      "tetradic"
+    ],
+    "mood": "warm",
+    "category": "retro"
+  },
+  {
+    "id": "palette-216",
+    "name": "Calm Corporate 216",
+    "colors": [
+      "#dcab83",
+      "#88dc83",
+      "#83b4dc",
+      "#d783dc",
+      "#ffddb3"
+    ],
+    "tags": [
+      "calm",
+      "corporate",
+      "tetradic"
+    ],
+    "mood": "calm",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-217",
+    "name": "Soft Retro 217",
+    "colors": [
+      "#2b9256",
+      "#6f7b1e",
+      "#955d17",
+      "#a53a3b",
+      "#922b67"
+    ],
+    "tags": [
+      "soft",
+      "retro",
+      "complementary"
+    ],
+    "mood": "soft",
+    "category": "retro"
+  },
+  {
+    "id": "palette-218",
+    "name": "Vibrant Corporate 218",
+    "colors": [
+      "#ea1961",
+      "#ea191c",
+      "#ea5c19",
+      "#eaa219",
+      "#eae719"
+    ],
+    "tags": [
+      "vibrant",
+      "corporate",
+      "analogous"
+    ],
+    "mood": "vibrant",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-219",
+    "name": "Minimal Brand 219",
+    "colors": [
+      "#72605a",
+      "#5a7260",
+      "#605a72",
+      "#a18d87",
+      "#463631"
+    ],
+    "tags": [
+      "minimal",
+      "brand",
+      "triadic"
+    ],
+    "mood": "minimal",
+    "category": "brand"
+  },
+  {
+    "id": "palette-220",
+    "name": "Professional Brand 220",
+    "colors": [
+      "#bafe09",
+      "#ffac00",
+      "#ff0031",
+      "#ff009c",
+      "#4d09fe"
+    ],
+    "tags": [
+      "professional",
+      "brand",
+      "complementary"
+    ],
+    "mood": "professional",
+    "category": "brand"
+  },
+  {
+    "id": "palette-221",
+    "name": "Pastel Brand 221",
+    "colors": [
+      "#b02cea",
+      "#ff0088",
+      "#ff5716",
+      "#dfb100",
+      "#66ea2c"
+    ],
+    "tags": [
+      "pastel",
+      "brand",
+      "complementary"
+    ],
+    "mood": "pastel",
+    "category": "brand"
+  },
+  {
+    "id": "palette-222",
+    "name": "Dark Minimal 222",
+    "colors": [
+      "#bd6454",
+      "#79bd54",
+      "#54adbd",
+      "#9954bd",
+      "#f39381"
+    ],
+    "tags": [
+      "dark",
+      "minimal",
+      "tetradic"
+    ],
+    "mood": "dark",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-223",
+    "name": "Dark Nature 223",
+    "colors": [
+      "#ff9370",
+      "#e95c44",
+      "#d32518",
+      "#9c130c",
+      "#650000"
+    ],
+    "tags": [
+      "dark",
+      "nature",
+      "monochromatic"
+    ],
+    "mood": "dark",
+    "category": "nature"
+  },
+  {
+    "id": "palette-224",
+    "name": "Dark Retro 224",
+    "colors": [
+      "#c7ff8c",
+      "#88fd46",
+      "#4afa00",
+      "#25c700",
+      "#009300"
+    ],
+    "tags": [
+      "dark",
+      "retro",
+      "monochromatic"
+    ],
+    "mood": "dark",
+    "category": "retro"
+  },
+  {
+    "id": "palette-225",
+    "name": "Nostalgic Nature 225",
+    "colors": [
+      "#429cbe",
+      "#708cc8",
+      "#a975b2",
+      "#c8617e",
+      "#be6442"
+    ],
+    "tags": [
+      "nostalgic",
+      "nature",
+      "complementary"
+    ],
+    "mood": "nostalgic",
+    "category": "nature"
+  },
+  {
+    "id": "palette-226",
+    "name": "Nostalgic Tech 226",
+    "colors": [
+      "#71c26e",
+      "#b8a840",
+      "#e58551",
+      "#ed6987",
+      "#bf6ec2"
+    ],
+    "tags": [
+      "nostalgic",
+      "tech",
+      "complementary"
+    ],
+    "mood": "nostalgic",
+    "category": "tech"
+  },
+  {
+    "id": "palette-227",
+    "name": "Energetic Nature 227",
+    "colors": [
+      "#7d9647",
+      "#479688",
+      "#604796",
+      "#964755",
+      "#aec774"
+    ],
+    "tags": [
+      "energetic",
+      "nature",
+      "tetradic"
+    ],
+    "mood": "energetic",
+    "category": "nature"
+  },
+  {
+    "id": "palette-228",
+    "name": "Soft Minimal 228",
+    "colors": [
+      "#4f93c5",
+      "#9086c4",
+      "#c177a7",
+      "#d47479",
+      "#c5814f"
+    ],
+    "tags": [
+      "soft",
+      "minimal",
+      "complementary"
+    ],
+    "mood": "soft",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-229",
+    "name": "Nostalgic Fashion 229",
+    "colors": [
+      "#a3ab5c",
+      "#5cab8c",
+      "#645cab",
+      "#ab5c7b",
+      "#d5dd8b"
+    ],
+    "tags": [
+      "nostalgic",
+      "fashion",
+      "tetradic"
+    ],
+    "mood": "nostalgic",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-230",
+    "name": "Dark Interior 230",
+    "colors": [
+      "#ef5b43",
+      "#43ef5b",
+      "#5b43ef",
+      "#ff8d6f",
+      "#b6261a"
+    ],
+    "tags": [
+      "dark",
+      "interior",
+      "triadic"
+    ],
+    "mood": "dark",
+    "category": "interior"
+  },
+  {
+    "id": "palette-231",
+    "name": "Earthy Retro 231",
+    "colors": [
+      "#50e527",
+      "#27afe5",
+      "#bc27e5",
+      "#e55d27",
+      "#8cff61"
+    ],
+    "tags": [
+      "earthy",
+      "retro",
+      "tetradic"
+    ],
+    "mood": "earthy",
+    "category": "retro"
+  },
+  {
+    "id": "palette-232",
+    "name": "Nostalgic Interior 232",
+    "colors": [
+      "#8863cc",
+      "#57399b",
+      "#250e6b",
+      "#130744",
+      "#00001d"
+    ],
+    "tags": [
+      "nostalgic",
+      "interior",
+      "monochromatic"
+    ],
+    "mood": "nostalgic",
+    "category": "interior"
+  },
+  {
+    "id": "palette-233",
+    "name": "Warm Fashion 233",
+    "colors": [
+      "#0f5522",
+      "#220f55",
+      "#55220f",
+      "#42824b",
+      "#002b00"
+    ],
+    "tags": [
+      "warm",
+      "fashion",
+      "triadic"
+    ],
+    "mood": "warm",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-234",
+    "name": "Vibrant Fashion 234",
+    "colors": [
+      "#68b4a1",
+      "#a168b4",
+      "#b4a168",
+      "#99e6d2",
+      "#378473"
+    ],
+    "tags": [
+      "vibrant",
+      "fashion",
+      "triadic"
+    ],
+    "mood": "vibrant",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-235",
+    "name": "Warm Interior 235",
+    "colors": [
+      "#a13f02",
+      "#a17402",
+      "#99a102",
+      "#64a102",
+      "#2fa102"
+    ],
+    "tags": [
+      "warm",
+      "interior",
+      "analogous"
+    ],
+    "mood": "warm",
+    "category": "interior"
+  },
+  {
+    "id": "palette-236",
+    "name": "Professional Nature 236",
+    "colors": [
+      "#7e7f56",
+      "#567e7f",
+      "#7f567e",
+      "#aeae83",
+      "#51532c"
+    ],
+    "tags": [
+      "professional",
+      "nature",
+      "triadic"
+    ],
+    "mood": "professional",
+    "category": "nature"
+  },
+  {
+    "id": "palette-237",
+    "name": "Minimal Modern 237",
+    "colors": [
+      "#ffffff",
+      "#d0f3d0",
+      "#a1e6a1",
+      "#71b573",
+      "#418346"
+    ],
+    "tags": [
+      "minimal",
+      "modern",
+      "monochromatic"
+    ],
+    "mood": "minimal",
+    "category": "modern"
+  },
+  {
+    "id": "palette-238",
+    "name": "Energetic Tech 238",
+    "colors": [
+      "#88d761",
+      "#d6ae28",
+      "#ff7a4e",
+      "#fd5194",
+      "#b061d7"
+    ],
+    "tags": [
+      "energetic",
+      "tech",
+      "complementary"
+    ],
+    "mood": "energetic",
+    "category": "tech"
+  },
+  {
+    "id": "palette-239",
+    "name": "Nostalgic Minimal 239",
+    "colors": [
+      "#bafd89",
+      "#88ca59",
+      "#56982a",
+      "#2b6b15",
+      "#003d00"
+    ],
+    "tags": [
+      "nostalgic",
+      "minimal",
+      "monochromatic"
+    ],
+    "mood": "nostalgic",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-240",
+    "name": "Pastel Modern 240",
+    "colors": [
+      "#4c70bf",
+      "#bf4caa",
+      "#bf9b4c",
+      "#4cbf62",
+      "#809ef2"
+    ],
+    "tags": [
+      "pastel",
+      "modern",
+      "tetradic"
+    ],
+    "mood": "pastel",
+    "category": "modern"
+  },
+  {
+    "id": "palette-241",
+    "name": "Pastel Fashion 241",
+    "colors": [
+      "#5d99f1",
+      "#f15de3",
+      "#f1b55d",
+      "#5df16b",
+      "#94c9ff"
+    ],
+    "tags": [
+      "pastel",
+      "fashion",
+      "tetradic"
+    ],
+    "mood": "pastel",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-242",
+    "name": "Minimal Minimal 242",
+    "colors": [
+      "#fe3c05",
+      "#4bfe05",
+      "#05c7fe",
+      "#b805fe",
+      "#ff743c"
+    ],
+    "tags": [
+      "minimal",
+      "minimal",
+      "tetradic"
+    ],
+    "mood": "minimal",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-243",
+    "name": "Earthy Minimal 243",
+    "colors": [
+      "#84488d",
+      "#8d487f",
+      "#8d4868",
+      "#8d4851",
+      "#8d5648"
+    ],
+    "tags": [
+      "earthy",
+      "minimal",
+      "analogous"
+    ],
+    "mood": "earthy",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-244",
+    "name": "Pastel Interior 244",
+    "colors": [
+      "#ffe978",
+      "#f5b741",
+      "#eb860a",
+      "#b45905",
+      "#7d2c00"
+    ],
+    "tags": [
+      "pastel",
+      "interior",
+      "monochromatic"
+    ],
+    "mood": "pastel",
+    "category": "interior"
+  },
+  {
+    "id": "palette-245",
+    "name": "Nostalgic Corporate 245",
+    "colors": [
+      "#37dd1a",
+      "#1add3e",
+      "#1add7f",
+      "#1addc0",
+      "#1ab9dd"
+    ],
+    "tags": [
+      "nostalgic",
+      "corporate",
+      "analogous"
+    ],
+    "mood": "nostalgic",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-246",
+    "name": "Calm Tech 246",
+    "colors": [
+      "#fd7782",
+      "#fd9877",
+      "#fdc577",
+      "#fdf277",
+      "#dcfd77"
+    ],
+    "tags": [
+      "calm",
+      "tech",
+      "analogous"
+    ],
+    "mood": "calm",
+    "category": "tech"
+  },
+  {
+    "id": "palette-247",
+    "name": "Warm Corporate 247",
+    "colors": [
+      "#a3ff8f",
+      "#69da5d",
+      "#30b42c",
+      "#188416",
+      "#005400"
+    ],
+    "tags": [
+      "warm",
+      "corporate",
+      "monochromatic"
+    ],
+    "mood": "warm",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-248",
+    "name": "Earthy Nature 248",
+    "colors": [
+      "#ffffe8",
+      "#d1dbb7",
+      "#a3b786",
+      "#75895a",
+      "#475a2f"
+    ],
+    "tags": [
+      "earthy",
+      "nature",
+      "monochromatic"
+    ],
+    "mood": "earthy",
+    "category": "nature"
+  },
+  {
+    "id": "palette-249",
+    "name": "Vibrant Fashion 249",
+    "colors": [
+      "#cd24ff",
+      "#ffcd24",
+      "#24ffcd",
+      "#ff65ff",
+      "#9700cb"
+    ],
+    "tags": [
+      "vibrant",
+      "fashion",
+      "triadic"
+    ],
+    "mood": "vibrant",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-250",
+    "name": "Energetic Tech 250",
+    "colors": [
+      "#bacdd3",
+      "#ccbad3",
+      "#d3c0ba",
+      "#c0d3ba",
+      "#ecffff"
+    ],
+    "tags": [
+      "energetic",
+      "tech",
+      "tetradic"
+    ],
+    "mood": "energetic",
+    "category": "tech"
+  },
+  {
+    "id": "palette-251",
+    "name": "Soft Minimal 251",
+    "colors": [
+      "#ffcfab",
+      "#e19e7d",
+      "#c36e4f",
+      "#904228",
+      "#5c1600"
+    ],
+    "tags": [
+      "soft",
+      "minimal",
+      "monochromatic"
+    ],
+    "mood": "soft",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-252",
+    "name": "Vibrant Tech 252",
+    "colors": [
+      "#82ce33",
+      "#d29800",
+      "#fc4a2f",
+      "#ec0083",
+      "#7f33ce"
+    ],
+    "tags": [
+      "vibrant",
+      "tech",
+      "complementary"
+    ],
+    "mood": "vibrant",
+    "category": "tech"
+  },
+  {
+    "id": "palette-253",
+    "name": "Pastel Retro 253",
+    "colors": [
+      "#6324de",
+      "#de6324",
+      "#24de63",
+      "#9c56ff",
+      "#1c00ab"
+    ],
+    "tags": [
+      "pastel",
+      "retro",
+      "triadic"
+    ],
+    "mood": "pastel",
+    "category": "retro"
+  },
+  {
+    "id": "palette-254",
+    "name": "Warm Fashion 254",
+    "colors": [
+      "#6b3f8d",
+      "#853f8d",
+      "#8d3f7b",
+      "#8d3f61",
+      "#8d3f47"
+    ],
+    "tags": [
+      "warm",
+      "fashion",
+      "analogous"
+    ],
+    "mood": "warm",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-255",
+    "name": "Energetic Modern 255",
+    "colors": [
+      "#f4f761",
+      "#ffb54b",
+      "#ff6b7d",
+      "#fc45c3",
+      "#6461f7"
+    ],
+    "tags": [
+      "energetic",
+      "modern",
+      "complementary"
+    ],
+    "mood": "energetic",
+    "category": "modern"
+  },
+  {
+    "id": "palette-256",
+    "name": "Calm Minimal 256",
+    "colors": [
+      "#e7f2db",
+      "#f7e9d3",
+      "#ffe0d8",
+      "#fadbe6",
+      "#e6dbf2"
+    ],
+    "tags": [
+      "calm",
+      "minimal",
+      "complementary"
+    ],
+    "mood": "calm",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-257",
+    "name": "Vibrant Interior 257",
+    "colors": [
+      "#b3ffff",
+      "#6ff3f7",
+      "#2be6ef",
+      "#16b4be",
+      "#00838c"
+    ],
+    "tags": [
+      "vibrant",
+      "interior",
+      "monochromatic"
+    ],
+    "mood": "vibrant",
+    "category": "interior"
+  },
+  {
+    "id": "palette-258",
+    "name": "Vibrant Fashion 258",
+    "colors": [
+      "#610868",
+      "#890035",
+      "#832900",
+      "#5e5000",
+      "#0f6808"
+    ],
+    "tags": [
+      "vibrant",
+      "fashion",
+      "complementary"
+    ],
+    "mood": "vibrant",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-259",
+    "name": "Professional Tech 259",
+    "colors": [
+      "#19378f",
+      "#812474",
+      "#a4284c",
+      "#a54d28",
+      "#8f7119"
+    ],
+    "tags": [
+      "professional",
+      "tech",
+      "complementary"
+    ],
+    "mood": "professional",
+    "category": "tech"
+  },
+  {
+    "id": "palette-260",
+    "name": "Vibrant Retro 260",
+    "colors": [
+      "#be4f1c",
+      "#cd4367",
+      "#af5ba5",
+      "#6e79c4",
+      "#1c8bbe"
+    ],
+    "tags": [
+      "vibrant",
+      "retro",
+      "complementary"
+    ],
+    "mood": "vibrant",
+    "category": "retro"
+  },
+  {
+    "id": "palette-261",
+    "name": "Nostalgic Nature 261",
+    "colors": [
+      "#c0043d",
+      "#c00904",
+      "#c04804",
+      "#c08704",
+      "#bbc004"
+    ],
+    "tags": [
+      "nostalgic",
+      "nature",
+      "analogous"
+    ],
+    "mood": "nostalgic",
+    "category": "nature"
+  },
+  {
+    "id": "palette-262",
+    "name": "Dark Modern 262",
+    "colors": [
+      "#811a3f",
+      "#84381f",
+      "#72560e",
+      "#526e29",
+      "#1a815c"
+    ],
+    "tags": [
+      "dark",
+      "modern",
+      "complementary"
+    ],
+    "mood": "dark",
+    "category": "modern"
+  },
+  {
+    "id": "palette-263",
+    "name": "Nostalgic Brand 263",
+    "colors": [
+      "#72df27",
+      "#27cedf",
+      "#9427df",
+      "#df3827",
+      "#a8ff60"
+    ],
+    "tags": [
+      "nostalgic",
+      "brand",
+      "tetradic"
+    ],
+    "mood": "nostalgic",
+    "category": "brand"
+  },
+  {
+    "id": "palette-264",
+    "name": "Professional Minimal 264",
+    "colors": [
+      "#c2ffa6",
+      "#88f074",
+      "#4fe141",
+      "#28af21",
+      "#007d00"
+    ],
+    "tags": [
+      "professional",
+      "minimal",
+      "monochromatic"
+    ],
+    "mood": "professional",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-265",
+    "name": "Minimal Minimal 265",
+    "colors": [
+      "#d3e9b7",
+      "#f3d5a6",
+      "#ffc1b3",
+      "#f8b6d0",
+      "#cdb7e9"
+    ],
+    "tags": [
+      "minimal",
+      "minimal",
+      "complementary"
+    ],
+    "mood": "minimal",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-266",
+    "name": "Minimal Interior 266",
+    "colors": [
+      "#c5a6a8",
+      "#b8c5a6",
+      "#a6c5c3",
+      "#b3a6c5",
+      "#f8d7d9"
+    ],
+    "tags": [
+      "minimal",
+      "interior",
+      "tetradic"
+    ],
+    "mood": "minimal",
+    "category": "interior"
+  },
+  {
+    "id": "palette-267",
+    "name": "Vibrant Brand 267",
+    "colors": [
+      "#cb5830",
+      "#55cb30",
+      "#30a3cb",
+      "#a630cb",
+      "#ff885c"
+    ],
+    "tags": [
+      "vibrant",
+      "brand",
+      "tetradic"
+    ],
+    "mood": "vibrant",
+    "category": "brand"
+  },
+  {
+    "id": "palette-268",
+    "name": "Minimal Retro 268",
+    "colors": [
+      "#525fb8",
+      "#b1559d",
+      "#d86172",
+      "#d68450",
+      "#b8ab52"
+    ],
+    "tags": [
+      "minimal",
+      "retro",
+      "complementary"
+    ],
+    "mood": "minimal",
+    "category": "retro"
+  },
+  {
+    "id": "palette-269",
+    "name": "Nostalgic Tech 269",
+    "colors": [
+      "#ec1411",
+      "#ec5d11",
+      "#eca611",
+      "#e9ec11",
+      "#a0ec11"
+    ],
+    "tags": [
+      "nostalgic",
+      "tech",
+      "analogous"
+    ],
+    "mood": "nostalgic",
+    "category": "tech"
+  },
+  {
+    "id": "palette-270",
+    "name": "Warm Modern 270",
+    "colors": [
+      "#8071c5",
+      "#c5718c",
+      "#b6c571",
+      "#71c5aa",
+      "#b2a0f8"
+    ],
+    "tags": [
+      "warm",
+      "modern",
+      "tetradic"
+    ],
+    "mood": "warm",
+    "category": "modern"
+  },
+  {
+    "id": "palette-271",
+    "name": "Dark Minimal 271",
+    "colors": [
+      "#141303",
+      "#101403",
+      "#0a1403",
+      "#041403",
+      "#031407"
+    ],
+    "tags": [
+      "dark",
+      "minimal",
+      "analogous"
+    ],
+    "mood": "dark",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-272",
+    "name": "Dark Interior 272",
+    "colors": [
+      "#905245",
+      "#459052",
+      "#524590",
+      "#c37f70",
+      "#5f281e"
+    ],
+    "tags": [
+      "dark",
+      "interior",
+      "triadic"
+    ],
+    "mood": "dark",
+    "category": "interior"
+  },
+  {
+    "id": "palette-273",
+    "name": "Minimal Fashion 273",
+    "colors": [
+      "#08c2ea",
+      "#0876ea",
+      "#082bea",
+      "#3008ea",
+      "#7c08ea"
+    ],
+    "tags": [
+      "minimal",
+      "fashion",
+      "analogous"
+    ],
+    "mood": "minimal",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-274",
+    "name": "Warm Brand 274",
+    "colors": [
+      "#ce92b2",
+      "#b2ce92",
+      "#92b2ce",
+      "#ffc3e4",
+      "#9c6482"
+    ],
+    "tags": [
+      "warm",
+      "brand",
+      "triadic"
+    ],
+    "mood": "warm",
+    "category": "brand"
+  },
+  {
+    "id": "palette-275",
+    "name": "Vibrant Interior 275",
+    "colors": [
+      "#a970cc",
+      "#cc7b70",
+      "#93cc70",
+      "#70c1cc",
+      "#dca0ff"
+    ],
+    "tags": [
+      "vibrant",
+      "interior",
+      "tetradic"
+    ],
+    "mood": "vibrant",
+    "category": "interior"
+  },
+  {
+    "id": "palette-276",
+    "name": "Pastel Tech 276",
+    "colors": [
+      "#96e925",
+      "#2596e9",
+      "#e92596",
+      "#ccff61",
+      "#60b600"
+    ],
+    "tags": [
+      "pastel",
+      "tech",
+      "triadic"
+    ],
+    "mood": "pastel",
+    "category": "tech"
+  },
+  {
+    "id": "palette-277",
+    "name": "Professional Tech 277",
+    "colors": [
+      "#8cefcb",
+      "#cb8cef",
+      "#efcb8c",
+      "#bffffe",
+      "#59bc9a"
+    ],
+    "tags": [
+      "professional",
+      "tech",
+      "triadic"
+    ],
+    "mood": "professional",
+    "category": "tech"
+  },
+  {
+    "id": "palette-278",
+    "name": "Earthy Brand 278",
+    "colors": [
+      "#aaffff",
+      "#5af2f5",
+      "#0ae4eb",
+      "#05b2ba",
+      "#008189"
+    ],
+    "tags": [
+      "earthy",
+      "brand",
+      "monochromatic"
+    ],
+    "mood": "earthy",
+    "category": "brand"
+  },
+  {
+    "id": "palette-279",
+    "name": "Warm Brand 279",
+    "colors": [
+      "#e93f0e",
+      "#fb3786",
+      "#c972dc",
+      "#689ffc",
+      "#0eb8e9"
+    ],
+    "tags": [
+      "warm",
+      "brand",
+      "complementary"
+    ],
+    "mood": "warm",
+    "category": "brand"
+  },
+  {
+    "id": "palette-280",
+    "name": "Earthy Brand 280",
+    "colors": [
+      "#ac95d6",
+      "#c195d6",
+      "#d695d5",
+      "#d695bf",
+      "#d695aa"
+    ],
+    "tags": [
+      "earthy",
+      "brand",
+      "analogous"
+    ],
+    "mood": "earthy",
+    "category": "brand"
+  },
+  {
+    "id": "palette-281",
+    "name": "Earthy Modern 281",
+    "colors": [
+      "#d54420",
+      "#20d544",
+      "#4420d5",
+      "#ff764c",
+      "#9c0100"
+    ],
+    "tags": [
+      "earthy",
+      "modern",
+      "triadic"
+    ],
+    "mood": "earthy",
+    "category": "modern"
+  },
+  {
+    "id": "palette-282",
+    "name": "Vibrant Tech 282",
+    "colors": [
+      "#db118d",
+      "#f83d48",
+      "#e28000",
+      "#a6b400",
+      "#11db5f"
+    ],
+    "tags": [
+      "vibrant",
+      "tech",
+      "complementary"
+    ],
+    "mood": "vibrant",
+    "category": "tech"
+  },
+  {
+    "id": "palette-283",
+    "name": "Dark Interior 283",
+    "colors": [
+      "#4300c4",
+      "#8500c4",
+      "#c400c2",
+      "#c40081",
+      "#c4003f"
+    ],
+    "tags": [
+      "dark",
+      "interior",
+      "analogous"
+    ],
+    "mood": "dark",
+    "category": "interior"
+  },
+  {
+    "id": "palette-284",
+    "name": "Professional Tech 284",
+    "colors": [
+      "#602c4d",
+      "#60592c",
+      "#2c603f",
+      "#2c3360",
+      "#8f5779"
+    ],
+    "tags": [
+      "professional",
+      "tech",
+      "tetradic"
+    ],
+    "mood": "professional",
+    "category": "tech"
+  },
+  {
+    "id": "palette-285",
+    "name": "Pastel Interior 285",
+    "colors": [
+      "#f7c024",
+      "#e7f724",
+      "#a1f724",
+      "#5bf724",
+      "#24f734"
+    ],
+    "tags": [
+      "pastel",
+      "interior",
+      "analogous"
+    ],
+    "mood": "pastel",
+    "category": "interior"
+  },
+  {
+    "id": "palette-286",
+    "name": "Minimal Minimal 286",
+    "colors": [
+      "#6e488e",
+      "#8e4b48",
+      "#688e48",
+      "#488b8e",
+      "#9e74bf"
+    ],
+    "tags": [
+      "minimal",
+      "minimal",
+      "tetradic"
+    ],
+    "mood": "minimal",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-287",
+    "name": "Vibrant Tech 287",
+    "colors": [
+      "#c6f4e7",
+      "#96c3b6",
+      "#669185",
+      "#3a655a",
+      "#0e392f"
+    ],
+    "tags": [
+      "vibrant",
+      "tech",
+      "monochromatic"
+    ],
+    "mood": "vibrant",
+    "category": "tech"
+  },
+  {
+    "id": "palette-288",
+    "name": "Warm Retro 288",
+    "colors": [
+      "#6cc8f2",
+      "#6c9cf2",
+      "#6c6ff2",
+      "#966cf2",
+      "#c26cf2"
+    ],
+    "tags": [
+      "warm",
+      "retro",
+      "analogous"
+    ],
+    "mood": "warm",
+    "category": "retro"
+  },
+  {
+    "id": "palette-289",
+    "name": "Vibrant Minimal 289",
+    "colors": [
+      "#b2a2f0",
+      "#8275bf",
+      "#52488d",
+      "#292461",
+      "#000035"
+    ],
+    "tags": [
+      "vibrant",
+      "minimal",
+      "monochromatic"
+    ],
+    "mood": "vibrant",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-290",
+    "name": "Vibrant Nature 290",
+    "colors": [
+      "#daf7ff",
+      "#a7c5ea",
+      "#7494d4",
+      "#3a68a4",
+      "#003d73"
+    ],
+    "tags": [
+      "vibrant",
+      "nature",
+      "monochromatic"
+    ],
+    "mood": "vibrant",
+    "category": "nature"
+  },
+  {
+    "id": "palette-291",
+    "name": "Pastel Minimal 291",
+    "colors": [
+      "#998970",
+      "#709989",
+      "#897099",
+      "#cab99e",
+      "#6a5c45"
+    ],
+    "tags": [
+      "pastel",
+      "minimal",
+      "triadic"
+    ],
+    "mood": "pastel",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-292",
+    "name": "Minimal Corporate 292",
+    "colors": [
+      "#c74bd3",
+      "#d3834b",
+      "#57d34b",
+      "#4b9bd3",
+      "#fc7eff"
+    ],
+    "tags": [
+      "minimal",
+      "corporate",
+      "tetradic"
+    ],
+    "mood": "minimal",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-293",
+    "name": "Vibrant Corporate 293",
+    "colors": [
+      "#7e74e0",
+      "#a274e0",
+      "#c674e0",
+      "#e074d6",
+      "#e074b2"
+    ],
+    "tags": [
+      "vibrant",
+      "corporate",
+      "analogous"
+    ],
+    "mood": "vibrant",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-294",
+    "name": "Professional Brand 294",
+    "colors": [
+      "#6cecfe",
+      "#c76cfe",
+      "#fe7e6c",
+      "#a3fe6c",
+      "#a4ffff"
+    ],
+    "tags": [
+      "professional",
+      "brand",
+      "tetradic"
+    ],
+    "mood": "professional",
+    "category": "brand"
+  },
+  {
+    "id": "palette-295",
+    "name": "Warm Corporate 295",
+    "colors": [
+      "#1ca341",
+      "#1c3aa3",
+      "#a31c7e",
+      "#a3841c",
+      "#5dd56f"
+    ],
+    "tags": [
+      "warm",
+      "corporate",
+      "tetradic"
+    ],
+    "mood": "warm",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-296",
+    "name": "Earthy Minimal 296",
+    "colors": [
+      "#9da885",
+      "#859da8",
+      "#a8859d",
+      "#ced9b5",
+      "#6e7958"
+    ],
+    "tags": [
+      "earthy",
+      "minimal",
+      "triadic"
+    ],
+    "mood": "earthy",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-297",
+    "name": "Vibrant Tech 297",
+    "colors": [
+      "#065fef",
+      "#ef06d4",
+      "#ef9606",
+      "#06ef21",
+      "#688cff"
+    ],
+    "tags": [
+      "vibrant",
+      "tech",
+      "tetradic"
+    ],
+    "mood": "vibrant",
+    "category": "tech"
+  },
+  {
+    "id": "palette-298",
+    "name": "Calm Interior 298",
+    "colors": [
+      "#185491",
+      "#6c4787",
+      "#953a67",
+      "#a13f3f",
+      "#915518"
+    ],
+    "tags": [
+      "calm",
+      "interior",
+      "complementary"
+    ],
+    "mood": "calm",
+    "category": "interior"
+  },
+  {
+    "id": "palette-299",
+    "name": "Soft Minimal 299",
+    "colors": [
+      "#b94ac8",
+      "#c8b94a",
+      "#4ac8b9",
+      "#ee7cfc",
+      "#860e97"
+    ],
+    "tags": [
+      "soft",
+      "minimal",
+      "triadic"
+    ],
+    "mood": "soft",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-300",
+    "name": "Warm Fashion 300",
+    "colors": [
+      "#d11c04",
+      "#53d104",
+      "#04b9d1",
+      "#8204d1",
+      "#ff5934"
+    ],
+    "tags": [
+      "warm",
+      "fashion",
+      "tetradic"
+    ],
+    "mood": "warm",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-301",
+    "name": "Earthy Brand 301",
+    "colors": [
+      "#1ed9f5",
+      "#00cda8",
+      "#71b540",
+      "#bb8c00",
+      "#f53a1e"
+    ],
+    "tags": [
+      "earthy",
+      "brand",
+      "complementary"
+    ],
+    "mood": "earthy",
+    "category": "brand"
+  },
+  {
+    "id": "palette-302",
+    "name": "Energetic Tech 302",
+    "colors": [
+      "#b43ed8",
+      "#d8b43e",
+      "#3ed8b4",
+      "#e972ff",
+      "#8000a6"
+    ],
+    "tags": [
+      "energetic",
+      "tech",
+      "triadic"
+    ],
+    "mood": "energetic",
+    "category": "tech"
+  },
+  {
+    "id": "palette-303",
+    "name": "Energetic Minimal 303",
+    "colors": [
+      "#6f10be",
+      "#a910be",
+      "#be1099",
+      "#be105f",
+      "#be1025"
+    ],
+    "tags": [
+      "energetic",
+      "minimal",
+      "analogous"
+    ],
+    "mood": "energetic",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-304",
+    "name": "Dark Retro 304",
+    "colors": [
+      "#02076a",
+      "#1f026a",
+      "#42026a",
+      "#65026a",
+      "#6a024d"
+    ],
+    "tags": [
+      "dark",
+      "retro",
+      "analogous"
+    ],
+    "mood": "dark",
+    "category": "retro"
+  },
+  {
+    "id": "palette-305",
+    "name": "Earthy Modern 305",
+    "colors": [
+      "#ff96ff",
+      "#f84bdb",
+      "#f001b6",
+      "#b90187",
+      "#830059"
+    ],
+    "tags": [
+      "earthy",
+      "modern",
+      "monochromatic"
+    ],
+    "mood": "earthy",
+    "category": "modern"
+  },
+  {
+    "id": "palette-306",
+    "name": "Pastel Fashion 306",
+    "colors": [
+      "#da6a59",
+      "#a43831",
+      "#6f0608",
+      "#4f0304",
+      "#2f0000"
+    ],
+    "tags": [
+      "pastel",
+      "fashion",
+      "monochromatic"
+    ],
+    "mood": "pastel",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-307",
+    "name": "Minimal Fashion 307",
+    "colors": [
+      "#7f601e",
+      "#1e7f30",
+      "#1e3d7f",
+      "#7f1e6d",
+      "#b18d4a"
+    ],
+    "tags": [
+      "minimal",
+      "fashion",
+      "tetradic"
+    ],
+    "mood": "minimal",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-308",
+    "name": "Energetic Modern 308",
+    "colors": [
+      "#c0ecff",
+      "#8cbbe4",
+      "#598ac9",
+      "#2d5f99",
+      "#003469"
+    ],
+    "tags": [
+      "energetic",
+      "modern",
+      "monochromatic"
+    ],
+    "mood": "energetic",
+    "category": "modern"
+  },
+  {
+    "id": "palette-309",
+    "name": "Dark Interior 309",
+    "colors": [
+      "#4c242e",
+      "#2e4c24",
+      "#242e4c",
+      "#794d57",
+      "#250003"
+    ],
+    "tags": [
+      "dark",
+      "interior",
+      "triadic"
+    ],
+    "mood": "dark",
+    "category": "interior"
+  },
+  {
+    "id": "palette-310",
+    "name": "Dark Modern 310",
+    "colors": [
+      "#c564ff",
+      "#f864ff",
+      "#ff64d2",
+      "#ff649e",
+      "#ff646b"
+    ],
+    "tags": [
+      "dark",
+      "modern",
+      "analogous"
+    ],
+    "mood": "dark",
+    "category": "modern"
+  },
+  {
+    "id": "palette-311",
+    "name": "Calm Corporate 311",
+    "colors": [
+      "#4ee48a",
+      "#4ee4bc",
+      "#4edae4",
+      "#4ea8e4",
+      "#4e76e4"
+    ],
+    "tags": [
+      "calm",
+      "corporate",
+      "analogous"
+    ],
+    "mood": "calm",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-312",
+    "name": "Nostalgic Retro 312",
+    "colors": [
+      "#a7ffff",
+      "#5fe7f0",
+      "#18cfe0",
+      "#0c9faf",
+      "#006e7f"
+    ],
+    "tags": [
+      "nostalgic",
+      "retro",
+      "monochromatic"
+    ],
+    "mood": "nostalgic",
+    "category": "retro"
+  },
+  {
+    "id": "palette-313",
+    "name": "Earthy Fashion 313",
+    "colors": [
+      "#f0a0ea",
+      "#f0cea0",
+      "#a0f0a6",
+      "#a0c2f0",
+      "#ffd2ff"
+    ],
+    "tags": [
+      "earthy",
+      "fashion",
+      "tetradic"
+    ],
+    "mood": "earthy",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-314",
+    "name": "Pastel Corporate 314",
+    "colors": [
+      "#998b3e",
+      "#88993e",
+      "#6a993e",
+      "#4c993e",
+      "#3e994f"
+    ],
+    "tags": [
+      "pastel",
+      "corporate",
+      "analogous"
+    ],
+    "mood": "pastel",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-315",
+    "name": "Warm Modern 315",
+    "colors": [
+      "#c7916a",
+      "#71c76a",
+      "#6aa0c7",
+      "#bf6ac7",
+      "#fcc198"
+    ],
+    "tags": [
+      "warm",
+      "modern",
+      "tetradic"
+    ],
+    "mood": "warm",
+    "category": "modern"
+  },
+  {
+    "id": "palette-316",
+    "name": "Warm Nature 316",
+    "colors": [
+      "#599d2d",
+      "#9c7800",
+      "#c04222",
+      "#ba0062",
+      "#712d9d"
+    ],
+    "tags": [
+      "warm",
+      "nature",
+      "complementary"
+    ],
+    "mood": "warm",
+    "category": "nature"
+  },
+  {
+    "id": "palette-317",
+    "name": "Calm Nature 317",
+    "colors": [
+      "#1704cb",
+      "#cb0454",
+      "#b8cb04",
+      "#04cb7b",
+      "#683dff"
+    ],
+    "tags": [
+      "calm",
+      "nature",
+      "tetradic"
+    ],
+    "mood": "calm",
+    "category": "nature"
+  },
+  {
+    "id": "palette-318",
+    "name": "Pastel Tech 318",
+    "colors": [
+      "#72e0c5",
+      "#8e72e0",
+      "#e0728d",
+      "#c4e072",
+      "#a6fff8"
+    ],
+    "tags": [
+      "pastel",
+      "tech",
+      "tetradic"
+    ],
+    "mood": "pastel",
+    "category": "tech"
+  },
+  {
+    "id": "palette-319",
+    "name": "Earthy Corporate 319",
+    "colors": [
+      "#b8ffff",
+      "#82dbde",
+      "#4db7bc",
+      "#27888d",
+      "#00595f"
+    ],
+    "tags": [
+      "earthy",
+      "corporate",
+      "monochromatic"
+    ],
+    "mood": "earthy",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-320",
+    "name": "Pastel Interior 320",
+    "colors": [
+      "#0e5bdc",
+      "#b83db8",
+      "#ef307e",
+      "#f75d44",
+      "#dc8f0e"
+    ],
+    "tags": [
+      "pastel",
+      "interior",
+      "complementary"
+    ],
+    "mood": "pastel",
+    "category": "interior"
+  },
+  {
+    "id": "palette-321",
+    "name": "Professional Retro 321",
+    "colors": [
+      "#02501c",
+      "#1c0250",
+      "#501c02",
+      "#3a7d45",
+      "#002700"
+    ],
+    "tags": [
+      "professional",
+      "retro",
+      "triadic"
+    ],
+    "mood": "professional",
+    "category": "retro"
+  },
+  {
+    "id": "palette-322",
+    "name": "Minimal Fashion 322",
+    "colors": [
+      "#b4fd06",
+      "#06fdcb",
+      "#4f06fd",
+      "#fd0638",
+      "#ebff59"
+    ],
+    "tags": [
+      "minimal",
+      "fashion",
+      "tetradic"
+    ],
+    "mood": "minimal",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-323",
+    "name": "Nostalgic Nature 323",
+    "colors": [
+      "#ffffec",
+      "#fcd7ba",
+      "#f8af89",
+      "#c4815d",
+      "#8f5231"
+    ],
+    "tags": [
+      "nostalgic",
+      "nature",
+      "monochromatic"
+    ],
+    "mood": "nostalgic",
+    "category": "nature"
+  },
+  {
+    "id": "palette-324",
+    "name": "Warm Nature 324",
+    "colors": [
+      "#62e756",
+      "#d7bd00",
+      "#ff7f30",
+      "#ff3e8d",
+      "#db56e7"
+    ],
+    "tags": [
+      "warm",
+      "nature",
+      "complementary"
+    ],
+    "mood": "warm",
+    "category": "nature"
+  },
+  {
+    "id": "palette-325",
+    "name": "Soft Brand 325",
+    "colors": [
+      "#ef7b29",
+      "#29ef7b",
+      "#7b29ef",
+      "#ffab59",
+      "#b64d00"
+    ],
+    "tags": [
+      "soft",
+      "brand",
+      "triadic"
+    ],
+    "mood": "soft",
+    "category": "brand"
+  },
+  {
+    "id": "palette-326",
+    "name": "Minimal Retro 326",
+    "colors": [
+      "#148663",
+      "#631486",
+      "#866314",
+      "#51b791",
+      "#005839"
+    ],
+    "tags": [
+      "minimal",
+      "retro",
+      "triadic"
+    ],
+    "mood": "minimal",
+    "category": "retro"
+  },
+  {
+    "id": "palette-327",
+    "name": "Calm Retro 327",
+    "colors": [
+      "#253ab7",
+      "#b7253a",
+      "#3ab725",
+      "#6564ea",
+      "#001486"
+    ],
+    "tags": [
+      "calm",
+      "retro",
+      "triadic"
+    ],
+    "mood": "calm",
+    "category": "retro"
+  },
+  {
+    "id": "palette-328",
+    "name": "Nostalgic Retro 328",
+    "colors": [
+      "#cdffff",
+      "#94e9fc",
+      "#5cd3f9",
+      "#2ea3c7",
+      "#007395"
+    ],
+    "tags": [
+      "nostalgic",
+      "retro",
+      "monochromatic"
+    ],
+    "mood": "nostalgic",
+    "category": "retro"
+  },
+  {
+    "id": "palette-329",
+    "name": "Energetic Interior 329",
+    "colors": [
+      "#f857e1",
+      "#e1f857",
+      "#57e1f8",
+      "#ff8dff",
+      "#c210af"
+    ],
+    "tags": [
+      "energetic",
+      "interior",
+      "triadic"
+    ],
+    "mood": "energetic",
+    "category": "interior"
+  },
+  {
+    "id": "palette-330",
+    "name": "Soft Retro 330",
+    "colors": [
+      "#9e85bb",
+      "#b085bb",
+      "#bb85b4",
+      "#bb85a2",
+      "#bb8590"
+    ],
+    "tags": [
+      "soft",
+      "retro",
+      "analogous"
+    ],
+    "mood": "soft",
+    "category": "retro"
+  },
+  {
+    "id": "palette-331",
+    "name": "Calm Corporate 331",
+    "colors": [
+      "#61a015",
+      "#15a09a",
+      "#5415a0",
+      "#a0151c",
+      "#93d24c"
+    ],
+    "tags": [
+      "calm",
+      "corporate",
+      "tetradic"
+    ],
+    "mood": "calm",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-332",
+    "name": "Calm Brand 332",
+    "colors": [
+      "#0d5dce",
+      "#0d1cce",
+      "#3e0dce",
+      "#7e0dce",
+      "#bf0dce"
+    ],
+    "tags": [
+      "calm",
+      "brand",
+      "analogous"
+    ],
+    "mood": "calm",
+    "category": "brand"
+  },
+  {
+    "id": "palette-333",
+    "name": "Calm Retro 333",
+    "colors": [
+      "#e63f73",
+      "#e6423f",
+      "#e67a3f",
+      "#e6b23f",
+      "#e3e63f"
+    ],
+    "tags": [
+      "calm",
+      "retro",
+      "analogous"
+    ],
+    "mood": "calm",
+    "category": "retro"
+  },
+  {
+    "id": "palette-334",
+    "name": "Minimal Modern 334",
+    "colors": [
+      "#ff7e68",
+      "#68ff7e",
+      "#7e68ff",
+      "#ffaf96",
+      "#c74e3d"
+    ],
+    "tags": [
+      "minimal",
+      "modern",
+      "triadic"
+    ],
+    "mood": "minimal",
+    "category": "modern"
+  },
+  {
+    "id": "palette-335",
+    "name": "Pastel Fashion 335",
+    "colors": [
+      "#c46b5b",
+      "#5bc46b",
+      "#6b5bc4",
+      "#fa9a88",
+      "#903e31"
+    ],
+    "tags": [
+      "pastel",
+      "fashion",
+      "triadic"
+    ],
+    "mood": "pastel",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-336",
+    "name": "Energetic Tech 336",
+    "colors": [
+      "#9f90ff",
+      "#5164ec",
+      "#0237d8",
+      "#011ca6",
+      "#000075"
+    ],
+    "tags": [
+      "energetic",
+      "tech",
+      "monochromatic"
+    ],
+    "mood": "energetic",
+    "category": "tech"
+  },
+  {
+    "id": "palette-337",
+    "name": "Calm Brand 337",
+    "colors": [
+      "#022c3f",
+      "#1f2541",
+      "#371b36",
+      "#421221",
+      "#3f1502"
+    ],
+    "tags": [
+      "calm",
+      "brand",
+      "complementary"
+    ],
+    "mood": "calm",
+    "category": "brand"
+  },
+  {
+    "id": "palette-338",
+    "name": "Energetic Tech 338",
+    "colors": [
+      "#5192f4",
+      "#f451e3",
+      "#f4b351",
+      "#51f461",
+      "#8bc2ff"
+    ],
+    "tags": [
+      "energetic",
+      "tech",
+      "tetradic"
+    ],
+    "mood": "energetic",
+    "category": "tech"
+  },
+  {
+    "id": "palette-339",
+    "name": "Vibrant Tech 339",
+    "colors": [
+      "#e05c51",
+      "#e08b51",
+      "#e0bb51",
+      "#d5e051",
+      "#a6e051"
+    ],
+    "tags": [
+      "vibrant",
+      "tech",
+      "analogous"
+    ],
+    "mood": "vibrant",
+    "category": "tech"
+  },
+  {
+    "id": "palette-340",
+    "name": "Energetic Nature 340",
+    "colors": [
+      "#a87c59",
+      "#78512f",
+      "#482706",
+      "#251403",
+      "#020000"
+    ],
+    "tags": [
+      "energetic",
+      "nature",
+      "monochromatic"
+    ],
+    "mood": "energetic",
+    "category": "nature"
+  },
+  {
+    "id": "palette-341",
+    "name": "Calm Fashion 341",
+    "colors": [
+      "#427533",
+      "#334275",
+      "#753342",
+      "#70a45e",
+      "#134908"
+    ],
+    "tags": [
+      "calm",
+      "fashion",
+      "triadic"
+    ],
+    "mood": "calm",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-342",
+    "name": "Nostalgic Modern 342",
+    "colors": [
+      "#fcbc45",
+      "#fcf945",
+      "#c2fc45",
+      "#85fc45",
+      "#48fc45"
+    ],
+    "tags": [
+      "nostalgic",
+      "modern",
+      "analogous"
+    ],
+    "mood": "nostalgic",
+    "category": "modern"
+  },
+  {
+    "id": "palette-343",
+    "name": "Dark Corporate 343",
+    "colors": [
+      "#088633",
+      "#081c86",
+      "#86085b",
+      "#867208",
+      "#4eb75f"
+    ],
+    "tags": [
+      "dark",
+      "corporate",
+      "tetradic"
+    ],
+    "mood": "dark",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-344",
+    "name": "Nostalgic Modern 344",
+    "colors": [
+      "#861fa5",
+      "#cd005d",
+      "#cb4109",
+      "#9b7e00",
+      "#3ea51f"
+    ],
+    "tags": [
+      "nostalgic",
+      "modern",
+      "complementary"
+    ],
+    "mood": "nostalgic",
+    "category": "modern"
+  },
+  {
+    "id": "palette-345",
+    "name": "Energetic Minimal 345",
+    "colors": [
+      "#be75ec",
+      "#e575ec",
+      "#ec75cb",
+      "#ec75a3",
+      "#ec757c"
+    ],
+    "tags": [
+      "energetic",
+      "minimal",
+      "analogous"
+    ],
+    "mood": "energetic",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-346",
+    "name": "Soft Brand 346",
+    "colors": [
+      "#25f1dc",
+      "#25c2f1",
+      "#257ef1",
+      "#253af1",
+      "#5425f1"
+    ],
+    "tags": [
+      "soft",
+      "brand",
+      "analogous"
+    ],
+    "mood": "soft",
+    "category": "brand"
+  },
+  {
+    "id": "palette-347",
+    "name": "Soft Modern 347",
+    "colors": [
+      "#86d4ef",
+      "#86b1ef",
+      "#868eef",
+      "#a186ef",
+      "#c486ef"
+    ],
+    "tags": [
+      "soft",
+      "modern",
+      "analogous"
+    ],
+    "mood": "soft",
+    "category": "modern"
+  },
+  {
+    "id": "palette-348",
+    "name": "Professional Interior 348",
+    "colors": [
+      "#13da5d",
+      "#5d13da",
+      "#da5d13",
+      "#67ff8d",
+      "#00a72d"
+    ],
+    "tags": [
+      "professional",
+      "interior",
+      "triadic"
+    ],
+    "mood": "professional",
+    "category": "interior"
+  },
+  {
+    "id": "palette-349",
+    "name": "Nostalgic Retro 349",
+    "colors": [
+      "#ebeb7d",
+      "#b8ba4c",
+      "#85891c",
+      "#595e0e",
+      "#2e3200"
+    ],
+    "tags": [
+      "nostalgic",
+      "retro",
+      "monochromatic"
+    ],
+    "mood": "nostalgic",
+    "category": "retro"
+  },
+  {
+    "id": "palette-350",
+    "name": "Earthy Interior 350",
+    "colors": [
+      "#ffffff",
+      "#ffeaf3",
+      "#fed4e7",
+      "#cca4b6",
+      "#997485"
+    ],
+    "tags": [
+      "earthy",
+      "interior",
+      "monochromatic"
+    ],
+    "mood": "earthy",
+    "category": "interior"
+  },
+  {
+    "id": "palette-351",
+    "name": "Nostalgic Corporate 351",
+    "colors": [
+      "#eb9360",
+      "#60eb93",
+      "#9360eb",
+      "#ffc48e",
+      "#b56534"
+    ],
+    "tags": [
+      "nostalgic",
+      "corporate",
+      "triadic"
+    ],
+    "mood": "nostalgic",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-352",
+    "name": "Dark Modern 352",
+    "colors": [
+      "#2012f7",
+      "#6d12f7",
+      "#b912f7",
+      "#f712e9",
+      "#f7129c"
+    ],
+    "tags": [
+      "dark",
+      "modern",
+      "analogous"
+    ],
+    "mood": "dark",
+    "category": "modern"
+  },
+  {
+    "id": "palette-353",
+    "name": "Earthy Interior 353",
+    "colors": [
+      "#b066a6",
+      "#d16776",
+      "#c87e4d",
+      "#a19a47",
+      "#66b070"
+    ],
+    "tags": [
+      "earthy",
+      "interior",
+      "complementary"
+    ],
+    "mood": "earthy",
+    "category": "interior"
+  },
+  {
+    "id": "palette-354",
+    "name": "Professional Interior 354",
+    "colors": [
+      "#007448",
+      "#480074",
+      "#744800",
+      "#45a474",
+      "#004720"
+    ],
+    "tags": [
+      "professional",
+      "interior",
+      "triadic"
+    ],
+    "mood": "professional",
+    "category": "interior"
+  },
+  {
+    "id": "palette-355",
+    "name": "Earthy Retro 355",
+    "colors": [
+      "#9cba97",
+      "#97aeba",
+      "#b597ba",
+      "#baa397",
+      "#cdecc8"
+    ],
+    "tags": [
+      "earthy",
+      "retro",
+      "tetradic"
+    ],
+    "mood": "earthy",
+    "category": "retro"
+  },
+  {
+    "id": "palette-356",
+    "name": "Energetic Nature 356",
+    "colors": [
+      "#dc0712",
+      "#b97300",
+      "#88a311",
+      "#4cc479",
+      "#07dcd1"
+    ],
+    "tags": [
+      "energetic",
+      "nature",
+      "complementary"
+    ],
+    "mood": "energetic",
+    "category": "nature"
+  },
+  {
+    "id": "palette-357",
+    "name": "Energetic Modern 357",
+    "colors": [
+      "#3307c3",
+      "#c30739",
+      "#97c307",
+      "#07c391",
+      "#733ff7"
+    ],
+    "tags": [
+      "energetic",
+      "modern",
+      "tetradic"
+    ],
+    "mood": "energetic",
+    "category": "modern"
+  },
+  {
+    "id": "palette-358",
+    "name": "Energetic Nature 358",
+    "colors": [
+      "#d1428e",
+      "#d1425f",
+      "#d15542",
+      "#d18542",
+      "#d1b442"
+    ],
+    "tags": [
+      "energetic",
+      "nature",
+      "analogous"
+    ],
+    "mood": "energetic",
+    "category": "nature"
+  },
+  {
+    "id": "palette-359",
+    "name": "Minimal Minimal 359",
+    "colors": [
+      "#073348",
+      "#071e48",
+      "#070848",
+      "#1c0748",
+      "#310748"
+    ],
+    "tags": [
+      "minimal",
+      "minimal",
+      "analogous"
+    ],
+    "mood": "minimal",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-360",
+    "name": "Soft Retro 360",
+    "colors": [
+      "#10c6de",
+      "#1082de",
+      "#103dde",
+      "#2810de",
+      "#6c10de"
+    ],
+    "tags": [
+      "soft",
+      "retro",
+      "analogous"
+    ],
+    "mood": "soft",
+    "category": "retro"
+  },
+  {
+    "id": "palette-361",
+    "name": "Earthy Brand 361",
+    "colors": [
+      "#9c01d7",
+      "#d79c01",
+      "#01d79c",
+      "#d24fff",
+      "#6700a4"
+    ],
+    "tags": [
+      "earthy",
+      "brand",
+      "triadic"
+    ],
+    "mood": "earthy",
+    "category": "brand"
+  },
+  {
+    "id": "palette-362",
+    "name": "Earthy Fashion 362",
+    "colors": [
+      "#dece08",
+      "#08de63",
+      "#0818de",
+      "#de0883",
+      "#ffff52"
+    ],
+    "tags": [
+      "earthy",
+      "fashion",
+      "tetradic"
+    ],
+    "mood": "earthy",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-363",
+    "name": "Warm Corporate 363",
+    "colors": [
+      "#2cee6d",
+      "#6d2cee",
+      "#ee6d2c",
+      "#75ff9e",
+      "#00ba3e"
+    ],
+    "tags": [
+      "warm",
+      "corporate",
+      "triadic"
+    ],
+    "mood": "warm",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-364",
+    "name": "Nostalgic Minimal 364",
+    "colors": [
+      "#7723ab",
+      "#ab3323",
+      "#57ab23",
+      "#239bab",
+      "#aa55de"
+    ],
+    "tags": [
+      "nostalgic",
+      "minimal",
+      "tetradic"
+    ],
+    "mood": "nostalgic",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-365",
+    "name": "Calm Modern 365",
+    "colors": [
+      "#4b587a",
+      "#705572",
+      "#855660",
+      "#875f4f",
+      "#7a6d4b"
+    ],
+    "tags": [
+      "calm",
+      "modern",
+      "complementary"
+    ],
+    "mood": "calm",
+    "category": "modern"
+  },
+  {
+    "id": "palette-366",
+    "name": "Nostalgic Retro 366",
+    "colors": [
+      "#665b9c",
+      "#7b5b9c",
+      "#915b9c",
+      "#9c5b91",
+      "#9c5b7c"
+    ],
+    "tags": [
+      "nostalgic",
+      "retro",
+      "analogous"
+    ],
+    "mood": "nostalgic",
+    "category": "retro"
+  },
+  {
+    "id": "palette-367",
+    "name": "Minimal Minimal 367",
+    "colors": [
+      "#3808d9",
+      "#d93808",
+      "#08d938",
+      "#7b42ff",
+      "#0000a6"
+    ],
+    "tags": [
+      "minimal",
+      "minimal",
+      "triadic"
+    ],
+    "mood": "minimal",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-368",
+    "name": "Nostalgic Minimal 368",
+    "colors": [
+      "#f12d77",
+      "#77f12d",
+      "#2d77f1",
+      "#ff6aa6",
+      "#b9004c"
+    ],
+    "tags": [
+      "nostalgic",
+      "minimal",
+      "triadic"
+    ],
+    "mood": "nostalgic",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-369",
+    "name": "Soft Interior 369",
+    "colors": [
+      "#91fdc8",
+      "#5bcb98",
+      "#249869",
+      "#126a40",
+      "#003d17"
+    ],
+    "tags": [
+      "soft",
+      "interior",
+      "monochromatic"
+    ],
+    "mood": "soft",
+    "category": "interior"
+  },
+  {
+    "id": "palette-370",
+    "name": "Calm Retro 370",
+    "colors": [
+      "#146601",
+      "#5e4c00",
+      "#801f00",
+      "#820034",
+      "#530166"
+    ],
+    "tags": [
+      "calm",
+      "retro",
+      "complementary"
+    ],
+    "mood": "calm",
+    "category": "retro"
+  },
+  {
+    "id": "palette-371",
+    "name": "Minimal Tech 371",
+    "colors": [
+      "#ffa4c7",
+      "#f76d98",
+      "#ee3669",
+      "#b61b41",
+      "#7e001a"
+    ],
+    "tags": [
+      "minimal",
+      "tech",
+      "monochromatic"
+    ],
+    "mood": "minimal",
+    "category": "tech"
+  },
+  {
+    "id": "palette-372",
+    "name": "Energetic Nature 372",
+    "colors": [
+      "#c0f4ff",
+      "#8cc2e3",
+      "#5991c7",
+      "#2d6597",
+      "#003a68"
+    ],
+    "tags": [
+      "energetic",
+      "nature",
+      "monochromatic"
+    ],
+    "mood": "energetic",
+    "category": "nature"
+  },
+  {
+    "id": "palette-373",
+    "name": "Vibrant Modern 373",
+    "colors": [
+      "#e43686",
+      "#86e436",
+      "#3686e4",
+      "#ff6fb6",
+      "#ad0059"
+    ],
+    "tags": [
+      "vibrant",
+      "modern",
+      "triadic"
+    ],
+    "mood": "vibrant",
+    "category": "modern"
+  },
+  {
+    "id": "palette-374",
+    "name": "Nostalgic Nature 374",
+    "colors": [
+      "#d84d59",
+      "#9ed84d",
+      "#4dd8cc",
+      "#874dd8",
+      "#ff7f86"
+    ],
+    "tags": [
+      "nostalgic",
+      "nature",
+      "tetradic"
+    ],
+    "mood": "nostalgic",
+    "category": "nature"
+  },
+  {
+    "id": "palette-375",
+    "name": "Earthy Tech 375",
+    "colors": [
+      "#1590d6",
+      "#877bd6",
+      "#cc5bae",
+      "#e94569",
+      "#d65b15"
+    ],
+    "tags": [
+      "earthy",
+      "tech",
+      "complementary"
+    ],
+    "mood": "earthy",
+    "category": "tech"
+  },
+  {
+    "id": "palette-376",
+    "name": "Minimal Brand 376",
+    "colors": [
+      "#ad3836",
+      "#70ad36",
+      "#36abad",
+      "#7436ad",
+      "#e46860"
+    ],
+    "tags": [
+      "minimal",
+      "brand",
+      "tetradic"
+    ],
+    "mood": "minimal",
+    "category": "brand"
+  },
+  {
+    "id": "palette-377",
+    "name": "Earthy Brand 377",
+    "colors": [
+      "#01b719",
+      "#1901b7",
+      "#b71901",
+      "#5ceb51",
+      "#008600"
+    ],
+    "tags": [
+      "earthy",
+      "brand",
+      "triadic"
+    ],
+    "mood": "earthy",
+    "category": "brand"
+  },
+  {
+    "id": "palette-378",
+    "name": "Earthy Corporate 378",
+    "colors": [
+      "#a2ffde",
+      "#6bd8ae",
+      "#35b17d",
+      "#1b8252",
+      "#005228"
+    ],
+    "tags": [
+      "earthy",
+      "corporate",
+      "monochromatic"
+    ],
+    "mood": "earthy",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-379",
+    "name": "Professional Interior 379",
+    "colors": [
+      "#a2ffff",
+      "#54ddf2",
+      "#07bae4",
+      "#048bb3",
+      "#005c82"
+    ],
+    "tags": [
+      "professional",
+      "interior",
+      "monochromatic"
+    ],
+    "mood": "professional",
+    "category": "interior"
+  },
+  {
+    "id": "palette-380",
+    "name": "Calm Tech 380",
+    "colors": [
+      "#18ad96",
+      "#4b18ad",
+      "#ad182f",
+      "#7aad18",
+      "#5edfc7"
+    ],
+    "tags": [
+      "calm",
+      "tech",
+      "tetradic"
+    ],
+    "mood": "calm",
+    "category": "tech"
+  },
+  {
+    "id": "palette-381",
+    "name": "Pastel Retro 381",
+    "colors": [
+      "#adc547",
+      "#47c59e",
+      "#5f47c5",
+      "#c5476e",
+      "#e1f878"
+    ],
+    "tags": [
+      "pastel",
+      "retro",
+      "tetradic"
+    ],
+    "mood": "pastel",
+    "category": "retro"
+  },
+  {
+    "id": "palette-382",
+    "name": "Soft Fashion 382",
+    "colors": [
+      "#929dc3",
+      "#9892c3",
+      "#a892c3",
+      "#b892c3",
+      "#c392bd"
+    ],
+    "tags": [
+      "soft",
+      "fashion",
+      "analogous"
+    ],
+    "mood": "soft",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-383",
+    "name": "Warm Retro 383",
+    "colors": [
+      "#35e5d2",
+      "#35bee5",
+      "#3583e5",
+      "#3548e5",
+      "#5c35e5"
+    ],
+    "tags": [
+      "warm",
+      "retro",
+      "analogous"
+    ],
+    "mood": "warm",
+    "category": "retro"
+  },
+  {
+    "id": "palette-384",
+    "name": "Vibrant Modern 384",
+    "colors": [
+      "#f2bfff",
+      "#c08fd0",
+      "#8e60a0",
+      "#613573",
+      "#330b45"
+    ],
+    "tags": [
+      "vibrant",
+      "modern",
+      "monochromatic"
+    ],
+    "mood": "vibrant",
+    "category": "modern"
+  },
+  {
+    "id": "palette-385",
+    "name": "Warm Retro 385",
+    "colors": [
+      "#888a1d",
+      "#638a1d",
+      "#3f8a1d",
+      "#1d8a1f",
+      "#1d8a44"
+    ],
+    "tags": [
+      "warm",
+      "retro",
+      "analogous"
+    ],
+    "mood": "warm",
+    "category": "retro"
+  },
+  {
+    "id": "palette-386",
+    "name": "Earthy Brand 386",
+    "colors": [
+      "#ffc8ff",
+      "#e896f5",
+      "#d063ea",
+      "#9d32b8",
+      "#6a0086"
+    ],
+    "tags": [
+      "earthy",
+      "brand",
+      "monochromatic"
+    ],
+    "mood": "earthy",
+    "category": "brand"
+  },
+  {
+    "id": "palette-387",
+    "name": "Minimal Minimal 387",
+    "colors": [
+      "#5e3cf5",
+      "#f53c76",
+      "#d3f53c",
+      "#3cf5bb",
+      "#996bff"
+    ],
+    "tags": [
+      "minimal",
+      "minimal",
+      "tetradic"
+    ],
+    "mood": "minimal",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-388",
+    "name": "Soft Nature 388",
+    "colors": [
+      "#ffde9e",
+      "#eaad70",
+      "#d47c42",
+      "#9f5021",
+      "#6a2400"
+    ],
+    "tags": [
+      "soft",
+      "nature",
+      "monochromatic"
+    ],
+    "mood": "soft",
+    "category": "nature"
+  },
+  {
+    "id": "palette-389",
+    "name": "Warm Brand 389",
+    "colors": [
+      "#3a6274",
+      "#3a4e74",
+      "#3a3b74",
+      "#4c3a74",
+      "#603a74"
+    ],
+    "tags": [
+      "warm",
+      "brand",
+      "analogous"
+    ],
+    "mood": "warm",
+    "category": "brand"
+  },
+  {
+    "id": "palette-390",
+    "name": "Nostalgic Tech 390",
+    "colors": [
+      "#1c3047",
+      "#471c30",
+      "#30471c",
+      "#475973",
+      "#000620"
+    ],
+    "tags": [
+      "nostalgic",
+      "tech",
+      "triadic"
+    ],
+    "mood": "nostalgic",
+    "category": "tech"
+  },
+  {
+    "id": "palette-391",
+    "name": "Soft Fashion 391",
+    "colors": [
+      "#ccc934",
+      "#34cc7d",
+      "#3437cc",
+      "#cc3483",
+      "#fffc68"
+    ],
+    "tags": [
+      "soft",
+      "fashion",
+      "tetradic"
+    ],
+    "mood": "soft",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-392",
+    "name": "Calm Corporate 392",
+    "colors": [
+      "#ca7ec1",
+      "#995092",
+      "#682263",
+      "#43113c",
+      "#1e0015"
+    ],
+    "tags": [
+      "calm",
+      "corporate",
+      "monochromatic"
+    ],
+    "mood": "calm",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-393",
+    "name": "Soft Tech 393",
+    "colors": [
+      "#5c3b25",
+      "#2b5c25",
+      "#25465c",
+      "#56255c",
+      "#8b654d"
+    ],
+    "tags": [
+      "soft",
+      "tech",
+      "tetradic"
+    ],
+    "mood": "soft",
+    "category": "tech"
+  },
+  {
+    "id": "palette-394",
+    "name": "Dark Minimal 394",
+    "colors": [
+      "#e547e9",
+      "#e99447",
+      "#4be947",
+      "#479ce9",
+      "#ff7eff"
+    ],
+    "tags": [
+      "dark",
+      "minimal",
+      "tetradic"
+    ],
+    "mood": "dark",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-395",
+    "name": "Earthy Interior 395",
+    "colors": [
+      "#450a81",
+      "#6c0a81",
+      "#810a6e",
+      "#810a46",
+      "#810a1f"
+    ],
+    "tags": [
+      "earthy",
+      "interior",
+      "analogous"
+    ],
+    "mood": "earthy",
+    "category": "interior"
+  },
+  {
+    "id": "palette-396",
+    "name": "Vibrant Modern 396",
+    "colors": [
+      "#d10d18",
+      "#18d10d",
+      "#0d18d1",
+      "#ff5442",
+      "#970000"
+    ],
+    "tags": [
+      "vibrant",
+      "modern",
+      "triadic"
+    ],
+    "mood": "vibrant",
+    "category": "modern"
+  },
+  {
+    "id": "palette-397",
+    "name": "Nostalgic Corporate 397",
+    "colors": [
+      "#d1560c",
+      "#0cd156",
+      "#560cd1",
+      "#ff863f",
+      "#992600"
+    ],
+    "tags": [
+      "nostalgic",
+      "corporate",
+      "triadic"
+    ],
+    "mood": "nostalgic",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-398",
+    "name": "Pastel Retro 398",
+    "colors": [
+      "#3ea8cc",
+      "#a93ecc",
+      "#cc623e",
+      "#61cc3e",
+      "#78daff"
+    ],
+    "tags": [
+      "pastel",
+      "retro",
+      "tetradic"
+    ],
+    "mood": "pastel",
+    "category": "retro"
+  },
+  {
+    "id": "palette-399",
+    "name": "Warm Interior 399",
+    "colors": [
+      "#1ce840",
+      "#401ce8",
+      "#e8401c",
+      "#6fff73",
+      "#00b400"
+    ],
+    "tags": [
+      "warm",
+      "interior",
+      "triadic"
+    ],
+    "mood": "warm",
+    "category": "interior"
+  },
+  {
+    "id": "palette-400",
+    "name": "Warm Modern 400",
+    "colors": [
+      "#7eb58a",
+      "#7eb59d",
+      "#7eb5af",
+      "#7ea9b5",
+      "#7e96b5"
+    ],
+    "tags": [
+      "warm",
+      "modern",
+      "analogous"
+    ],
+    "mood": "warm",
+    "category": "modern"
+  },
+  {
+    "id": "palette-401",
+    "name": "Pastel Brand 401",
+    "colors": [
+      "#fffffd",
+      "#e5f7cb",
+      "#caee98",
+      "#99bd6a",
+      "#688b3c"
+    ],
+    "tags": [
+      "pastel",
+      "brand",
+      "monochromatic"
+    ],
+    "mood": "pastel",
+    "category": "brand"
+  },
+  {
+    "id": "palette-402",
+    "name": "Warm Modern 402",
+    "colors": [
+      "#deffbd",
+      "#a8f18c",
+      "#73e35a",
+      "#3ab12d",
+      "#007f00"
+    ],
+    "tags": [
+      "warm",
+      "modern",
+      "monochromatic"
+    ],
+    "mood": "warm",
+    "category": "modern"
+  },
+  {
+    "id": "palette-403",
+    "name": "Vibrant Modern 403",
+    "colors": [
+      "#2d49fa",
+      "#fa2d49",
+      "#49fa2d",
+      "#7875ff",
+      "#0020c6"
+    ],
+    "tags": [
+      "vibrant",
+      "modern",
+      "triadic"
+    ],
+    "mood": "vibrant",
+    "category": "modern"
+  },
+  {
+    "id": "palette-404",
+    "name": "Calm Tech 404",
+    "colors": [
+      "#b78865",
+      "#c27f81",
+      "#b481a2",
+      "#8f8bb7",
+      "#6594b7"
+    ],
+    "tags": [
+      "calm",
+      "tech",
+      "complementary"
+    ],
+    "mood": "calm",
+    "category": "tech"
+  },
+  {
+    "id": "palette-405",
+    "name": "Warm Fashion 405",
+    "colors": [
+      "#886bee",
+      "#fd58b8",
+      "#ff7b74",
+      "#ffb84b",
+      "#d1ee6b"
+    ],
+    "tags": [
+      "warm",
+      "fashion",
+      "complementary"
+    ],
+    "mood": "warm",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-406",
+    "name": "Dark Corporate 406",
+    "colors": [
+      "#a2e664",
+      "#64a2e6",
+      "#e664a2",
+      "#d6ff95",
+      "#70b333"
+    ],
+    "tags": [
+      "dark",
+      "corporate",
+      "triadic"
+    ],
+    "mood": "dark",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-407",
+    "name": "Earthy Fashion 407",
+    "colors": [
+      "#bcff91",
+      "#7bf956",
+      "#3bf31a",
+      "#1ec00d",
+      "#008d00"
+    ],
+    "tags": [
+      "earthy",
+      "fashion",
+      "monochromatic"
+    ],
+    "mood": "earthy",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-408",
+    "name": "Minimal Minimal 408",
+    "colors": [
+      "#a6175b",
+      "#5ba617",
+      "#175ba6",
+      "#dc5188",
+      "#720032"
+    ],
+    "tags": [
+      "minimal",
+      "minimal",
+      "triadic"
+    ],
+    "mood": "minimal",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-409",
+    "name": "Calm Minimal 409",
+    "colors": [
+      "#63744c",
+      "#4c7471",
+      "#5d4c74",
+      "#744c4f",
+      "#91a378"
+    ],
+    "tags": [
+      "calm",
+      "minimal",
+      "tetradic"
+    ],
+    "mood": "calm",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-410",
+    "name": "Warm Modern 410",
+    "colors": [
+      "#f27458",
+      "#89f258",
+      "#58d6f2",
+      "#c158f2",
+      "#ffa585"
+    ],
+    "tags": [
+      "warm",
+      "modern",
+      "tetradic"
+    ],
+    "mood": "warm",
+    "category": "modern"
+  },
+  {
+    "id": "palette-411",
+    "name": "Soft Corporate 411",
+    "colors": [
+      "#430ecf",
+      "#840ecf",
+      "#c40ecf",
+      "#cf0e9a",
+      "#cf0e59"
+    ],
+    "tags": [
+      "soft",
+      "corporate",
+      "analogous"
+    ],
+    "mood": "soft",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-412",
+    "name": "Professional Fashion 412",
+    "colors": [
+      "#ad4c15",
+      "#ad7e15",
+      "#a9ad15",
+      "#76ad15",
+      "#44ad15"
+    ],
+    "tags": [
+      "professional",
+      "fashion",
+      "analogous"
+    ],
+    "mood": "professional",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-413",
+    "name": "Vibrant Brand 413",
+    "colors": [
+      "#8447af",
+      "#a647af",
+      "#af4795",
+      "#af4772",
+      "#af4750"
+    ],
+    "tags": [
+      "vibrant",
+      "brand",
+      "analogous"
+    ],
+    "mood": "vibrant",
+    "category": "brand"
+  },
+  {
+    "id": "palette-414",
+    "name": "Soft Minimal 414",
+    "colors": [
+      "#abffff",
+      "#67f5d7",
+      "#23eaae",
+      "#12b880",
+      "#008552"
+    ],
+    "tags": [
+      "soft",
+      "minimal",
+      "monochromatic"
+    ],
+    "mood": "soft",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-415",
+    "name": "Professional Modern 415",
+    "colors": [
+      "#ff98cd",
+      "#f35d9d",
+      "#e6226e",
+      "#ae1146",
+      "#76001e"
+    ],
+    "tags": [
+      "professional",
+      "modern",
+      "monochromatic"
+    ],
+    "mood": "professional",
+    "category": "modern"
+  },
+  {
+    "id": "palette-416",
+    "name": "Pastel Retro 416",
+    "colors": [
+      "#31581d",
+      "#1d3158",
+      "#581d31",
+      "#5d8547",
+      "#092e00"
+    ],
+    "tags": [
+      "pastel",
+      "retro",
+      "triadic"
+    ],
+    "mood": "pastel",
+    "category": "retro"
+  },
+  {
+    "id": "palette-417",
+    "name": "Energetic Interior 417",
+    "colors": [
+      "#212a63",
+      "#2e2163",
+      "#442163",
+      "#5a2163",
+      "#632156"
+    ],
+    "tags": [
+      "energetic",
+      "interior",
+      "analogous"
+    ],
+    "mood": "energetic",
+    "category": "interior"
+  },
+  {
+    "id": "palette-418",
+    "name": "Calm Retro 418",
+    "colors": [
+      "#a8dd99",
+      "#99dda0",
+      "#99ddb7",
+      "#99ddce",
+      "#99d6dd"
+    ],
+    "tags": [
+      "calm",
+      "retro",
+      "analogous"
+    ],
+    "mood": "calm",
+    "category": "retro"
+  },
+  {
+    "id": "palette-419",
+    "name": "Dark Minimal 419",
+    "colors": [
+      "#ffb1ff",
+      "#ce81d0",
+      "#9d51a1",
+      "#6e2974",
+      "#3f0046"
+    ],
+    "tags": [
+      "dark",
+      "minimal",
+      "monochromatic"
+    ],
+    "mood": "dark",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-420",
+    "name": "Calm Brand 420",
+    "colors": [
+      "#aa8354",
+      "#b97369",
+      "#b06d8a",
+      "#8c73a4",
+      "#547baa"
+    ],
+    "tags": [
+      "calm",
+      "brand",
+      "complementary"
+    ],
+    "mood": "calm",
+    "category": "brand"
+  },
+  {
+    "id": "palette-421",
+    "name": "Professional Interior 421",
+    "colors": [
+      "#30b508",
+      "#08b519",
+      "#08b553",
+      "#08b58d",
+      "#08a4b5"
+    ],
+    "tags": [
+      "professional",
+      "interior",
+      "analogous"
+    ],
+    "mood": "professional",
+    "category": "interior"
+  },
+  {
+    "id": "palette-422",
+    "name": "Earthy Interior 422",
+    "colors": [
+      "#3f39b9",
+      "#b93f39",
+      "#39b93f",
+      "#7764ec",
+      "#001188"
+    ],
+    "tags": [
+      "earthy",
+      "interior",
+      "triadic"
+    ],
+    "mood": "earthy",
+    "category": "interior"
+  },
+  {
+    "id": "palette-423",
+    "name": "Calm Corporate 423",
+    "colors": [
+      "#ffa3ff",
+      "#d371e8",
+      "#a73fd0",
+      "#74209f",
+      "#41006e"
+    ],
+    "tags": [
+      "calm",
+      "corporate",
+      "monochromatic"
+    ],
+    "mood": "calm",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-424",
+    "name": "Professional Fashion 424",
+    "colors": [
+      "#cc41f0",
+      "#f041d9",
+      "#f0419f",
+      "#f04165",
+      "#f05841"
+    ],
+    "tags": [
+      "professional",
+      "fashion",
+      "analogous"
+    ],
+    "mood": "professional",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-425",
+    "name": "Earthy Modern 425",
+    "colors": [
+      "#5417e3",
+      "#9817e3",
+      "#dc17e3",
+      "#e317a6",
+      "#e31762"
+    ],
+    "tags": [
+      "earthy",
+      "modern",
+      "analogous"
+    ],
+    "mood": "earthy",
+    "category": "modern"
+  },
+  {
+    "id": "palette-426",
+    "name": "Pastel Minimal 426",
+    "colors": [
+      "#d33b5a",
+      "#cc6d30",
+      "#aa9930",
+      "#7bba67",
+      "#3bd3b4"
+    ],
+    "tags": [
+      "pastel",
+      "minimal",
+      "complementary"
+    ],
+    "mood": "pastel",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-427",
+    "name": "Minimal Tech 427",
+    "colors": [
+      "#fff8f9",
+      "#f7c5c8",
+      "#ef9396",
+      "#bb656a",
+      "#87373e"
+    ],
+    "tags": [
+      "minimal",
+      "tech",
+      "monochromatic"
+    ],
+    "mood": "minimal",
+    "category": "tech"
+  },
+  {
+    "id": "palette-428",
+    "name": "Minimal Brand 428",
+    "colors": [
+      "#f01cb1",
+      "#f01c6b",
+      "#f01c24",
+      "#f05b1c",
+      "#f0a11c"
+    ],
+    "tags": [
+      "minimal",
+      "brand",
+      "analogous"
+    ],
+    "mood": "minimal",
+    "category": "brand"
+  },
+  {
+    "id": "palette-429",
+    "name": "Calm Fashion 429",
+    "colors": [
+      "#d5ffff",
+      "#9fd5ff",
+      "#68aafe",
+      "#347dcc",
+      "#005099"
+    ],
+    "tags": [
+      "calm",
+      "fashion",
+      "monochromatic"
+    ],
+    "mood": "calm",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-430",
+    "name": "Earthy Corporate 430",
+    "colors": [
+      "#56ca68",
+      "#6856ca",
+      "#ca6856",
+      "#8bfe97",
+      "#13983b"
+    ],
+    "tags": [
+      "earthy",
+      "corporate",
+      "triadic"
+    ],
+    "mood": "earthy",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-431",
+    "name": "Nostalgic Corporate 431",
+    "colors": [
+      "#670460",
+      "#87002f",
+      "#7f2d00",
+      "#5a5100",
+      "#04670b"
+    ],
+    "tags": [
+      "nostalgic",
+      "corporate",
+      "complementary"
+    ],
+    "mood": "nostalgic",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-432",
+    "name": "Calm Fashion 432",
+    "colors": [
+      "#ff9dff",
+      "#f062e7",
+      "#e026ce",
+      "#ab139e",
+      "#76006d"
+    ],
+    "tags": [
+      "calm",
+      "fashion",
+      "monochromatic"
+    ],
+    "mood": "calm",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-433",
+    "name": "Soft Fashion 433",
+    "colors": [
+      "#a2158f",
+      "#8fa215",
+      "#158fa2",
+      "#d652c0",
+      "#6f0061"
+    ],
+    "tags": [
+      "soft",
+      "fashion",
+      "triadic"
+    ],
+    "mood": "soft",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-434",
+    "name": "Dark Retro 434",
+    "colors": [
+      "#9ffff8",
+      "#57ecc6",
+      "#0ed894",
+      "#07a667",
+      "#00753b"
+    ],
+    "tags": [
+      "dark",
+      "retro",
+      "monochromatic"
+    ],
+    "mood": "dark",
+    "category": "retro"
+  },
+  {
+    "id": "palette-435",
+    "name": "Calm Fashion 435",
+    "colors": [
+      "#92da72",
+      "#dab643",
+      "#ff895e",
+      "#ff689d",
+      "#ba72da"
+    ],
+    "tags": [
+      "calm",
+      "fashion",
+      "complementary"
+    ],
+    "mood": "calm",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-436",
+    "name": "Vibrant Tech 436",
+    "colors": [
+      "#872873",
+      "#738728",
+      "#287387",
+      "#b958a2",
+      "#570047"
+    ],
+    "tags": [
+      "vibrant",
+      "tech",
+      "triadic"
+    ],
+    "mood": "vibrant",
+    "category": "tech"
+  },
+  {
+    "id": "palette-437",
+    "name": "Energetic Brand 437",
+    "colors": [
+      "#068dc9",
+      "#064cc9",
+      "#060bc9",
+      "#4206c9",
+      "#8306c9"
+    ],
+    "tags": [
+      "energetic",
+      "brand",
+      "analogous"
+    ],
+    "mood": "energetic",
+    "category": "brand"
+  },
+  {
+    "id": "palette-438",
+    "name": "Warm Tech 438",
+    "colors": [
+      "#153df7",
+      "#eb00b7",
+      "#ff006a",
+      "#ff8527",
+      "#f7cf15"
+    ],
+    "tags": [
+      "warm",
+      "tech",
+      "complementary"
+    ],
+    "mood": "warm",
+    "category": "tech"
+  },
+  {
+    "id": "palette-439",
+    "name": "Nostalgic Interior 439",
+    "colors": [
+      "#84e77a",
+      "#7ae795",
+      "#7ae7b9",
+      "#7ae7dd",
+      "#7acce7"
+    ],
+    "tags": [
+      "nostalgic",
+      "interior",
+      "analogous"
+    ],
+    "mood": "nostalgic",
+    "category": "interior"
+  },
+  {
+    "id": "palette-440",
+    "name": "Earthy Corporate 440",
+    "colors": [
+      "#acad2f",
+      "#82ad2f",
+      "#58ad2f",
+      "#2fad30",
+      "#2fad5a"
+    ],
+    "tags": [
+      "earthy",
+      "corporate",
+      "analogous"
+    ],
+    "mood": "earthy",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-441",
+    "name": "Earthy Minimal 441",
+    "colors": [
+      "#c98c90",
+      "#c99d8c",
+      "#c9b18c",
+      "#c9c58c",
+      "#b8c98c"
+    ],
+    "tags": [
+      "earthy",
+      "minimal",
+      "analogous"
+    ],
+    "mood": "earthy",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-442",
+    "name": "Dark Retro 442",
+    "colors": [
+      "#a98470",
+      "#af8187",
+      "#a2859f",
+      "#888dac",
+      "#7095a9"
+    ],
+    "tags": [
+      "dark",
+      "retro",
+      "complementary"
+    ],
+    "mood": "dark",
+    "category": "retro"
+  },
+  {
+    "id": "palette-443",
+    "name": "Energetic Modern 443",
+    "colors": [
+      "#fc947f",
+      "#fcbd7f",
+      "#fce77f",
+      "#e7fc7f",
+      "#befc7f"
+    ],
+    "tags": [
+      "energetic",
+      "modern",
+      "analogous"
+    ],
+    "mood": "energetic",
+    "category": "modern"
+  },
+  {
+    "id": "palette-444",
+    "name": "Calm Interior 444",
+    "colors": [
+      "#7210c3",
+      "#ad10c3",
+      "#c3109d",
+      "#c31061",
+      "#c31026"
+    ],
+    "tags": [
+      "calm",
+      "interior",
+      "analogous"
+    ],
+    "mood": "calm",
+    "category": "interior"
+  },
+  {
+    "id": "palette-445",
+    "name": "Soft Fashion 445",
+    "colors": [
+      "#162191",
+      "#90006a",
+      "#b2123a",
+      "#ad5710",
+      "#918616"
+    ],
+    "tags": [
+      "soft",
+      "fashion",
+      "complementary"
+    ],
+    "mood": "soft",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-446",
+    "name": "Professional Interior 446",
+    "colors": [
+      "#c98ee8",
+      "#9860b6",
+      "#673385",
+      "#401a5a",
+      "#1a002e"
+    ],
+    "tags": [
+      "professional",
+      "interior",
+      "monochromatic"
+    ],
+    "mood": "professional",
+    "category": "interior"
+  },
+  {
+    "id": "palette-447",
+    "name": "Warm Brand 447",
+    "colors": [
+      "#22cb52",
+      "#a3a600",
+      "#de7300",
+      "#f13053",
+      "#cb229b"
+    ],
+    "tags": [
+      "warm",
+      "brand",
+      "complementary"
+    ],
+    "mood": "warm",
+    "category": "brand"
+  },
+  {
+    "id": "palette-448",
+    "name": "Pastel Minimal 448",
+    "colors": [
+      "#0650e4",
+      "#c521b7",
+      "#fc1778",
+      "#ff603d",
+      "#e49a06"
+    ],
+    "tags": [
+      "pastel",
+      "minimal",
+      "complementary"
+    ],
+    "mood": "pastel",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-449",
+    "name": "Nostalgic Retro 449",
+    "colors": [
+      "#ffcdc4",
+      "#e59c95",
+      "#cb6b66",
+      "#973c3e",
+      "#640d16"
+    ],
+    "tags": [
+      "nostalgic",
+      "retro",
+      "monochromatic"
+    ],
+    "mood": "nostalgic",
+    "category": "retro"
+  },
+  {
+    "id": "palette-450",
+    "name": "Pastel Fashion 450",
+    "colors": [
+      "#2d37b8",
+      "#b82d7c",
+      "#b8ae2d",
+      "#2db868",
+      "#6a62eb"
+    ],
+    "tags": [
+      "pastel",
+      "fashion",
+      "tetradic"
+    ],
+    "mood": "pastel",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-451",
+    "name": "Minimal Brand 451",
+    "colors": [
+      "#6daa62",
+      "#62aa6f",
+      "#62aa87",
+      "#62aa9f",
+      "#629daa"
+    ],
+    "tags": [
+      "minimal",
+      "brand",
+      "analogous"
+    ],
+    "mood": "minimal",
+    "category": "brand"
+  },
+  {
+    "id": "palette-452",
+    "name": "Pastel Retro 452",
+    "colors": [
+      "#23b2c2",
+      "#8323c2",
+      "#c23323",
+      "#62c223",
+      "#68e4f5"
+    ],
+    "tags": [
+      "pastel",
+      "retro",
+      "tetradic"
+    ],
+    "mood": "pastel",
+    "category": "retro"
+  },
+  {
+    "id": "palette-453",
+    "name": "Nostalgic Interior 453",
+    "colors": [
+      "#f30e9f",
+      "#9ff30e",
+      "#0e9ff3",
+      "#ff5fd0",
+      "#bb0070"
+    ],
+    "tags": [
+      "nostalgic",
+      "interior",
+      "triadic"
+    ],
+    "mood": "nostalgic",
+    "category": "interior"
+  },
+  {
+    "id": "palette-454",
+    "name": "Calm Brand 454",
+    "colors": [
+      "#feb3cd",
+      "#feb3b4",
+      "#fecbb3",
+      "#fee4b3",
+      "#fefdb3"
+    ],
+    "tags": [
+      "calm",
+      "brand",
+      "analogous"
+    ],
+    "mood": "calm",
+    "category": "brand"
+  },
+  {
+    "id": "palette-455",
+    "name": "Dark Tech 455",
+    "colors": [
+      "#667714",
+      "#885000",
+      "#951422",
+      "#7f004f",
+      "#251477"
+    ],
+    "tags": [
+      "dark",
+      "tech",
+      "complementary"
+    ],
+    "mood": "dark",
+    "category": "tech"
+  },
+  {
+    "id": "palette-456",
+    "name": "Minimal Corporate 456",
+    "colors": [
+      "#9786a7",
+      "#6b5b79",
+      "#3e304c",
+      "#1f1826",
+      "#000000"
+    ],
+    "tags": [
+      "minimal",
+      "corporate",
+      "monochromatic"
+    ],
+    "mood": "minimal",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-457",
+    "name": "Minimal Corporate 457",
+    "colors": [
+      "#369f25",
+      "#25739f",
+      "#8e259f",
+      "#9f5125",
+      "#6dd156"
+    ],
+    "tags": [
+      "minimal",
+      "corporate",
+      "tetradic"
+    ],
+    "mood": "minimal",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-458",
+    "name": "Pastel Brand 458",
+    "colors": [
+      "#0eb63b",
+      "#0e35b6",
+      "#b60e89",
+      "#b68f0e",
+      "#5de96b"
+    ],
+    "tags": [
+      "pastel",
+      "brand",
+      "tetradic"
+    ],
+    "mood": "pastel",
+    "category": "brand"
+  },
+  {
+    "id": "palette-459",
+    "name": "Vibrant Nature 459",
+    "colors": [
+      "#b5d376",
+      "#76d3c3",
+      "#9476d3",
+      "#d37686",
+      "#e8ffa6"
+    ],
+    "tags": [
+      "vibrant",
+      "nature",
+      "tetradic"
+    ],
+    "mood": "vibrant",
+    "category": "nature"
+  },
+  {
+    "id": "palette-460",
+    "name": "Calm Retro 460",
+    "colors": [
+      "#ecffaa",
+      "#b5f776",
+      "#7fef42",
+      "#40bd21",
+      "#008a00"
+    ],
+    "tags": [
+      "calm",
+      "retro",
+      "monochromatic"
+    ],
+    "mood": "calm",
+    "category": "retro"
+  },
+  {
+    "id": "palette-461",
+    "name": "Warm Tech 461",
+    "colors": [
+      "#6c1822",
+      "#64370c",
+      "#4f4e14",
+      "#355f38",
+      "#186c62"
+    ],
+    "tags": [
+      "warm",
+      "tech",
+      "complementary"
+    ],
+    "mood": "warm",
+    "category": "tech"
+  },
+  {
+    "id": "palette-462",
+    "name": "Vibrant Interior 462",
+    "colors": [
+      "#b6c004",
+      "#78c004",
+      "#39c004",
+      "#04c00e",
+      "#04c04c"
+    ],
+    "tags": [
+      "vibrant",
+      "interior",
+      "analogous"
+    ],
+    "mood": "vibrant",
+    "category": "interior"
+  },
+  {
+    "id": "palette-463",
+    "name": "Calm Retro 463",
+    "colors": [
+      "#5e8c5b",
+      "#306032",
+      "#033409",
+      "#021a05",
+      "#000000"
+    ],
+    "tags": [
+      "calm",
+      "retro",
+      "monochromatic"
+    ],
+    "mood": "calm",
+    "category": "retro"
+  },
+  {
+    "id": "palette-464",
+    "name": "Vibrant Retro 464",
+    "colors": [
+      "#9bb36f",
+      "#6f9bb3",
+      "#b36f9b",
+      "#cde59e",
+      "#6c8343"
+    ],
+    "tags": [
+      "vibrant",
+      "retro",
+      "triadic"
+    ],
+    "mood": "vibrant",
+    "category": "retro"
+  },
+  {
+    "id": "palette-465",
+    "name": "Dark Nature 465",
+    "colors": [
+      "#ddfffd",
+      "#a9efcb",
+      "#75df99",
+      "#3bae6c",
+      "#007c3f"
+    ],
+    "tags": [
+      "dark",
+      "nature",
+      "monochromatic"
+    ],
+    "mood": "dark",
+    "category": "nature"
+  },
+  {
+    "id": "palette-466",
+    "name": "Calm Corporate 466",
+    "colors": [
+      "#a632ec",
+      "#ff008e",
+      "#ff5624",
+      "#e6b100",
+      "#78ec32"
+    ],
+    "tags": [
+      "calm",
+      "corporate",
+      "complementary"
+    ],
+    "mood": "calm",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-467",
+    "name": "Pastel Modern 467",
+    "colors": [
+      "#6fa035",
+      "#4ca035",
+      "#35a042",
+      "#35a066",
+      "#35a089"
+    ],
+    "tags": [
+      "pastel",
+      "modern",
+      "analogous"
+    ],
+    "mood": "pastel",
+    "category": "modern"
+  },
+  {
+    "id": "palette-468",
+    "name": "Pastel Retro 468",
+    "colors": [
+      "#9b5bf4",
+      "#f49b5b",
+      "#5bf49b",
+      "#d08bff",
+      "#662cc0"
+    ],
+    "tags": [
+      "pastel",
+      "retro",
+      "triadic"
+    ],
+    "mood": "pastel",
+    "category": "retro"
+  },
+  {
+    "id": "palette-469",
+    "name": "Soft Fashion 469",
+    "colors": [
+      "#ffff91",
+      "#cff157",
+      "#9ee31e",
+      "#68b20f",
+      "#338000"
+    ],
+    "tags": [
+      "soft",
+      "fashion",
+      "monochromatic"
+    ],
+    "mood": "soft",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-470",
+    "name": "Pastel Tech 470",
+    "colors": [
+      "#48075c",
+      "#5c1d07",
+      "#1b5c07",
+      "#07465c",
+      "#76388a"
+    ],
+    "tags": [
+      "pastel",
+      "tech",
+      "tetradic"
+    ],
+    "mood": "pastel",
+    "category": "tech"
+  },
+  {
+    "id": "palette-471",
+    "name": "Pastel Corporate 471",
+    "colors": [
+      "#31e7e1",
+      "#8631e7",
+      "#e73137",
+      "#92e731",
+      "#79ffff"
+    ],
+    "tags": [
+      "pastel",
+      "corporate",
+      "tetradic"
+    ],
+    "mood": "pastel",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-472",
+    "name": "Minimal Fashion 472",
+    "colors": [
+      "#08f089",
+      "#8908f0",
+      "#f08908",
+      "#6affba",
+      "#00bc5a"
+    ],
+    "tags": [
+      "minimal",
+      "fashion",
+      "triadic"
+    ],
+    "mood": "minimal",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-473",
+    "name": "Calm Fashion 473",
+    "colors": [
+      "#b20a9c",
+      "#9cb20a",
+      "#0a9cb2",
+      "#e751cd",
+      "#7e006d"
+    ],
+    "tags": [
+      "calm",
+      "fashion",
+      "triadic"
+    ],
+    "mood": "calm",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-474",
+    "name": "Vibrant Corporate 474",
+    "colors": [
+      "#5694b7",
+      "#b75694",
+      "#94b756",
+      "#88c4e9",
+      "#1f6687"
+    ],
+    "tags": [
+      "vibrant",
+      "corporate",
+      "triadic"
+    ],
+    "mood": "vibrant",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-475",
+    "name": "Professional Minimal 475",
+    "colors": [
+      "#d73671",
+      "#71d736",
+      "#3671d7",
+      "#ff6c9f",
+      "#a00046"
+    ],
+    "tags": [
+      "professional",
+      "minimal",
+      "triadic"
+    ],
+    "mood": "professional",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-476",
+    "name": "Soft Nature 476",
+    "colors": [
+      "#b50b0c",
+      "#0cb50b",
+      "#0b0cb5",
+      "#ef4d36",
+      "#7e0000"
+    ],
+    "tags": [
+      "soft",
+      "nature",
+      "triadic"
+    ],
+    "mood": "soft",
+    "category": "nature"
+  },
+  {
+    "id": "palette-477",
+    "name": "Soft Modern 477",
+    "colors": [
+      "#d3a43e",
+      "#3ed3a4",
+      "#a43ed3",
+      "#ffd56e",
+      "#9e7605"
+    ],
+    "tags": [
+      "soft",
+      "modern",
+      "triadic"
+    ],
+    "mood": "soft",
+    "category": "modern"
+  },
+  {
+    "id": "palette-478",
+    "name": "Earthy Minimal 478",
+    "colors": [
+      "#54338d",
+      "#72338d",
+      "#8d338a",
+      "#8d336c",
+      "#8d334e"
+    ],
+    "tags": [
+      "earthy",
+      "minimal",
+      "analogous"
+    ],
+    "mood": "earthy",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-479",
+    "name": "Minimal Modern 479",
+    "colors": [
+      "#fff8b2",
+      "#fdc582",
+      "#fb9353",
+      "#c4652a",
+      "#8d3800"
+    ],
+    "tags": [
+      "minimal",
+      "modern",
+      "monochromatic"
+    ],
+    "mood": "minimal",
+    "category": "modern"
+  },
+  {
+    "id": "palette-480",
+    "name": "Dark Minimal 480",
+    "colors": [
+      "#362eac",
+      "#ac2e65",
+      "#a4ac2e",
+      "#2eac75",
+      "#6f59df"
+    ],
+    "tags": [
+      "dark",
+      "minimal",
+      "tetradic"
+    ],
+    "mood": "dark",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-481",
+    "name": "Earthy Tech 481",
+    "colors": [
+      "#10a800",
+      "#00a828",
+      "#00a860",
+      "#00a898",
+      "#0080a8"
+    ],
+    "tags": [
+      "earthy",
+      "tech",
+      "analogous"
+    ],
+    "mood": "earthy",
+    "category": "tech"
+  },
+  {
+    "id": "palette-482",
+    "name": "Earthy Minimal 482",
+    "colors": [
+      "#7f5a7a",
+      "#7a7f5a",
+      "#5a7a7f",
+      "#af87a9",
+      "#52304e"
+    ],
+    "tags": [
+      "earthy",
+      "minimal",
+      "triadic"
+    ],
+    "mood": "earthy",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-483",
+    "name": "Nostalgic Modern 483",
+    "colors": [
+      "#ffb1ff",
+      "#ee7dde",
+      "#dd48bd",
+      "#a9248e",
+      "#74005f"
+    ],
+    "tags": [
+      "nostalgic",
+      "modern",
+      "monochromatic"
+    ],
+    "mood": "nostalgic",
+    "category": "modern"
+  },
+  {
+    "id": "palette-484",
+    "name": "Pastel Brand 484",
+    "colors": [
+      "#6bbb37",
+      "#3fbb37",
+      "#37bb5b",
+      "#37bb87",
+      "#37bbb3"
+    ],
+    "tags": [
+      "pastel",
+      "brand",
+      "analogous"
+    ],
+    "mood": "pastel",
+    "category": "brand"
+  },
+  {
+    "id": "palette-485",
+    "name": "Professional Brand 485",
+    "colors": [
+      "#b27b17",
+      "#17b22e",
+      "#174eb2",
+      "#b2179b",
+      "#e8aa49"
+    ],
+    "tags": [
+      "professional",
+      "brand",
+      "tetradic"
+    ],
+    "mood": "professional",
+    "category": "brand"
+  },
+  {
+    "id": "palette-486",
+    "name": "Soft Interior 486",
+    "colors": [
+      "#ae9a17",
+      "#17ae4f",
+      "#172bae",
+      "#ae1776",
+      "#e3ca4d"
+    ],
+    "tags": [
+      "soft",
+      "interior",
+      "tetradic"
+    ],
+    "mood": "soft",
+    "category": "interior"
+  },
+  {
+    "id": "palette-487",
+    "name": "Earthy Retro 487",
+    "colors": [
+      "#96ab1a",
+      "#1aab77",
+      "#2f1aab",
+      "#ab1a4d",
+      "#cadd51"
+    ],
+    "tags": [
+      "earthy",
+      "retro",
+      "tetradic"
+    ],
+    "mood": "earthy",
+    "category": "retro"
+  },
+  {
+    "id": "palette-488",
+    "name": "Minimal Minimal 488",
+    "colors": [
+      "#d215fa",
+      "#fa15d5",
+      "#fa1589",
+      "#fa153d",
+      "#fa3a15"
+    ],
+    "tags": [
+      "minimal",
+      "minimal",
+      "analogous"
+    ],
+    "mood": "minimal",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-489",
+    "name": "Earthy Retro 489",
+    "colors": [
+      "#1fd979",
+      "#9bb617",
+      "#d38700",
+      "#ec4d41",
+      "#d91f7f"
+    ],
+    "tags": [
+      "earthy",
+      "retro",
+      "complementary"
+    ],
+    "mood": "earthy",
+    "category": "retro"
+  },
+  {
+    "id": "palette-490",
+    "name": "Nostalgic Nature 490",
+    "colors": [
+      "#ffffd0",
+      "#d6e99f",
+      "#add26e",
+      "#7da23e",
+      "#4d720f"
+    ],
+    "tags": [
+      "nostalgic",
+      "nature",
+      "monochromatic"
+    ],
+    "mood": "nostalgic",
+    "category": "nature"
+  },
+  {
+    "id": "palette-491",
+    "name": "Pastel Minimal 491",
+    "colors": [
+      "#7cd247",
+      "#4dd247",
+      "#47d26f",
+      "#47d29d",
+      "#47d2cc"
+    ],
+    "tags": [
+      "pastel",
+      "minimal",
+      "analogous"
+    ],
+    "mood": "pastel",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-492",
+    "name": "Vibrant Tech 492",
+    "colors": [
+      "#fd0c08",
+      "#7efd08",
+      "#08f9fd",
+      "#8608fd",
+      "#ff5c3a"
+    ],
+    "tags": [
+      "vibrant",
+      "tech",
+      "tetradic"
+    ],
+    "mood": "vibrant",
+    "category": "tech"
+  },
+  {
+    "id": "palette-493",
+    "name": "Warm Modern 493",
+    "colors": [
+      "#0128d1",
+      "#2001d1",
+      "#6501d1",
+      "#aa01d1",
+      "#d101b2"
+    ],
+    "tags": [
+      "warm",
+      "modern",
+      "analogous"
+    ],
+    "mood": "warm",
+    "category": "modern"
+  },
+  {
+    "id": "palette-494",
+    "name": "Professional Corporate 494",
+    "colors": [
+      "#159fdd",
+      "#155ddd",
+      "#151add",
+      "#5315dd",
+      "#9515dd"
+    ],
+    "tags": [
+      "professional",
+      "corporate",
+      "analogous"
+    ],
+    "mood": "professional",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-495",
+    "name": "Soft Modern 495",
+    "colors": [
+      "#ede9ff",
+      "#b9b8f9",
+      "#8487f3",
+      "#475cc1",
+      "#0b318f"
+    ],
+    "tags": [
+      "soft",
+      "modern",
+      "monochromatic"
+    ],
+    "mood": "soft",
+    "category": "modern"
+  },
+  {
+    "id": "palette-496",
+    "name": "Pastel Fashion 496",
+    "colors": [
+      "#22b35f",
+      "#86950a",
+      "#b66d02",
+      "#c93d3f",
+      "#b32276"
+    ],
+    "tags": [
+      "pastel",
+      "fashion",
+      "complementary"
+    ],
+    "mood": "pastel",
+    "category": "fashion"
+  },
+  {
+    "id": "palette-497",
+    "name": "Energetic Corporate 497",
+    "colors": [
+      "#5f031c",
+      "#5f0803",
+      "#5f2703",
+      "#5f4603",
+      "#5a5f03"
+    ],
+    "tags": [
+      "energetic",
+      "corporate",
+      "analogous"
+    ],
+    "mood": "energetic",
+    "category": "corporate"
+  },
+  {
+    "id": "palette-498",
+    "name": "Warm Brand 498",
+    "colors": [
+      "#ffd272",
+      "#cba341",
+      "#967310",
+      "#694a08",
+      "#3b2000"
+    ],
+    "tags": [
+      "warm",
+      "brand",
+      "monochromatic"
+    ],
+    "mood": "warm",
+    "category": "brand"
+  },
+  {
+    "id": "palette-499",
+    "name": "Minimal Minimal 499",
+    "colors": [
+      "#9345cc",
+      "#c045cc",
+      "#cc45ab",
+      "#cc457e",
+      "#cc4551"
+    ],
+    "tags": [
+      "minimal",
+      "minimal",
+      "analogous"
+    ],
+    "mood": "minimal",
+    "category": "minimal"
+  },
+  {
+    "id": "palette-500",
+    "name": "Calm Modern 500",
+    "colors": [
+      "#f9918d",
+      "#f9b58d",
+      "#f9d98d",
+      "#f5f98d",
+      "#d1f98d"
+    ],
+    "tags": [
+      "calm",
+      "modern",
+      "analogous"
+    ],
+    "mood": "calm",
+    "category": "modern"
+  }
+]
