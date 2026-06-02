@@ -95,7 +95,9 @@ export function usePalette(initialColors?: string[]) {
 
   useEffect(() => {
     setMounted(true);
-    if (!initialColors) {
+    if (initialColors) {
+      dispatch({ type: "SET_PALETTE", colors: initialColors });
+    } else {
       dispatch({ type: "GENERATE_PALETTE" });
     }
   }, [initialColors]);

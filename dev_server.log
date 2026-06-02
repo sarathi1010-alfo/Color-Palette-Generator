@@ -22,3 +22,15 @@
  ○ Compiling /colors/[colorname] ...
  ✓ Compiled /colors/[colorname] in 635ms (2196 modules)
  GET /colors/absolute-zero 404 in 2131ms
+ ✓ Compiled in 7.4s (999 modules)
+ ✓ Compiled in 283ms (999 modules)
+ ✓ Compiled in 917ms (999 modules)
+ ✓ Compiled in 459ms (999 modules)
+ ✓ Compiled in 424ms (999 modules)
+ ✓ Compiled in 2.4s (1864 modules)
+ ✓ Compiled in 288ms (999 modules)
+ ✓ Compiled in 243ms (999 modules)
+ ✓ Compiled in 518ms (999 modules)
+ ✓ Compiled in 1072ms (1864 modules)
+ ✓ Compiled in 571ms (999 modules)
+ ✓ Compiled in 509ms (999 modules)

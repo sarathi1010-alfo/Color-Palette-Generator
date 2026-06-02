@@ -4,6 +4,25 @@ import { getContrastColor, hexToHsl, hexToRgb, getLuminance } from "@/lib/color/
 import { notFound } from "next/navigation";
 import chroma from "chroma-js";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export async function generateMetadata({ params }: { params: Promise<{ colorname: string }> }): Promise<Metadata> {
+  const { colorname } = await params;
+  const colorData: any = colorNames.find(
+    (c: any) => c.name.toLowerCase().replace(/\s+/g, "-") === colorname
+  );
+  if (!colorData) return {};
+
+  const ogUrl = `/api/og?colors=${colorData.hex.replace("#", "")}`;
+
+  return {
+    title: `${colorData.name} Color - HEX Code, RGB, HSL`,
+    description: `Detailed information about the color ${colorData.name} (${colorData.hex.toUpperCase()}). Explore similar colors and harmonies.`,
+    openGraph: {
+      images: [ogUrl],
+    },
+  };
+}
 
 export async function generateStaticParams() {
   // Now generating for the full set (approx 3000 colors in bestof.json)
