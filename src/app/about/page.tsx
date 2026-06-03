@@ -52,9 +52,33 @@ export default function AboutPage() {
                     algorithms wrapped in an interface that anyone can master in seconds.
                 </p>
                 <p>
+                    Our core algorithms use advanced color theory principles to generate
+                    harmonious palettes. We combine perceptually uniform color spaces
+                    (like Oklch) with traditional aesthetic rules (analogous, complementary,
+                    triadic) to ensure every generation is both technically accurate and
+                    visually pleasing.
+                </p>
+                <p>
                     Built by <strong>Alfo Tech Industries</strong>, this tool is part
                     of our mission to build open, high-performance utilities for the
                     creative community.
+                </p>
+            </div>
+        </section>
+
+        <section className="space-y-8">
+            <h2 className="text-3xl font-display font-bold">Content & Copyright</h2>
+            <div className="prose dark:prose-invert max-w-none text-text-secondary text-lg leading-relaxed space-y-6">
+                <p>
+                    ALFO Palette Generator is built on original code and algorithms.
+                    We do not host or distribute copyrighted content. All color data,
+                    names, and palettes are either procedurally generated or sourced
+                    from open-access datasets.
+                </p>
+                <p>
+                    The tool is designed to be a utility for creators, providing original
+                    mathematical transformations of color values to help you build your
+                    own unique projects.
                 </p>
             </div>
         </section>

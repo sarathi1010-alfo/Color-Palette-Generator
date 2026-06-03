@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import { Toaster } from "react-hot-toast";
 import Script from "next/script";
+import { Footer } from "@/components/layout/Footer";
 
 const fraunces = Fraunces({
   variable: "--font-fraunces",
@@ -53,6 +54,7 @@ export default function RootLayout({
         </Script>
         <ThemeProvider attribute="class" defaultTheme="dark">
           {children}
+          <Footer />
           <Toaster position="bottom-right" />
         </ThemeProvider>
       </body>
