@@ -1,5 +1,6 @@
 import { PageWrapper } from "@/components/layout/PageWrapper";
 import { Navbar } from "@/components/layout/Navbar";
+import { Footer } from "@/components/layout/Footer";
 import {
   Contrast,
   Layers,
@@ -84,7 +85,7 @@ export default function ToolsPage() {
           </div>
         </PageWrapper>
       </main>
-      {/* Assuming Footer is needed or just use PageWrapper's content */}
+      <Footer />
     </div>
   );
 }

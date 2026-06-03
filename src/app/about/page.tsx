@@ -1,6 +1,7 @@
 "use client";
 
 import { Navbar } from "@/components/layout/Navbar";
+import { Footer } from "@/components/layout/Footer";
 import { motion } from "framer-motion";
 import { Coffee, Code, Palette, Zap } from "lucide-react";
 
@@ -75,6 +76,7 @@ export default function AboutPage() {
             </div>
         </section>
       </main>
+      <Footer />
     </div>
   );
 }

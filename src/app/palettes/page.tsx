@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import { Navbar } from "@/components/layout/Navbar";
+import { Footer } from "@/components/layout/Footer";
 import { PaletteGrid } from "@/components/library/PaletteGrid";
 import palettesData from "@/data/palettes.json";
 import { Search, Filter, Heart, Trash2, ArrowRight } from "lucide-react";
@@ -135,6 +136,7 @@ export default function LibraryPage() {
           )}
         </div>
       </main>
+      <Footer />
     </div>
   );
 }
