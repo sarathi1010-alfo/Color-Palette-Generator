@@ -23,6 +23,9 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://alfo-palette-generator.vercel.app"),
   title: "Color Palette Generator — Build Beautiful Colors. Instantly.",
   description: "The fastest, most visual color palette tool on the web — generate, explore, copy, and export beautiful palettes in seconds.",
+  other: {
+    "google-adsense-account": "ca-pub-6393936268623951",
+  },
 };
 
 export default function RootLayout({
