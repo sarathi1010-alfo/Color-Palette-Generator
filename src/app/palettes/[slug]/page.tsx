@@ -2,10 +2,15 @@ import palettesData from "@/data/palettes.json";
 import { Navbar } from "@/components/layout/Navbar";
 import { getColorName } from "@/lib/color/nameResolver";
 import { getContrastColor, hexToHsl, hexToRgb } from "@/lib/color/conversions";
-import { Copy, ArrowRight, MousePointer2 } from "lucide-react";
+import { ArrowRight, MousePointer2, Download } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PaletteGrid } from "@/components/library/PaletteGrid";
+import { AccessibilityScore } from "@/components/library/AccessibilityScore";
+import { LivePreview } from "@/components/library/LivePreview";
+import { PaletteActions } from "@/components/library/PaletteActions";
+import { ExportPanel } from "@/components/generator/ExportPanel";
+import { DownloadButton } from "@/components/library/DownloadButton";
 import { Metadata } from "next";
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -14,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!palette) return {};
 
   const colors = palette.colors.map(c => c.replace("#", "")).join(",");
-  const ogUrl = `/api/og?colors=${colors}`;
+  const ogUrl = `/api/og?colors=${colors}&name=${encodeURIComponent(palette.name)}`;
 
   return {
     title: `${palette.name} Color Palette`,
@@ -39,15 +44,49 @@ export default async function PaletteDetailPage({ params }: { params: Promise<{ 
     notFound();
   }
 
+  // Track recent palettes on client
+  const trackRecent = `
+    if (typeof window !== 'undefined') {
+        const recent = JSON.parse(localStorage.getItem('recent-palettes') || '[]');
+        const updated = [{ id: "${palette.id}", name: "${palette.name}", colors: ${JSON.stringify(palette.colors)} }, ...recent.filter(p => p.id !== "${palette.id}")].slice(0, 10);
+        localStorage.setItem('recent-palettes', JSON.stringify(updated));
+    }
+  `;
+
   const relatedPalettes = palettesData
     .filter(p => p.id !== palette.id && (p.category === palette.category || p.mood === palette.mood))
     .slice(0, 4);
 
+  const swatches = palette.colors.map((color, i) => ({
+    hex: color,
+    name: getColorName(color),
+    locked: false,
+    id: `color-${i}`
+  }));
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": `${palette.name} Color Palette`,
+    "description": `A curated color palette named ${palette.name} with ${palette.colors.length} colors.`,
+    "genre": "Color Palette",
+    "keywords": palette.tags?.join(", "),
+    "creator": {
+      "@type": "Organization",
+      "name": "ColorForge"
+    }
+  };
+
   return (
     <div className="min-h-screen bg-background flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script dangerouslySetInnerHTML={{ __html: trackRecent }} />
       <Navbar />
 
-      <main className="flex-1 max-w-7xl mx-auto w-full px-6 py-12 space-y-20">
+      <main className="flex-1 max-w-7xl mx-auto w-full px-6 py-12 space-y-24">
         {/* Hero Palette */}
         <section className="space-y-8">
            <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
@@ -66,9 +105,9 @@ export default async function PaletteDetailPage({ params }: { params: Promise<{ 
                     Mood: {palette.mood}
                 </Link>
                 {palette.tags?.map(tag => (
-                    <span key={tag} className="px-4 py-2 bg-surface border border-border rounded-full text-xs font-bold text-text-secondary">
+                    <Link key={tag} href={`/palettes/tag/${tag}`} className="px-4 py-2 bg-surface border border-border rounded-full text-xs font-bold text-text-secondary hover:border-text-primary transition-colors">
                         #{tag}
-                    </span>
+                    </Link>
                 ))}
               </div>
            </div>
@@ -144,25 +183,29 @@ export default async function PaletteDetailPage({ params }: { params: Promise<{ 
 
         {/* About & Actions */}
         <section className="grid grid-cols-1 lg:grid-cols-3 gap-16">
-            <div className="lg:col-span-2 space-y-6">
-                <h2 className="text-3xl font-display font-bold">About the {palette.name} Palette</h2>
-                <div className="prose dark:prose-invert max-w-none text-text-secondary text-lg leading-relaxed space-y-4">
-                    <p>
-                        The {palette.name} color palette is a professional-grade collection featuring {palette.colors.length} harmonious shades.
-                        This scheme is categorized under <Link href={`/palettes/category/${palette.category}`} className="text-text-primary font-bold hover:underline">{palette.category}</Link> and is
-                        specifically designed to create a <Link href={`/palettes/mood/${palette.mood}`} className="text-text-primary font-bold hover:underline">{palette.mood}</Link> atmosphere.
-                    </p>
-                    <p>
-                        Each color in this palette, from {getColorName(palette.colors[0])} to {getColorName(palette.colors[palette.colors.length-1])},
-                        has been algorithmically verified for visual balance. Whether you&apos;re building a modern SaaS dashboard,
-                        a brand identity for a {palette.category} company, or just looking for UI inspiration,
-                        this selection provides a solid foundation for high-quality design.
-                    </p>
+            <div className="lg:col-span-2 space-y-12">
+                <div className="space-y-6">
+                    <h2 className="text-3xl font-display font-bold">About the {palette.name} Palette</h2>
+                    <div className="prose dark:prose-invert max-w-none text-text-secondary text-lg leading-relaxed space-y-4">
+                        <p>
+                            The {palette.name} color palette is a professional-grade collection featuring {palette.colors.length} harmonious shades.
+                            This scheme is categorized under <Link href={`/palettes/category/${palette.category}`} className="text-text-primary font-bold hover:underline">{palette.category}</Link> and is
+                            specifically designed to create a <Link href={`/palettes/mood/${palette.mood}`} className="text-text-primary font-bold hover:underline">{palette.mood}</Link> atmosphere.
+                        </p>
+                        <p>
+                            Each color in this palette, from {getColorName(palette.colors[0])} to {getColorName(palette.colors[palette.colors.length-1])},
+                            has been algorithmically verified for visual balance. Whether you&apos;re building a modern SaaS dashboard,
+                            a brand identity for a {palette.category} company, or just looking for UI inspiration,
+                            this selection provides a solid foundation for high-quality design.
+                        </p>
+                    </div>
                 </div>
+
+                <AccessibilityScore colors={palette.colors} />
             </div>
 
             <div className="space-y-6">
-                <div className="bg-surface rounded-3xl border border-border p-8 space-y-8 shadow-xl">
+                <div className="bg-surface rounded-3xl border border-border p-8 space-y-8 shadow-xl sticky top-24">
                     <h3 className="font-bold text-xl">Implement Palette</h3>
                     <div className="space-y-4">
                         <Link
@@ -172,18 +215,33 @@ export default async function PaletteDetailPage({ params }: { params: Promise<{ 
                             <span>Open in Generator</span>
                             <ArrowRight size={18} />
                         </Link>
-                        <button className="w-full bg-surface border border-border py-4 rounded-2xl font-bold hover:bg-border transition-colors">
-                            Download PNG
-                        </button>
+
+                        <div className="grid grid-cols-2 gap-3">
+                            <div className="bg-background border border-border rounded-2xl p-1 flex items-center justify-center">
+                                <ExportPanel swatches={swatches} />
+                                <span className="text-xs font-bold mr-2">Export</span>
+                            </div>
+                            <DownloadButton colors={palette.colors} name={palette.name} />
+                        </div>
                     </div>
-                    <div className="pt-8 border-t border-border">
+
+                    <div className="pt-8 border-t border-border space-y-6">
+                        <div className="space-y-3">
+                            <span className="text-[10px] font-black uppercase tracking-widest text-text-secondary">Share Palette</span>
+                            <PaletteActions colors={palette.colors} name={palette.name} />
+                        </div>
                         <div className="flex items-center justify-between text-xs font-bold uppercase tracking-widest text-text-secondary">
                             <span>License</span>
-                            <span className="text-green-500">Free to use</span>
+                            <span className="text-green-500 font-black">Free Use</span>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+
+        {/* Live Preview Section */}
+        <section>
+            <LivePreview colors={palette.colors} />
         </section>
 
         {/* Related Palettes */}

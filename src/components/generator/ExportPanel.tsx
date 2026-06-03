@@ -10,7 +10,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Download, Copy, Check } from "lucide-react";
-import { toCssVariables, toTailwindConfig, toScssVariables, toJson } from "@/lib/export/formats";
+import { toCssVariables, toTailwindConfig, toScssVariables, toJson, toFigmaList } from "@/lib/export/formats";
 import { cn, copyToClipboard } from "@/lib/utils";
 import { toast } from "react-hot-toast";
 
@@ -18,7 +18,7 @@ interface ExportPanelProps {
   swatches: Swatch[];
 }
 
-type ExportFormat = "css" | "tailwind" | "scss" | "json";
+type ExportFormat = "css" | "tailwind" | "scss" | "json" | "figma";
 
 export function ExportPanel({ swatches }: ExportPanelProps) {
   const [format, setFormat] = useState<ExportFormat>("css");
@@ -34,6 +34,8 @@ export function ExportPanel({ swatches }: ExportPanelProps) {
         return toScssVariables(swatches);
       case "json":
         return toJson(swatches);
+      case "figma":
+        return toFigmaList(swatches);
     }
   };
 
@@ -56,8 +58,8 @@ export function ExportPanel({ swatches }: ExportPanelProps) {
           <DialogTitle className="text-2xl font-display">Export Palette</DialogTitle>
         </DialogHeader>
 
-        <div className="flex space-x-2 border-b border-border pb-4">
-          {(["css", "tailwind", "scss", "json"] as ExportFormat[]).map((f) => (
+        <div className="flex space-x-2 border-b border-border pb-4 overflow-x-auto scrollbar-hide">
+          {(["css", "tailwind", "figma", "scss", "json"] as ExportFormat[]).map((f) => (
             <button
               key={f}
               onClick={() => setFormat(f)}

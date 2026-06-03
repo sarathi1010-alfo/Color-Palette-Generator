@@ -7,6 +7,7 @@ export async function GET(req: NextRequest) {
   try {
     const { searchParams } = new URL(req.url);
     const colorsStr = searchParams.get("colors");
+    const name = searchParams.get("name") || "Color Palette";
 
     if (!colorsStr) {
         return new Response("Missing colors parameter", { status: 400 });
@@ -63,15 +64,19 @@ export async function GET(req: NextRequest) {
                 top: 40,
                 left: 40,
                 display: 'flex',
-                alignItems: 'center',
-                backgroundColor: 'rgba(0,0,0,0.8)',
-                padding: '10px 20px',
-                borderRadius: 50,
-                border: '1px solid rgba(255,255,255,0.2)'
+                flexDirection: 'column',
+                backgroundColor: 'rgba(0,0,0,0.85)',
+                padding: '20px 30px',
+                borderRadius: 30,
+                border: '1px solid rgba(255,255,255,0.1)',
+                boxShadow: '0 20px 50px rgba(0,0,0,0.5)'
             }}
           >
-            <span style={{ color: 'white', fontSize: 24, fontWeight: 'bold' }}>ColorForge</span>
-            <span style={{ color: '#888', fontSize: 24, marginLeft: 10 }}>Palette</span>
+            <div style={{ display: 'flex', alignItems: 'center', marginBottom: 5 }}>
+                <span style={{ color: 'white', fontSize: 28, fontWeight: 'bold' }}>ColorForge</span>
+                <span style={{ color: '#aaa', fontSize: 20, marginLeft: 10, textTransform: 'uppercase', letterSpacing: 2 }}>Studio</span>
+            </div>
+            <span style={{ color: '#eee', fontSize: 42, fontWeight: 'bold' }}>{name}</span>
           </div>
         </div>
       ),
