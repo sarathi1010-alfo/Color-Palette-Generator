@@ -2,35 +2,18 @@
 > alfo-palette-generator@0.1.0 dev
 > next dev
 
-   ▲ Next.js 15.2.0
+   ▲ Next.js 15.2.9
    - Local:        http://localhost:3000
    - Network:      http://192.168.0.2:3000
 
  ✓ Starting...
- ✓ Ready in 2.2s
- ○ Compiling /generator ...
- ✓ Compiled /generator in 13.6s (2087 modules)
- GET /generator 200 in 14614ms
- GET /generator 200 in 96ms
- ○ Compiling /tools ...
- ✓ Compiled /tools in 1394ms (2080 modules)
- ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
- GET /tools 200 in 2004ms
+ ✓ Ready in 2.3s
+ ○ Compiling / ...
+ ✓ Compiled / in 9.7s (1628 modules)
+ HEAD / 200 in 10372ms
  ○ Compiling /palettes/[slug] ...
- ✓ Compiled /palettes/[slug] in 1205ms (2191 modules)
- GET /palettes/palette-1 200 in 3301ms
- ○ Compiling /colors/[colorname] ...
- ✓ Compiled /colors/[colorname] in 635ms (2196 modules)
- GET /colors/absolute-zero 404 in 2131ms
- ✓ Compiled in 7.4s (999 modules)
- ✓ Compiled in 283ms (999 modules)
- ✓ Compiled in 917ms (999 modules)
- ✓ Compiled in 459ms (999 modules)
- ✓ Compiled in 424ms (999 modules)
- ✓ Compiled in 2.4s (1864 modules)
- ✓ Compiled in 288ms (999 modules)
- ✓ Compiled in 243ms (999 modules)
- ✓ Compiled in 518ms (999 modules)
- ✓ Compiled in 1072ms (1864 modules)
- ✓ Compiled in 571ms (999 modules)
- ✓ Compiled in 509ms (999 modules)
+ ✓ Compiled /palettes/[slug] in 3.7s (1688 modules)
+ GET /palettes/palette-1 200 in 6877ms
+ ○ Compiling /palettes ...
+ ✓ Compiled /palettes in 943ms (2101 modules)
+ GET /palettes 200 in 2574ms

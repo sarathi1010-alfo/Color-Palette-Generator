@@ -10,11 +10,12 @@ ${swatches
 
 export function toTailwindConfig(swatches: Swatch[]): string {
   const colors = swatches.reduce((acc, s, i) => {
-    acc[`color-${i + 1}`] = s.hex.toUpperCase();
+    const key = i === 0 ? "primary" : i === 1 ? "secondary" : i === 2 ? "accent" : `neutral-${i - 2}`;
+    acc[key] = s.hex.toUpperCase();
     return acc;
   }, {} as Record<string, string>);
 
-  return `// tailwind.config.js
+  return `/** @type {import('tailwindcss').Config} */
 module.exports = {
   theme: {
     extend: {
@@ -39,4 +40,10 @@ export function toJson(swatches: Swatch[]): string {
     null,
     2
   );
+}
+
+export function toFigmaList(swatches: Swatch[]): string {
+  return swatches
+    .map((s) => `${s.name}: ${s.hex.toUpperCase()}`)
+    .join("\n");
 }

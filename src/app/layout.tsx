@@ -21,8 +21,32 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://alfo-palette-generator.vercel.app"),
-  title: "Color Palette Generator — Build Beautiful Colors. Instantly.",
-  description: "The fastest, most visual color palette tool on the web — generate, explore, copy, and export beautiful palettes in seconds.",
+  title: {
+    default: "ColorForge | Professional Color Palette Generator",
+    template: "%s | ColorForge"
+  },
+  description: "Create, explore, and share professional color palettes for your next design project. Zero-backend, high-performance palette generator.",
+  keywords: ["color palette", "color generator", "design tool", "ui design", "web design", "branding", "tailwind colors", "color inspiration"],
+  authors: [{ name: "ColorForge Team" }],
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://alfo-palette-generator.vercel.app",
+    siteName: "ColorForge",
+    title: "ColorForge | Professional Color Palette Generator",
+    description: "Create, explore, and share professional color palettes for your next design project.",
+    images: ["/og-image.png"]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ColorForge | Professional Color Palette Generator",
+    description: "Create, explore, and share professional color palettes for your next design project.",
+    images: ["/og-image.png"],
+    creator: "@colorforge"
+  },
   other: {
     "google-adsense-account": "ca-pub-6393936268623951",
   },
