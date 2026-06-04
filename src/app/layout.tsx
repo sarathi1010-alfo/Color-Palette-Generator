@@ -3,6 +3,7 @@ import { Fraunces, DM_Sans, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import { Toaster } from "react-hot-toast";
+import Script from "next/script";
 
 const fraunces = Fraunces({
   variable: "--font-fraunces",
@@ -33,12 +34,31 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const gaId = process.env.NEXT_PUBLIC_GA_ID;
+
   return (
     <html lang="en" suppressHydrationWarning>
       <body
         className={`${fraunces.variable} ${dmSans.variable} ${jetbrainsMono.variable} font-sans antialiased`}
       >
         <ThemeProvider attribute="class" defaultTheme="dark">
+          {gaId && (
+            <>
+              <Script
+                src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
+                strategy="afterInteractive"
+              />
+              <Script id="google-analytics" strategy="afterInteractive">
+                {`
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+
+                  gtag('config', '${gaId}');
+                `}
+              </Script>
+            </>
+          )}
           {children}
           <Toaster position="bottom-right" />
         </ThemeProvider>
