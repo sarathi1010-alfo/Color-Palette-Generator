@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // output: "export", // Disabled to allow dynamic OG image generation via @vercel/og
+  output: "export", // Enabled after migrating OG images to file-based metadata
   images: {
     unoptimized: true,
   },

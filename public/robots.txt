@@ -8,3 +8,4 @@ Host: https://alfo-palette-generator.vercel.app
 # Sitemaps
 Sitemap: https://alfo-palette-generator.vercel.app/sitemap.xml
 Sitemap: https://alfo-palette-generator.vercel.app/sitemap-1.xml
+Sitemap: https://alfo-palette-generator.vercel.app/sitemap-2.xml

@@ -13,16 +13,13 @@ export async function generateMetadata({ params }: { params: Promise<{ colorname
   );
   if (!colorData) return {};
 
-  const ogUrl = `/api/og?colors=${colorData.hex.replace("#", "")}`;
-
   return {
     title: `${colorData.name} Color - HEX Code, RGB, HSL`,
     description: `Detailed information about the color ${colorData.name} (${colorData.hex.toUpperCase()}). Explore similar colors and harmonies.`,
-    openGraph: {
-      images: [ogUrl],
-    },
   };
 }
+
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
   // Now generating for the full set (approx 3000 colors in bestof.json)

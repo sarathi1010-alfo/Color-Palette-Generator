@@ -13,17 +13,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const palette = palettesData.find((p) => p.id === slug);
   if (!palette) return {};
 
-  const colors = palette.colors.map(c => c.replace("#", "")).join(",");
-  const ogUrl = `/api/og?colors=${colors}`;
-
   return {
     title: `${palette.name} Color Palette`,
     description: `Explore the ${palette.name} palette with ${palette.colors.length} harmonious colors. Get HEX, RGB, HSL codes and more.`,
-    openGraph: {
-      images: [ogUrl],
-    },
   };
 }
+
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
   return palettesData.map((palette) => ({
