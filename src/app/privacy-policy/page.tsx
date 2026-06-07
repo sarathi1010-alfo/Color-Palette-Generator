@@ -3,12 +3,18 @@
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 
+import { useEffect, useState } from "react";
+
 export default function PrivacyPolicyPage() {
-  const currentDate = new Date().toLocaleDateString("en-US", {
-    month: "long",
-    day: "numeric",
-    year: "numeric",
-  });
+  const [currentDate, setCurrentDate] = useState<string>("");
+
+  useEffect(() => {
+    setCurrentDate(new Date().toLocaleDateString("en-US", {
+      month: "long",
+      day: "numeric",
+      year: "numeric",
+    }));
+  }, []);
 
   return (
     <div className="min-h-screen bg-background flex flex-col">

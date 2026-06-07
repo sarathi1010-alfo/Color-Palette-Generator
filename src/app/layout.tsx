@@ -20,14 +20,9 @@ const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  metadataBase: new URL("https://alfo-palette-generator.vercel.app"),
-  title: "Color Palette Generator — Build Beautiful Colors. Instantly.",
-  description: "The fastest, most visual color palette tool on the web — generate, explore, copy, and export beautiful palettes in seconds.",
-  other: {
-    "google-adsense-account": "ca-pub-6393936268623951",
-  },
-};
+import { constructMetadata } from "@/lib/seo";
+
+export const metadata: Metadata = constructMetadata();
 
 export default function RootLayout({
   children,
@@ -74,6 +69,14 @@ export default function RootLayout({
               }}
             />
             {/* End Google Analytics */}
+
+            {/* Google AdSense */}
+            <Script
+              async
+              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6393936268623951"
+              crossOrigin="anonymous"
+              strategy="afterInteractive"
+            />
           </>
         )}
       </head>

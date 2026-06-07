@@ -5,6 +5,8 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Copy, RefreshCw } from "lucide-react";
 import { toast } from "react-hot-toast";
 import { copyToClipboard } from "@/lib/utils";
+import { Footer } from "@/components/layout/Footer";
+import { RelatedTools } from "@/components/widgets/RelatedTools";
 
 export default function GradientGeneratorPage() {
   const [color1, setColor1] = useState("#FF6B6B");
@@ -135,7 +137,10 @@ export default function GradientGeneratorPage() {
                 </div>
             </div>
         </div>
+
+        <RelatedTools currentToolHref="/tools/gradient-generator" tags={["css", "gradient", "design", "color"]} />
       </main>
+      <Footer />
     </div>
   );
 }

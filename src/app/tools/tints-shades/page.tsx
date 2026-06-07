@@ -7,6 +7,8 @@ import { toast } from "react-hot-toast";
 import { copyToClipboard } from "@/lib/utils";
 import chroma from "chroma-js";
 import { getContrastColor } from "@/lib/color/conversions";
+import { Footer } from "@/components/layout/Footer";
+import { RelatedTools } from "@/components/widgets/RelatedTools";
 
 export default function TintsShadesPage() {
   const [baseColor, setBaseColor] = useState("#3A86FF");
@@ -101,7 +103,10 @@ export default function TintsShadesPage() {
                  </div>
             </div>
         </div>
+
+        <RelatedTools currentToolHref="/tools/tints-shades" tags={["color", "scale", "design", "palette"]} />
       </main>
+      <Footer />
     </div>
   );
 }

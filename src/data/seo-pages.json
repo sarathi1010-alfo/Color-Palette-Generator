@@ -1,0 +1,51 @@
+[
+  {
+    "toolSlug": "generator",
+    "toolName": "Color Palette Generator",
+    "toolHref": "/generator",
+    "useCases": [
+      {
+        "slug": "website-color-schemes",
+        "keyword": "website color schemes",
+        "title": "Best Website Color Schemes Generator",
+        "description": "Generate perfect website color schemes instantly. Copy CSS variables, Tailwind config, and hex codes.",
+        "content": "Choosing the right website color scheme is crucial for user engagement and brand identity. Our generator uses built-in color theory algorithms to give you accessible, modern combinations for your next web project."
+      },
+      {
+        "slug": "brand-colors",
+        "keyword": "brand colors generator",
+        "title": "Brand Colors Generator for Startups",
+        "description": "Discover unique brand colors for your startup. Lock in your primary color and generate complementary brand palettes.",
+        "content": "Your brand colors speak before you do. Whether you're building a tech startup or a lifestyle brand, generate consistent, high-contrast brand kits that you can export straight to CSS or JSON."
+      }
+    ]
+  },
+  {
+    "toolSlug": "contrast-checker",
+    "toolName": "Contrast Checker",
+    "toolHref": "/tools/contrast-checker",
+    "useCases": [
+      {
+        "slug": "wcag-compliance",
+        "keyword": "wcag contrast checker",
+        "title": "WCAG AA & AAA Contrast Checker",
+        "description": "Ensure your UI is fully accessible. Check text and background colors against WCAG AA and AAA standards.",
+        "content": "Accessibility is not a feature; it's a requirement. Use our WCAG contrast checker to instantly verify if your text colors are legible against your backgrounds, ensuring compliance for all users."
+      }
+    ]
+  },
+  {
+    "toolSlug": "gradient-generator",
+    "toolName": "Gradient Generator",
+    "toolHref": "/tools/gradient-generator",
+    "useCases": [
+      {
+        "slug": "css-backgrounds",
+        "keyword": "css gradient background",
+        "title": "CSS Gradient Background Generator",
+        "description": "Create stunning CSS gradient backgrounds. Visually adjust colors and angles, then copy the raw CSS code.",
+        "content": "CSS gradients add depth and modern flair to any user interface. Use our visual gradient generator to craft the perfect transition between two colors, adjust the angle, and copy the ready-to-use CSS background property directly to your clipboard."
+      }
+    ]
+  }
+]

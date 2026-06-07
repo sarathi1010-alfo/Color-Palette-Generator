@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Palette, Wand2, Check, Zap, Share2, Globe, Heart } from "lucide-react";
+import { Palette, Check, Zap, Share2 } from "lucide-react";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import palettesData from "@/data/palettes.json";

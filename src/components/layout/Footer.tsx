@@ -2,10 +2,14 @@
 
 import Link from "next/link";
 import { Globe, Heart } from "lucide-react";
+import { AdBanner } from "@/components/shared/AdBanner";
 
 export function Footer() {
   return (
     <footer className="bg-background border-t border-border py-12 px-6">
+      <div className="max-w-7xl mx-auto mb-12">
+        <AdBanner slotId="FOOTER_AD_SLOT_ID" className="w-full max-w-[728px] mx-auto min-h-[90px]" />
+      </div>
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-8">
         <div className="space-y-4 text-center md:text-left flex-1">
           <Link href="/">
