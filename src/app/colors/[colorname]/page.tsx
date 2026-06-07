@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import chroma from "chroma-js";
 import Link from "next/link";
 import { Metadata } from "next";
+import { constructMetadata, siteConfig } from "@/lib/seo";
 
 export async function generateMetadata({ params }: { params: Promise<{ colorname: string }> }): Promise<Metadata> {
   const { colorname } = await params;
@@ -15,13 +16,12 @@ export async function generateMetadata({ params }: { params: Promise<{ colorname
 
   const ogUrl = `/api/og?colors=${colorData.hex.replace("#", "")}`;
 
-  return {
-    title: `${colorData.name} Color - HEX Code, RGB, HSL`,
+  return constructMetadata({
+    title: `${colorData.name} Color - HEX Code, RGB, HSL | ${siteConfig.name}`,
     description: `Detailed information about the color ${colorData.name} (${colorData.hex.toUpperCase()}). Explore similar colors and harmonies.`,
-    openGraph: {
-      images: [ogUrl],
-    },
-  };
+    image: ogUrl,
+    canonicalUrl: `${siteConfig.url}/colors/${colorname}`,
+  });
 }
 
 export async function generateStaticParams() {

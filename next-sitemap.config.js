@@ -1,7 +1,16 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://alfo-palette-generator.vercel.app', // Placeholder URL
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'https://paletteflow.alfo.online',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   exclude: ['/icon.svg', '/apple-icon.png'],
+  robotsTxtOptions: {
+    policies: [
+      {
+        userAgent: '*',
+        allow: '/',
+        disallow: ['/api/'],
+      },
+    ],
+  },
 }

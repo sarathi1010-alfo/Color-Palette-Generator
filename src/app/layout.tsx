@@ -1,3 +1,4 @@
+import { constructMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
 import { Fraunces, DM_Sans, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
@@ -20,9 +21,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://alfo-palette-generator.vercel.app"),
-  title: "Color Palette Generator — Build Beautiful Colors. Instantly.",
-  description: "The fastest, most visual color palette tool on the web — generate, explore, copy, and export beautiful palettes in seconds.",
+  ...constructMetadata(),
   other: {
     "google-adsense-account": "ca-pub-6393936268623951",
   },

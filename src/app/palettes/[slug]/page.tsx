@@ -7,6 +7,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PaletteGrid } from "@/components/library/PaletteGrid";
 import { Metadata } from "next";
+import { constructMetadata, siteConfig } from "@/lib/seo";
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
@@ -16,13 +17,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const colors = palette.colors.map(c => c.replace("#", "")).join(",");
   const ogUrl = `/api/og?colors=${colors}`;
 
-  return {
-    title: `${palette.name} Color Palette`,
+  return constructMetadata({
+    title: `${palette.name} Color Palette | ${siteConfig.name}`,
     description: `Explore the ${palette.name} palette with ${palette.colors.length} harmonious colors. Get HEX, RGB, HSL codes and more.`,
-    openGraph: {
-      images: [ogUrl],
-    },
-  };
+    image: ogUrl,
+    canonicalUrl: `${siteConfig.url}/palettes/${slug}`,
+  });
 }
 
 export async function generateStaticParams() {
