@@ -41,6 +41,16 @@ const tools = [
   },
 ];
 
+import { Footer } from "@/components/layout/Footer";
+import { constructMetadata } from "@/lib/seo";
+
+export const metadata = constructMetadata({
+  title: "AI Design Utilities Hub | Free Tools | ALFO",
+  description: "A complete suite of professional design utilities. Contrast checkers, gradient generators, color scales, and image extractors.",
+  url: "https://alfo-palette-generator.vercel.app/tools",
+  keywords: ["design tools", "color utilities", "contrast checker", "gradient generator"],
+});
+
 export default function ToolsPage() {
   return (
     <div className="flex flex-col min-h-screen bg-background">
@@ -48,11 +58,14 @@ export default function ToolsPage() {
       <main className="flex-1">
         <PageWrapper className="py-20">
           <div className="max-w-3xl mb-16">
+            <span className="px-4 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-widest mb-6 inline-block">
+              Utilities Hub
+            </span>
             <h1 className="text-5xl md:text-6xl font-display font-bold mb-6">
               Design <span className="text-text-secondary">Tools</span>
             </h1>
             <p className="text-xl text-text-secondary leading-relaxed">
-              A suite of professional utilities for designers and developers to build accessible, beautiful, and consistent color systems.
+              A compounding ecosystem of professional utilities for designers and developers to build accessible, beautiful, and consistent digital experiences.
             </p>
           </div>
 
@@ -84,7 +97,7 @@ export default function ToolsPage() {
           </div>
         </PageWrapper>
       </main>
-      {/* Assuming Footer is needed or just use PageWrapper's content */}
+      <Footer />
     </div>
   );
 }

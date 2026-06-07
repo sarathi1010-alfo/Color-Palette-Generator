@@ -8,6 +8,8 @@ import Link from "next/link";
 import { encodePalette } from "@/lib/url/paletteEncoder";
 import { getContrastColor } from "@/lib/color/conversions";
 import { copyToClipboard } from "@/lib/utils";
+import { Footer } from "@/components/layout/Footer";
+import { RelatedTools } from "@/components/widgets/RelatedTools";
 
 export default function ImageExtractorPage() {
   const [image, setImage] = useState<string | null>(null);
@@ -171,8 +173,11 @@ export default function ImageExtractorPage() {
                 </div>
             </div>
         </div>
+
+        <RelatedTools currentToolHref="/tools/image-extractor" tags={["image", "color", "design", "palette"]} />
       </main>
       <canvas ref={canvasRef} className="hidden" />
+      <Footer />
     </div>
   );
 }

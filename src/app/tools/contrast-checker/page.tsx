@@ -5,6 +5,8 @@ import { Navbar } from "@/components/layout/Navbar";
 import { getContrast, getWcagGrade } from "@/lib/color/conversions";
 import { RefreshCw } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { Footer } from "@/components/layout/Footer";
+import { RelatedTools } from "@/components/widgets/RelatedTools";
 
 export default function ContrastCheckerPage() {
   const [fg, setFg] = useState("#FFFFFF");
@@ -135,7 +137,10 @@ export default function ContrastCheckerPage() {
                 </div>
             </div>
         </div>
+
+        <RelatedTools currentToolHref="/tools/contrast-checker" tags={["accessibility", "color", "design"]} />
       </main>
+      <Footer />
     </div>
   );
 }
