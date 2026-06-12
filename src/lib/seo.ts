@@ -28,6 +28,9 @@ export function constructMetadata({
   const isVercelDomain = process.env.NEXT_PUBLIC_VERCEL_URL && process.env.NEXT_PUBLIC_VERCEL_URL.includes("vercel.app");
   const actualNoIndex = noIndex || isVercelDomain;
 
+  // Ensure canonical URL is always HTTPS
+  const finalCanonicalUrl = (canonicalUrl || siteConfig.url).replace(/^http:\/\//i, 'https://');
+
   return {
     title,
     description,
@@ -39,7 +42,7 @@ export function constructMetadata({
           url: image.startsWith("http") ? image : `${siteConfig.url}${image}`,
         },
       ],
-      url: canonicalUrl || siteConfig.url,
+      url: finalCanonicalUrl,
     },
     twitter: {
       card: "summary_large_image",
@@ -49,9 +52,9 @@ export function constructMetadata({
       creator: "@alfo",
     },
     icons,
-    metadataBase: new URL(siteConfig.url),
+    metadataBase: new URL(siteConfig.url.replace(/^http:\/\//i, 'https://')),
     alternates: {
-      canonical: canonicalUrl || siteConfig.url,
+      canonical: finalCanonicalUrl,
     },
     ...(actualNoIndex && {
       robots: {

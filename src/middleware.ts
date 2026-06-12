@@ -5,6 +5,12 @@ export function middleware(request: NextRequest) {
   const hostname = request.headers.get('host') || '';
   const isVercelDomain = hostname.includes('vercel.app');
 
+  // Force HTTPS for non-localhost
+  const protocol = request.headers.get('x-forwarded-proto') || 'http';
+  if (protocol === 'http' && !hostname.includes('localhost') && process.env.NODE_ENV === 'production') {
+    return NextResponse.redirect(`https://${hostname}${request.nextUrl.pathname}${request.nextUrl.search}`, 301);
+  }
+
   const response = NextResponse.next();
 
   if (isVercelDomain) {

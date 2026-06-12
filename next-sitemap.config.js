@@ -3,6 +3,7 @@ module.exports = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'https://paletteflow.alfo.online',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
+  sitemapSize: 50000,
   exclude: ['/icon.svg', '/apple-icon.png'],
   robotsTxtOptions: {
     policies: [
