@@ -8,4 +8,3 @@ Host: https://paletteflow.alfo.online
 
 # Sitemaps
 Sitemap: https://paletteflow.alfo.online/sitemap.xml
-Sitemap: https://paletteflow.alfo.online/sitemap-1.xml
