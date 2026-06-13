@@ -5,8 +5,10 @@ import { SwatchStrip } from "./SwatchStrip";
 import { Navbar } from "../layout/Navbar";
 import { GeneratorToolbar } from "./GeneratorToolbar";
 import { UIPreviewPane } from "./UIPreviewPane";
+import { PersonalityGenerator } from "./PersonalityGenerator";
+import { ImageExtractor } from "./ImageExtractor";
 import { useState, useEffect, useCallback } from "react";
-import { Eye, EyeOff, Keyboard, Heart, X, HelpCircle } from "lucide-react";
+import { Eye, EyeOff, Keyboard, Heart, X, HelpCircle, Wand2, Image as ImageIcon } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useSearchParams } from "next/navigation";
 import { decodePalette } from "@/lib/url/paletteEncoder";
@@ -21,6 +23,8 @@ export function PaletteGenerator() {
   const [showPreview, setShowPreview] = useState(false);
   const [showHint, setShowHint] = useState(true);
   const [showShortcuts, setShowShortcuts] = useState(false);
+  const [showPersonalityMode, setShowPersonalityMode] = useState(false);
+  const [showImageMode, setShowImageMode] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => setShowHint(false), 5000);
@@ -106,6 +110,72 @@ export function PaletteGenerator() {
                     <HelpCircle size={20} className="text-text-secondary" />
                 </motion.button>
             </div>
+
+            <div className="absolute top-6 right-6 z-30 flex items-center space-x-2 lg:right-auto lg:left-1/2 lg:-translate-x-1/2">
+               <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    onClick={() => {
+                        setShowPersonalityMode(!showPersonalityMode);
+                        setShowImageMode(false);
+                    }}
+                    className={`px-4 py-2 rounded-full border border-border shadow-lg transition-colors flex items-center gap-2 ${showPersonalityMode ? 'bg-text-primary text-background' : 'bg-surface text-text-primary'}`}
+                >
+                    <Wand2 size={16} />
+                    <span className="text-sm font-bold hidden md:inline">Brand AI</span>
+                </motion.button>
+                <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    onClick={() => {
+                        setShowImageMode(!showImageMode);
+                        setShowPersonalityMode(false);
+                    }}
+                    className={`px-4 py-2 rounded-full border border-border shadow-lg transition-colors flex items-center gap-2 ${showImageMode ? 'bg-text-primary text-background' : 'bg-surface text-text-primary'}`}
+                >
+                    <ImageIcon size={16} />
+                    <span className="text-sm font-bold hidden md:inline">Extract Image</span>
+                </motion.button>
+            </div>
+
+            <AnimatePresence>
+                {showPersonalityMode && (
+                    <motion.div
+                        initial={{ opacity: 0, y: -20, x: '-50%' }}
+                        animate={{ opacity: 1, y: 0, x: '-50%' }}
+                        exit={{ opacity: 0, y: -20, x: '-50%' }}
+                        className="absolute top-20 left-1/2 z-40 w-full max-w-2xl px-4"
+                    >
+                        <div className="relative">
+                            <button onClick={() => setShowPersonalityMode(false)} className="absolute -top-3 -right-3 p-1.5 bg-background border border-border rounded-full hover:bg-surface z-50">
+                                <X size={14} />
+                            </button>
+                            <PersonalityGenerator onGenerate={(system) => {
+                                setPalette(system.palette.primaryScale.slice(1, 6));
+                                setShowPersonalityMode(false);
+                            }} />
+                        </div>
+                    </motion.div>
+                )}
+                {showImageMode && (
+                    <motion.div
+                        initial={{ opacity: 0, y: -20, x: '-50%' }}
+                        animate={{ opacity: 1, y: 0, x: '-50%' }}
+                        exit={{ opacity: 0, y: -20, x: '-50%' }}
+                        className="absolute top-20 left-1/2 z-40 w-full max-w-md px-4"
+                    >
+                         <div className="relative">
+                            <button onClick={() => setShowImageMode(false)} className="absolute -top-3 -right-3 p-1.5 bg-background border border-border rounded-full hover:bg-surface z-50">
+                                <X size={14} />
+                            </button>
+                            <ImageExtractor onExtract={(colors) => {
+                                setPalette(colors.slice(0, 5));
+                                setShowImageMode(false);
+                            }} />
+                        </div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
         </div>
 
         <AnimatePresence>
