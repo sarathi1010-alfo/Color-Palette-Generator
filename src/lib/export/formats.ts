@@ -40,3 +40,21 @@ export function toJson(swatches: Swatch[]): string {
     2
   );
 }
+
+export function toFigmaTokens(swatches: Swatch[]): string {
+  const tokens: Record<string, any> = {
+    global: {
+      color: {}
+    }
+  };
+
+  swatches.forEach((s, i) => {
+    tokens.global.color[`color-${i + 1}`] = {
+      value: s.hex.toUpperCase(),
+      type: "color",
+      description: s.name
+    };
+  });
+
+  return JSON.stringify(tokens, null, 2);
+}

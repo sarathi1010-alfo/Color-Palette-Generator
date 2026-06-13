@@ -10,7 +10,7 @@ interface PaletteCardProps {
 export function PaletteCard({ palette }: PaletteCardProps) {
   return (
     <Link
-      href={`/palettes/${palette.id}`}
+      href={`/palettes/${palette.category || 'all'}/${palette.slug || palette.id}`}
       className="group bg-surface rounded-xl border border-border overflow-hidden hover:scale-[1.02] transition-transform duration-300 shadow-sm hover:shadow-xl"
     >
       <div className="flex h-32 w-full">
@@ -18,7 +18,7 @@ export function PaletteCard({ palette }: PaletteCardProps) {
           <div
             key={i}
             className="flex-1 h-full"
-            style={{ backgroundColor: color }}
+            style={{ backgroundColor: typeof color === 'string' ? color : color.hex }}
           />
         ))}
       </div>

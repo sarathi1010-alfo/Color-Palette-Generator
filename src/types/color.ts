@@ -30,7 +30,8 @@ export type GeneratorMode =
 export interface Palette {
   id: string;
   name: string;
-  colors: string[];
+  slug?: string;
+  colors: string[] | { name: string; hex: string }[];
   tags?: string[];
   mood?: string;
   category?: string;
