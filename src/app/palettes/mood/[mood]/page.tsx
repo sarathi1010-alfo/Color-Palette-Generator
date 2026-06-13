@@ -2,6 +2,19 @@ import palettesData from "@/data/palettes.json";
 import { Navbar } from "@/components/layout/Navbar";
 import { PaletteGrid } from "@/components/library/PaletteGrid";
 import { notFound } from "next/navigation";
+import { resolveMetadata } from "@/lib/seo/resolveMetadata";
+import { buildCategoryMeta } from "@/lib/seo/metaFactories";
+
+export async function generateMetadata({ params }: { params: Promise<{ mood: string }> }) {
+  const { mood } = await params;
+  const moodName = mood.charAt(0).toUpperCase() + mood.slice(1);
+  return resolveMetadata(buildCategoryMeta({
+    name: moodName,
+    slug: mood,
+    description: `Find the perfect ${moodName.toLowerCase()} color scheme for your next project. These palettes are specifically curated to evoke a ${moodName.toLowerCase()} emotion and feel.`,
+    type: 'mood'
+  }));
+}
 
 export async function generateStaticParams() {
   const moods = Array.from(new Set(palettesData.map(p => p.mood)));

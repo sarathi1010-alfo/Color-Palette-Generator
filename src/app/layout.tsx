@@ -1,9 +1,12 @@
-import { constructMetadata } from "@/lib/seo";
-import type { Metadata } from "next";
+import { resolveMetadata } from "@/lib/seo/resolveMetadata";
+import { buildLandingMeta } from "@/lib/seo/metaFactories";
+import type { Metadata, Viewport } from "next";
 import { Fraunces, DM_Sans, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import { Toaster } from "react-hot-toast";
+import { JsonLd } from "@/components/JsonLd";
+import { buildOrganizationSchema } from "@/lib/seo/buildSchema";
 
 const fraunces = Fraunces({
   variable: "--font-fraunces",
@@ -20,8 +23,18 @@ const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
 });
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#050505",
+};
+
 export const metadata: Metadata = {
-  ...constructMetadata(),
+  ...resolveMetadata(buildLandingMeta({
+    title: "Color Palette Generator",
+    description: "The fastest, most visual color palette tool on the web — generate, explore, copy, and export beautiful palettes in seconds.",
+    slug: "/",
+  }), true),
   other: {
     "google-adsense-account": "ca-pub-6393936268623951",
   },
@@ -34,6 +47,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <JsonLd schema={buildOrganizationSchema()} />
+      </head>
       <body
         className={`${fraunces.variable} ${dmSans.variable} ${jetbrainsMono.variable} font-sans antialiased`}
       >

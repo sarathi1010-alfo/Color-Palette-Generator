@@ -1,11 +1,14 @@
 import { Metadata } from 'next';
-import { constructMetadata } from '@/lib/seo';
+import { resolveMetadata } from '@/lib/seo/resolveMetadata';
+import { buildPaletteMeta } from '@/lib/seo/metaFactories';
 import palettesData from '@/data/palettes.json';
 import { notFound } from 'next/navigation';
 import { Navbar } from '@/components/layout/Navbar';
 import { UIPreviewPane } from '@/components/generator/UIPreviewPane';
 import { Swatch } from '@/types/color';
 import Link from 'next/link';
+import { JsonLd } from '@/components/JsonLd';
+import { buildBreadcrumbSchema } from '@/lib/seo/buildSchema';
 
 interface PalettePageProps {
   params: Promise<{
@@ -29,16 +32,15 @@ export async function generateMetadata({ params }: PalettePageProps): Promise<Me
   );
 
   if (!palette) {
-    return constructMetadata({ title: 'Palette Not Found' });
+    return resolveMetadata(buildPaletteMeta({ title: 'Palette Not Found', slug: 'not-found', colors: [] }));
   }
 
-  const title = `Best ${palette.name} Color Palette for 2026 | PaletteFlow`;
-  const description = `Explore the ${palette.name} color palette. Perfect for ${category} projects. Get hex codes, live UI previews, and export to Tailwind, CSS, and Figma.`;
-
-  return constructMetadata({
-    title,
-    description,
-  });
+  return resolveMetadata(buildPaletteMeta({
+    title: palette.name,
+    slug: (palette as any).slug || palette.id,
+    description: `Explore the ${palette.name} color palette. Perfect for ${category} projects. Get hex codes, live UI previews, and export to Tailwind, CSS, and Figma.`,
+    colors: palette.colors.map((c: any) => typeof c === 'string' ? c : c.hex)
+  }));
 }
 
 export default async function PalettePage({ params }: PalettePageProps) {
@@ -66,13 +68,18 @@ export default async function PalettePage({ params }: PalettePageProps) {
     <div className="min-h-screen bg-background flex flex-col">
       <Navbar />
 
-      <main className="flex-1 py-20 px-6 max-w-7xl mx-auto w-full">
+      <main className="flex-1 py-20 px-6 max-w-7xl mx-auto w-full" itemScope itemType="https://schema.org/CreativeWork">
+        <JsonLd schema={buildBreadcrumbSchema(buildPaletteMeta({
+            title: palette.name,
+            slug: (palette as any).slug || palette.id,
+            colors: palette.colors.map((c: any) => typeof c === 'string' ? c : c.hex)
+        }).breadcrumbs)} />
         {/* Header */}
-        <div className="text-center space-y-6 mb-16">
+        <article className="text-center space-y-6 mb-16">
           <span className="px-4 py-1.5 rounded-full bg-surface border border-border text-text-secondary text-xs font-bold uppercase tracking-widest">
             {palette.category || 'Curated'} Palette
           </span>
-          <h1 className="text-4xl md:text-6xl font-display font-bold">
+          <h1 className="text-4xl md:text-6xl font-display font-bold" itemProp="name">
             {palette.name} <span className="text-primary italic">Colors</span>
           </h1>
           <p className="text-text-secondary text-lg max-w-2xl mx-auto">
@@ -87,7 +94,7 @@ export default async function PalettePage({ params }: PalettePageProps) {
                 Edit in Generator
               </Link>
           </div>
-        </div>
+        </article>
 
         {/* Colors Breakdown */}
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-16">

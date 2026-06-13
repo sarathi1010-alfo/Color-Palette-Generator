@@ -2,6 +2,19 @@ import palettesData from "@/data/palettes.json";
 import { Navbar } from "@/components/layout/Navbar";
 import { PaletteGrid } from "@/components/library/PaletteGrid";
 import { notFound } from "next/navigation";
+import { resolveMetadata } from "@/lib/seo/resolveMetadata";
+import { buildCategoryMeta } from "@/lib/seo/metaFactories";
+
+export async function generateMetadata({ params }: { params: Promise<{ cat: string }> }) {
+  const { cat } = await params;
+  const categoryName = cat.charAt(0).toUpperCase() + cat.slice(1);
+  return resolveMetadata(buildCategoryMeta({
+    name: categoryName,
+    slug: cat,
+    description: `Explore our curated collection of ${categoryName.toLowerCase()} inspired color palettes. Perfect for ${cat.toLowerCase()} projects, branding, and modern UI design.`,
+    type: 'category'
+  }));
+}
 
 export async function generateStaticParams() {
   const categories = Array.from(new Set(palettesData.map(p => p.category)));
