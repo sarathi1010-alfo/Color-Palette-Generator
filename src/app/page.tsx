@@ -14,7 +14,7 @@ export default function HomePage() {
     <div className="min-h-screen bg-background flex flex-col">
       <Navbar />
 
-      <main className="flex-1">
+      <main className="flex-1" itemScope itemType="https://schema.org/WebPage">
         {/* Hero Section */}
         <section className="relative overflow-hidden pt-20 pb-32 border-b border-border">
           <div className="max-w-7xl mx-auto px-6 relative z-10 text-center space-y-12">
@@ -26,10 +26,10 @@ export default function HomePage() {
               <span className="px-4 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-widest">
                 The Fastest Design Utility
               </span>
-              <h1 className="text-6xl md:text-8xl font-display font-bold tracking-tight max-w-4xl mx-auto">
+              <h1 className="text-6xl md:text-8xl font-display font-bold tracking-tight max-w-4xl mx-auto" itemProp="name">
                 Build Beautiful Colors. <span className="text-primary italic">Instantly.</span>
               </h1>
-              <p className="text-text-secondary text-xl max-w-2xl mx-auto leading-relaxed">
+              <p className="text-text-secondary text-xl max-w-2xl mx-auto leading-relaxed" itemProp="description">
                 Generate, explore, and export stunning color palettes for your next UI,
                 branding, or web project. Zero friction, zero login.
               </p>

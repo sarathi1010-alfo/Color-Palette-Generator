@@ -9,6 +9,14 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { resolveMetadata } from "@/lib/seo/resolveMetadata";
+import { buildLandingMeta } from "@/lib/seo/metaFactories";
+
+export const metadata = resolveMetadata(buildLandingMeta({
+  title: "Design Tools",
+  description: "A suite of professional color utilities including contrast checkers, gradient generators, tints and shades builders, and image extractors.",
+  slug: "/tools",
+}));
 
 const tools = [
   {

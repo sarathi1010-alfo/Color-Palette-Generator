@@ -5,7 +5,10 @@ import { notFound } from "next/navigation";
 import chroma from "chroma-js";
 import Link from "next/link";
 import { Metadata } from "next";
-import { constructMetadata, siteConfig } from "@/lib/seo";
+import { resolveMetadata } from "@/lib/seo/resolveMetadata";
+import { buildColorMeta } from "@/lib/seo/metaFactories";
+import { buildProductSchema, buildBreadcrumbSchema } from "@/lib/seo/buildSchema";
+import { JsonLd } from "@/components/JsonLd";
 
 export async function generateMetadata({ params }: { params: Promise<{ colorname: string }> }): Promise<Metadata> {
   const { colorname } = await params;
@@ -14,14 +17,10 @@ export async function generateMetadata({ params }: { params: Promise<{ colorname
   );
   if (!colorData) return {};
 
-  const ogUrl = `/api/og?colors=${colorData.hex.replace("#", "")}`;
-
-  return constructMetadata({
-    title: `${colorData.name} Color - HEX Code, RGB, HSL | ${siteConfig.name}`,
-    description: `Detailed information about the color ${colorData.name} (${colorData.hex.toUpperCase()}). Explore similar colors and harmonies.`,
-    image: ogUrl,
-    canonicalUrl: `${siteConfig.url}/colors/${colorname}`,
-  });
+  return resolveMetadata(buildColorMeta({
+    name: colorData.name,
+    hex: colorData.hex.toUpperCase()
+  }));
 }
 
 export async function generateStaticParams() {
@@ -51,13 +50,16 @@ export default async function ColorNamePage({ params }: { params: Promise<{ colo
     <div className="min-h-screen bg-background flex flex-col">
       <Navbar />
 
-      <main className="flex-1 max-w-5xl mx-auto w-full px-6 py-12 space-y-16">
-        <section className="space-y-8">
+      <main className="flex-1 max-w-5xl mx-auto w-full px-6 py-12 space-y-16" itemScope itemType="https://schema.org/Product">
+        <JsonLd schema={buildProductSchema(buildColorMeta({ name: colorData.name, hex: colorData.hex }))} />
+        <JsonLd schema={buildBreadcrumbSchema(buildColorMeta({ name: colorData.name, hex: colorData.hex }).breadcrumbs)} />
+
+        <article className="space-y-8">
             <div className="h-64 sm:h-80 w-full rounded-3xl shadow-2xl flex flex-col items-center justify-center space-y-4" style={{ backgroundColor: hex }}>
-                <h1 className="text-5xl md:text-7xl font-display font-bold" style={{ color: contrastColor }}>{colorData.name}</h1>
+                <h1 className="text-5xl md:text-7xl font-display font-bold" style={{ color: contrastColor }} itemProp="name">{colorData.name}</h1>
                 <p className="text-2xl font-mono font-medium opacity-80" style={{ color: contrastColor }}>{hex.toUpperCase()}</p>
             </div>
-        </section>
+        </article>
 
         <section className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="space-y-6">
