@@ -1,3 +1,4 @@
+import { Footer } from "@/components/layout/Footer";
 import { Metadata } from 'next';
 import { resolveMetadata } from '@/lib/seo/resolveMetadata';
 import { buildPaletteMeta } from '@/lib/seo/metaFactories';
@@ -124,6 +125,7 @@ export default async function PalettePage({ params }: PalettePageProps) {
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 }

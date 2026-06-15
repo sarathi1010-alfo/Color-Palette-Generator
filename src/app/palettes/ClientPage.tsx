@@ -1,4 +1,5 @@
 "use client";
+import { Footer } from "@/components/layout/Footer";
 
 import { useState, useMemo } from "react";
 import { Navbar } from "@/components/layout/Navbar";
@@ -131,6 +132,7 @@ export default function LibraryClientPage() {
           )}
         </div>
       </main>
+      <Footer />
     </div>
   );
 }

@@ -1,4 +1,5 @@
 "use client";
+import { Footer } from "@/components/layout/Footer";
 
 import { useState } from "react";
 import { Navbar } from "@/components/layout/Navbar";
@@ -136,6 +137,7 @@ export default function GradientGeneratorClientPage() {
             </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 }
