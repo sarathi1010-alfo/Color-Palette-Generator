@@ -15,9 +15,10 @@ export function Navbar() {
   return (
     <nav className="h-16 border-b border-border bg-background flex items-center justify-between px-6 z-20">
       <div className="flex items-center space-x-8">
-        <Link href="/" className="flex items-center space-x-2">
+        <Link href="/" className="flex items-center space-x-2 group">
+          <Palette className="text-primary group-hover:scale-110 transition-transform" size={24} />
           <span className="text-2xl font-display font-bold tracking-tight">
-            ALFO
+            Palette
           </span>
         </Link>
         <div className="hidden md:flex items-center space-x-6 text-sm font-medium">

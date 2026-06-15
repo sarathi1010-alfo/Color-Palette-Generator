@@ -135,7 +135,7 @@ export default function HomePage() {
       <footer className="bg-background border-t border-border py-12 px-6">
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
               <div className="space-y-4 text-center md:text-left">
-                <span className="text-2xl font-display font-bold">ALFO</span>
+                <span className="text-2xl font-display font-bold">Palette</span>
                 <p className="text-xs text-text-secondary uppercase tracking-widest">A product of Alfo Tech Industries</p>
               </div>
               <div className="flex space-x-8 text-sm font-bold text-text-secondary">
