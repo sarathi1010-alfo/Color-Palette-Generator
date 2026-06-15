@@ -1,3 +1,4 @@
+import { Footer } from "@/components/layout/Footer";
 import colorNames from "@/data/color-names.json";
 import { Navbar } from "@/components/layout/Navbar";
 import { getContrastColor, hexToHsl, hexToRgb, getLuminance } from "@/lib/color/conversions";
@@ -117,6 +118,7 @@ export default async function ColorNamePage({ params }: { params: Promise<{ colo
             </Link>
         </section>
       </main>
+      <Footer />
     </div>
   );
 }

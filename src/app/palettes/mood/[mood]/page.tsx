@@ -1,3 +1,4 @@
+import { Footer } from "@/components/layout/Footer";
 import palettesData from "@/data/palettes.json";
 import { Navbar } from "@/components/layout/Navbar";
 import { PaletteGrid } from "@/components/library/PaletteGrid";
@@ -48,6 +49,7 @@ export default async function MoodPage({ params }: { params: Promise<{ mood: str
         </div>
         <PaletteGrid palettes={filteredPalettes} />
       </main>
+      <Footer />
     </div>
   );
 }

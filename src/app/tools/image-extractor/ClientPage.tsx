@@ -1,4 +1,5 @@
 "use client";
+import { Footer } from "@/components/layout/Footer";
 
 import { useState, useRef, useCallback } from "react";
 import { Navbar } from "@/components/layout/Navbar";
@@ -173,6 +174,7 @@ export default function ImageExtractorClientPage() {
         </div>
       </main>
       <canvas ref={canvasRef} className="hidden" />
+      <Footer />
     </div>
   );
 }
