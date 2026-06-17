@@ -6,6 +6,8 @@ import { notFound } from "next/navigation";
 import { resolveMetadata } from "@/lib/seo/resolveMetadata";
 import { buildCategoryMeta } from "@/lib/seo/metaFactories";
 
+import { sanitizeSlug } from '@/lib/url/utils';
+
 export async function generateMetadata({ params }: { params: Promise<{ mood: string }> }) {
   const { mood } = await params;
   const moodName = mood.charAt(0).toUpperCase() + mood.slice(1);
@@ -20,14 +22,14 @@ export async function generateMetadata({ params }: { params: Promise<{ mood: str
 export async function generateStaticParams() {
   const moods = Array.from(new Set(palettesData.map(p => p.mood)));
   return moods.map((mood) => ({
-    mood: mood,
+    mood: sanitizeSlug(mood),
   }));
 }
 
 export default async function MoodPage({ params }: { params: Promise<{ mood: string }> }) {
   const { mood } = await params;
   const filteredPalettes = palettesData.filter(
-    (p) => p.mood.toLowerCase() === mood.toLowerCase()
+    (p) => sanitizeSlug(p.mood) === mood
   );
 
   if (filteredPalettes.length === 0) {

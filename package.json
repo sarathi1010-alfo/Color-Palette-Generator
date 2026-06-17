@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "validate-seo": "tsx scripts/validate-seo.ts",
+    "prebuild": "npm run validate-seo",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"

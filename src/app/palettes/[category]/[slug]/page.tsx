@@ -10,6 +10,7 @@ import { Swatch } from '@/types/color';
 import Link from 'next/link';
 import { JsonLd } from '@/components/JsonLd';
 import { buildBreadcrumbSchema } from '@/lib/seo/buildSchema';
+import { sanitizeSlug } from '@/lib/url/utils';
 
 interface PalettePageProps {
   params: Promise<{
@@ -21,24 +22,25 @@ interface PalettePageProps {
 // Ensure static generation for all known palettes
 export async function generateStaticParams() {
   return palettesData.map((palette) => ({
-    category: palette.category || 'all',
-    slug: (palette as any).slug || palette.id,
+    category: sanitizeSlug(palette.category || 'all'),
+    slug: sanitizeSlug((palette as any).slug || palette.id),
   }));
 }
 
 export async function generateMetadata({ params }: PalettePageProps): Promise<Metadata> {
   const { category, slug } = await params;
   const palette = palettesData.find(
-    (p) => (p as any).slug === slug || p.id === slug
+    (p) => sanitizeSlug((p as any).slug || p.id) === slug
   );
 
   if (!palette) {
-    return resolveMetadata(buildPaletteMeta({ title: 'Palette Not Found', slug: 'not-found', colors: [] }));
+    return resolveMetadata(buildPaletteMeta({ title: 'Palette Not Found', slug: 'not-found', colors: [], category: 'all' }));
   }
 
   return resolveMetadata(buildPaletteMeta({
     title: palette.name,
     slug: (palette as any).slug || palette.id,
+    category: palette.category || 'all',
     description: `Explore the ${palette.name} color palette. Perfect for ${category} projects. Get hex codes, live UI previews, and export to Tailwind, CSS, and Figma.`,
     colors: palette.colors.map((c: any) => typeof c === 'string' ? c : c.hex)
   }));
@@ -47,7 +49,7 @@ export async function generateMetadata({ params }: PalettePageProps): Promise<Me
 export default async function PalettePage({ params }: PalettePageProps) {
   const { slug } = await params;
   const palette = palettesData.find(
-    (p) => (p as any).slug === slug || p.id === slug
+    (p) => sanitizeSlug((p as any).slug || p.id) === slug
   );
 
   if (!palette) {
@@ -73,6 +75,7 @@ export default async function PalettePage({ params }: PalettePageProps) {
         <JsonLd schema={buildBreadcrumbSchema(buildPaletteMeta({
             title: palette.name,
             slug: (palette as any).slug || palette.id,
+            category: palette.category || 'all',
             colors: palette.colors.map((c: any) => typeof c === 'string' ? c : c.hex)
         }).breadcrumbs)} />
         {/* Header */}

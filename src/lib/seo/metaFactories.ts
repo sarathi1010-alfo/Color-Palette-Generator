@@ -1,15 +1,25 @@
 import type { SeoMeta } from '@/types/seo';
-
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://paletteflow.alfo.online';
+import { seoConfig } from '@/seo.config';
 
 function getOgImageUrl(title: string, type: string) {
-  return `${BASE_URL}/api/og?title=${encodeURIComponent(title)}&type=${type}`;
+  return `${seoConfig.siteUrl}/api/og?title=${encodeURIComponent(title)}&type=${type}`;
+}
+
+// Meta title should be 50-60 chars
+function enforceTitleLength(title: string): string {
+    return title.substring(0, 60);
+}
+
+// Meta description should be 140-160 chars
+function enforceDescriptionLength(description: string, fallback: string = seoConfig.defaultDescription): string {
+    const desc = description || fallback;
+    return desc.substring(0, 160);
 }
 
 export function buildLandingMeta(page: { title: string; description: string; slug: string }): SeoMeta {
   return {
-    title: page.title,
-    description: page.description.substring(0, 160),
+    title: enforceTitleLength(page.title),
+    description: enforceDescriptionLength(page.description),
     slug: page.slug,
     pageType: 'landing',
     noindex: false,
@@ -25,10 +35,10 @@ export function buildLandingMeta(page: { title: string; description: string; slu
 
 export function buildToolMeta(tool: { title: string; description: string; slug: string }): SeoMeta {
   return {
-    title: tool.title,
-    description: tool.description.substring(0, 160),
+    title: enforceTitleLength(tool.title),
+    description: enforceDescriptionLength(tool.description),
     slug: tool.slug,
-    pageType: 'website', // Tools fit 'website' or 'landing' best
+    pageType: 'website',
     noindex: false,
     ogImage: {
       url: getOgImageUrl(tool.title, 'tool'),
@@ -43,16 +53,15 @@ export function buildToolMeta(tool: { title: string; description: string; slug: 
 }
 
 export function buildColorMeta(color: { name: string; hex: string; description?: string }): SeoMeta {
-  const title = `${color.name} (${color.hex}) Color Code, Hex, RGB and Palettes`;
-  const description = color.description
-    ? color.description.substring(0, 160)
-    : `Everything about the color ${color.name} (${color.hex}). Get hex, rgb codes, complementary colors, and beautiful color palettes using ${color.name}.`;
+  const rawTitle = `${color.name} (${color.hex}) Color Code, Hex, RGB and Palettes`;
+  const rawDescription = color.description || `Everything about the color ${color.name} (${color.hex}). Get hex, rgb codes, complementary colors, and beautiful color palettes using ${color.name}.`;
 
+  const title = enforceTitleLength(rawTitle);
   return {
     title,
-    description,
+    description: enforceDescriptionLength(rawDescription),
     slug: `/colors/${color.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
-    pageType: 'product', // Representing a color as a product entity is a common SEO strategy for color sites
+    pageType: 'product',
     noindex: false,
     ogImage: {
       url: getOgImageUrl(title, 'color'),
@@ -73,16 +82,20 @@ export function buildColorMeta(color: { name: string; hex: string; description?:
   };
 }
 
-export function buildPaletteMeta(palette: { title: string; slug: string; description?: string; colors: string[] }): SeoMeta {
-  const title = `${palette.title} Color Palette`;
-  const description = palette.description
-    ? palette.description.substring(0, 160)
-    : `Beautiful ${palette.title} color palette featuring hex codes ${palette.colors.join(', ')}. Perfect for your next design project.`;
+import { sanitizeSlug } from '@/lib/url/utils';
+
+export function buildPaletteMeta(palette: { title: string; slug: string; description?: string; colors: string[]; category?: string }): SeoMeta {
+  const rawTitle = `${palette.title} Color Palette`;
+  const rawDescription = palette.description || `Beautiful ${palette.title} color palette featuring hex codes ${palette.colors.join(', ')}. Perfect for your next design project.`;
+
+  const title = enforceTitleLength(rawTitle);
+  const categorySlug = sanitizeSlug(palette.category || 'all');
+  const idSlug = sanitizeSlug(palette.slug);
 
   return {
     title,
-    description,
-    slug: `/palettes/palette/${palette.slug}`, // Based on dynamic route structure
+    description: enforceDescriptionLength(rawDescription),
+    slug: `/palettes/${categorySlug}/${idSlug}`,
     pageType: 'website',
     noindex: false,
     ogImage: {
@@ -92,19 +105,20 @@ export function buildPaletteMeta(palette: { title: string; slug: string; descrip
     breadcrumbs: [
       { label: 'Home', href: '/' },
       { label: 'Palettes', href: '/palettes' },
-      { label: palette.title, href: `/palettes/palette/${palette.slug}` },
+      { label: palette.title, href: `/palettes/${categorySlug}/${idSlug}` },
     ],
   };
 }
 
 export function buildCategoryMeta(category: { name: string; slug: string; description: string; type: 'category' | 'mood' }): SeoMeta {
-  const title = `${category.name} Color Palettes`;
+  const rawTitle = `${category.name} Color Palettes`;
   const basePath = category.type === 'mood' ? '/palettes/mood' : '/palettes/category';
   const slug = `${basePath}/${category.slug}`;
 
+  const title = enforceTitleLength(rawTitle);
   return {
     title,
-    description: category.description.substring(0, 160),
+    description: enforceDescriptionLength(category.description),
     slug,
     pageType: 'category',
     noindex: false,
@@ -121,9 +135,10 @@ export function buildCategoryMeta(category: { name: string; slug: string; descri
 }
 
 export function buildFaqMeta(page: { title: string; description: string; slug: string }): SeoMeta {
+  const title = enforceTitleLength(page.title);
   return {
-    title: page.title,
-    description: page.description.substring(0, 160),
+    title,
+    description: enforceDescriptionLength(page.description),
     slug: page.slug,
     pageType: 'faq',
     noindex: false,
