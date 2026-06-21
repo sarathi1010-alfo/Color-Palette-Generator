@@ -1,5 +1,10 @@
 import type { SeoMeta } from '@/types/seo';
 
+function truncateString(str: string, maxLen: number): string {
+  if (str.length <= maxLen) return str;
+  return str.substring(0, maxLen - 3) + '...';
+}
+
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://paletteflow.alfo.online';
 
 function getOgImageUrl(title: string, type: string) {
@@ -43,10 +48,10 @@ export function buildToolMeta(tool: { title: string; description: string; slug: 
 }
 
 export function buildColorMeta(color: { name: string; hex: string; description?: string }): SeoMeta {
-  const title = `${color.name} (${color.hex}) Color Code, Hex, RGB and Palettes`;
-  const description = color.description
-    ? color.description.substring(0, 160)
-    : `Everything about the color ${color.name} (${color.hex}). Get hex, rgb codes, complementary colors, and beautiful color palettes using ${color.name}.`;
+  const title = truncateString(`${color.name} (${color.hex}) Color Info`, 42); // leaves room for " | SiteName"
+  const description = truncateString(color.description
+    ? color.description
+    : `Explore ${color.name} (${color.hex}). Get hex, rgb codes, complementary colors, and beautiful palettes using ${color.name}. Free at PaletteFlow.`, 155);
 
   return {
     title,
@@ -74,10 +79,10 @@ export function buildColorMeta(color: { name: string; hex: string; description?:
 }
 
 export function buildPaletteMeta(palette: { title: string; slug: string; description?: string; colors: string[], category?: string }): SeoMeta {
-  const title = `${palette.title} - Free Color Palette | PaletteFlow`;
-  const description = palette.description
-    ? palette.description.substring(0, 160)
-    : `Explore ${palette.title} with hex codes ${palette.colors.join(', ')}. Copy colors instantly. Free online palette tool.`;
+  const title = truncateString(`${palette.title} Color Palette`, 42);
+  const description = truncateString(palette.description
+    ? palette.description
+    : `Explore ${palette.title} with colors ${palette.colors.slice(0,3).join(', ')}. Copy hex codes instantly. Free at PaletteFlow.`, 155);
   const routeCategory = palette.category || 'all';
 
   return {
@@ -88,7 +93,7 @@ export function buildPaletteMeta(palette: { title: string; slug: string; descrip
     noindex: false,
     ogImage: {
       url: getOgImageUrl(title, 'palette'),
-      alt: `${palette.title} color palette preview`,
+      alt: `${palette.title} Color Palette`,
     },
     breadcrumbs: [
       { label: 'Home', href: '/' },

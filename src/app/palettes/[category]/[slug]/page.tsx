@@ -33,7 +33,12 @@ export async function generateMetadata({ params }: PalettePageProps): Promise<Me
   );
 
   if (!palette) {
-    return resolveMetadata(buildPaletteMeta({ title: 'Palette Not Found', slug: 'not-found', colors: [] }));
+    return resolveMetadata(buildPaletteMeta({
+      title: 'Palette Not Found',
+      slug: 'not-found',
+      colors: [],
+      category: 'all'
+    }));
   }
 
   return resolveMetadata(buildPaletteMeta({
@@ -123,7 +128,7 @@ export default async function PalettePage({ params }: PalettePageProps) {
         </div>
 
         {/* Live Preview Section */}
-        <div className="space-y-8 max-w-4xl mx-auto mb-20">
+        <div className="space-y-8 max-w-4xl mx-auto">
           <div className="text-center space-y-2">
             <h2 className="text-3xl font-display font-bold">Live UI Preview</h2>
             <p className="text-text-secondary text-sm">See how these colors feel in a real interface.</p>
@@ -135,16 +140,16 @@ export default async function PalettePage({ params }: PalettePageProps) {
         </div>
 
         {/* SEO Internal Linking - Related Palettes */}
-        <section className="border-t border-border pt-16">
+        <section className="border-t border-border pt-16 mt-16">
            <div className="flex items-center justify-between mb-8">
              <h2 className="text-3xl font-display font-bold">More Palettes</h2>
-             <Link href={`/palettes/category/${category.toLowerCase()}`} className="text-sm font-bold text-text-secondary hover:text-primary transition-colors">
-               View All {category} →
+             <Link href={`/palettes/category/${palette.category.toLowerCase()}`} className="text-sm font-bold text-text-secondary hover:text-primary transition-colors">
+               View All {palette.category} →
              </Link>
            </div>
            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {palettesData
-                .filter(p => p.category.toLowerCase() === category.toLowerCase() && p.id !== palette.id)
+                .filter(p => p.category.toLowerCase() === palette.category.toLowerCase() && p.id !== palette.id)
                 .slice(0, 4)
                 .map((related: any) => (
                   <Link

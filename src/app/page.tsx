@@ -16,33 +16,6 @@ export default function HomePage() {
     <div className="min-h-screen bg-background flex flex-col">
       <Navbar />
 
-      {/* ADSTERRA 728x90 & 320x50 START */}
-      <div className="w-full flex justify-center py-4 bg-surface border-b border-border">
-        {/* Desktop 728x90 */}
-        <div className="hidden md:block">
-          <iframe
-            srcDoc="<script>atOptions = {'key' : 'e3013fc0470a2b05c6116970dcdcb6','format' : 'iframe','height' : 90,'width' : 728,'params' : {}};</script><script src='https://www.highperformanceformat.com/e3013fc0470a2b05c6116970dcdcb6/invoke.js'></script>"
-            width="728"
-            height="90"
-            frameBorder="0"
-            scrolling="no"
-            style={{ border: 'none', overflow: 'hidden' }}
-          ></iframe>
-        </div>
-        {/* Mobile 320x50 */}
-        <div className="block md:hidden">
-          <iframe
-            srcDoc="<script>atOptions = {'key' : '5c06324017b2926ad4a234e4d9d33345','format' : 'iframe','height' : 50,'width' : 320,'params' : {}};</script><script src='https://www.highperformanceformat.com/5c06324017b2926ad4a234e4d9d33345/invoke.js'></script>"
-            width="320"
-            height="50"
-            frameBorder="0"
-            scrolling="no"
-            style={{ border: 'none', overflow: 'hidden' }}
-          ></iframe>
-        </div>
-      </div>
-      {/* ADSTERRA 728x90 & 320x50 END */}
-
       <main className="flex-1" itemScope itemType="https://schema.org/WebPage">
         {/* Hero Section */}
         <section className="relative overflow-hidden pt-20 pb-32 border-b border-border">
@@ -72,15 +45,6 @@ export default function HomePage() {
             >
               <Link
                 href="/generator"
-                onClick={(e) => {
-                  if (typeof window !== "undefined") {
-                    const hasFired = sessionStorage.getItem("adsterra_popunder_fired");
-                    if (!hasFired) {
-                      window.open("https://www.effectivecpmnetwork.com/bbjq1qzwr5?key=cbfa1fbdb589d39614540a2d6302a4e1", "_blank");
-                      sessionStorage.setItem("adsterra_popunder_fired", "true");
-                    }
-                  }
-                }}
                 className="w-full sm:w-auto flex items-center justify-center space-x-3 bg-text-primary text-background px-10 py-5 rounded-2xl font-bold text-lg hover:scale-[1.02] transition-transform active:scale-95 shadow-2xl"
               >
                 <Zap size={20} />
@@ -135,33 +99,6 @@ export default function HomePage() {
             </div>
         </section>
 
-        {/* SEO Internal Linking - Discovery Architecture */}
-        <section className="py-24 max-w-7xl mx-auto px-6 space-y-12 border-b border-border">
-            <div className="space-y-4 text-center md:text-left">
-                <h2 className="text-3xl font-display font-bold">Browse by Collection</h2>
-                <p className="text-text-secondary max-w-2xl">
-                    Discover palettes perfectly suited for your specific use case. From corporate branding to vibrant nature designs, find the perfect starting point.
-                </p>
-            </div>
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
-               {Array.from(new Set(palettesData.map(p => p.category))).slice(0, 6).map((cat) => (
-                   <Link key={cat} href={`/palettes/category/${cat.toLowerCase()}`} className="p-4 bg-surface border border-border rounded-xl text-center hover:scale-105 transition-transform hover:border-text-secondary">
-                       <span className="font-bold text-sm capitalize">{cat}</span>
-                   </Link>
-               ))}
-               {Array.from(new Set(palettesData.map(p => p.mood))).slice(0, 6).map((mood) => (
-                   <Link key={mood} href={`/palettes/mood/${mood.toLowerCase()}`} className="p-4 bg-surface border border-border rounded-xl text-center hover:scale-105 transition-transform hover:border-text-secondary">
-                       <span className="font-bold text-sm capitalize">{mood}</span>
-                   </Link>
-               ))}
-            </div>
-            <div className="flex justify-center pt-6">
-                <Link href="/colors" className="text-sm font-bold underline hover:text-primary transition-colors">
-                    Browse All Individual Colors in Dictionary →
-                </Link>
-            </div>
-        </section>
-
         {/* Featured Palettes */}
         <section className="py-32 max-w-7xl mx-auto px-6 space-y-12">
             <div className="flex items-end justify-between border-b border-border pb-8">
@@ -195,31 +132,6 @@ export default function HomePage() {
                 </Link>
             </div>
         </section>
-
-        {/* ADSTERRA 300x250 START */}
-        <div className="w-full flex justify-center py-8">
-          <iframe
-            srcDoc="<script>atOptions = {'key' : '0bb49b653de0fa69023c1380b845c079','format' : 'iframe','height' : 250,'width' : 300,'params' : {}};</script><script src='https://www.highperformanceformat.com/0bb49b653de0fa69023c1380b845c079/invoke.js'></script>"
-            width="300"
-            height="250"
-            frameBorder="0"
-            scrolling="no"
-            style={{ border: 'none', overflow: 'hidden' }}
-          ></iframe>
-        </div>
-        {/* ADSTERRA 300x250 END */}
-
-        {/* GOOGLE ADSENSE PLACEHOLDER START */}
-        {/* Placeholder for unverified Google AdSense code. Safe container that collapses when empty. */}
-        <div className="w-full flex justify-center empty:hidden"></div>
-        {/* GOOGLE ADSENSE PLACEHOLDER END */}
-
-        {/* ADSTERRA NATIVE BANNER START */}
-        <div className="w-full max-w-7xl mx-auto px-6 py-8 flex justify-center overflow-hidden">
-          <script async data-cfasync="false" src="https://pl29826862.effectivecpmnetwork.com/122b76e86675974fc4dc1c858d6c5fb3/invoke.js"></script>
-          <div id="container-122b76e86675974fc4dc1c858d6c5fb3"></div>
-        </div>
-        {/* ADSTERRA NATIVE BANNER END */}
       </main>
 
 
