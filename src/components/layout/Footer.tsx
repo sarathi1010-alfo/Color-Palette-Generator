@@ -12,7 +12,8 @@ export function Footer() {
           </p>
         </div>
         <div className="flex space-x-8 text-sm font-bold text-text-secondary">
-          <Link href="/palettes" className="hover:text-primary transition-colors">Library</Link>
+          <Link href="/palettes" className="hover:text-primary transition-colors">Palettes</Link>
+          <Link href="/colors" className="hover:text-primary transition-colors">Colors</Link>
           <Link href="/tools" className="hover:text-primary transition-colors">Tools</Link>
           <Link href="/about" className="hover:text-primary transition-colors">About</Link>
         </div>

@@ -73,26 +73,27 @@ export function buildColorMeta(color: { name: string; hex: string; description?:
   };
 }
 
-export function buildPaletteMeta(palette: { title: string; slug: string; description?: string; colors: string[] }): SeoMeta {
-  const title = `${palette.title} Color Palette`;
+export function buildPaletteMeta(palette: { title: string; slug: string; description?: string; colors: string[], category?: string }): SeoMeta {
+  const title = `${palette.title} - Free Color Palette | PaletteFlow`;
   const description = palette.description
     ? palette.description.substring(0, 160)
-    : `Beautiful ${palette.title} color palette featuring hex codes ${palette.colors.join(', ')}. Perfect for your next design project.`;
+    : `Explore ${palette.title} with hex codes ${palette.colors.join(', ')}. Copy colors instantly. Free online palette tool.`;
+  const routeCategory = palette.category || 'all';
 
   return {
     title,
     description,
-    slug: `/palettes/palette/${palette.slug}`, // Based on dynamic route structure
+    slug: `/palettes/${routeCategory}/${palette.slug}`, // Based on dynamic route structure
     pageType: 'website',
     noindex: false,
     ogImage: {
       url: getOgImageUrl(title, 'palette'),
-      alt: `${palette.title} Color Palette`,
+      alt: `${palette.title} color palette preview`,
     },
     breadcrumbs: [
       { label: 'Home', href: '/' },
       { label: 'Palettes', href: '/palettes' },
-      { label: palette.title, href: `/palettes/palette/${palette.slug}` },
+      { label: palette.title, href: `/palettes/${routeCategory}/${palette.slug}` },
     ],
   };
 }
