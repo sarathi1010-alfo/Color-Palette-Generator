@@ -17,19 +17,14 @@ export function PaletteCard({ palette }: PaletteCardProps) {
       href={`/palettes/${categorySlug}/${idSlug}`}
       className="group bg-surface rounded-xl border border-border overflow-hidden hover:scale-[1.02] transition-transform duration-300 shadow-sm hover:shadow-xl"
     >
-      <div className="flex h-32 w-full" aria-label={`${palette.name} color swatches`}>
-        {palette.colors.map((color, i) => {
-          const hex = typeof color === 'string' ? color : color.hex;
-          return (
-            <div
-              key={i}
-              className="flex-1 h-full"
-              style={{ backgroundColor: hex }}
-              aria-label={`Color swatch ${hex}`}
-              title={hex}
-            />
-          );
-        })}
+      <div className="flex h-32 w-full">
+        {palette.colors.map((color, i) => (
+          <div
+            key={i}
+            className="flex-1 h-full"
+            style={{ backgroundColor: typeof color === 'string' ? color : color.hex }}
+          />
+        ))}
       </div>
       <div className="p-4 flex items-center justify-between">
         <div>

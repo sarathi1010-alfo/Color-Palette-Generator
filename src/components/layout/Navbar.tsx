@@ -28,7 +28,11 @@ export function Navbar() {
           </Link>
           <Link href="/palettes" className="flex items-center space-x-1 hover:text-primary transition-colors">
             <Library size={16} />
-            <span>Library</span>
+            <span>Palettes</span>
+          </Link>
+          <Link href="/colors" className="flex items-center space-x-1 hover:text-primary transition-colors">
+            <Palette size={16} />
+            <span>Colors</span>
           </Link>
           <Link href="/tools" className="flex items-center space-x-1 hover:text-primary transition-colors">
             <Wrench size={16} />

@@ -51,9 +51,6 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <JsonLd schema={buildOrganizationSchema()} />
-        {/* MONETAG AD START */}
-        <meta name="monetag" content="b8e2d5bad0fa15328f0bc86f1ee49713" />
-        {/* MONETAG AD END */}
       </head>
       <body
         className={`${fraunces.variable} ${dmSans.variable} ${jetbrainsMono.variable} font-sans antialiased`}
@@ -62,9 +59,6 @@ export default function RootLayout({
           {children}
           <Toaster position="bottom-right" />
         </ThemeProvider>
-        {/* ADSTERRA SOCIAL BAR START */}
-        <script defer src="https://pl29826863.effectivecpmnetwork.com/b0/c5/d9/b0c5d95f0be54b1c5f9b5bbf2f069579.js"></script>
-        {/* ADSTERRA SOCIAL BAR END */}
       </body>
     </html>
   );

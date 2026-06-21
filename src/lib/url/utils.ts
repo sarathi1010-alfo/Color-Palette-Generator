@@ -1,4 +1,18 @@
-export function normalizeRoute(path: string): string {
+ feature/ad-integration-15123994777554235439
+export function sanitizeSlug(slug: string): string {
+  if (!slug) return '';
+  return slug.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+}
+
+export function generatePaletteUrl(category: string | undefined, slugOrId: string): string {
+  const cat = category ? sanitizeSlug(category) : 'all';
+  const slug = sanitizeSlug(slugOrId);
+  return `/palettes/${cat}/${slug}`;
+}
+
+export function generateColorUrl(name: string): string {
+  return `/colors/${sanitizeSlug(name)}`;
+ function normalizeRoute(path: string): string {
   if (!path) return '/';
 
   let normalizedPath = path;
@@ -59,4 +73,5 @@ export function generateCanonicalUrl(path: string): string {
     const base = BASE_URL.replace(/\/$/, '');
 
     return normalizedPath === '/' ? `${base}/` : `${base}${normalizedPath}`;
+feature/color-palette-generator-v1-6453441805522074869
 }

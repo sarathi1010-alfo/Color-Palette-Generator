@@ -1,5 +1,15 @@
 import type { SeoMeta } from '@/types/seo';
+feature/ad-integration-15123994777554235439
+
+function truncateString(str: string, maxLen: number): string {
+  if (str.length <= maxLen) return str;
+  return str.substring(0, maxLen - 3) + '...';
+}
+
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://paletteflow.alfo.online';
+
 import { seoConfig } from '@/seo.config';
+feature/color-palette-generator-v1-6453441805522074869
 
 function getOgImageUrl(title: string, type: string) {
   return `${seoConfig.siteUrl}/api/og?title=${encodeURIComponent(title)}&type=${type}`;
@@ -53,8 +63,15 @@ export function buildToolMeta(tool: { title: string; description: string; slug: 
 }
 
 export function buildColorMeta(color: { name: string; hex: string; description?: string }): SeoMeta {
+feature/ad-integration-15123994777554235439
+  const title = truncateString(`${color.name} (${color.hex}) Color Info`, 42); // leaves room for " | SiteName"
+  const description = truncateString(color.description
+    ? color.description
+    : `Explore ${color.name} (${color.hex}). Get hex, rgb codes, complementary colors, and beautiful palettes using ${color.name}. Free at PaletteFlow.`, 155);
+
   const rawTitle = `${color.name} (${color.hex}) Color Code, Hex, RGB and Palettes`;
   const rawDescription = color.description || `Everything about the color ${color.name} (${color.hex}). Get hex, rgb codes, complementary colors, and beautiful color palettes using ${color.name}.`;
+feature/color-palette-generator-v1-6453441805522074869
 
   const title = enforceTitleLength(rawTitle);
   return {
@@ -98,10 +115,10 @@ export function buildPaletteMeta(palette: { title: string; slug: string; descrip
     description: enforceDescriptionLength(rawDescription),
     slug: `/palettes/${categorySlug}/${idSlug}`,
 export function buildPaletteMeta(palette: { title: string; slug: string; description?: string; colors: string[], category?: string }): SeoMeta {
-  const title = `${palette.title} - Free Color Palette | PaletteFlow`;
-  const description = palette.description
-    ? palette.description.substring(0, 160)
-    : `Explore ${palette.title} with hex codes ${palette.colors.join(', ')}. Copy colors instantly. Free online palette tool.`;
+  const title = truncateString(`${palette.title} Color Palette`, 42);
+  const description = truncateString(palette.description
+    ? palette.description
+    : `Explore ${palette.title} with colors ${palette.colors.slice(0,3).join(', ')}. Copy hex codes instantly. Free at PaletteFlow.`, 155);
   const routeCategory = palette.category || 'all';
 
   return {
@@ -113,7 +130,7 @@ feature/color-palette-generator-v1-6453441805522074869
     noindex: false,
     ogImage: {
       url: getOgImageUrl(title, 'palette'),
-      alt: `${palette.title} color palette preview`,
+      alt: `${palette.title} Color Palette`,
     },
     breadcrumbs: [
       { label: 'Home', href: '/' },

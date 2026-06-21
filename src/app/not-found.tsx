@@ -1,31 +1,37 @@
-import Link from "next/link";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
+import Link from "next/link";
+import { resolveMetadata } from "@/lib/seo/resolveMetadata";
+import { buildLandingMeta } from "@/lib/seo/metaFactories";
+
+export const metadata = resolveMetadata(buildLandingMeta({
+    title: "Page Not Found",
+    description: "The page you are looking for does not exist. Explore our color palettes or use the generator.",
+    slug: "/404"
+}));
 
 export default function NotFound() {
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <Navbar />
-      <main className="flex-1 flex flex-col items-center justify-center p-6 text-center space-y-8">
-        <h1 className="text-9xl font-display font-bold text-text-primary">404</h1>
-        <div className="space-y-4 max-w-md">
-          <h2 className="text-3xl font-bold">Page not found</h2>
-          <p className="text-text-secondary text-lg">
-            Sorry, we couldn&apos;t find the page you&apos;re looking for. It might have been moved or deleted.
-          </p>
-        </div>
-        <div className="flex flex-col sm:flex-row gap-4 mt-8">
+      <main className="flex-1 flex flex-col items-center justify-center p-6 text-center space-y-6">
+        <h1 className="text-8xl font-display font-bold text-primary">404</h1>
+        <h2 className="text-3xl font-bold">Page Not Found</h2>
+        <p className="text-text-secondary max-w-md">
+          We could not find the page you were looking for. It might have been removed, renamed, or did not exist in the first place.
+        </p>
+        <div className="flex gap-4 pt-4">
           <Link
             href="/"
-            className="bg-text-primary text-background px-8 py-4 rounded-2xl font-bold hover:scale-[1.02] transition-transform shadow-xl"
+            className="px-6 py-3 rounded-full bg-text-primary text-background font-bold hover:scale-105 transition-transform"
           >
-            Back to Home
+            Go Home
           </Link>
           <Link
             href="/palettes"
-            className="bg-surface border border-border px-8 py-4 rounded-2xl font-bold hover:bg-border transition-colors"
+            className="px-6 py-3 rounded-full border border-border text-text-primary font-bold hover:bg-surface transition-colors"
           >
-            Browse Palettes
+            Explore Palettes
           </Link>
         </div>
       </main>

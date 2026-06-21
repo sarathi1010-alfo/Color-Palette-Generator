@@ -57,7 +57,7 @@ export default function ColorsIndexPage() {
                     <h2 className="text-3xl font-display font-bold border-b border-border/50 pb-2">{letter}</h2>
                     <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
                         {groupedColors[letter].map((color: any) => {
-                            const slug = color.name.toLowerCase().replace(/\s+/g, "-");
+                            const slug = color.name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
                             return (
                                 <Link
                                     key={color.name}
