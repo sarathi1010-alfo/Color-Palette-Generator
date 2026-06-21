@@ -1,20 +1,14 @@
 
 > alfo-palette-generator@0.1.0 dev
-> next dev -p 3000
+> next dev
 
    ▲ Next.js 15.2.9
    - Local:        http://localhost:3000
    - Network:      http://192.168.0.2:3000
 
  ✓ Starting...
- ✓ Ready in 3.2s
- ✓ Compiled /middleware in 467ms (101 modules)
+ ✓ Ready in 1947ms
+ ✓ Compiled /middleware in 274ms (101 modules)
  ○ Compiling / ...
- ✓ Compiled / in 5.5s (1599 modules)
- ✓ Compiled in 1130ms (740 modules)
- GET / 200 in 6655ms
- GET / 200 in 145ms
- ○ Compiling /tools ...
- ✓ Compiled /tools in 1043ms (1630 modules)
- GET /tools 200 in 1524ms
- ✓ Compiled in 1768ms (1644 modules)
+ ✓ Compiled / in 3s (1599 modules)
+ GET / 200 in 3695ms
