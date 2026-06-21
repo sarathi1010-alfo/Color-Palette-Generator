@@ -135,6 +135,33 @@ export default function HomePage() {
             </div>
         </section>
 
+        {/* SEO Internal Linking - Discovery Architecture */}
+        <section className="py-24 max-w-7xl mx-auto px-6 space-y-12 border-b border-border">
+            <div className="space-y-4 text-center md:text-left">
+                <h2 className="text-3xl font-display font-bold">Browse by Collection</h2>
+                <p className="text-text-secondary max-w-2xl">
+                    Discover palettes perfectly suited for your specific use case. From corporate branding to vibrant nature designs, find the perfect starting point.
+                </p>
+            </div>
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+               {Array.from(new Set(palettesData.map(p => p.category))).slice(0, 6).map((cat) => (
+                   <Link key={cat} href={`/palettes/category/${cat.toLowerCase()}`} className="p-4 bg-surface border border-border rounded-xl text-center hover:scale-105 transition-transform hover:border-text-secondary">
+                       <span className="font-bold text-sm capitalize">{cat}</span>
+                   </Link>
+               ))}
+               {Array.from(new Set(palettesData.map(p => p.mood))).slice(0, 6).map((mood) => (
+                   <Link key={mood} href={`/palettes/mood/${mood.toLowerCase()}`} className="p-4 bg-surface border border-border rounded-xl text-center hover:scale-105 transition-transform hover:border-text-secondary">
+                       <span className="font-bold text-sm capitalize">{mood}</span>
+                   </Link>
+               ))}
+            </div>
+            <div className="flex justify-center pt-6">
+                <Link href="/colors" className="text-sm font-bold underline hover:text-primary transition-colors">
+                    Browse All Individual Colors in Dictionary →
+                </Link>
+            </div>
+        </section>
+
         {/* Featured Palettes */}
         <section className="py-32 max-w-7xl mx-auto px-6 space-y-12">
             <div className="flex items-end justify-between border-b border-border pb-8">

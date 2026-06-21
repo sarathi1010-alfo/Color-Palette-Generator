@@ -34,6 +34,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${SITE_URL}/colors`,
+      lastModified: new Date().toISOString(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.9,
+    },
+    {
       url: `${SITE_URL}/tools`,
       lastModified: new Date().toISOString(),
       changeFrequency: 'weekly' as const,
@@ -67,7 +73,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // 2. Palette Pages
   const palettePages = palettesData.map((palette) => ({
-    url: `${SITE_URL}/palettes/palette/${(palette as any).slug || palette.id}`,
+    url: `${SITE_URL}/palettes/${palette.category || 'all'}/${(palette as any).slug || palette.id}`,
     lastModified: new Date().toISOString(),
     changeFrequency: 'monthly' as const,
     priority: 0.7,
