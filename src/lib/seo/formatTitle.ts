@@ -1,7 +1,6 @@
-const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME ?? 'Color Palette Generator';
-const SEPARATOR = ' | ';
+import { seoConfig } from '@/seo.config';
 
 export function formatTitle(rawTitle: string, isHomepage = false): string {
-  if (isHomepage) return SITE_NAME;
-  return `${rawTitle}${SEPARATOR}${SITE_NAME}`;
+  if (isHomepage) return seoConfig.siteName;
+  return `${rawTitle}${seoConfig.titleSeparator}${seoConfig.siteName}`;
 }

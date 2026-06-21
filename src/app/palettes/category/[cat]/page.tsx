@@ -6,6 +6,8 @@ import { notFound } from "next/navigation";
 import { resolveMetadata } from "@/lib/seo/resolveMetadata";
 import { buildCategoryMeta } from "@/lib/seo/metaFactories";
 
+import { sanitizeSlug } from '@/lib/url/utils';
+
 export async function generateMetadata({ params }: { params: Promise<{ cat: string }> }) {
   const { cat } = await params;
   const categoryName = cat.charAt(0).toUpperCase() + cat.slice(1);
@@ -20,14 +22,14 @@ export async function generateMetadata({ params }: { params: Promise<{ cat: stri
 export async function generateStaticParams() {
   const categories = Array.from(new Set(palettesData.map(p => p.category)));
   return categories.map((cat) => ({
-    cat: cat,
+    cat: sanitizeSlug(cat),
   }));
 }
 
 export default async function CategoryPage({ params }: { params: Promise<{ cat: string }> }) {
   const { cat } = await params;
   const filteredPalettes = palettesData.filter(
-    (p) => p.category.toLowerCase() === cat.toLowerCase()
+    (p) => sanitizeSlug(p.category) === cat
   );
 
   if (filteredPalettes.length === 0) {

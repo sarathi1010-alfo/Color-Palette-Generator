@@ -2,15 +2,11 @@ import type { Metadata } from 'next';
 import type { SeoMeta } from '@/types/seo';
 import { formatTitle } from './formatTitle';
 import { buildCanonical } from './buildCanonical';
-
-const DEFAULT_LOCALE = process.env.NEXT_PUBLIC_DEFAULT_LOCALE ?? 'en';
+import { seoConfig } from '@/seo.config';
 
 export function resolveMetadata(meta: SeoMeta, isHomepage = false): Metadata {
   const canonical = meta.canonical ?? buildCanonical(meta.slug);
   const title = formatTitle(meta.title, isHomepage);
-
-  const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME ?? 'Color Palette Generator';
-  const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://paletteflow.alfo.online';
 
   return {
     title,
@@ -21,7 +17,7 @@ export function resolveMetadata(meta: SeoMeta, isHomepage = false): Metadata {
         ? Object.fromEntries(meta.alternateLocales.map(a => [a.locale, a.url]))
         : undefined,
       types: {
-        'application/rss+xml': `${SITE_URL}/rss.xml`, // Fallback for rss, optional
+        'application/rss+xml': `${seoConfig.siteUrl}/rss.xml`, // Fallback for rss, optional
       }
     },
     robots: {
@@ -39,7 +35,7 @@ export function resolveMetadata(meta: SeoMeta, isHomepage = false): Metadata {
       title,
       description: meta.description,
       url: canonical,
-      siteName: SITE_NAME,
+      siteName: seoConfig.siteName,
       type: meta.pageType === 'article' ? 'article' : 'website',
       images: meta.ogImage
         ? [
@@ -54,7 +50,7 @@ export function resolveMetadata(meta: SeoMeta, isHomepage = false): Metadata {
       publishedTime: meta.publishedAt,
       modifiedTime: meta.updatedAt,
       authors: meta.author?.url ? [meta.author.url] : undefined,
-      locale: meta.locale ?? DEFAULT_LOCALE,
+      locale: meta.locale ?? seoConfig.defaultLocale,
     },
     twitter: {
       card: meta.ogImage ? 'summary_large_image' : 'summary',
