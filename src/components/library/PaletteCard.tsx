@@ -2,15 +2,19 @@
 
 import Link from "next/link";
 import { Palette } from "@/types/color";
+import { sanitizeSlug } from "@/lib/url/utils";
 
 interface PaletteCardProps {
   palette: Palette;
 }
 
 export function PaletteCard({ palette }: PaletteCardProps) {
+  const categorySlug = sanitizeSlug(palette.category || 'all');
+  const idSlug = sanitizeSlug(palette.slug || palette.id);
+
   return (
     <Link
-      href={`/palettes/${palette.category || 'all'}/${palette.slug || palette.id}`}
+      href={`/palettes/${categorySlug}/${idSlug}`}
       className="group bg-surface rounded-xl border border-border overflow-hidden hover:scale-[1.02] transition-transform duration-300 shadow-sm hover:shadow-xl"
     >
       <div className="flex h-32 w-full" aria-label={`${palette.name} color swatches`}>
