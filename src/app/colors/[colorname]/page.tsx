@@ -103,7 +103,7 @@ export default async function ColorNamePage({ params }: { params: Promise<{ colo
             </div>
         </section>
 
-        <section className="p-8 rounded-3xl bg-surface border border-border space-y-6 text-center md:text-left">
+        <section className="p-8 rounded-3xl bg-surface border border-border space-y-6 text-center md:text-left mb-8">
             <h2 className="text-3xl font-display font-bold">About {colorData.name}</h2>
             <p className="text-text-secondary text-lg leading-relaxed max-w-3xl">
                 {colorData.name} is a distinctive color identified by the hex code {hex.toUpperCase()}.
@@ -116,6 +116,46 @@ export default async function ColorNamePage({ params }: { params: Promise<{ colo
             >
                 Use {colorData.name} in Generator
             </Link>
+        </section>
+
+        {/* SEO Internal Linking - Explore Colors */}
+        <section className="border-t border-border pt-16 mt-16">
+           <div className="flex items-center justify-between mb-8">
+             <h2 className="text-3xl font-display font-bold">Explore Similar Colors</h2>
+           </div>
+           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+              {/* Pick 5 colors that are "similar" by filtering ones close in hue, or fallback to random/static slice to avoid complex computation per page if needed, but hue is fast enough. */}
+              {colorNames
+                .filter((c: any) => {
+                  if (c.name === colorData.name) return false;
+                  const c_hsl = hexToHsl(c.hex);
+                  // Find colors within 15 degrees of hue
+                  const hueDiff = Math.abs(c_hsl.h - hsl.h);
+                  return hueDiff < 15 || hueDiff > 345;
+                })
+                .slice(0, 5)
+                .map((related: any) => {
+                  const relatedSlug = related.name.toLowerCase().replace(/\s+/g, "-");
+                  return (
+                    <Link
+                      key={related.name}
+                      href={`/colors/${relatedSlug}`}
+                      className="group flex flex-col gap-2 p-3 rounded-2xl bg-surface border border-border hover:scale-[1.02] transition-transform shadow-sm"
+                    >
+                       <div
+                         className="h-24 w-full rounded-xl border border-border/50"
+                         style={{ backgroundColor: related.hex }}
+                       />
+                       <div>
+                         <h3 className="font-bold text-sm text-text-primary group-hover:text-primary transition-colors truncate">
+                           {related.name}
+                         </h3>
+                         <p className="text-xs font-mono text-text-secondary uppercase">{related.hex}</p>
+                       </div>
+                    </Link>
+                  )
+                })}
+           </div>
         </section>
       </main>
       <Footer />

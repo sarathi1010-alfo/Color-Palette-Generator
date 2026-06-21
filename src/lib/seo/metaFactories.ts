@@ -82,6 +82,7 @@ export function buildColorMeta(color: { name: string; hex: string; description?:
   };
 }
 
+feature/seo-normalization-7102403181818996676
 import { sanitizeSlug } from '@/lib/url/utils';
 
 export function buildPaletteMeta(palette: { title: string; slug: string; description?: string; colors: string[]; category?: string }): SeoMeta {
@@ -96,11 +97,23 @@ export function buildPaletteMeta(palette: { title: string; slug: string; descrip
     title,
     description: enforceDescriptionLength(rawDescription),
     slug: `/palettes/${categorySlug}/${idSlug}`,
+export function buildPaletteMeta(palette: { title: string; slug: string; description?: string; colors: string[], category?: string }): SeoMeta {
+  const title = `${palette.title} - Free Color Palette | PaletteFlow`;
+  const description = palette.description
+    ? palette.description.substring(0, 160)
+    : `Explore ${palette.title} with hex codes ${palette.colors.join(', ')}. Copy colors instantly. Free online palette tool.`;
+  const routeCategory = palette.category || 'all';
+
+  return {
+    title,
+    description,
+    slug: `/palettes/${routeCategory}/${palette.slug}`, // Based on dynamic route structure
+feature/color-palette-generator-v1-6453441805522074869
     pageType: 'website',
     noindex: false,
     ogImage: {
       url: getOgImageUrl(title, 'palette'),
-      alt: `${palette.title} Color Palette`,
+      alt: `${palette.title} color palette preview`,
     },
     breadcrumbs: [
       { label: 'Home', href: '/' },
