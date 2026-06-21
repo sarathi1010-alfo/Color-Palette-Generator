@@ -18,8 +18,10 @@ export function Footer() {
           <Link href="/palettes" className="hover:text-primary transition-colors">Library</Link>
           <Link href="/tools" className="hover:text-primary transition-colors">Tools</Link>
           <Link href="/about" className="hover:text-primary transition-colors">About</Link>
+          <Link href="/contact" className="hover:text-primary transition-colors">Contact</Link>
           <Link href="/privacy" className="hover:text-primary transition-colors">Privacy</Link>
           <Link href="/terms" className="hover:text-primary transition-colors">Terms</Link>
+          <Link href="/disclaimer" className="hover:text-primary transition-colors">Disclaimer</Link>
         </div>
 
         <div className="flex space-x-4">
@@ -33,7 +35,7 @@ export function Footer() {
       </div>
       <div className="max-w-7xl mx-auto mt-8 pt-8 border-t border-border/50 text-center">
         <p className="text-xs text-text-secondary">
-          © 2026 Alfo Tech Industries. All rights reserved.
+          © {new Date().getFullYear()} Alfo Tech Industries. All rights reserved.
         </p>
       </div>
     </footer>
