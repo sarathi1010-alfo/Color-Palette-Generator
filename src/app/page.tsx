@@ -16,6 +16,33 @@ export default function HomePage() {
     <div className="min-h-screen bg-background flex flex-col">
       <Navbar />
 
+      {/* ADSTERRA 728x90 & 320x50 START */}
+      <div className="w-full flex justify-center py-4 bg-surface border-b border-border">
+        {/* Desktop 728x90 */}
+        <div className="hidden md:block">
+          <iframe
+            srcDoc="<script>atOptions = {'key' : 'e3013fc0470a2b05c6116970dcdcb6','format' : 'iframe','height' : 90,'width' : 728,'params' : {}};</script><script src='https://www.highperformanceformat.com/e3013fc0470a2b05c6116970dcdcb6/invoke.js'></script>"
+            width="728"
+            height="90"
+            frameBorder="0"
+            scrolling="no"
+            style={{ border: 'none', overflow: 'hidden' }}
+          ></iframe>
+        </div>
+        {/* Mobile 320x50 */}
+        <div className="block md:hidden">
+          <iframe
+            srcDoc="<script>atOptions = {'key' : '5c06324017b2926ad4a234e4d9d33345','format' : 'iframe','height' : 50,'width' : 320,'params' : {}};</script><script src='https://www.highperformanceformat.com/5c06324017b2926ad4a234e4d9d33345/invoke.js'></script>"
+            width="320"
+            height="50"
+            frameBorder="0"
+            scrolling="no"
+            style={{ border: 'none', overflow: 'hidden' }}
+          ></iframe>
+        </div>
+      </div>
+      {/* ADSTERRA 728x90 & 320x50 END */}
+
       <main className="flex-1" itemScope itemType="https://schema.org/WebPage">
         {/* Hero Section */}
         <section className="relative overflow-hidden pt-20 pb-32 border-b border-border">
@@ -45,6 +72,15 @@ export default function HomePage() {
             >
               <Link
                 href="/generator"
+                onClick={(e) => {
+                  if (typeof window !== "undefined") {
+                    const hasFired = sessionStorage.getItem("adsterra_popunder_fired");
+                    if (!hasFired) {
+                      window.open("https://www.effectivecpmnetwork.com/bbjq1qzwr5?key=cbfa1fbdb589d39614540a2d6302a4e1", "_blank");
+                      sessionStorage.setItem("adsterra_popunder_fired", "true");
+                    }
+                  }
+                }}
                 className="w-full sm:w-auto flex items-center justify-center space-x-3 bg-text-primary text-background px-10 py-5 rounded-2xl font-bold text-lg hover:scale-[1.02] transition-transform active:scale-95 shadow-2xl"
               >
                 <Zap size={20} />
@@ -132,6 +168,31 @@ export default function HomePage() {
                 </Link>
             </div>
         </section>
+
+        {/* ADSTERRA 300x250 START */}
+        <div className="w-full flex justify-center py-8">
+          <iframe
+            srcDoc="<script>atOptions = {'key' : '0bb49b653de0fa69023c1380b845c079','format' : 'iframe','height' : 250,'width' : 300,'params' : {}};</script><script src='https://www.highperformanceformat.com/0bb49b653de0fa69023c1380b845c079/invoke.js'></script>"
+            width="300"
+            height="250"
+            frameBorder="0"
+            scrolling="no"
+            style={{ border: 'none', overflow: 'hidden' }}
+          ></iframe>
+        </div>
+        {/* ADSTERRA 300x250 END */}
+
+        {/* GOOGLE ADSENSE PLACEHOLDER START */}
+        {/* Placeholder for unverified Google AdSense code. Safe container that collapses when empty. */}
+        <div className="w-full flex justify-center empty:hidden"></div>
+        {/* GOOGLE ADSENSE PLACEHOLDER END */}
+
+        {/* ADSTERRA NATIVE BANNER START */}
+        <div className="w-full max-w-7xl mx-auto px-6 py-8 flex justify-center overflow-hidden">
+          <script async data-cfasync="false" src="https://pl29826862.effectivecpmnetwork.com/122b76e86675974fc4dc1c858d6c5fb3/invoke.js"></script>
+          <div id="container-122b76e86675974fc4dc1c858d6c5fb3"></div>
+        </div>
+        {/* ADSTERRA NATIVE BANNER END */}
       </main>
 
 
