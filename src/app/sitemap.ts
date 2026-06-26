@@ -1,14 +1,12 @@
 import type { MetadataRoute } from 'next';
 import palettesData from '@/data/palettes.json';
 import colorsData from '@/data/color-names.json';
-import { seoConfig } from '@/seo.config';
 import { generateCanonicalUrl, sanitizeSlug } from '@/lib/url/utils';
 
 export const revalidate = 3600; // 1 hour ISR
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // 1. Static Pages
- feature/seo-normalization-7102403181818996676
   const staticRoutes = [
     '/',
     '/about',
@@ -39,53 +37,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter(route => route && !route.includes('undefined') && !route.includes('null'))
     .map(route => ({
       url: generateCanonicalUrl(route),
-
-  const staticPages = [
-    {
-      url: `${SITE_URL}`,
-      lastModified: new Date().toISOString(),
-      changeFrequency: 'weekly' as const,
-      priority: 1.0,
-    },
-    {
-      url: `${SITE_URL}/about`,
-      lastModified: new Date().toISOString(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${SITE_URL}/generator`,
-      lastModified: new Date().toISOString(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.9,
-    },
-    {
-      url: `${SITE_URL}/palettes`,
-      lastModified: new Date().toISOString(),
-      changeFrequency: 'daily' as const,
-      priority: 0.9,
-    },
-    {
-      url: `${SITE_URL}/colors`,
-      lastModified: new Date().toISOString(),
-      changeFrequency: 'weekly' as const,
-      priority: 0.9,
-    },
-    {
-      url: `${SITE_URL}/tools`,
-      lastModified: new Date().toISOString(),
-      changeFrequency: 'weekly' as const,
-      priority: 0.9,
-    },
-    {
-      url: `${SITE_URL}/tools/gradient-generator`,
-      lastModified: new Date().toISOString(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${SITE_URL}/tools/contrast-checker`,
- feature/color-palette-generator-v1-6453441805522074869
       lastModified: new Date().toISOString(),
       changeFrequency: 'monthly' as const,
       priority: 0.7,
@@ -109,22 +60,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: generateCanonicalUrl(route),
       lastModified: new Date().toISOString(),
       changeFrequency: 'monthly' as const,
-feature/seo-normalization-7102403181818996676
       priority: 0.7,
     }));
-
-      priority: 0.8,
-    },
-  ];
-
-  // 2. Palette Pages
-  const palettePages = palettesData.map((palette) => ({
-    url: `${SITE_URL}/palettes/${palette.category || 'all'}/${(palette as any).slug || palette.id}`,
-    lastModified: new Date().toISOString(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }));
- feature/color-palette-generator-v1-6453441805522074869
 
   // 4. Color Pages
   const colorPages = colorsData

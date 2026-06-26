@@ -1,5 +1,6 @@
 import type { SeoMeta } from '@/types/seo';
-feature/ad-integration-15123994777554235439
+import { seoConfig } from '@/seo.config';
+import { sanitizeSlug } from '@/lib/url/utils';
 
 function truncateString(str: string, maxLen: number): string {
   if (str.length <= maxLen) return str;
@@ -7,9 +8,6 @@ function truncateString(str: string, maxLen: number): string {
 }
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://paletteflow.alfo.online';
-
-import { seoConfig } from '@/seo.config';
-feature/color-palette-generator-v1-6453441805522074869
 
 function getOgImageUrl(title: string, type: string) {
   return `${seoConfig.siteUrl}/api/og?title=${encodeURIComponent(title)}&type=${type}`;
@@ -63,15 +61,8 @@ export function buildToolMeta(tool: { title: string; description: string; slug: 
 }
 
 export function buildColorMeta(color: { name: string; hex: string; description?: string }): SeoMeta {
-feature/ad-integration-15123994777554235439
-  const title = truncateString(`${color.name} (${color.hex}) Color Info`, 42); // leaves room for " | SiteName"
-  const description = truncateString(color.description
-    ? color.description
-    : `Explore ${color.name} (${color.hex}). Get hex, rgb codes, complementary colors, and beautiful palettes using ${color.name}. Free at PaletteFlow.`, 155);
-
   const rawTitle = `${color.name} (${color.hex}) Color Code, Hex, RGB and Palettes`;
   const rawDescription = color.description || `Everything about the color ${color.name} (${color.hex}). Get hex, rgb codes, complementary colors, and beautiful color palettes using ${color.name}.`;
-feature/color-palette-generator-v1-6453441805522074869
 
   const title = enforceTitleLength(rawTitle);
   return {
@@ -99,9 +90,6 @@ feature/color-palette-generator-v1-6453441805522074869
   };
 }
 
-feature/seo-normalization-7102403181818996676
-import { sanitizeSlug } from '@/lib/url/utils';
-
 export function buildPaletteMeta(palette: { title: string; slug: string; description?: string; colors: string[]; category?: string }): SeoMeta {
   const rawTitle = `${palette.title} Color Palette`;
   const rawDescription = palette.description || `Beautiful ${palette.title} color palette featuring hex codes ${palette.colors.join(', ')}. Perfect for your next design project.`;
@@ -114,18 +102,6 @@ export function buildPaletteMeta(palette: { title: string; slug: string; descrip
     title,
     description: enforceDescriptionLength(rawDescription),
     slug: `/palettes/${categorySlug}/${idSlug}`,
-export function buildPaletteMeta(palette: { title: string; slug: string; description?: string; colors: string[], category?: string }): SeoMeta {
-  const title = truncateString(`${palette.title} Color Palette`, 42);
-  const description = truncateString(palette.description
-    ? palette.description
-    : `Explore ${palette.title} with colors ${palette.colors.slice(0,3).join(', ')}. Copy hex codes instantly. Free at PaletteFlow.`, 155);
-  const routeCategory = palette.category || 'all';
-
-  return {
-    title,
-    description,
-    slug: `/palettes/${routeCategory}/${palette.slug}`, // Based on dynamic route structure
-feature/color-palette-generator-v1-6453441805522074869
     pageType: 'website',
     noindex: false,
     ogImage: {
