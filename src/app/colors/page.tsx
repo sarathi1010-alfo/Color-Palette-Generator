@@ -4,6 +4,8 @@ import { Navbar } from "@/components/layout/Navbar";
 import Link from "next/link";
 import { resolveMetadata } from "@/lib/seo/resolveMetadata";
 import { buildCategoryMeta } from "@/lib/seo/metaFactories";
+import { JsonLd } from "@/components/JsonLd";
+import { buildFaqSchema } from "@/lib/seo/buildSchema";
 
 export const metadata = resolveMetadata(buildCategoryMeta({
   name: "Color Dictionary",
@@ -11,6 +13,21 @@ export const metadata = resolveMetadata(buildCategoryMeta({
   description: "Explore our comprehensive dictionary of thousands of named colors. Find hex codes, RGB values, and perfect complementary shades for any color.",
   type: "category"
 }));
+
+const faqs = [
+  {
+    question: "What is a hex code?",
+    answer: "A hex code is a six-digit hexadecimal number used in HTML, CSS, and SVG to represent colors. It consists of three pairs of characters representing the intensity of red, green, and blue (RGB)."
+  },
+  {
+    question: "How do I find complementary colors?",
+    answer: "Complementary colors are opposite each other on the color wheel. You can find them by searching for a color in our dictionary and viewing its harmonious pairings, or by using our Palette Generator to instantly create a complementary scheme."
+  },
+  {
+    question: "What is the difference between RGB and HEX?",
+    answer: "RGB (Red, Green, Blue) is a color model used for screens, specifying the intensity of each light channel from 0 to 255. HEX is simply a base-16 representation of those same RGB values, making it easier to write in code."
+  }
+];
 
 export default function ColorsIndexPage() {
   // Group colors by first letter for easier navigation
@@ -27,6 +44,7 @@ export default function ColorsIndexPage() {
 
   return (
     <div className="min-h-screen bg-background flex flex-col">
+      <JsonLd schema={buildFaqSchema(faqs)} />
       <Navbar />
       <main className="flex-1 max-w-7xl mx-auto w-full px-6 py-12 space-y-12">
         <div className="space-y-4">
@@ -82,6 +100,19 @@ export default function ColorsIndexPage() {
                 </section>
             ))}
         </div>
+
+        {/* AEO / FAQ Section */}
+        <section className="mt-24 pt-16 border-t border-border space-y-8">
+          <h2 className="text-3xl font-display font-bold text-center">Frequently Asked Questions</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {faqs.map((faq, idx) => (
+              <div key={idx} className="p-6 bg-surface rounded-2xl border border-border">
+                <h3 className="text-lg font-bold mb-3">{faq.question}</h3>
+                <p className="text-text-secondary text-sm leading-relaxed">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </section>
       </main>
       <Footer />
     </div>

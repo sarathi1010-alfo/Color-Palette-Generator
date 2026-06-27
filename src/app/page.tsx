@@ -8,12 +8,30 @@ import { Navbar } from "@/components/layout/Navbar";
 import palettesData from "@/data/palettes.json";
 import { PaletteCard } from "@/components/library/PaletteCard";
 import { motion } from "framer-motion";
+import { JsonLd } from "@/components/JsonLd";
+import { buildFaqSchema } from "@/lib/seo/buildSchema";
+
+const faqs = [
+  {
+    question: "What is a color palette generator?",
+    answer: "A color palette generator is a tool that helps designers and developers create harmonious, balanced, and accessible color schemes for their projects instantly using color theory algorithms."
+  },
+  {
+    question: "How do I choose the best color palette for my website?",
+    answer: "Start with your brand's core emotion or industry. Use our Personality Generator to find semantic associations, then ensure your primary and background colors pass WCAG accessibility contrast checks."
+  },
+  {
+    question: "Is this color generator free to use?",
+    answer: "Yes, PaletteFlow is completely free to use. You can generate unlimited palettes, extract colors from images, and export directly to CSS, Tailwind, or Figma without signing up."
+  }
+];
 
 export default function HomePage() {
   const featuredPalettes = palettesData.slice(0, 4);
 
   return (
     <div className="min-h-screen bg-background flex flex-col">
+      <JsonLd schema={buildFaqSchema(faqs)} />
       <Navbar />
 
       <main className="flex-1" itemScope itemType="https://schema.org/WebPage">
@@ -134,6 +152,24 @@ export default function HomePage() {
         </section>
       </main>
 
+
+      {/* FAQ / Semantic Snippets Section */}
+      <section className="py-24 bg-surface/30 border-t border-border">
+          <div className="max-w-4xl mx-auto px-6 space-y-12">
+              <div className="text-center space-y-4">
+                  <h2 className="text-4xl font-display font-bold">Frequently Asked Questions</h2>
+                  <p className="text-text-secondary text-lg">Everything you need to know about generating the perfect color palette.</p>
+              </div>
+              <div className="space-y-6">
+                  {faqs.map((faq, index) => (
+                      <div key={index} className="p-6 bg-background rounded-2xl border border-border shadow-sm">
+                          <h3 className="text-xl font-bold mb-3">{faq.question}</h3>
+                          <p className="text-text-secondary leading-relaxed">{faq.answer}</p>
+                      </div>
+                  ))}
+              </div>
+          </div>
+      </section>
 
       <Footer />
     </div>
