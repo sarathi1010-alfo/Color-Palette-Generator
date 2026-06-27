@@ -34,26 +34,18 @@ export async function generateMetadata({ params }: PalettePageProps): Promise<Me
   );
 
   if (!palette) {
-feature/ad-integration-15123994777554235439
     return resolveMetadata(buildPaletteMeta({
       title: 'Palette Not Found',
       slug: 'not-found',
       colors: [],
       category: 'all'
     }));
-
-    return resolveMetadata(buildPaletteMeta({ title: 'Palette Not Found', slug: 'not-found', colors: [], category: 'all' }));
-feature/color-palette-generator-v1-6453441805522074869
   }
 
   return resolveMetadata(buildPaletteMeta({
     title: palette.name,
     slug: (palette as any).slug || palette.id,
-feature/seo-normalization-7102403181818996676
     category: palette.category || 'all',
-
-    category: category,
-feature/color-palette-generator-v1-6453441805522074869
     description: `Explore the ${palette.name} color palette. Perfect for ${category} projects. Get hex codes, live UI previews, and export to Tailwind, CSS, and Figma.`,
     colors: palette.colors.map((c: any) => typeof c === 'string' ? c : c.hex)
   }));
@@ -94,11 +86,7 @@ export default async function PalettePage({ params }: PalettePageProps) {
           "breadcrumb": buildBreadcrumbSchema(buildPaletteMeta({
             title: palette.name,
             slug: (palette as any).slug || palette.id,
- feature/seo-normalization-7102403181818996676
             category: palette.category || 'all',
-
-            category: category,
- feature/color-palette-generator-v1-6453441805522074869
             colors: palette.colors.map((c: any) => typeof c === 'string' ? c : c.hex)
           }).breadcrumbs)
         }} />
