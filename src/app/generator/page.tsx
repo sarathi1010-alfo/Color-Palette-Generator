@@ -31,6 +31,7 @@ const faqs = [
 export default function GeneratorPage() {
   return (
     <main className="min-h-screen flex flex-col">
+      <h1 className="sr-only">Random Color Palette Generator</h1>
       <JsonLd schema={buildFaqSchema(faqs)} />
       <Suspense fallback={<div className="h-screen bg-background" />}>
         <PaletteGenerator />

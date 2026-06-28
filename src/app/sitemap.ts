@@ -17,6 +17,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/tools/contrast-checker',
     '/tools/tints-shades',
     '/tools/image-extractor',
+    '/privacy',
+    '/terms',
   ];
 
   const staticPages = staticRoutes.map(route => ({

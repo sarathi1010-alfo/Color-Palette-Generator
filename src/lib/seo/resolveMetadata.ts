@@ -16,9 +16,6 @@ export function resolveMetadata(meta: SeoMeta, isHomepage = false): Metadata {
       languages: meta.alternateLocales
         ? Object.fromEntries(meta.alternateLocales.map(a => [a.locale, a.url]))
         : undefined,
-      types: {
-        'application/rss+xml': `${seoConfig.siteUrl}/rss.xml`, // Fallback for rss, optional
-      }
     },
     robots: {
       index: !meta.noindex,
