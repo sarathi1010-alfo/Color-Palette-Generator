@@ -12,6 +12,8 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { resolveMetadata } from "@/lib/seo/resolveMetadata";
 import { buildLandingMeta } from "@/lib/seo/metaFactories";
+import { JsonLd } from "@/components/JsonLd";
+import { buildFaqSchema } from "@/lib/seo/buildSchema";
 
 export const metadata = resolveMetadata(buildLandingMeta({
   title: "Design Tools",
@@ -50,9 +52,29 @@ const tools = [
   },
 ];
 
+const faqs = [
+  {
+    question: "Why should I use a contrast checker?",
+    answer: "Using a contrast checker ensures that text and interactive elements on your website are readable by everyone, including people with visual impairments, meeting WCAG AA and AAA accessibility standards."
+  },
+  {
+    question: "How do I create beautiful CSS gradients?",
+    answer: "Our Gradient Generator lets you blend multiple colors seamlessly. You can adjust the angle, add stops, and directly copy the optimized CSS code for your project."
+  },
+  {
+    question: "Can I extract colors from an image?",
+    answer: "Yes, our Image Extractor allows you to upload any image and instantly pulls out a matching color palette, saving you time from manually picking colors."
+  },
+  {
+    question: "What are tints and shades in design?",
+    answer: "Tints are created by adding white to a base color, making it lighter, while shades are created by adding black, making it darker. Our Tints & Shades tool automatically generates a 10-step scale for any given color to build out your UI palette."
+  }
+];
+
 export default function ToolsPage() {
   return (
     <div className="flex flex-col min-h-screen bg-background">
+      <JsonLd schema={buildFaqSchema(faqs)} />
       <Navbar />
       <main className="flex-1">
         <PageWrapper className="py-20">
@@ -92,8 +114,25 @@ export default function ToolsPage() {
             ))}
           </div>
         </PageWrapper>
+
+        {/* AEO / FAQ Section */}
+        <section className="py-24 bg-surface/30 border-t border-border">
+          <div className="max-w-4xl mx-auto px-6 space-y-12">
+            <div className="text-center space-y-4">
+              <h2 className="text-4xl font-display font-bold">Frequently Asked Questions</h2>
+              <p className="text-text-secondary text-lg">Everything you need to know about our design utilities.</p>
+            </div>
+            <div className="space-y-6">
+              {faqs.map((faq, index) => (
+                <div key={index} className="p-6 bg-background rounded-2xl border border-border shadow-sm">
+                  <h3 className="text-xl font-bold mb-3">{faq.question}</h3>
+                  <p className="text-text-secondary leading-relaxed">{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
       </main>
-      {/* Assuming Footer is needed or just use PageWrapper's content */}
       <Footer />
     </div>
   );

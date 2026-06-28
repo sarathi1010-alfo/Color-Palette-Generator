@@ -11,7 +11,11 @@ import { useLocalStorage } from "@/hooks/useLocalStorage";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 
-export default function LibraryClientPage() {
+interface LibraryClientPageProps {
+  faqs?: Array<{ question: string; answer: string }>;
+}
+
+export default function LibraryClientPage({ faqs = [] }: LibraryClientPageProps) {
   const [search, setSearch] = useState("");
   const [activeCategory, setActiveCategory] = useState<string>("All");
   const { favorites, removeFavorite, mounted } = useLocalStorage();
@@ -131,6 +135,34 @@ export default function LibraryClientPage() {
             </div>
           )}
         </div>
+
+        {/* AEO / FAQ Section */}
+        {faqs.length > 0 && (
+          <section className="mt-24 pt-16 border-t border-border space-y-8">
+            <div className="text-center space-y-4">
+              <h2 className="text-4xl font-display font-bold">Frequently Asked Questions</h2>
+              <p className="text-text-secondary text-lg">Tips on managing and discovering palettes.</p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {faqs.map((faq, idx) => (
+                <div key={idx} className="p-6 bg-surface rounded-2xl border border-border shadow-sm">
+                  <h3 className="text-lg font-bold mb-3">{faq.question}</h3>
+                  <p className="text-text-secondary text-sm leading-relaxed">{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-12 text-center">
+                <Link
+                  href="/generator"
+                  className="inline-flex items-center space-x-2 bg-text-primary text-background px-8 py-4 rounded-xl font-bold hover:scale-105 transition-transform"
+                >
+                  <span>Test the Generator</span>
+                  <ArrowRight size={18} />
+                </Link>
+            </div>
+          </section>
+        )}
       </main>
       <Footer />
     </div>
