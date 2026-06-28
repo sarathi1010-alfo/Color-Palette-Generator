@@ -32,7 +32,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   ...resolveMetadata(buildLandingMeta({
     title: "Color Palette Generator",
-    description: "The fastest, most visual color palette tool on the web — generate, explore, copy, and export beautiful palettes in seconds.",
+    description: "The fastest, most visual color palette tool. Generate, explore, copy, and export beautiful, accessible, and WCAG compliant palettes in seconds.",
     slug: "/",
   }), true),
   other: {

@@ -9,7 +9,7 @@ import palettesData from "@/data/palettes.json";
 import { PaletteCard } from "@/components/library/PaletteCard";
 import { motion } from "framer-motion";
 import { JsonLd } from "@/components/JsonLd";
-import { buildFaqSchema } from "@/lib/seo/buildSchema";
+import { buildFaqSchema, buildWebsiteSchema } from "@/lib/seo/buildSchema";
 
 const faqs = [
   {
@@ -32,6 +32,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <JsonLd schema={buildFaqSchema(faqs)} />
+      <JsonLd schema={buildWebsiteSchema()} />
       <Navbar />
 
       <main className="flex-1" itemScope itemType="https://schema.org/WebPage">
@@ -112,6 +113,43 @@ export default function HomePage() {
                     <h3 className="text-xl font-bold">Pro Export Formats</h3>
                     <p className="text-text-secondary leading-relaxed">
                         Copy-ready CSS variables, Tailwind config, SCSS, and JSON. Integrated directly into your workflow.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        {/* The Science of Color Theory Section */}
+        <section className="py-24 bg-background border-b border-border">
+            <div className="max-w-4xl mx-auto px-6 space-y-10">
+                <div className="text-center space-y-4">
+                    <h2 className="text-4xl font-display font-bold">The Science Behind Perfect Color Palettes</h2>
+                    <p className="text-text-secondary text-lg">Understanding color theory and how to choose the right colors for your brand.</p>
+                </div>
+
+                <div className="prose dark:prose-invert max-w-none text-text-secondary leading-relaxed space-y-6">
+                    <p>
+                        A great color palette is more than just a set of pretty colors; it is the visual foundation of your brand&apos;s identity and user experience. Whether you are designing a SaaS dashboard, an e-commerce website, or a mobile app, the colors you choose directly impact how users perceive and interact with your product. At PaletteFlow, we utilize advanced color theory algorithms to ensure every generated palette is mathematically harmonious.
+                    </p>
+
+                    <h3 className="text-2xl font-bold text-text-primary mt-8 mb-4">Understanding Color Harmony</h3>
+                    <p>
+                        Color harmony refers to the property that certain aesthetically pleasing color combinations have. These combinations create contrasts and affinities that are visually satisfying. The most common harmonic models include:
+                    </p>
+                    <ul className="list-disc pl-6 space-y-2 mb-6">
+                        <li><strong>Complementary Colors:</strong> Colors directly opposite each other on the color wheel (e.g., Blue and Orange). These create high-contrast, vibrant looks perfect for call-to-action buttons.</li>
+                        <li><strong>Analogous Colors:</strong> Colors that are next to each other on the color wheel. They match well and create serene, comfortable designs. They are often found in nature.</li>
+                        <li><strong>Triadic Colors:</strong> Three colors evenly spaced around the color wheel. Triadic color palettes are quite vibrant, even if you use pale or unsaturated versions of your hues.</li>
+                        <li><strong>Monochromatic Colors:</strong> Different shades, tints, and tones of a single base hue. This creates a deeply cohesive and clean look, favored in modern minimalist design.</li>
+                    </ul>
+
+                    <h3 className="text-2xl font-bold text-text-primary mt-8 mb-4">The Importance of Accessibility</h3>
+                    <p>
+                        Beautiful colors mean nothing if your users can&apos;t read your content. The Web Content Accessibility Guidelines (WCAG) dictate that text and its background must have a contrast ratio of at least 4.5:1 for normal text, and 3:1 for large text. This ensures that users with visual impairments or color blindness can navigate your site easily. PaletteFlow integrates real-time WCAG contrast checking directly into our <Link href="/generator" className="text-primary hover:underline">Generator</Link>, so you never have to guess if your color choices are compliant.
+                    </p>
+
+                    <h3 className="text-2xl font-bold text-text-primary mt-8 mb-4">Applying Colors to UI Design</h3>
+                    <p>
+                        When applying a color palette to a user interface, it&apos;s best to follow the <strong>60-30-10 rule</strong>. 60% of the UI should be your primary/background color, 30% should be your secondary color (used for structural elements like cards or headers), and 10% should be your accent color, reserved exclusively for primary actions, buttons, and highlights. This ensures your design remains balanced, guiding the user&apos;s eye naturally to the most important elements on the screen. Looking for inspiration? Browse our <Link href="/palettes" className="text-primary hover:underline">Palettes Library</Link> for ready-to-use professional color combinations.
                     </p>
                 </div>
             </div>
