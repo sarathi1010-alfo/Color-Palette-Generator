@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     question: "How do I choose the best color palette for my website?",
-    answer: "Start with your brand's core emotion or industry. Use our Personality Generator to find semantic associations, then ensure your primary and background colors pass WCAG accessibility contrast checks."
+    answer: "Start with your brand's core emotion or industry. Use our Personality Generator to find semantic associations, then ensure your primary and background colors pass WCAG accessibility contrast checks. For an in-depth dive, read our guide on how to choose a color palette for UI design."
   },
   {
     question: "Is this color generator free to use?",
@@ -164,7 +164,15 @@ export default function HomePage() {
                   {faqs.map((faq, index) => (
                       <div key={index} className="p-6 bg-background rounded-2xl border border-border shadow-sm">
                           <h3 className="text-xl font-bold mb-3">{faq.question}</h3>
-                          <p className="text-text-secondary leading-relaxed">{faq.answer}</p>
+                      <p className="text-text-secondary leading-relaxed">
+                        {faq.question === "How do I choose the best color palette for my website?" ? (
+                          <>
+                            Start with your brand&apos;s core emotion or industry. Use our Personality Generator to find semantic associations, then ensure your primary and background colors pass WCAG accessibility contrast checks. For an in-depth dive, read our guide on <Link href="/blog/choose-ui-color-palette" className="text-primary hover:underline">how to choose a color palette for UI design</Link>.
+                          </>
+                        ) : (
+                          faq.answer
+                        )}
+                      </p>
                       </div>
                   ))}
               </div>

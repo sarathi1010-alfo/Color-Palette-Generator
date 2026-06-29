@@ -18,6 +18,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/tools/tints-shades',
     '/tools/image-extractor',
     '/guides/color-theory-pairings',
+    '/blog/choose-ui-color-palette',
+    '/palettes/analogous-blue',
+    '/palettes/triadic-red',
+    '/palettes/complementary-green',
+    '/palettes/monochromatic-purple',
+    '/palettes/neutral-warm',
   ];
 
   const staticPages = staticRoutes.map(route => ({
