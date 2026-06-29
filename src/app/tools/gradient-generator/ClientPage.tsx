@@ -1,141 +1,174 @@
 "use client";
-import { Footer } from "@/components/layout/Footer";
 
 import { useState } from "react";
 import { Navbar } from "@/components/layout/Navbar";
-import { Copy, RefreshCw } from "lucide-react";
-import { toast } from "react-hot-toast";
-import { copyToClipboard } from "@/lib/utils";
+import { Footer } from "@/components/layout/Footer";
+import { ArrowRight, RefreshCw, Copy } from "lucide-react";
+import { cn } from "@/lib/utils";
 
-export default function GradientGeneratorClientPage() {
-  const [color1, setColor1] = useState("#FF6B6B");
-  const [color2, setColor2] = useState("#4ECDC4");
-  const [angle, setAngle] = useState(135);
+export default function GradientGeneratorClientPage({ faqData }: { faqData?: any }) {
+  const [color1, setColor1] = useState("#3B82F6");
+  const [color2, setColor2] = useState("#8B5CF6");
+  const [type, setType] = useState<"linear" | "radial">("linear");
+  const [angle, setAngle] = useState(90);
 
-  const css = `linear-gradient(${angle}deg, ${color1.toUpperCase()}, ${color2.toUpperCase()})`;
+  const cssValue = type === "linear"
+    ? `linear-gradient(${angle}deg, ${color1}, ${color2})`
+    : `radial-gradient(circle, ${color1}, ${color2})`;
 
-  const handleCopy = () => {
-    copyToClipboard(`background: ${css};`);
-    toast.success("Gradient CSS copied!");
-  };
+  const tailwindValue = `bg-gradient-to-r from-[${color1}] to-[${color2}]`;
 
   return (
-    <div className="min-h-screen bg-background flex flex-col">
+    <div className="bg-background flex flex-col min-h-screen">
       <Navbar />
 
       <main className="flex-1 max-w-5xl mx-auto w-full px-6 py-12 space-y-12">
         <div className="space-y-4">
           <h1 className="text-5xl font-display font-bold">Gradient Generator</h1>
-          <p className="text-text-secondary max-w-2xl text-lg">
-            Create beautiful CSS gradients, customize the angle, and copy the code directly into your project.
+          <p className="text-text-secondary max-w-2xl">
+            Create beautiful linear and radial CSS gradients.
+            Export ready-to-use CSS code for your next web project.
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <div className="space-y-8">
+            <div className="space-y-6">
                 <div className="p-8 rounded-3xl bg-surface border border-border space-y-8">
-                    <div className="grid grid-cols-2 gap-6">
-                        <div className="space-y-4">
-                            <label className="text-xs font-bold uppercase tracking-widest text-text-secondary">Start Color</label>
-                            <input
-                                type="color"
-                                value={color1}
-                                onChange={(e) => setColor1(e.target.value)}
-                                className="w-full h-20 rounded-2xl border border-border cursor-pointer bg-transparent"
-                            />
-                            <input
-                                type="text"
-                                value={color1.toUpperCase()}
-                                onChange={(e) => setColor1(e.target.value)}
-                                className="w-full bg-background border border-border rounded-xl px-4 py-2 font-mono text-center"
-                            />
-                        </div>
-                        <div className="space-y-4">
-                            <label className="text-xs font-bold uppercase tracking-widest text-text-secondary">End Color</label>
-                            <input
-                                type="color"
-                                value={color2}
-                                onChange={(e) => setColor2(e.target.value)}
-                                className="w-full h-20 rounded-2xl border border-border cursor-pointer bg-transparent"
-                            />
-                            <input
-                                type="text"
-                                value={color2.toUpperCase()}
-                                onChange={(e) => setColor2(e.target.value)}
-                                className="w-full bg-background border border-border rounded-xl px-4 py-2 font-mono text-center"
-                            />
-                        </div>
-                    </div>
 
                     <div className="space-y-4">
-                        <div className="flex justify-between items-center">
-                            <label className="text-xs font-bold uppercase tracking-widest text-text-secondary">Angle ({angle}°)</label>
+                        <label className="text-xs font-bold uppercase tracking-widest text-text-secondary">Type</label>
+                        <div className="flex bg-background border border-border rounded-xl p-1">
+                            <button
+                                onClick={() => setType("linear")}
+                                className={cn("flex-1 py-2 rounded-lg font-bold text-sm", type === "linear" ? "bg-surface shadow-sm" : "text-text-secondary hover:text-text-primary")}
+                            >
+                                Linear
+                            </button>
+                            <button
+                                onClick={() => setType("radial")}
+                                className={cn("flex-1 py-2 rounded-lg font-bold text-sm", type === "radial" ? "bg-surface shadow-sm" : "text-text-secondary hover:text-text-primary")}
+                            >
+                                Radial
+                            </button>
                         </div>
-                        <input
-                            type="range"
-                            min="0"
-                            max="360"
-                            value={angle}
-                            onChange={(e) => setAngle(parseInt(e.target.value))}
-                            className="w-full h-2 bg-border rounded-lg appearance-none cursor-pointer accent-text-primary"
-                        />
                     </div>
 
-                    <div className="flex space-x-4">
-                        <button
-                            onClick={() => { setColor1(color2); setColor2(color1); }}
-                            className="flex-1 flex items-center justify-center space-x-2 py-4 rounded-2xl bg-surface border border-border font-bold hover:bg-border transition-colors"
-                        >
-                            <RefreshCw size={18} />
-                            <span>Flip Colors</span>
-                        </button>
-                    </div>
-                </div>
+                    {type === "linear" && (
+                        <div className="space-y-4">
+                            <div className="flex justify-between">
+                                <label className="text-xs font-bold uppercase tracking-widest text-text-secondary">Angle</label>
+                                <span className="text-xs font-bold text-text-secondary">{angle}°</span>
+                            </div>
+                            <input
+                                type="range"
+                                min="0" max="360"
+                                value={angle}
+                                onChange={(e) => setAngle(Number(e.target.value))}
+                                className="w-full accent-primary"
+                            />
+                        </div>
+                    )}
 
-                <div className="p-8 rounded-3xl bg-surface border border-border space-y-4">
-                    <h3 className="text-xs font-bold uppercase tracking-widest text-text-secondary">CSS Output</h3>
-                    <div className="relative">
-                        <pre className="p-6 rounded-2xl bg-background border border-border overflow-auto font-mono text-sm leading-relaxed">
-                            <code>background: {css};</code>
-                        </pre>
-                        <button
-                            onClick={handleCopy}
-                            className="absolute top-4 right-4 p-2 rounded-xl bg-surface hover:bg-border transition-colors border border-border"
-                        >
-                            <Copy size={18} />
-                        </button>
+                    <div className="space-y-6">
+                        <div className="space-y-2">
+                            <label className="text-xs font-bold uppercase tracking-widest text-text-secondary">Color 1</label>
+                            <div className="flex items-center space-x-4">
+                                <input
+                                    type="color"
+                                    value={color1}
+                                    onChange={(e) => setColor1(e.target.value)}
+                                    className="w-12 h-12 rounded-xl border border-border cursor-pointer bg-transparent"
+                                />
+                                <input
+                                    type="text"
+                                    value={color1.toUpperCase()}
+                                    onChange={(e) => setColor1(e.target.value)}
+                                    className="flex-1 bg-background border border-border rounded-xl px-4 py-2 font-mono"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="space-y-2">
+                            <label className="text-xs font-bold uppercase tracking-widest text-text-secondary">Color 2</label>
+                            <div className="flex items-center space-x-4">
+                                <input
+                                    type="color"
+                                    value={color2}
+                                    onChange={(e) => setColor2(e.target.value)}
+                                    className="w-12 h-12 rounded-xl border border-border cursor-pointer bg-transparent"
+                                />
+                                <input
+                                    type="text"
+                                    value={color2.toUpperCase()}
+                                    onChange={(e) => setColor2(e.target.value)}
+                                    className="flex-1 bg-background border border-border rounded-xl px-4 py-2 font-mono"
+                                />
+                            </div>
+                        </div>
                     </div>
+
+                    <button
+                        onClick={() => {
+                            setColor1("#" + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0'));
+                            setColor2("#" + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0'));
+                        }}
+                        className="w-full flex items-center justify-center space-x-2 py-4 rounded-2xl bg-background border border-border font-bold hover:bg-border transition-colors"
+                    >
+                        <RefreshCw size={18} />
+                        <span>Randomize Colors</span>
+                    </button>
                 </div>
             </div>
 
-            <div className="space-y-8">
+            <div className="space-y-6">
                 <div
-                    className="w-full h-96 rounded-[40px] shadow-2xl border border-border"
-                    style={{ background: css }}
+                    className="w-full min-h-[400px] rounded-3xl border border-border shadow-inner"
+                    style={{ background: cssValue }}
                 />
 
-                <div className="p-8 rounded-3xl bg-surface border border-border space-y-6">
-                    <h3 className="text-xl font-bold">Try these combinations</h3>
-                    <div className="grid grid-cols-2 gap-4">
-                        {[
-                            ["#8EC5FC", "#E0C3FC"],
-                            ["#FBAB7E", "#F7CE68"],
-                            ["#85FFBD", "#FFFB7D"],
-                            ["#21D4FD", "#B721FF"],
-                            ["#FF9A9E", "#FAD0C4"],
-                            ["#A18CD1", "#FBC2EB"]
-                        ].map(([c1, c2], i) => (
-                            <button
-                                key={i}
-                                onClick={() => { setColor1(c1); setColor2(c2); }}
-                                className="h-16 rounded-2xl transition-all hover:scale-105 border border-white/10 shadow-lg"
-                                style={{ background: `linear-gradient(135deg, ${c1}, ${c2})` }}
-                            />
-                        ))}
+                <div className="space-y-4">
+                    <div className="p-4 rounded-xl bg-surface border border-border flex items-center justify-between group">
+                        <div className="space-y-1 overflow-hidden">
+                            <p className="text-xs font-bold text-text-secondary uppercase tracking-wider">CSS</p>
+                            <p className="font-mono text-sm truncate pr-4">{cssValue}</p>
+                        </div>
+                        <button
+                            onClick={() => navigator.clipboard.writeText(cssValue)}
+                            className="p-2 bg-surface border border-border rounded-full hover:bg-border transition-colors flex-shrink-0"
+                        >
+                            <Copy size={16} />
+                        </button>
+                    </div>
+
+                    <div className="p-4 rounded-xl bg-surface border border-border flex items-center justify-between group">
+                        <div className="space-y-1 overflow-hidden">
+                            <p className="text-xs font-bold text-text-secondary uppercase tracking-wider">Tailwind (Arbitrary)</p>
+                            <p className="font-mono text-sm truncate pr-4">{tailwindValue}</p>
+                        </div>
+                        <button
+                            onClick={() => navigator.clipboard.writeText(tailwindValue)}
+                            className="p-2 bg-surface border border-border rounded-full hover:bg-border transition-colors flex-shrink-0"
+                        >
+                            <Copy size={16} />
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
+
+        {faqData && (
+          <div className="mt-20 text-left w-full">
+            <h2 className="text-3xl font-display font-bold text-text-primary mb-8">Frequently Asked Questions</h2>
+            <div className="space-y-6">
+              {faqData.map((faq: any, index: number) => (
+                <div key={index} className="bg-surface border border-border p-6 rounded-2xl">
+                  <h3 className="text-xl font-bold text-text-primary mb-3">{faq.question}</h3>
+                  <p className="text-text-secondary">{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
       </main>
       <Footer />
     </div>

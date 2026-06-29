@@ -116,10 +116,12 @@ export function buildPaletteMeta(palette: { title: string; slug: string; descrip
   };
 }
 
-export function buildCategoryMeta(category: { name: string; slug: string; description: string; type: 'category' | 'mood' }): SeoMeta {
-  const rawTitle = `${category.name} Color Palettes`;
-  const basePath = category.type === 'mood' ? '/palettes/mood' : '/palettes/category';
-  const slug = `${basePath}/${category.slug}`;
+export function buildCategoryMeta(category: { name: string; slug: string; description: string; type: 'category' | 'mood' | 'generator' }): SeoMeta {
+  const rawTitle = category.type === 'generator' ? category.name : `${category.name} Color Palettes`;
+  let basePath = '/palettes/category';
+  if (category.type === 'mood') basePath = '/palettes/mood';
+  if (category.type === 'generator') basePath = '';
+  const slug = category.type === 'generator' ? `/${category.slug}` : `${basePath}/${category.slug}`;
 
   const title = enforceTitleLength(rawTitle);
   return {

@@ -77,3 +77,26 @@ export function getWcagGrade(ratio: number): "AAA" | "AA" | "Fail" {
   if (ratio >= 4.5) return "AA";
   return "Fail";
 }
+
+export function validateHex(hex: string): boolean {
+  return /^#([0-9A-F]{3}){1,2}$/i.test(hex) || /^([0-9A-F]{3}){1,2}$/i.test(hex);
+}
+
+export function rgbToHex(r: number, g: number, b: number): string {
+  return "#" + [r, g, b].map(x => {
+    const hex = x.toString(16);
+    return hex.length === 1 ? "0" + hex : hex;
+  }).join("");
+}
+
+export function generateTints(hex: string, steps: number): string[] {
+    const color = chroma(hex);
+    const white = chroma('#ffffff');
+    return chroma.scale([color, white]).colors(steps + 1).slice(1);
+}
+
+export function generateShades(hex: string, steps: number): string[] {
+    const color = chroma(hex);
+    const black = chroma('#000000');
+    return chroma.scale([color, black]).colors(steps + 1).slice(1);
+}

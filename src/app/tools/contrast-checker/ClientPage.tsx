@@ -1,13 +1,13 @@
 "use client";
-import { Footer } from "@/components/layout/Footer";
 
 import { useState } from "react";
 import { Navbar } from "@/components/layout/Navbar";
+import { Footer } from "@/components/layout/Footer";
 import { getContrast, getWcagGrade } from "@/lib/color/conversions";
 import { RefreshCw } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-export default function ContrastCheckerClientPage() {
+export default function ContrastCheckerClientPage({ faqData }: { faqData?: any }) {
   const [fg, setFg] = useState("#FFFFFF");
   const [bg, setBg] = useState("#000000");
 
@@ -15,7 +15,7 @@ export default function ContrastCheckerClientPage() {
   const grade = getWcagGrade(ratio);
 
   return (
-    <div className="min-h-screen bg-background flex flex-col">
+    <div className="bg-background flex flex-col min-h-screen">
       <Navbar />
 
       <main className="flex-1 max-w-5xl mx-auto w-full px-6 py-12 space-y-12">
@@ -134,6 +134,20 @@ export default function ContrastCheckerClientPage() {
                 </div>
             </div>
         </div>
+
+        {faqData && (
+          <div className="mt-20 text-left w-full">
+            <h2 className="text-3xl font-display font-bold text-text-primary mb-8">Frequently Asked Questions</h2>
+            <div className="space-y-6">
+              {faqData.map((faq: any, index: number) => (
+                <div key={index} className="bg-surface border border-border p-6 rounded-2xl">
+                  <h3 className="text-xl font-bold text-text-primary mb-3">{faq.question}</h3>
+                  <p className="text-text-secondary">{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
       </main>
       <Footer />
     </div>
