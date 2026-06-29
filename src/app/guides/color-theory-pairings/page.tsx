@@ -49,7 +49,8 @@ const metaDataObj: SeoMeta = {
   slug: "/guides/color-theory-pairings",
   pageType: "article",
   author: { name: "PaletteFlow Editorial" },
-  publishedAt: "2026-06-28T00:00:00.000Z"
+  publishedAt: "2026-06-28T00:00:00.000Z",
+  updatedAt: new Date().toISOString()
 };
 
 export default function ColorTheoryGuidePage() {
@@ -84,6 +85,9 @@ export default function ColorTheoryGuidePage() {
 
             <section className="space-y-8">
               <h2 className="text-3xl font-display font-bold text-text-primary">Step-by-Step: Crafting Your Palette</h2>
+              <p className="mb-8">
+                Once you understand these foundational concepts, you can explore the practical steps of implementation. For a more detailed look at applying this directly to digital products, read our guide on <Link href="/blog/choose-ui-color-palette" className="text-primary hover:underline">how to choose a color palette for UI design</Link>.
+              </p>
 
               <div className="space-y-10">
                 {howToData.steps.map((step, idx) => (
