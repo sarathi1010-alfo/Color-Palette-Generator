@@ -7,7 +7,7 @@ export const revalidate = 3600; // 1 hour ISR
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // 1. Static Pages
-  const staticRoutes = [
+    const staticRoutes = [
     '/',
     '/about',
     '/generator',
@@ -18,6 +18,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/tools/tints-shades',
     '/tools/image-extractor',
     '/guides/color-theory-pairings',
+    '/guides/choose-website-color-palette',
+    '/guides/wcag-contrast-checker-color-accessibility',
+    '/guides/color-theory-complementary-triadic-analogous',
+    '/guides/css-variables-color-palette-generator',
+    '/guides/color-palette-generator-vs-coolors',
+    '/guides/color-psychology-branding',
+    '/guides/tailwind-css-color-palette-generator'
   ];
 
   const staticPages = staticRoutes.map(route => ({

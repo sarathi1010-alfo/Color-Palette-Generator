@@ -3,20 +3,20 @@ import { Navbar } from "@/components/layout/Navbar";
 import { resolveMetadata } from "@/lib/seo/resolveMetadata";
 import { buildLandingMeta } from "@/lib/seo/metaFactories";
 import { JsonLd } from "@/components/JsonLd";
-import { buildHowToSchema, buildArticleSchema } from "@/lib/seo/buildSchema";
+import { buildHowToSchema, buildArticleSchema, buildFaqSchema } from "@/lib/seo/buildSchema";
 import { PageWrapper } from "@/components/layout/PageWrapper";
 import Link from "next/link";
 import { Palette, Layers } from "lucide-react";
 import { SeoMeta } from "@/types/seo";
 
 export const metadata = resolveMetadata(buildLandingMeta({
-  title: "How to Build Perfect Color Theory Pairings",
-  description: "A comprehensive guide to understanding color theory and building harmonious, professional color palettes using complementary, analogous, and triadic relationships.",
+  title: "Color Theory Pairings: The Ultimate 2025 Guide for Designers",
+  description: "Master color theory in 2025. Learn to build harmonious, professional color palettes using complementary, analogous, and triadic relationships.",
   slug: "/guides/color-theory-pairings",
 }));
 
 const howToData = {
-  title: "How to Build Perfect Color Theory Pairings",
+  title: "Color Theory Pairings: The Ultimate 2025 Guide for Designers",
   description: "Learn how to use color theory to build a harmonious and professional color palette.",
   estimatedTime: "PT15M",
   steps: [
@@ -49,14 +49,26 @@ const metaDataObj: SeoMeta = {
   slug: "/guides/color-theory-pairings",
   pageType: "article",
   author: { name: "PaletteFlow Editorial" },
-  publishedAt: "2026-06-28T00:00:00.000Z"
+  publishedAt: new Date().toISOString()
 };
+
+const faqData = [
+  {
+    question: "What is color theory in design?",
+    answer: "Color theory is a set of guidelines that designers use to communicate with users through appealing color schemes and interfaces. It relies on the color wheel to show relationships between colors."
+  },
+  {
+    question: "How do I create a harmonious color palette?",
+    answer: "To create a harmonious palette, start with a base color and apply a standard pairing rule like complementary, analogous, or triadic. Adjust the tints and shades for proper contrast."
+  }
+];
 
 export default function ColorTheoryGuidePage() {
   return (
     <div className="flex flex-col min-h-screen bg-background">
       <JsonLd schema={buildArticleSchema(metaDataObj)} />
       <JsonLd schema={buildHowToSchema(howToData)} />
+      <JsonLd schema={buildFaqSchema(faqData)} />
       <Navbar />
 
       <main className="flex-1">
@@ -70,7 +82,7 @@ export default function ColorTheoryGuidePage() {
               Mastering Color Theory: <span className="text-text-secondary">How to Build Perfect Pairings</span>
             </h1>
             <p className="text-xl text-text-secondary leading-relaxed">
-              Unlock the science behind harmonious design. Learn how to systematically build stunning color palettes that balance emotion, accessibility, and visual hierarchy.
+              Unlock the science behind harmonious design. Learn how to systematically build stunning color palettes that balance emotion, accessibility, and visual hierarchy. Read more about choosing the best palette <Link href="/guides/choose-website-color-palette" className="text-primary hover:underline">here</Link>.
             </p>
           </div>
 
@@ -78,7 +90,7 @@ export default function ColorTheoryGuidePage() {
             <section className="space-y-6">
               <h2 className="text-3xl font-display font-bold text-text-primary">The Foundation: The Color Wheel</h2>
               <p>
-                Every great color palette starts with a solid understanding of the color wheel. Originating from Isaac Newton&apos;s early experiments with prisms, the color wheel visually maps the relationships between colors. Understanding these relationships is the key to moving beyond guesswork and systematically generating harmonious designs.
+                Every great color palette starts with a solid understanding of the color wheel. Originating from Isaac Newton&apos;s early experiments with prisms, the color wheel visually maps the relationships between colors. Understanding these relationships is the key to moving beyond guesswork and systematically generating harmonious designs. Dive deeper into <Link href="/guides/color-theory-complementary-triadic-analogous" className="text-primary hover:underline">triadic and analogous schemes</Link>.
               </p>
             </section>
 
@@ -134,6 +146,18 @@ export default function ColorTheoryGuidePage() {
               </div>
             </section>
           </article>
+
+          <div className="mt-12 text-left">
+            <h2 className="text-3xl font-display font-bold text-text-primary mb-8">Frequently Asked Questions</h2>
+            <div className="space-y-6">
+              {faqData.map((faq, index) => (
+                <div key={index} className="bg-surface border border-border p-6 rounded-2xl">
+                  <h3 className="text-xl font-bold text-text-primary mb-3">{faq.question}</h3>
+                  <p className="text-text-secondary">{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+          </div>
 
           <div className="mt-20 p-8 md:p-12 bg-text-primary text-background rounded-3xl text-center space-y-8">
              <h3 className="text-4xl font-display font-bold">Put Theory into Practice</h3>

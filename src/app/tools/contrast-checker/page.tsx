@@ -1,5 +1,7 @@
 import { resolveMetadata } from "@/lib/seo/resolveMetadata";
 import { buildToolMeta } from "@/lib/seo/metaFactories";
+import { JsonLd } from "@/components/JsonLd";
+import { buildFaqSchema } from "@/lib/seo/buildSchema";
 import ContrastCheckerClientPage from "./ClientPage";
 
 export const metadata = resolveMetadata(buildToolMeta({
@@ -8,6 +10,22 @@ export const metadata = resolveMetadata(buildToolMeta({
   slug: "/tools/contrast-checker",
 }));
 
+const faqData = [
+  {
+    question: "What is a good contrast ratio?",
+    answer: "A good contrast ratio for standard text is at least 4.5:1 to meet WCAG AA requirements. For large text, a ratio of 3:1 is sufficient."
+  },
+  {
+    question: "Why is color contrast important?",
+    answer: "Color contrast is crucial for accessibility, ensuring that text is readable for users with visual impairments or color blindness."
+  }
+];
+
 export default function ContrastCheckerPage() {
-  return <ContrastCheckerClientPage />;
+  return (
+    <>
+      <JsonLd schema={buildFaqSchema(faqData)} />
+      <ContrastCheckerClientPage faqData={faqData} />
+    </>
+  );
 }
