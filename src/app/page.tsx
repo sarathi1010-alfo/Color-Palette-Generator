@@ -29,9 +29,34 @@ const faqs = [
 export default function HomePage() {
   const featuredPalettes = palettesData.slice(0, 4);
 
+  const howToSchema = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "How to Generate a Professional Color Palette",
+    "description": "Learn how to use PaletteFlow to create a cohesive and accessible color scheme for your design projects.",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "name": "Launch the Generator",
+        "text": "Open the PaletteFlow generator to start with a fresh set of harmonious colors."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Iterate and Lock",
+        "text": "Press spacebar to generate new colors. Click the lock icon on any colors you want to keep."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Export to Code",
+        "text": "Once satisfied, copy the CSS variables or Tailwind config directly into your project."
+      }
+    ]
+  };
+
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <JsonLd schema={buildFaqSchema(faqs)} />
+      <JsonLd schema={howToSchema} />
       <Navbar />
 
       <main className="flex-1" itemScope itemType="https://schema.org/WebPage">
