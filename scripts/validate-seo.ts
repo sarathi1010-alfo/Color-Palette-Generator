@@ -1,11 +1,9 @@
 import fs from 'fs';
 import path from 'path';
 
-// Load our actual sitemap generator dynamically, or mock its output parsing if easier.
-// Since it's TS and needs next context, let's just test the json files directly.
-
 import palettesData from '../src/data/palettes.json';
 import colorsData from '../src/data/color-names.json';
+import seoPagesData from '../src/data/seo-pages.json';
 
 function validateUrls() {
   console.log('--- Starting SEO Validation ---');
@@ -30,6 +28,19 @@ function validateUrls() {
   colorsData.forEach((c: any) => {
     if (!c.name || !c.hex) {
        console.error(`ERROR: Color is missing name or hex: ${JSON.stringify(c)}`);
+       errors++;
+    }
+  });
+
+  // 3. Validate SEO Pages JSON
+  console.log(`Validating ${seoPagesData.length} SEO cluster pages...`);
+  seoPagesData.forEach((page: any) => {
+    if (!page.title || !page.slug || !page.id) {
+       console.error(`ERROR: SEO page is missing title, slug, or id: ${JSON.stringify(page)}`);
+       errors++;
+    }
+    if (page.slug !== page.slug.toLowerCase().replace(/[^a-z0-9-]/g, '')) {
+       console.error(`ERROR: SEO page has an invalid slug format: ${page.slug}`);
        errors++;
     }
   });

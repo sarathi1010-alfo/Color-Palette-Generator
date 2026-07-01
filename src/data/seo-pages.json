@@ -1,0 +1,4952 @@
+[
+  {
+    "id": "1",
+    "title": "Complementary Color Palette Generator for UI Design",
+    "slug": "complementary-color-palette-generator-for-ui-design"
+  },
+  {
+    "id": "2",
+    "title": "Perfect Complementary Colors for Brand Identity",
+    "slug": "perfect-complementary-colors-for-brand-identity"
+  },
+  {
+    "id": "3",
+    "title": "Red-Green Complementary Palette for Accessibility",
+    "slug": "red-green-complementary-palette-for-accessibility"
+  },
+  {
+    "id": "4",
+    "title": "Blue-Orange Complementary Schemes for Web Design",
+    "slug": "blue-orange-complementary-schemes-for-web-design"
+  },
+  {
+    "id": "5",
+    "title": "Yellow-Purple Complementary Color Combinations",
+    "slug": "yellow-purple-complementary-color-combinations"
+  },
+  {
+    "id": "6",
+    "title": "Complementary Colors for Mobile App Interfaces",
+    "slug": "complementary-colors-for-mobile-app-interfaces"
+  },
+  {
+    "id": "7",
+    "title": "High-Contrast Complementary Palettes for Readability",
+    "slug": "high-contrast-complementary-palettes-for-readability"
+  },
+  {
+    "id": "8",
+    "title": "Complementary Color Theory Explained for Designers",
+    "slug": "complementary-color-theory-explained-for-designers"
+  },
+  {
+    "id": "9",
+    "title": "Best Complementary Color Pairs for Logos",
+    "slug": "best-complementary-color-pairs-for-logos"
+  },
+  {
+    "id": "10",
+    "title": "Complementary Colors in Nature-Inspired Design",
+    "slug": "complementary-colors-in-nature-inspired-design"
+  },
+  {
+    "id": "11",
+    "title": "Split-Complementary Palette Generator Tool",
+    "slug": "split-complementary-palette-generator-tool"
+  },
+  {
+    "id": "12",
+    "title": "Double Complementary (Tetradic) Color Schemes",
+    "slug": "double-complementary-tetradic-color-schemes"
+  },
+  {
+    "id": "13",
+    "title": "Complementary Colors for E-commerce Websites",
+    "slug": "complementary-colors-for-e-commerce-websites"
+  },
+  {
+    "id": "14",
+    "title": "Warm-Cool Complementary Balance in Interiors",
+    "slug": "warm-cool-complementary-balance-in-interiors"
+  },
+  {
+    "id": "15",
+    "title": "Complementary Palettes for Social Media Graphics",
+    "slug": "complementary-palettes-for-social-media-graphics"
+  },
+  {
+    "id": "16",
+    "title": "Analogous vs Complementary: Which to Choose?",
+    "slug": "analogous-vs-complementary-which-to-choose"
+  },
+  {
+    "id": "17",
+    "title": "Complementary Colors for Dashboard UI Design",
+    "slug": "complementary-colors-for-dashboard-ui-design"
+  },
+  {
+    "id": "18",
+    "title": "Vibrant Complementary Palettes for Marketing",
+    "slug": "vibrant-complementary-palettes-for-marketing"
+  },
+  {
+    "id": "19",
+    "title": "Muted Complementary Schemes for Minimalist Brands",
+    "slug": "muted-complementary-schemes-for-minimalist-brands"
+  },
+  {
+    "id": "20",
+    "title": "Complementary Color Harmonies in Photography",
+    "slug": "complementary-color-harmonies-in-photography"
+  },
+  {
+    "id": "21",
+    "title": "Seasonal Complementary Palette Ideas",
+    "slug": "seasonal-complementary-palette-ideas"
+  },
+  {
+    "id": "22",
+    "title": "Complementary Colors for Packaging Design",
+    "slug": "complementary-colors-for-packaging-design"
+  },
+  {
+    "id": "23",
+    "title": "Digital Art Complementary Color Techniques",
+    "slug": "digital-art-complementary-color-techniques"
+  },
+  {
+    "id": "24",
+    "title": "Complementary Palettes with WCAG Compliance",
+    "slug": "complementary-palettes-with-wcag-compliance"
+  },
+  {
+    "id": "25",
+    "title": "Export Complementary Schemes to CSS Variables",
+    "slug": "export-complementary-schemes-to-css-variables"
+  },
+  {
+    "id": "26",
+    "title": "Analogous Color Palette Generator for Web Design",
+    "slug": "analogous-color-palette-generator-for-web-design"
+  },
+  {
+    "id": "27",
+    "title": "Blue-Green Analogous Schemes for Calm Interfaces",
+    "slug": "blue-green-analogous-schemes-for-calm-interfaces"
+  },
+  {
+    "id": "28",
+    "title": "Red-Orange Analogous Palettes for Energy",
+    "slug": "red-orange-analogous-palettes-for-energy"
+  },
+  {
+    "id": "29",
+    "title": "Yellow-Green Analogous Colors for Nature Brands",
+    "slug": "yellow-green-analogous-colors-for-nature-brands"
+  },
+  {
+    "id": "30",
+    "title": "Purple-Blue Analogous Schemes for Creativity",
+    "slug": "purple-blue-analogous-schemes-for-creativity"
+  },
+  {
+    "id": "31",
+    "title": "Analogous Color Harmonies in Branding",
+    "slug": "analogous-color-harmonies-in-branding"
+  },
+  {
+    "id": "32",
+    "title": "Warm Analogous Palettes for Cozy Interiors",
+    "slug": "warm-analogous-palettes-for-cozy-interiors"
+  },
+  {
+    "id": "33",
+    "title": "Cool Analogous Schemes for Tech Products",
+    "slug": "cool-analogous-schemes-for-tech-products"
+  },
+  {
+    "id": "34",
+    "title": "Analogous Colors for Gradient Backgrounds",
+    "slug": "analogous-colors-for-gradient-backgrounds"
+  },
+  {
+    "id": "35",
+    "title": "Pastel Analogous Palettes for Baby Products",
+    "slug": "pastel-analogous-palettes-for-baby-products"
+  },
+  {
+    "id": "36",
+    "title": "Analogous Color Theory for Beginners",
+    "slug": "analogous-color-theory-for-beginners"
+  },
+  {
+    "id": "37",
+    "title": "Earthy Analogous Schemes for Sustainable Brands",
+    "slug": "earthy-analogous-schemes-for-sustainable-brands"
+  },
+  {
+    "id": "38",
+    "title": "Analogous Palettes for Presentation Design",
+    "slug": "analogous-palettes-for-presentation-design"
+  },
+  {
+    "id": "39",
+    "title": "Monochromatic vs Analogous: Key Differences",
+    "slug": "monochromatic-vs-analogous-key-differences"
+  },
+  {
+    "id": "40",
+    "title": "Analogous Colors in Landscape Photography",
+    "slug": "analogous-colors-in-landscape-photography"
+  },
+  {
+    "id": "41",
+    "title": "Analogous Schemes for Fashion Collections",
+    "slug": "analogous-schemes-for-fashion-collections"
+  },
+  {
+    "id": "42",
+    "title": "Digital Analogous Palette Generator Tool",
+    "slug": "digital-analogous-palette-generator-tool"
+  },
+  {
+    "id": "43",
+    "title": "Analogous Colors for Infographic Design",
+    "slug": "analogous-colors-for-infographic-design"
+  },
+  {
+    "id": "44",
+    "title": "Seasonal Analogous Palette Inspiration",
+    "slug": "seasonal-analogous-palette-inspiration"
+  },
+  {
+    "id": "45",
+    "title": "Analogous Color Combinations for Packaging",
+    "slug": "analogous-color-combinations-for-packaging"
+  },
+  {
+    "id": "46",
+    "title": "Analogous Schemes for Wellness Brands",
+    "slug": "analogous-schemes-for-wellness-brands"
+  },
+  {
+    "id": "47",
+    "title": "Analogous Colors for Educational Materials",
+    "slug": "analogous-colors-for-educational-materials"
+  },
+  {
+    "id": "48",
+    "title": "Analogous Palettes with Accessibility Checks",
+    "slug": "analogous-palettes-with-accessibility-checks"
+  },
+  {
+    "id": "49",
+    "title": "Export Analogous Schemes to Tailwind Config",
+    "slug": "export-analogous-schemes-to-tailwind-config"
+  },
+  {
+    "id": "50",
+    "title": "Analogous Colors in Art History",
+    "slug": "analogous-colors-in-art-history"
+  },
+  {
+    "id": "51",
+    "title": "Triadic Color Palette Generator for Creatives",
+    "slug": "triadic-color-palette-generator-for-creatives"
+  },
+  {
+    "id": "52",
+    "title": "Primary Triadic: Red-Yellow-Blue Schemes",
+    "slug": "primary-triadic-red-yellow-blue-schemes"
+  },
+  {
+    "id": "53",
+    "title": "Secondary Triadic: Orange-Green-Purple Palettes",
+    "slug": "secondary-triadic-orange-green-purple-palettes"
+  },
+  {
+    "id": "54",
+    "title": "Tertiary Triadic Color Combinations",
+    "slug": "tertiary-triadic-color-combinations"
+  },
+  {
+    "id": "55",
+    "title": "Triadic Color Harmonies for Bold Branding",
+    "slug": "triadic-color-harmonies-for-bold-branding"
+  },
+  {
+    "id": "56",
+    "title": "Balanced Triadic Schemes for Web Interfaces",
+    "slug": "balanced-triadic-schemes-for-web-interfaces"
+  },
+  {
+    "id": "57",
+    "title": "Triadic Palettes for Gaming Interfaces",
+    "slug": "triadic-palettes-for-gaming-interfaces"
+  },
+  {
+    "id": "58",
+    "title": "Vibrant Triadic Colors for Youth Brands",
+    "slug": "vibrant-triadic-colors-for-youth-brands"
+  },
+  {
+    "id": "59",
+    "title": "Muted Triadic Schemes for Professional Design",
+    "slug": "muted-triadic-schemes-for-professional-design"
+  },
+  {
+    "id": "60",
+    "title": "Triadic Color Theory Practical Guide",
+    "slug": "triadic-color-theory-practical-guide"
+  },
+  {
+    "id": "61",
+    "title": "Triadic Palettes for Social Media Campaigns",
+    "slug": "triadic-palettes-for-social-media-campaigns"
+  },
+  {
+    "id": "62",
+    "title": "Triadic Colors in Modern Art",
+    "slug": "triadic-colors-in-modern-art"
+  },
+  {
+    "id": "63",
+    "title": "Triadic Schemes for Interior Design",
+    "slug": "triadic-schemes-for-interior-design"
+  },
+  {
+    "id": "64",
+    "title": "Triadic Palettes for Product Photography",
+    "slug": "triadic-palettes-for-product-photography"
+  },
+  {
+    "id": "65",
+    "title": "Triadic vs Tetradic: Which Harmony Wins?",
+    "slug": "triadic-vs-tetradic-which-harmony-wins"
+  },
+  {
+    "id": "66",
+    "title": "Triadic Color Generator with Lock Feature",
+    "slug": "triadic-color-generator-with-lock-feature"
+  },
+  {
+    "id": "67",
+    "title": "Triadic Schemes for Logo Design",
+    "slug": "triadic-schemes-for-logo-design"
+  },
+  {
+    "id": "68",
+    "title": "Triadic Palettes for E-commerce UI",
+    "slug": "triadic-palettes-for-e-commerce-ui"
+  },
+  {
+    "id": "69",
+    "title": "Triadic Colors in Nature Inspiration",
+    "slug": "triadic-colors-in-nature-inspiration"
+  },
+  {
+    "id": "70",
+    "title": "Triadic Schemes for Data Visualization",
+    "slug": "triadic-schemes-for-data-visualization"
+  },
+  {
+    "id": "71",
+    "title": "Triadic Palettes for Fashion Lookbooks",
+    "slug": "triadic-palettes-for-fashion-lookbooks"
+  },
+  {
+    "id": "72",
+    "title": "Triadic Colors for Wedding Themes",
+    "slug": "triadic-colors-for-wedding-themes"
+  },
+  {
+    "id": "73",
+    "title": "Triadic Schemes with WCAG Contrast",
+    "slug": "triadic-schemes-with-wcag-contrast"
+  },
+  {
+    "id": "74",
+    "title": "Export Triadic Palettes to Figma",
+    "slug": "export-triadic-palettes-to-figma"
+  },
+  {
+    "id": "75",
+    "title": "Triadic Color Combinations for Packaging",
+    "slug": "triadic-color-combinations-for-packaging"
+  },
+  {
+    "id": "76",
+    "title": "Tetradic Color Palette Generator Tool",
+    "slug": "tetradic-color-palette-generator-tool"
+  },
+  {
+    "id": "77",
+    "title": "Double Complementary Schemes for Complex Designs",
+    "slug": "double-complementary-schemes-for-complex-designs"
+  },
+  {
+    "id": "78",
+    "title": "Tetradic Color Harmonies Explained",
+    "slug": "tetradic-color-harmonies-explained"
+  },
+  {
+    "id": "79",
+    "title": "Rectangle Tetradic vs Square Tetradic",
+    "slug": "rectangle-tetradic-vs-square-tetradic"
+  },
+  {
+    "id": "80",
+    "title": "Tetradic Palettes for Multi-Brand Projects",
+    "slug": "tetradic-palettes-for-multi-brand-projects"
+  },
+  {
+    "id": "81",
+    "title": "Tetradic Schemes for Corporate Identity",
+    "slug": "tetradic-schemes-for-corporate-identity"
+  },
+  {
+    "id": "82",
+    "title": "Rich Tetradic Colors for Luxury Brands",
+    "slug": "rich-tetradic-colors-for-luxury-brands"
+  },
+  {
+    "id": "83",
+    "title": "Tetradic Palettes for Editorial Design",
+    "slug": "tetradic-palettes-for-editorial-design"
+  },
+  {
+    "id": "84",
+    "title": "Balanced Tetradic Schemes for Web Apps",
+    "slug": "balanced-tetradic-schemes-for-web-apps"
+  },
+  {
+    "id": "85",
+    "title": "Tetradic Color Theory Masterclass",
+    "slug": "tetradic-color-theory-masterclass"
+  },
+  {
+    "id": "86",
+    "title": "Tetradic Palettes for Exhibition Design",
+    "slug": "tetradic-palettes-for-exhibition-design"
+  },
+  {
+    "id": "87",
+    "title": "Tetradic Schemes in Nature Photography",
+    "slug": "tetradic-schemes-in-nature-photography"
+  },
+  {
+    "id": "88",
+    "title": "Tetradic Colors for Packaging Systems",
+    "slug": "tetradic-colors-for-packaging-systems"
+  },
+  {
+    "id": "89",
+    "title": "Tetradic vs Complementary: When to Use",
+    "slug": "tetradic-vs-complementary-when-to-use"
+  },
+  {
+    "id": "90",
+    "title": "Tetradic Palettes with Accessibility Focus",
+    "slug": "tetradic-palettes-with-accessibility-focus"
+  },
+  {
+    "id": "91",
+    "title": "Tetradic Schemes for Brand Guidelines",
+    "slug": "tetradic-schemes-for-brand-guidelines"
+  },
+  {
+    "id": "92",
+    "title": "Tetradic Colors for Mural Design",
+    "slug": "tetradic-colors-for-mural-design"
+  },
+  {
+    "id": "93",
+    "title": "Tetradic Palettes for UI Component Libraries",
+    "slug": "tetradic-palettes-for-ui-component-libraries"
+  },
+  {
+    "id": "94",
+    "title": "Tetradic Schemes for Seasonal Campaigns",
+    "slug": "tetradic-schemes-for-seasonal-campaigns"
+  },
+  {
+    "id": "95",
+    "title": "Tetradic Colors in Renaissance Art",
+    "slug": "tetradic-colors-in-renaissance-art"
+  },
+  {
+    "id": "96",
+    "title": "Tetradic Palettes for Interior Decorating",
+    "slug": "tetradic-palettes-for-interior-decorating"
+  },
+  {
+    "id": "97",
+    "title": "Tetradic Schemes for Data Dashboards",
+    "slug": "tetradic-schemes-for-data-dashboards"
+  },
+  {
+    "id": "98",
+    "title": "Export Tetradic Palettes to SCSS",
+    "slug": "export-tetradic-palettes-to-scss"
+  },
+  {
+    "id": "99",
+    "title": "Tetradic Color Combinations for Textiles",
+    "slug": "tetradic-color-combinations-for-textiles"
+  },
+  {
+    "id": "100",
+    "title": "Tetradic Scheme Inspiration Gallery",
+    "slug": "tetradic-scheme-inspiration-gallery"
+  },
+  {
+    "id": "101",
+    "title": "Brand Color Palette Generator for Startups",
+    "slug": "brand-color-palette-generator-for-startups"
+  },
+  {
+    "id": "102",
+    "title": "Corporate Color Schemes for Professional Services",
+    "slug": "corporate-color-schemes-for-professional-services"
+  },
+  {
+    "id": "103",
+    "title": "Brand Identity Color Palette Ideas",
+    "slug": "brand-identity-color-palette-ideas"
+  },
+  {
+    "id": "104",
+    "title": "Tech Brand Color Palettes That Work",
+    "slug": "tech-brand-color-palettes-that-work"
+  },
+  {
+    "id": "105",
+    "title": "Luxury Brand Color Schemes Generator",
+    "slug": "luxury-brand-color-schemes-generator"
+  },
+  {
+    "id": "106",
+    "title": "Minimalist Brand Color Palettes",
+    "slug": "minimalist-brand-color-palettes"
+  },
+  {
+    "id": "107",
+    "title": "Eco-Friendly Brand Color Combinations",
+    "slug": "eco-friendly-brand-color-combinations"
+  },
+  {
+    "id": "108",
+    "title": "Fashion Brand Palette Generator",
+    "slug": "fashion-brand-palette-generator"
+  },
+  {
+    "id": "109",
+    "title": "Beauty Industry Color Schemes",
+    "slug": "beauty-industry-color-schemes"
+  },
+  {
+    "id": "110",
+    "title": "Financial Services Brand Colors",
+    "slug": "financial-services-brand-colors"
+  },
+  {
+    "id": "111",
+    "title": "Healthcare Brand Color Palettes",
+    "slug": "healthcare-brand-color-palettes"
+  },
+  {
+    "id": "112",
+    "title": "Education Sector Color Schemes",
+    "slug": "education-sector-color-schemes"
+  },
+  {
+    "id": "113",
+    "title": "Hospitality Brand Color Generator",
+    "slug": "hospitality-brand-color-generator"
+  },
+  {
+    "id": "114",
+    "title": "Real Estate Brand Color Palettes",
+    "slug": "real-estate-brand-color-palettes"
+  },
+  {
+    "id": "115",
+    "title": "Non-Profit Organization Color Schemes",
+    "slug": "non-profit-organization-color-schemes"
+  },
+  {
+    "id": "116",
+    "title": "Food and Beverage Brand Colors",
+    "slug": "food-and-beverage-brand-colors"
+  },
+  {
+    "id": "117",
+    "title": "Fitness Brand Color Palette Ideas",
+    "slug": "fitness-brand-color-palette-ideas"
+  },
+  {
+    "id": "118",
+    "title": "Music Industry Color Schemes",
+    "slug": "music-industry-color-schemes"
+  },
+  {
+    "id": "119",
+    "title": "Art Gallery Brand Color Palettes",
+    "slug": "art-gallery-brand-color-palettes"
+  },
+  {
+    "id": "120",
+    "title": "Law Firm Color Scheme Generator",
+    "slug": "law-firm-color-scheme-generator"
+  },
+  {
+    "id": "121",
+    "title": "Consulting Brand Color Palettes",
+    "slug": "consulting-brand-color-palettes"
+  },
+  {
+    "id": "122",
+    "title": "Insurance Company Color Schemes",
+    "slug": "insurance-company-color-schemes"
+  },
+  {
+    "id": "123",
+    "title": "Automotive Brand Color Generator",
+    "slug": "automotive-brand-color-generator"
+  },
+  {
+    "id": "124",
+    "title": "Travel Brand Color Palettes",
+    "slug": "travel-brand-color-palettes"
+  },
+  {
+    "id": "125",
+    "title": "Wellness Brand Color Schemes",
+    "slug": "wellness-brand-color-schemes"
+  },
+  {
+    "id": "126",
+    "title": "Pet Brand Color Palette Ideas",
+    "slug": "pet-brand-color-palette-ideas"
+  },
+  {
+    "id": "127",
+    "title": "Gaming Brand Color Generator",
+    "slug": "gaming-brand-color-generator"
+  },
+  {
+    "id": "128",
+    "title": "Crypto Brand Color Palettes",
+    "slug": "crypto-brand-color-palettes"
+  },
+  {
+    "id": "129",
+    "title": "Sustainable Brand Color Schemes",
+    "slug": "sustainable-brand-color-schemes"
+  },
+  {
+    "id": "130",
+    "title": "Local Business Brand Color Generator",
+    "slug": "local-business-brand-color-generator"
+  },
+  {
+    "id": "131",
+    "title": "E-commerce Brand Color Palettes",
+    "slug": "e-commerce-brand-color-palettes"
+  },
+  {
+    "id": "132",
+    "title": "SaaS Brand Color Schemes",
+    "slug": "saas-brand-color-schemes"
+  },
+  {
+    "id": "133",
+    "title": "Agency Brand Color Generator",
+    "slug": "agency-brand-color-generator"
+  },
+  {
+    "id": "134",
+    "title": "Portfolio Brand Color Ideas",
+    "slug": "portfolio-brand-color-ideas"
+  },
+  {
+    "id": "135",
+    "title": "Podcast Brand Color Palettes",
+    "slug": "podcast-brand-color-palettes"
+  },
+  {
+    "id": "136",
+    "title": "YouTube Channel Color Schemes",
+    "slug": "youtube-channel-color-schemes"
+  },
+  {
+    "id": "137",
+    "title": "Newsletter Brand Color Generator",
+    "slug": "newsletter-brand-color-generator"
+  },
+  {
+    "id": "138",
+    "title": "Course Brand Color Palettes",
+    "slug": "course-brand-color-palettes"
+  },
+  {
+    "id": "139",
+    "title": "Community Brand Color Schemes",
+    "slug": "community-brand-color-schemes"
+  },
+  {
+    "id": "140",
+    "title": "Event Brand Color Generator",
+    "slug": "event-brand-color-generator"
+  },
+  {
+    "id": "141",
+    "title": "Website Color Palette Generator for Designers",
+    "slug": "website-color-palette-generator-for-designers"
+  },
+  {
+    "id": "142",
+    "title": "UI Color Schemes for Web Applications",
+    "slug": "ui-color-schemes-for-web-applications"
+  },
+  {
+    "id": "143",
+    "title": "Dashboard Color Palette Ideas",
+    "slug": "dashboard-color-palette-ideas"
+  },
+  {
+    "id": "144",
+    "title": "Landing Page Color Combinations",
+    "slug": "landing-page-color-combinations"
+  },
+  {
+    "id": "145",
+    "title": "Mobile App Color Scheme Generator",
+    "slug": "mobile-app-color-scheme-generator"
+  },
+  {
+    "id": "146",
+    "title": "E-commerce Website Color Palettes",
+    "slug": "e-commerce-website-color-palettes"
+  },
+  {
+    "id": "147",
+    "title": "Blog Color Palette Generator",
+    "slug": "blog-color-palette-generator"
+  },
+  {
+    "id": "148",
+    "title": "Portfolio Website Color Schemes",
+    "slug": "portfolio-website-color-schemes"
+  },
+  {
+    "id": "149",
+    "title": "Corporate Website Color Palettes",
+    "slug": "corporate-website-color-palettes"
+  },
+  {
+    "id": "150",
+    "title": "SaaS Website Color Generator",
+    "slug": "saas-website-color-generator"
+  },
+  {
+    "id": "151",
+    "title": "Dark Mode Color Palette Ideas",
+    "slug": "dark-mode-color-palette-ideas"
+  },
+  {
+    "id": "152",
+    "title": "Light Mode Color Schemes for Web",
+    "slug": "light-mode-color-schemes-for-web"
+  },
+  {
+    "id": "153",
+    "title": "Responsive Design Color Palettes",
+    "slug": "responsive-design-color-palettes"
+  },
+  {
+    "id": "154",
+    "title": "Accessibility-First Web Color Schemes",
+    "slug": "accessibility-first-web-color-schemes"
+  },
+  {
+    "id": "155",
+    "title": "Micro-Interaction Color Generator",
+    "slug": "micro-interaction-color-generator"
+  },
+  {
+    "id": "156",
+    "title": "Button Color Palette for UI Design",
+    "slug": "button-color-palette-for-ui-design"
+  },
+  {
+    "id": "157",
+    "title": "Form Color Schemes for Web Apps",
+    "slug": "form-color-schemes-for-web-apps"
+  },
+  {
+    "id": "158",
+    "title": "Navigation Color Palette Ideas",
+    "slug": "navigation-color-palette-ideas"
+  },
+  {
+    "id": "159",
+    "title": "Footer Color Combinations for Websites",
+    "slug": "footer-color-combinations-for-websites"
+  },
+  {
+    "id": "160",
+    "title": "Hero Section Color Generator",
+    "slug": "hero-section-color-generator"
+  },
+  {
+    "id": "161",
+    "title": "Card UI Color Palettes",
+    "slug": "card-ui-color-palettes"
+  },
+  {
+    "id": "162",
+    "title": "Modal Color Schemes for Web",
+    "slug": "modal-color-schemes-for-web"
+  },
+  {
+    "id": "163",
+    "title": "Notification Color Palette Generator",
+    "slug": "notification-color-palette-generator"
+  },
+  {
+    "id": "164",
+    "title": "Progress Bar Color Combinations",
+    "slug": "progress-bar-color-combinations"
+  },
+  {
+    "id": "165",
+    "title": "Chart and Graph Color Palettes",
+    "slug": "chart-and-graph-color-palettes"
+  },
+  {
+    "id": "166",
+    "title": "Table UI Color Schemes",
+    "slug": "table-ui-color-schemes"
+  },
+  {
+    "id": "167",
+    "title": "Sidebar Color Palette Ideas",
+    "slug": "sidebar-color-palette-ideas"
+  },
+  {
+    "id": "168",
+    "title": "Header Color Combinations for Web",
+    "slug": "header-color-combinations-for-web"
+  },
+  {
+    "id": "169",
+    "title": "Call-to-Action Button Colors",
+    "slug": "call-to-action-button-colors"
+  },
+  {
+    "id": "170",
+    "title": "Hover State Color Generator",
+    "slug": "hover-state-color-generator"
+  },
+  {
+    "id": "171",
+    "title": "Focus State Color Palettes",
+    "slug": "focus-state-color-palettes"
+  },
+  {
+    "id": "172",
+    "title": "Error State Color Schemes",
+    "slug": "error-state-color-schemes"
+  },
+  {
+    "id": "173",
+    "title": "Success State Color Combinations",
+    "slug": "success-state-color-combinations"
+  },
+  {
+    "id": "174",
+    "title": "Warning State Color Generator",
+    "slug": "warning-state-color-generator"
+  },
+  {
+    "id": "175",
+    "title": "Info State Color Palettes",
+    "slug": "info-state-color-palettes"
+  },
+  {
+    "id": "176",
+    "title": "Disabled State Color Schemes",
+    "slug": "disabled-state-color-schemes"
+  },
+  {
+    "id": "177",
+    "title": "Border Color Palette for UI",
+    "slug": "border-color-palette-for-ui"
+  },
+  {
+    "id": "178",
+    "title": "Shadow Color Combinations for Web",
+    "slug": "shadow-color-combinations-for-web"
+  },
+  {
+    "id": "179",
+    "title": "Gradient UI Color Generator",
+    "slug": "gradient-ui-color-generator"
+  },
+  {
+    "id": "180",
+    "title": "Glassmorphism Color Palettes",
+    "slug": "glassmorphism-color-palettes"
+  },
+  {
+    "id": "181",
+    "title": "Interior Design Color Palette Generator",
+    "slug": "interior-design-color-palette-generator"
+  },
+  {
+    "id": "182",
+    "title": "Living Room Color Scheme Ideas",
+    "slug": "living-room-color-scheme-ideas"
+  },
+  {
+    "id": "183",
+    "title": "Bedroom Color Palette Generator",
+    "slug": "bedroom-color-palette-generator"
+  },
+  {
+    "id": "184",
+    "title": "Kitchen Color Combinations for Designers",
+    "slug": "kitchen-color-combinations-for-designers"
+  },
+  {
+    "id": "185",
+    "title": "Bathroom Color Scheme Generator",
+    "slug": "bathroom-color-scheme-generator"
+  },
+  {
+    "id": "186",
+    "title": "Home Office Color Palettes",
+    "slug": "home-office-color-palettes"
+  },
+  {
+    "id": "187",
+    "title": "Dining Room Color Combinations",
+    "slug": "dining-room-color-combinations"
+  },
+  {
+    "id": "188",
+    "title": "Nursery Color Palette Generator",
+    "slug": "nursery-color-palette-generator"
+  },
+  {
+    "id": "189",
+    "title": "Teen Room Color Schemes",
+    "slug": "teen-room-color-schemes"
+  },
+  {
+    "id": "190",
+    "title": "Guest Room Color Palettes",
+    "slug": "guest-room-color-palettes"
+  },
+  {
+    "id": "191",
+    "title": "Hallway Color Generator",
+    "slug": "hallway-color-generator"
+  },
+  {
+    "id": "192",
+    "title": "Staircase Color Combinations",
+    "slug": "staircase-color-combinations"
+  },
+  {
+    "id": "193",
+    "title": "Basement Color Scheme Ideas",
+    "slug": "basement-color-scheme-ideas"
+  },
+  {
+    "id": "194",
+    "title": "Attic Color Palette Generator",
+    "slug": "attic-color-palette-generator"
+  },
+  {
+    "id": "195",
+    "title": "Garage Color Combinations",
+    "slug": "garage-color-combinations"
+  },
+  {
+    "id": "196",
+    "title": "Outdoor Living Color Schemes",
+    "slug": "outdoor-living-color-schemes"
+  },
+  {
+    "id": "197",
+    "title": "Patio Color Palette Generator",
+    "slug": "patio-color-palette-generator"
+  },
+  {
+    "id": "198",
+    "title": "Garden Color Combinations",
+    "slug": "garden-color-combinations"
+  },
+  {
+    "id": "199",
+    "title": "Foyer Color Scheme Ideas",
+    "slug": "foyer-color-scheme-ideas"
+  },
+  {
+    "id": "200",
+    "title": "Mudroom Color Palettes",
+    "slug": "mudroom-color-palettes"
+  },
+  {
+    "id": "201",
+    "title": "Laundry Room Color Generator",
+    "slug": "laundry-room-color-generator"
+  },
+  {
+    "id": "202",
+    "title": "Pantry Color Combinations",
+    "slug": "pantry-color-combinations"
+  },
+  {
+    "id": "203",
+    "title": "Walk-in Closet Color Schemes",
+    "slug": "walk-in-closet-color-schemes"
+  },
+  {
+    "id": "204",
+    "title": "Home Gym Color Palettes",
+    "slug": "home-gym-color-palettes"
+  },
+  {
+    "id": "205",
+    "title": "Media Room Color Generator",
+    "slug": "media-room-color-generator"
+  },
+  {
+    "id": "206",
+    "title": "Home Theater Color Combinations",
+    "slug": "home-theater-color-combinations"
+  },
+  {
+    "id": "207",
+    "title": "Library Color Scheme Ideas",
+    "slug": "library-color-scheme-ideas"
+  },
+  {
+    "id": "208",
+    "title": "Study Color Palette Generator",
+    "slug": "study-color-palette-generator"
+  },
+  {
+    "id": "209",
+    "title": "Sunroom Color Combinations",
+    "slug": "sunroom-color-combinations"
+  },
+  {
+    "id": "210",
+    "title": "Conservatory Color Schemes",
+    "slug": "conservatory-color-schemes"
+  },
+  {
+    "id": "211",
+    "title": "Fashion Color Palette Generator for Designers",
+    "slug": "fashion-color-palette-generator-for-designers"
+  },
+  {
+    "id": "212",
+    "title": "Seasonal Fashion Color Trends",
+    "slug": "seasonal-fashion-color-trends"
+  },
+  {
+    "id": "213",
+    "title": "Spring Fashion Color Palettes",
+    "slug": "spring-fashion-color-palettes"
+  },
+  {
+    "id": "214",
+    "title": "Summer Fashion Color Schemes",
+    "slug": "summer-fashion-color-schemes"
+  },
+  {
+    "id": "215",
+    "title": "Autumn/Fall Fashion Color Generator",
+    "slug": "autumn-fall-fashion-color-generator"
+  },
+  {
+    "id": "216",
+    "title": "Winter Fashion Color Combinations",
+    "slug": "winter-fashion-color-combinations"
+  },
+  {
+    "id": "217",
+    "title": "Streetwear Color Palette Ideas",
+    "slug": "streetwear-color-palette-ideas"
+  },
+  {
+    "id": "218",
+    "title": "Formal Wear Color Schemes",
+    "slug": "formal-wear-color-schemes"
+  },
+  {
+    "id": "219",
+    "title": "Casual Wear Color Generator",
+    "slug": "casual-wear-color-generator"
+  },
+  {
+    "id": "220",
+    "title": "Athleisure Color Palettes",
+    "slug": "athleisure-color-palettes"
+  },
+  {
+    "id": "221",
+    "title": "Bridal Fashion Color Combinations",
+    "slug": "bridal-fashion-color-combinations"
+  },
+  {
+    "id": "222",
+    "title": "Menswear Color Palette Generator",
+    "slug": "menswear-color-palette-generator"
+  },
+  {
+    "id": "223",
+    "title": "Womenswear Color Schemes",
+    "slug": "womenswear-color-schemes"
+  },
+  {
+    "id": "224",
+    "title": "Childrenswear Color Palettes",
+    "slug": "childrenswear-color-palettes"
+  },
+  {
+    "id": "225",
+    "title": "Accessories Color Generator",
+    "slug": "accessories-color-generator"
+  },
+  {
+    "id": "226",
+    "title": "Footwear Color Combinations",
+    "slug": "footwear-color-combinations"
+  },
+  {
+    "id": "227",
+    "title": "Handbag Color Palette Ideas",
+    "slug": "handbag-color-palette-ideas"
+  },
+  {
+    "id": "228",
+    "title": "Jewelry Color Schemes",
+    "slug": "jewelry-color-schemes"
+  },
+  {
+    "id": "229",
+    "title": "Eyewear Color Generator",
+    "slug": "eyewear-color-generator"
+  },
+  {
+    "id": "230",
+    "title": "Watch Color Palettes",
+    "slug": "watch-color-palettes"
+  },
+  {
+    "id": "231",
+    "title": "Denim Color Combinations",
+    "slug": "denim-color-combinations"
+  },
+  {
+    "id": "232",
+    "title": "Knitwear Color Scheme Ideas",
+    "slug": "knitwear-color-scheme-ideas"
+  },
+  {
+    "id": "233",
+    "title": "Outerwear Color Generator",
+    "slug": "outerwear-color-generator"
+  },
+  {
+    "id": "234",
+    "title": "Swimwear Color Palettes",
+    "slug": "swimwear-color-palettes"
+  },
+  {
+    "id": "235",
+    "title": "Lingerie Color Schemes",
+    "slug": "lingerie-color-schemes"
+  },
+  {
+    "id": "236",
+    "title": "Sleepwear Color Generator",
+    "slug": "sleepwear-color-generator"
+  },
+  {
+    "id": "237",
+    "title": "Activewear Color Combinations",
+    "slug": "activewear-color-combinations"
+  },
+  {
+    "id": "238",
+    "title": "Uniform Color Palette Ideas",
+    "slug": "uniform-color-palette-ideas"
+  },
+  {
+    "id": "239",
+    "title": "Costume Color Schemes",
+    "slug": "costume-color-schemes"
+  },
+  {
+    "id": "240",
+    "title": "Textile Color Generator",
+    "slug": "textile-color-generator"
+  },
+  {
+    "id": "241",
+    "title": "Food Brand Color Palette Generator",
+    "slug": "food-brand-color-palette-generator"
+  },
+  {
+    "id": "242",
+    "title": "Restaurant Color Scheme Ideas",
+    "slug": "restaurant-color-scheme-ideas"
+  },
+  {
+    "id": "243",
+    "title": "Cafe Color Palettes for Designers",
+    "slug": "cafe-color-palettes-for-designers"
+  },
+  {
+    "id": "244",
+    "title": "Bakery Color Combinations",
+    "slug": "bakery-color-combinations"
+  },
+  {
+    "id": "245",
+    "title": "Bar and Lounge Color Generator",
+    "slug": "bar-and-lounge-color-generator"
+  },
+  {
+    "id": "246",
+    "title": "Wine Bar Color Schemes",
+    "slug": "wine-bar-color-schemes"
+  },
+  {
+    "id": "247",
+    "title": "Coffee Shop Color Palettes",
+    "slug": "coffee-shop-color-palettes"
+  },
+  {
+    "id": "248",
+    "title": "Tea House Color Generator",
+    "slug": "tea-house-color-generator"
+  },
+  {
+    "id": "249",
+    "title": "Juice Bar Color Combinations",
+    "slug": "juice-bar-color-combinations"
+  },
+  {
+    "id": "250",
+    "title": "Ice Cream Parlor Color Schemes",
+    "slug": "ice-cream-parlor-color-schemes"
+  },
+  {
+    "id": "251",
+    "title": "Food Truck Color Palette Ideas",
+    "slug": "food-truck-color-palette-ideas"
+  },
+  {
+    "id": "252",
+    "title": "Fine Dining Color Generator",
+    "slug": "fine-dining-color-generator"
+  },
+  {
+    "id": "253",
+    "title": "Fast Food Color Palettes",
+    "slug": "fast-food-color-palettes"
+  },
+  {
+    "id": "254",
+    "title": "Healthy Food Color Schemes",
+    "slug": "healthy-food-color-schemes"
+  },
+  {
+    "id": "255",
+    "title": "Organic Food Color Generator",
+    "slug": "organic-food-color-generator"
+  },
+  {
+    "id": "256",
+    "title": "Vegan Food Color Combinations",
+    "slug": "vegan-food-color-combinations"
+  },
+  {
+    "id": "257",
+    "title": "Seafood Restaurant Color Palettes",
+    "slug": "seafood-restaurant-color-palettes"
+  },
+  {
+    "id": "258",
+    "title": "Steakhouse Color Scheme Generator",
+    "slug": "steakhouse-color-scheme-generator"
+  },
+  {
+    "id": "259",
+    "title": "Italian Restaurant Color Ideas",
+    "slug": "italian-restaurant-color-ideas"
+  },
+  {
+    "id": "260",
+    "title": "Mexican Restaurant Color Palettes",
+    "slug": "mexican-restaurant-color-palettes"
+  },
+  {
+    "id": "261",
+    "title": "Asian Cuisine Color Schemes",
+    "slug": "asian-cuisine-color-schemes"
+  },
+  {
+    "id": "262",
+    "title": "Indian Restaurant Color Generator",
+    "slug": "indian-restaurant-color-generator"
+  },
+  {
+    "id": "263",
+    "title": "Mediterranean Food Color Combinations",
+    "slug": "mediterranean-food-color-combinations"
+  },
+  {
+    "id": "264",
+    "title": "Dessert Shop Color Palettes",
+    "slug": "dessert-shop-color-palettes"
+  },
+  {
+    "id": "265",
+    "title": "Chocolate Brand Color Schemes",
+    "slug": "chocolate-brand-color-schemes"
+  },
+  {
+    "id": "266",
+    "title": "Candy Store Color Generator",
+    "slug": "candy-store-color-generator"
+  },
+  {
+    "id": "267",
+    "title": "Beverage Brand Color Palettes",
+    "slug": "beverage-brand-color-palettes"
+  },
+  {
+    "id": "268",
+    "title": "Cocktail Color Combinations",
+    "slug": "cocktail-color-combinations"
+  },
+  {
+    "id": "269",
+    "title": "Smoothie Color Scheme Ideas",
+    "slug": "smoothie-color-scheme-ideas"
+  },
+  {
+    "id": "270",
+    "title": "Food Packaging Color Generator",
+    "slug": "food-packaging-color-generator"
+  },
+  {
+    "id": "271",
+    "title": "Wellness Brand Color Palette Generator",
+    "slug": "wellness-brand-color-palette-generator"
+  },
+  {
+    "id": "272",
+    "title": "Spa Color Scheme Ideas",
+    "slug": "spa-color-scheme-ideas"
+  },
+  {
+    "id": "273",
+    "title": "Yoga Studio Color Palettes",
+    "slug": "yoga-studio-color-palettes"
+  },
+  {
+    "id": "274",
+    "title": "Meditation Space Color Generator",
+    "slug": "meditation-space-color-generator"
+  },
+  {
+    "id": "275",
+    "title": "Fitness Center Color Combinations",
+    "slug": "fitness-center-color-combinations"
+  },
+  {
+    "id": "276",
+    "title": "Gym Color Scheme Ideas",
+    "slug": "gym-color-scheme-ideas"
+  },
+  {
+    "id": "277",
+    "title": "Pilates Studio Color Palettes",
+    "slug": "pilates-studio-color-palettes"
+  },
+  {
+    "id": "278",
+    "title": "Dance Studio Color Generator",
+    "slug": "dance-studio-color-generator"
+  },
+  {
+    "id": "279",
+    "title": "Massage Therapy Color Combinations",
+    "slug": "massage-therapy-color-combinations"
+  },
+  {
+    "id": "280",
+    "title": "Acupuncture Clinic Color Schemes",
+    "slug": "acupuncture-clinic-color-schemes"
+  },
+  {
+    "id": "281",
+    "title": "Chiropractic Office Color Palettes",
+    "slug": "chiropractic-office-color-palettes"
+  },
+  {
+    "id": "282",
+    "title": "Dental Practice Color Generator",
+    "slug": "dental-practice-color-generator"
+  },
+  {
+    "id": "283",
+    "title": "Medical Clinic Color Combinations",
+    "slug": "medical-clinic-color-combinations"
+  },
+  {
+    "id": "284",
+    "title": "Hospital Color Scheme Ideas",
+    "slug": "hospital-color-scheme-ideas"
+  },
+  {
+    "id": "285",
+    "title": "Pharmacy Color Palettes",
+    "slug": "pharmacy-color-palettes"
+  },
+  {
+    "id": "286",
+    "title": "Mental Health Practice Color Generator",
+    "slug": "mental-health-practice-color-generator"
+  },
+  {
+    "id": "287",
+    "title": "Counseling Office Color Combinations",
+    "slug": "counseling-office-color-combinations"
+  },
+  {
+    "id": "288",
+    "title": "Therapy Room Color Schemes",
+    "slug": "therapy-room-color-schemes"
+  },
+  {
+    "id": "289",
+    "title": "Rehabilitation Center Color Palettes",
+    "slug": "rehabilitation-center-color-palettes"
+  },
+  {
+    "id": "290",
+    "title": "Senior Living Color Generator",
+    "slug": "senior-living-color-generator"
+  },
+  {
+    "id": "291",
+    "title": "Children's Hospital Color Combinations",
+    "slug": "children-s-hospital-color-combinations"
+  },
+  {
+    "id": "292",
+    "title": "Veterinary Clinic Color Schemes",
+    "slug": "veterinary-clinic-color-schemes"
+  },
+  {
+    "id": "293",
+    "title": "Pet Wellness Color Palettes",
+    "slug": "pet-wellness-color-palettes"
+  },
+  {
+    "id": "294",
+    "title": "Nutritionist Brand Color Generator",
+    "slug": "nutritionist-brand-color-generator"
+  },
+  {
+    "id": "295",
+    "title": "Dietitian Color Combinations",
+    "slug": "dietitian-color-combinations"
+  },
+  {
+    "id": "296",
+    "title": "Health Coach Color Schemes",
+    "slug": "health-coach-color-schemes"
+  },
+  {
+    "id": "297",
+    "title": "Personal Trainer Color Palettes",
+    "slug": "personal-trainer-color-palettes"
+  },
+  {
+    "id": "298",
+    "title": "Sleep Clinic Color Generator",
+    "slug": "sleep-clinic-color-generator"
+  },
+  {
+    "id": "299",
+    "title": "Hearing Center Color Combinations",
+    "slug": "hearing-center-color-combinations"
+  },
+  {
+    "id": "300",
+    "title": "Vision Care Color Schemes",
+    "slug": "vision-care-color-schemes"
+  },
+  {
+    "id": "301",
+    "title": "Calm Color Palette Generator for Relaxation",
+    "slug": "calm-color-palette-generator-for-relaxation"
+  },
+  {
+    "id": "302",
+    "title": "Serene Blue Color Schemes",
+    "slug": "serene-blue-color-schemes"
+  },
+  {
+    "id": "303",
+    "title": "Peaceful Green Palettes for Wellness",
+    "slug": "peaceful-green-palettes-for-wellness"
+  },
+  {
+    "id": "304",
+    "title": "Tranquil Lavender Color Combinations",
+    "slug": "tranquil-lavender-color-combinations"
+  },
+  {
+    "id": "305",
+    "title": "Soothing Neutral Color Generator",
+    "slug": "soothing-neutral-color-generator"
+  },
+  {
+    "id": "306",
+    "title": "Zen Color Palette Ideas",
+    "slug": "zen-color-palette-ideas"
+  },
+  {
+    "id": "307",
+    "title": "Mindfulness Color Schemes",
+    "slug": "mindfulness-color-schemes"
+  },
+  {
+    "id": "308",
+    "title": "Meditation App Color Palettes",
+    "slug": "meditation-app-color-palettes"
+  },
+  {
+    "id": "309",
+    "title": "Sleep Aid Color Generator",
+    "slug": "sleep-aid-color-generator"
+  },
+  {
+    "id": "310",
+    "title": "Stress Relief Color Combinations",
+    "slug": "stress-relief-color-combinations"
+  },
+  {
+    "id": "311",
+    "title": "Anxiety-Reducing Color Schemes",
+    "slug": "anxiety-reducing-color-schemes"
+  },
+  {
+    "id": "312",
+    "title": "Spa-Inspired Color Palettes",
+    "slug": "spa-inspired-color-palettes"
+  },
+  {
+    "id": "313",
+    "title": "Nature Calm Color Generator",
+    "slug": "nature-calm-color-generator"
+  },
+  {
+    "id": "314",
+    "title": "Water-Inspired Serene Colors",
+    "slug": "water-inspired-serene-colors"
+  },
+  {
+    "id": "315",
+    "title": "Sky Blue Calm Palettes",
+    "slug": "sky-blue-calm-palettes"
+  },
+  {
+    "id": "316",
+    "title": "Sage Green Serene Schemes",
+    "slug": "sage-green-serene-schemes"
+  },
+  {
+    "id": "317",
+    "title": "Dusty Rose Calm Generator",
+    "slug": "dusty-rose-calm-generator"
+  },
+  {
+    "id": "318",
+    "title": "Warm Beige Serene Combinations",
+    "slug": "warm-beige-serene-combinations"
+  },
+  {
+    "id": "319",
+    "title": "Soft Gray Calm Palettes",
+    "slug": "soft-gray-calm-palettes"
+  },
+  {
+    "id": "320",
+    "title": "Creamy White Serene Schemes",
+    "slug": "creamy-white-serene-schemes"
+  },
+  {
+    "id": "321",
+    "title": "Ocean Calm Color Generator",
+    "slug": "ocean-calm-color-generator"
+  },
+  {
+    "id": "322",
+    "title": "Forest Serene Palettes",
+    "slug": "forest-serene-palettes"
+  },
+  {
+    "id": "323",
+    "title": "Meadow Calm Combinations",
+    "slug": "meadow-calm-combinations"
+  },
+  {
+    "id": "324",
+    "title": "Sunset Calm Color Schemes",
+    "slug": "sunset-calm-color-schemes"
+  },
+  {
+    "id": "325",
+    "title": "Moonlight Serene Generator",
+    "slug": "moonlight-serene-generator"
+  },
+  {
+    "id": "326",
+    "title": "Energetic Color Palette Generator",
+    "slug": "energetic-color-palette-generator"
+  },
+  {
+    "id": "327",
+    "title": "Vibrant Red Color Schemes",
+    "slug": "vibrant-red-color-schemes"
+  },
+  {
+    "id": "328",
+    "title": "Bright Orange Palettes for Energy",
+    "slug": "bright-orange-palettes-for-energy"
+  },
+  {
+    "id": "329",
+    "title": "Electric Yellow Combinations",
+    "slug": "electric-yellow-combinations"
+  },
+  {
+    "id": "330",
+    "title": "Neon Color Generator for Design",
+    "slug": "neon-color-generator-for-design"
+  },
+  {
+    "id": "331",
+    "title": "High-Energy Brand Palettes",
+    "slug": "high-energy-brand-palettes"
+  },
+  {
+    "id": "332",
+    "title": "Sports Team Color Schemes",
+    "slug": "sports-team-color-schemes"
+  },
+  {
+    "id": "333",
+    "title": "Fitness App Color Generator",
+    "slug": "fitness-app-color-generator"
+  },
+  {
+    "id": "334",
+    "title": "Festival Color Combinations",
+    "slug": "festival-color-combinations"
+  },
+  {
+    "id": "335",
+    "title": "Party Color Palettes",
+    "slug": "party-color-palettes"
+  },
+  {
+    "id": "336",
+    "title": "Summer Vibes Color Generator",
+    "slug": "summer-vibes-color-generator"
+  },
+  {
+    "id": "337",
+    "title": "Tropical Color Schemes",
+    "slug": "tropical-color-schemes"
+  },
+  {
+    "id": "338",
+    "title": "Bold Color Palettes for Marketing",
+    "slug": "bold-color-palettes-for-marketing"
+  },
+  {
+    "id": "339",
+    "title": "Dynamic UI Color Generator",
+    "slug": "dynamic-ui-color-generator"
+  },
+  {
+    "id": "340",
+    "title": "Action-Oriented Color Combinations",
+    "slug": "action-oriented-color-combinations"
+  },
+  {
+    "id": "341",
+    "title": "Youth Brand Color Palettes",
+    "slug": "youth-brand-color-palettes"
+  },
+  {
+    "id": "342",
+    "title": "Music Festival Color Schemes",
+    "slug": "music-festival-color-schemes"
+  },
+  {
+    "id": "343",
+    "title": "Gaming Interface Color Generator",
+    "slug": "gaming-interface-color-generator"
+  },
+  {
+    "id": "344",
+    "title": "Extreme Sports Color Combinations",
+    "slug": "extreme-sports-color-combinations"
+  },
+  {
+    "id": "345",
+    "title": "Urban Energy Color Palettes",
+    "slug": "urban-energy-color-palettes"
+  },
+  {
+    "id": "346",
+    "title": "Street Art Color Schemes",
+    "slug": "street-art-color-schemes"
+  },
+  {
+    "id": "347",
+    "title": "Pop Culture Color Generator",
+    "slug": "pop-culture-color-generator"
+  },
+  {
+    "id": "348",
+    "title": "Modern Vibrant Palettes",
+    "slug": "modern-vibrant-palettes"
+  },
+  {
+    "id": "349",
+    "title": "Zesty Color Combinations",
+    "slug": "zesty-color-combinations"
+  },
+  {
+    "id": "350",
+    "title": "Explosive Color Schemes",
+    "slug": "explosive-color-schemes"
+  },
+  {
+    "id": "351",
+    "title": "Warm Color Palette Generator",
+    "slug": "warm-color-palette-generator"
+  },
+  {
+    "id": "352",
+    "title": "Cozy Autumn Color Schemes",
+    "slug": "cozy-autumn-color-schemes"
+  },
+  {
+    "id": "353",
+    "title": "Fireplace-Inspired Palettes",
+    "slug": "fireplace-inspired-palettes"
+  },
+  {
+    "id": "354",
+    "title": "Golden Hour Color Combinations",
+    "slug": "golden-hour-color-combinations"
+  },
+  {
+    "id": "355",
+    "title": "Rustic Warm Color Generator",
+    "slug": "rustic-warm-color-generator"
+  },
+  {
+    "id": "356",
+    "title": "Comfort Food Color Schemes",
+    "slug": "comfort-food-color-schemes"
+  },
+  {
+    "id": "357",
+    "title": "Hygge Color Palettes",
+    "slug": "hygge-color-palettes"
+  },
+  {
+    "id": "358",
+    "title": "Cabin Interior Color Generator",
+    "slug": "cabin-interior-color-generator"
+  },
+  {
+    "id": "359",
+    "title": "Wool Texture Color Combinations",
+    "slug": "wool-texture-color-combinations"
+  },
+  {
+    "id": "360",
+    "title": "Warm Beverage Color Schemes",
+    "slug": "warm-beverage-color-schemes"
+  },
+  {
+    "id": "361",
+    "title": "Cinnamon Spice Palettes",
+    "slug": "cinnamon-spice-palettes"
+  },
+  {
+    "id": "362",
+    "title": "Toasted Almond Color Generator",
+    "slug": "toasted-almond-color-generator"
+  },
+  {
+    "id": "363",
+    "title": "Caramel Color Combinations",
+    "slug": "caramel-color-combinations"
+  },
+  {
+    "id": "364",
+    "title": "Amber Warm Schemes",
+    "slug": "amber-warm-schemes"
+  },
+  {
+    "id": "365",
+    "title": "Terracotta Color Palettes",
+    "slug": "terracotta-color-palettes"
+  },
+  {
+    "id": "366",
+    "title": "Burnt Orange Generator",
+    "slug": "burnt-orange-generator"
+  },
+  {
+    "id": "367",
+    "title": "Mustard Yellow Combinations",
+    "slug": "mustard-yellow-combinations"
+  },
+  {
+    "id": "368",
+    "title": "Warm Taupe Schemes",
+    "slug": "warm-taupe-schemes"
+  },
+  {
+    "id": "369",
+    "title": "Creamy Beige Palettes",
+    "slug": "creamy-beige-palettes"
+  },
+  {
+    "id": "370",
+    "title": "Warm White Generator",
+    "slug": "warm-white-generator"
+  },
+  {
+    "id": "371",
+    "title": "Sunset Warm Colors",
+    "slug": "sunset-warm-colors"
+  },
+  {
+    "id": "372",
+    "title": "Candlelight Schemes",
+    "slug": "candlelight-schemes"
+  },
+  {
+    "id": "373",
+    "title": "Earth Oven Palettes",
+    "slug": "earth-oven-palettes"
+  },
+  {
+    "id": "374",
+    "title": "Harvest Color Combinations",
+    "slug": "harvest-color-combinations"
+  },
+  {
+    "id": "375",
+    "title": "Thanksgiving Color Schemes",
+    "slug": "thanksgiving-color-schemes"
+  },
+  {
+    "id": "376",
+    "title": "Cool Color Palette Generator",
+    "slug": "cool-color-palette-generator"
+  },
+  {
+    "id": "377",
+    "title": "Fresh Mint Color Schemes",
+    "slug": "fresh-mint-color-schemes"
+  },
+  {
+    "id": "378",
+    "title": "Icy Blue Palettes for Design",
+    "slug": "icy-blue-palettes-for-design"
+  },
+  {
+    "id": "379",
+    "title": "Crisp Green Combinations",
+    "slug": "crisp-green-combinations"
+  },
+  {
+    "id": "380",
+    "title": "Cool Aqua Generator",
+    "slug": "cool-aqua-generator"
+  },
+  {
+    "id": "381",
+    "title": "Winter Fresh Color Schemes",
+    "slug": "winter-fresh-color-schemes"
+  },
+  {
+    "id": "382",
+    "title": "Spring Fresh Palettes",
+    "slug": "spring-fresh-palettes"
+  },
+  {
+    "id": "383",
+    "title": "Ocean Breeze Color Generator",
+    "slug": "ocean-breeze-color-generator"
+  },
+  {
+    "id": "384",
+    "title": "Mountain Fresh Combinations",
+    "slug": "mountain-fresh-combinations"
+  },
+  {
+    "id": "385",
+    "title": "Cool Minimalist Schemes",
+    "slug": "cool-minimalist-schemes"
+  },
+  {
+    "id": "386",
+    "title": "Glacier Color Palettes",
+    "slug": "glacier-color-palettes"
+  },
+  {
+    "id": "387",
+    "title": "Frosty White Generator",
+    "slug": "frosty-white-generator"
+  },
+  {
+    "id": "388",
+    "title": "Cool Gray Combinations",
+    "slug": "cool-gray-combinations"
+  },
+  {
+    "id": "389",
+    "title": "Silver Blue Schemes",
+    "slug": "silver-blue-schemes"
+  },
+  {
+    "id": "390",
+    "title": "Ice Green Palettes",
+    "slug": "ice-green-palettes"
+  },
+  {
+    "id": "391",
+    "title": "Cool Lavender Generator",
+    "slug": "cool-lavender-generator"
+  },
+  {
+    "id": "392",
+    "title": "Fresh Mint Combinations",
+    "slug": "fresh-mint-combinations"
+  },
+  {
+    "id": "393",
+    "title": "Sea Foam Schemes",
+    "slug": "sea-foam-schemes"
+  },
+  {
+    "id": "394",
+    "title": "Cool Teal Palettes",
+    "slug": "cool-teal-palettes"
+  },
+  {
+    "id": "395",
+    "title": "Sky Fresh Generator",
+    "slug": "sky-fresh-generator"
+  },
+  {
+    "id": "396",
+    "title": "Cool Neutrals Combinations",
+    "slug": "cool-neutrals-combinations"
+  },
+  {
+    "id": "397",
+    "title": "Fresh Spring Schemes",
+    "slug": "fresh-spring-schemes"
+  },
+  {
+    "id": "398",
+    "title": "Cool Water Palettes",
+    "slug": "cool-water-palettes"
+  },
+  {
+    "id": "399",
+    "title": "Arctic Color Generator",
+    "slug": "arctic-color-generator"
+  },
+  {
+    "id": "400",
+    "title": "Clean Fresh Combinations",
+    "slug": "clean-fresh-combinations"
+  },
+  {
+    "id": "401",
+    "title": "Romantic Color Palette Generator",
+    "slug": "romantic-color-palette-generator"
+  },
+  {
+    "id": "402",
+    "title": "Soft Pink Color Schemes",
+    "slug": "soft-pink-color-schemes"
+  },
+  {
+    "id": "403",
+    "title": "Blush Palettes for Design",
+    "slug": "blush-palettes-for-design"
+  },
+  {
+    "id": "404",
+    "title": "Rose Gold Color Combinations",
+    "slug": "rose-gold-color-combinations"
+  },
+  {
+    "id": "405",
+    "title": "Vintage Romance Generator",
+    "slug": "vintage-romance-generator"
+  },
+  {
+    "id": "406",
+    "title": "Wedding Color Schemes",
+    "slug": "wedding-color-schemes"
+  },
+  {
+    "id": "407",
+    "title": "Valentine's Day Palettes",
+    "slug": "valentine-s-day-palettes"
+  },
+  {
+    "id": "408",
+    "title": "Soft Peach Color Generator",
+    "slug": "soft-peach-color-generator"
+  },
+  {
+    "id": "409",
+    "title": "Dusty Rose Combinations",
+    "slug": "dusty-rose-combinations"
+  },
+  {
+    "id": "410",
+    "title": "Mauve Color Schemes",
+    "slug": "mauve-color-schemes"
+  },
+  {
+    "id": "411",
+    "title": "Soft Lavender Palettes",
+    "slug": "soft-lavender-palettes"
+  },
+  {
+    "id": "412",
+    "title": "Creamy Pink Generator",
+    "slug": "creamy-pink-generator"
+  },
+  {
+    "id": "413",
+    "title": "Coral Blush Combinations",
+    "slug": "coral-blush-combinations"
+  },
+  {
+    "id": "414",
+    "title": "Romantic Red Schemes",
+    "slug": "romantic-red-schemes"
+  },
+  {
+    "id": "415",
+    "title": "Soft Neutral Palettes",
+    "slug": "soft-neutral-palettes"
+  },
+  {
+    "id": "416",
+    "title": "English Rose Generator",
+    "slug": "english-rose-generator"
+  },
+  {
+    "id": "417",
+    "title": "Vintage Floral Combinations",
+    "slug": "vintage-floral-combinations"
+  },
+  {
+    "id": "418",
+    "title": "Parisian Romance Schemes",
+    "slug": "parisian-romance-schemes"
+  },
+  {
+    "id": "419",
+    "title": "Tuscan Sunset Palettes",
+    "slug": "tuscan-sunset-palettes"
+  },
+  {
+    "id": "420",
+    "title": "Soft Gold Generator",
+    "slug": "soft-gold-generator"
+  },
+  {
+    "id": "421",
+    "title": "Champagne Color Combinations",
+    "slug": "champagne-color-combinations"
+  },
+  {
+    "id": "422",
+    "title": "Ivory Cream Schemes",
+    "slug": "ivory-cream-schemes"
+  },
+  {
+    "id": "423",
+    "title": "Soft Mauve Palettes",
+    "slug": "soft-mauve-palettes"
+  },
+  {
+    "id": "424",
+    "title": "Romantic Taupe Generator",
+    "slug": "romantic-taupe-generator"
+  },
+  {
+    "id": "425",
+    "title": "Love-Inspired Color Schemes",
+    "slug": "love-inspired-color-schemes"
+  },
+  {
+    "id": "426",
+    "title": "Dark Color Palette Generator",
+    "slug": "dark-color-palette-generator"
+  },
+  {
+    "id": "427",
+    "title": "Moody Black Color Schemes",
+    "slug": "moody-black-color-schemes"
+  },
+  {
+    "id": "428",
+    "title": "Charcoal Gray Palettes",
+    "slug": "charcoal-gray-palettes"
+  },
+  {
+    "id": "429",
+    "title": "Deep Navy Combinations",
+    "slug": "deep-navy-combinations"
+  },
+  {
+    "id": "430",
+    "title": "Forest Dark Generator",
+    "slug": "forest-dark-generator"
+  },
+  {
+    "id": "431",
+    "title": "Gothic Color Schemes",
+    "slug": "gothic-color-schemes"
+  },
+  {
+    "id": "432",
+    "title": "Midnight Blue Palettes",
+    "slug": "midnight-blue-palettes"
+  },
+  {
+    "id": "433",
+    "title": "Dark Plum Generator",
+    "slug": "dark-plum-generator"
+  },
+  {
+    "id": "434",
+    "title": "Obsidian Color Combinations",
+    "slug": "obsidian-color-combinations"
+  },
+  {
+    "id": "435",
+    "title": "Shadow Gray Schemes",
+    "slug": "shadow-gray-schemes"
+  },
+  {
+    "id": "436",
+    "title": "Dark Academia Palettes",
+    "slug": "dark-academia-palettes"
+  },
+  {
+    "id": "437",
+    "title": "Noir Color Generator",
+    "slug": "noir-color-generator"
+  },
+  {
+    "id": "438",
+    "title": "Dark Green Combinations",
+    "slug": "dark-green-combinations"
+  },
+  {
+    "id": "439",
+    "title": "Burgundy Dark Schemes",
+    "slug": "burgundy-dark-schemes"
+  },
+  {
+    "id": "440",
+    "title": "Dark Teal Palettes",
+    "slug": "dark-teal-palettes"
+  },
+  {
+    "id": "441",
+    "title": "Ink Blue Generator",
+    "slug": "ink-blue-generator"
+  },
+  {
+    "id": "442",
+    "title": "Dark Brown Combinations",
+    "slug": "dark-brown-combinations"
+  },
+  {
+    "id": "443",
+    "title": "Slate Gray Schemes",
+    "slug": "slate-gray-schemes"
+  },
+  {
+    "id": "444",
+    "title": "Deep Purple Palettes",
+    "slug": "deep-purple-palettes"
+  },
+  {
+    "id": "445",
+    "title": "Dark Olive Generator",
+    "slug": "dark-olive-generator"
+  },
+  {
+    "id": "446",
+    "title": "Night Sky Combinations",
+    "slug": "night-sky-combinations"
+  },
+  {
+    "id": "447",
+    "title": "Dark Chocolate Schemes",
+    "slug": "dark-chocolate-schemes"
+  },
+  {
+    "id": "448",
+    "title": "Ebony Color Palettes",
+    "slug": "ebony-color-palettes"
+  },
+  {
+    "id": "449",
+    "title": "Dark Moody Generator",
+    "slug": "dark-moody-generator"
+  },
+  {
+    "id": "450",
+    "title": "Industrial Dark Combinations",
+    "slug": "industrial-dark-combinations"
+  },
+  {
+    "id": "451",
+    "title": "Earth Tone Color Palette Generator",
+    "slug": "earth-tone-color-palette-generator"
+  },
+  {
+    "id": "452",
+    "title": "Desert Sand Color Schemes",
+    "slug": "desert-sand-color-schemes"
+  },
+  {
+    "id": "453",
+    "title": "Forest Green Palettes",
+    "slug": "forest-green-palettes"
+  },
+  {
+    "id": "454",
+    "title": "Mountain Rock Combinations",
+    "slug": "mountain-rock-combinations"
+  },
+  {
+    "id": "455",
+    "title": "Clay Terracotta Generator",
+    "slug": "clay-terracotta-generator"
+  },
+  {
+    "id": "456",
+    "title": "Soil Brown Color Schemes",
+    "slug": "soil-brown-color-schemes"
+  },
+  {
+    "id": "457",
+    "title": "Stone Gray Palettes",
+    "slug": "stone-gray-palettes"
+  },
+  {
+    "id": "458",
+    "title": "Canyon Red Generator",
+    "slug": "canyon-red-generator"
+  },
+  {
+    "id": "459",
+    "title": "Meadow Green Combinations",
+    "slug": "meadow-green-combinations"
+  },
+  {
+    "id": "460",
+    "title": "Prairie Grass Schemes",
+    "slug": "prairie-grass-schemes"
+  },
+  {
+    "id": "461",
+    "title": "Dune Sand Palettes",
+    "slug": "dune-sand-palettes"
+  },
+  {
+    "id": "462",
+    "title": "Volcanic Black Generator",
+    "slug": "volcanic-black-generator"
+  },
+  {
+    "id": "463",
+    "title": "Mineral Blue Combinations",
+    "slug": "mineral-blue-combinations"
+  },
+  {
+    "id": "464",
+    "title": "Rustic Earth Schemes",
+    "slug": "rustic-earth-schemes"
+  },
+  {
+    "id": "465",
+    "title": "Terrain Color Palettes",
+    "slug": "terrain-color-palettes"
+  },
+  {
+    "id": "466",
+    "title": "Geology-Inspired Generator",
+    "slug": "geology-inspired-generator"
+  },
+  {
+    "id": "467",
+    "title": "Sediment Color Combinations",
+    "slug": "sediment-color-combinations"
+  },
+  {
+    "id": "468",
+    "title": "Fossil Stone Schemes",
+    "slug": "fossil-stone-schemes"
+  },
+  {
+    "id": "469",
+    "title": "Granite Gray Palettes",
+    "slug": "granite-gray-palettes"
+  },
+  {
+    "id": "470",
+    "title": "Marble White Generator",
+    "slug": "marble-white-generator"
+  },
+  {
+    "id": "471",
+    "title": "Slate Blue Combinations",
+    "slug": "slate-blue-combinations"
+  },
+  {
+    "id": "472",
+    "title": "Pebble Gray Schemes",
+    "slug": "pebble-gray-schemes"
+  },
+  {
+    "id": "473",
+    "title": "Boulder Brown Palettes",
+    "slug": "boulder-brown-palettes"
+  },
+  {
+    "id": "474",
+    "title": "Cliff Edge Generator",
+    "slug": "cliff-edge-generator"
+  },
+  {
+    "id": "475",
+    "title": "Valley Green Combinations",
+    "slug": "valley-green-combinations"
+  },
+  {
+    "id": "476",
+    "title": "Plateau Color Schemes",
+    "slug": "plateau-color-schemes"
+  },
+  {
+    "id": "477",
+    "title": "Mesa Red Palettes",
+    "slug": "mesa-red-palettes"
+  },
+  {
+    "id": "478",
+    "title": "Butte Orange Generator",
+    "slug": "butte-orange-generator"
+  },
+  {
+    "id": "479",
+    "title": "Arroyo Brown Combinations",
+    "slug": "arroyo-brown-combinations"
+  },
+  {
+    "id": "480",
+    "title": "Badlands Color Schemes",
+    "slug": "badlands-color-schemes"
+  },
+  {
+    "id": "481",
+    "title": "Ocean Color Palette Generator",
+    "slug": "ocean-color-palette-generator"
+  },
+  {
+    "id": "482",
+    "title": "Deep Sea Blue Schemes",
+    "slug": "deep-sea-blue-schemes"
+  },
+  {
+    "id": "483",
+    "title": "Coral Reef Color Palettes",
+    "slug": "coral-reef-color-palettes"
+  },
+  {
+    "id": "484",
+    "title": "Turquoise Water Combinations",
+    "slug": "turquoise-water-combinations"
+  },
+  {
+    "id": "485",
+    "title": "Sandy Beach Generator",
+    "slug": "sandy-beach-generator"
+  },
+  {
+    "id": "486",
+    "title": "Wave Blue Color Schemes",
+    "slug": "wave-blue-color-schemes"
+  },
+  {
+    "id": "487",
+    "title": "Tide Pool Palettes",
+    "slug": "tide-pool-palettes"
+  },
+  {
+    "id": "488",
+    "title": "Marine Green Generator",
+    "slug": "marine-green-generator"
+  },
+  {
+    "id": "489",
+    "title": "Pearl White Combinations",
+    "slug": "pearl-white-combinations"
+  },
+  {
+    "id": "490",
+    "title": "Shipwreck Dark Schemes",
+    "slug": "shipwreck-dark-schemes"
+  },
+  {
+    "id": "491",
+    "title": "Lighthouse Red Palettes",
+    "slug": "lighthouse-red-palettes"
+  },
+  {
+    "id": "492",
+    "title": "Foam White Generator",
+    "slug": "foam-white-generator"
+  },
+  {
+    "id": "493",
+    "title": "Current Blue Combinations",
+    "slug": "current-blue-combinations"
+  },
+  {
+    "id": "494",
+    "title": "Abyss Dark Schemes",
+    "slug": "abyss-dark-schemes"
+  },
+  {
+    "id": "495",
+    "title": "Lagoon Turquoise Palettes",
+    "slug": "lagoon-turquoise-palettes"
+  },
+  {
+    "id": "496",
+    "title": "Estuary Green Generator",
+    "slug": "estuary-green-generator"
+  },
+  {
+    "id": "497",
+    "title": "Fjord Blue Combinations",
+    "slug": "fjord-blue-combinations"
+  },
+  {
+    "id": "498",
+    "title": "Coastline Sand Schemes",
+    "slug": "coastline-sand-schemes"
+  },
+  {
+    "id": "499",
+    "title": "Open Ocean Palettes",
+    "slug": "open-ocean-palettes"
+  },
+  {
+    "id": "500",
+    "title": "Iceberg White Generator",
+    "slug": "iceberg-white-generator"
+  },
+  {
+    "id": "511",
+    "title": "Floral Color Palette Generator",
+    "slug": "floral-color-palette-generator"
+  },
+  {
+    "id": "512",
+    "title": "Rose Garden Color Schemes",
+    "slug": "rose-garden-color-schemes"
+  },
+  {
+    "id": "513",
+    "title": "Lavender Field Palettes",
+    "slug": "lavender-field-palettes"
+  },
+  {
+    "id": "514",
+    "title": "Sunflower Yellow Combinations",
+    "slug": "sunflower-yellow-combinations"
+  },
+  {
+    "id": "515",
+    "title": "Tulip Red Generator",
+    "slug": "tulip-red-generator"
+  },
+  {
+    "id": "516",
+    "title": "Daisy White Schemes",
+    "slug": "daisy-white-schemes"
+  },
+  {
+    "id": "517",
+    "title": "Orchid Purple Palettes",
+    "slug": "orchid-purple-palettes"
+  },
+  {
+    "id": "518",
+    "title": "Lily Pink Generator",
+    "slug": "lily-pink-generator"
+  },
+  {
+    "id": "519",
+    "title": "Peony Blush Combinations",
+    "slug": "peony-blush-combinations"
+  },
+  {
+    "id": "520",
+    "title": "Jasmine White Schemes",
+    "slug": "jasmine-white-schemes"
+  },
+  {
+    "id": "521",
+    "title": "Hibiscus Red Palettes",
+    "slug": "hibiscus-red-palettes"
+  },
+  {
+    "id": "522",
+    "title": "Magnolia Cream Generator",
+    "slug": "magnolia-cream-generator"
+  },
+  {
+    "id": "523",
+    "title": "Cherry Blossom Pink Combinations",
+    "slug": "cherry-blossom-pink-combinations"
+  },
+  {
+    "id": "524",
+    "title": "Wisteria Purple Schemes",
+    "slug": "wisteria-purple-schemes"
+  },
+  {
+    "id": "525",
+    "title": "Daffodil Yellow Palettes",
+    "slug": "daffodil-yellow-palettes"
+  },
+  {
+    "id": "526",
+    "title": "Bluebell Blue Generator",
+    "slug": "bluebell-blue-generator"
+  },
+  {
+    "id": "527",
+    "title": "Poppy Red Combinations",
+    "slug": "poppy-red-combinations"
+  },
+  {
+    "id": "528",
+    "title": "Lily Pad Green Schemes",
+    "slug": "lily-pad-green-schemes"
+  },
+  {
+    "id": "529",
+    "title": "Fern Green Palettes",
+    "slug": "fern-green-palettes"
+  },
+  {
+    "id": "530",
+    "title": "Moss Green Generator",
+    "slug": "moss-green-generator"
+  },
+  {
+    "id": "531",
+    "title": "Butterfly Wing Color Schemes",
+    "slug": "butterfly-wing-color-schemes"
+  },
+  {
+    "id": "532",
+    "title": "Peacock Feather Palettes",
+    "slug": "peacock-feather-palettes"
+  },
+  {
+    "id": "533",
+    "title": "Ladybug Red Generator",
+    "slug": "ladybug-red-generator"
+  },
+  {
+    "id": "534",
+    "title": "Bee Yellow Combinations",
+    "slug": "bee-yellow-combinations"
+  },
+  {
+    "id": "535",
+    "title": "Dragonfly Blue Schemes",
+    "slug": "dragonfly-blue-schemes"
+  },
+  {
+    "id": "536",
+    "title": "Hummingbird Green Palettes",
+    "slug": "hummingbird-green-palettes"
+  },
+  {
+    "id": "537",
+    "title": "Flamingo Pink Generator",
+    "slug": "flamingo-pink-generator"
+  },
+  {
+    "id": "538",
+    "title": "Macaw Rainbow Combinations",
+    "slug": "macaw-rainbow-combinations"
+  },
+  {
+    "id": "539",
+    "title": "Turtle Shell Green Schemes",
+    "slug": "turtle-shell-green-schemes"
+  },
+  {
+    "id": "540",
+    "title": "Coral Pink Palettes",
+    "slug": "coral-pink-palettes"
+  },
+  {
+    "id": "541",
+    "title": "Sky Blue Color Palette Generator",
+    "slug": "sky-blue-color-palette-generator"
+  },
+  {
+    "id": "542",
+    "title": "Sunset Orange Color Schemes",
+    "slug": "sunset-orange-color-schemes"
+  },
+  {
+    "id": "543",
+    "title": "Sunrise Pink Palettes",
+    "slug": "sunrise-pink-palettes"
+  },
+  {
+    "id": "544",
+    "title": "Cloud White Combinations",
+    "slug": "cloud-white-combinations"
+  },
+  {
+    "id": "545",
+    "title": "Storm Gray Generator",
+    "slug": "storm-gray-generator"
+  },
+  {
+    "id": "546",
+    "title": "Rainbow Color Schemes",
+    "slug": "rainbow-color-schemes"
+  },
+  {
+    "id": "547",
+    "title": "Aurora Green Palettes",
+    "slug": "aurora-green-palettes"
+  },
+  {
+    "id": "548",
+    "title": "Twilight Blue Generator",
+    "slug": "twilight-blue-generator"
+  },
+  {
+    "id": "549",
+    "title": "Golden Hour Combinations",
+    "slug": "golden-hour-combinations"
+  },
+  {
+    "id": "550",
+    "title": "Blue Hour Schemes",
+    "slug": "blue-hour-schemes"
+  },
+  {
+    "id": "551",
+    "title": "Overcast Gray Palettes",
+    "slug": "overcast-gray-palettes"
+  },
+  {
+    "id": "552",
+    "title": "Thunderstorm Dark Generator",
+    "slug": "thunderstorm-dark-generator"
+  },
+  {
+    "id": "553",
+    "title": "Lightning Yellow Combinations",
+    "slug": "lightning-yellow-combinations"
+  },
+  {
+    "id": "554",
+    "title": "Misty Morning Schemes",
+    "slug": "misty-morning-schemes"
+  },
+  {
+    "id": "555",
+    "title": "Fog White Palettes",
+    "slug": "fog-white-palettes"
+  },
+  {
+    "id": "556",
+    "title": "Clear Sky Generator",
+    "slug": "clear-sky-generator"
+  },
+  {
+    "id": "557",
+    "title": "Starry Night Combinations",
+    "slug": "starry-night-combinations"
+  },
+  {
+    "id": "558",
+    "title": "Milky Way Schemes",
+    "slug": "milky-way-schemes"
+  },
+  {
+    "id": "559",
+    "title": "Comet Blue Palettes",
+    "slug": "comet-blue-palettes"
+  },
+  {
+    "id": "560",
+    "title": "Meteor Orange Generator",
+    "slug": "meteor-orange-generator"
+  },
+  {
+    "id": "561",
+    "title": "Eclipse Dark Combinations",
+    "slug": "eclipse-dark-combinations"
+  },
+  {
+    "id": "562",
+    "title": "Halo White Schemes",
+    "slug": "halo-white-schemes"
+  },
+  {
+    "id": "563",
+    "title": "Cirrus Cloud Palettes",
+    "slug": "cirrus-cloud-palettes"
+  },
+  {
+    "id": "564",
+    "title": "Cumulus White Generator",
+    "slug": "cumulus-white-generator"
+  },
+  {
+    "id": "565",
+    "title": "Stratus Gray Combinations",
+    "slug": "stratus-gray-combinations"
+  },
+  {
+    "id": "566",
+    "title": "Nimbus Dark Schemes",
+    "slug": "nimbus-dark-schemes"
+  },
+  {
+    "id": "567",
+    "title": "Zephyr Blue Palettes",
+    "slug": "zephyr-blue-palettes"
+  },
+  {
+    "id": "568",
+    "title": "Squall Gray Generator",
+    "slug": "squall-gray-generator"
+  },
+  {
+    "id": "569",
+    "title": "Gale Force Combinations",
+    "slug": "gale-force-combinations"
+  },
+  {
+    "id": "570",
+    "title": "Calm Weather Schemes",
+    "slug": "calm-weather-schemes"
+  },
+  {
+    "id": "571",
+    "title": "Spring Color Palette Generator",
+    "slug": "spring-color-palette-generator"
+  },
+  {
+    "id": "572",
+    "title": "Summer Bright Palettes",
+    "slug": "summer-bright-palettes"
+  },
+  {
+    "id": "573",
+    "title": "Autumn Harvest Combinations",
+    "slug": "autumn-harvest-combinations"
+  },
+  {
+    "id": "574",
+    "title": "Winter White Generator",
+    "slug": "winter-white-generator"
+  },
+  {
+    "id": "575",
+    "title": "Seasonal Transition Schemes",
+    "slug": "seasonal-transition-schemes"
+  },
+  {
+    "id": "576",
+    "title": "Spring Bloom Palettes",
+    "slug": "spring-bloom-palettes"
+  },
+  {
+    "id": "577",
+    "title": "Summer Sunset Generator",
+    "slug": "summer-sunset-generator"
+  },
+  {
+    "id": "578",
+    "title": "Autumn Leaf Combinations",
+    "slug": "autumn-leaf-combinations"
+  },
+  {
+    "id": "579",
+    "title": "Winter Frost Schemes",
+    "slug": "winter-frost-schemes"
+  },
+  {
+    "id": "580",
+    "title": "Equinox Color Palettes",
+    "slug": "equinox-color-palettes"
+  },
+  {
+    "id": "581",
+    "title": "Solstice Color Generator",
+    "slug": "solstice-color-generator"
+  },
+  {
+    "id": "582",
+    "title": "Morning Light Combinations",
+    "slug": "morning-light-combinations"
+  },
+  {
+    "id": "583",
+    "title": "Afternoon Glow Schemes",
+    "slug": "afternoon-glow-schemes"
+  },
+  {
+    "id": "584",
+    "title": "Evening Twilight Palettes",
+    "slug": "evening-twilight-palettes"
+  },
+  {
+    "id": "585",
+    "title": "Night Sky Generator",
+    "slug": "night-sky-generator"
+  },
+  {
+    "id": "586",
+    "title": "Dawn Pink Combinations",
+    "slug": "dawn-pink-combinations"
+  },
+  {
+    "id": "587",
+    "title": "Dusk Purple Schemes",
+    "slug": "dusk-purple-schemes"
+  },
+  {
+    "id": "588",
+    "title": "Noon Bright Palettes",
+    "slug": "noon-bright-palettes"
+  },
+  {
+    "id": "589",
+    "title": "Midnight Blue Generator",
+    "slug": "midnight-blue-generator"
+  },
+  {
+    "id": "590",
+    "title": "Golden Afternoon Combinations",
+    "slug": "golden-afternoon-combinations"
+  },
+  {
+    "id": "591",
+    "title": "Silver Evening Schemes",
+    "slug": "silver-evening-schemes"
+  },
+  {
+    "id": "592",
+    "title": "Emerald Spring Palettes",
+    "slug": "emerald-spring-palettes"
+  },
+  {
+    "id": "593",
+    "title": "Ruby Summer Generator",
+    "slug": "ruby-summer-generator"
+  },
+  {
+    "id": "594",
+    "title": "Amber Autumn Combinations",
+    "slug": "amber-autumn-combinations"
+  },
+  {
+    "id": "595",
+    "title": "Sapphire Winter Schemes",
+    "slug": "sapphire-winter-schemes"
+  },
+  {
+    "id": "596",
+    "title": "Seasonal Wedding Palettes",
+    "slug": "seasonal-wedding-palettes"
+  },
+  {
+    "id": "597",
+    "title": "Holiday Color Generator",
+    "slug": "holiday-color-generator"
+  },
+  {
+    "id": "598",
+    "title": "New Year Color Schemes",
+    "slug": "new-year-color-schemes"
+  },
+  {
+    "id": "599",
+    "title": "Birthday Palettes",
+    "slug": "birthday-palettes"
+  },
+  {
+    "id": "600",
+    "title": "Anniversary Color Combinations",
+    "slug": "anniversary-color-combinations"
+  },
+  {
+    "id": "601",
+    "title": "Red Color Palette Generator",
+    "slug": "red-color-palette-generator"
+  },
+  {
+    "id": "602",
+    "title": "Crimson Color Schemes",
+    "slug": "crimson-color-schemes"
+  },
+  {
+    "id": "603",
+    "title": "Scarlet Red Palettes",
+    "slug": "scarlet-red-palettes"
+  },
+  {
+    "id": "604",
+    "title": "Burgundy Wine Combinations",
+    "slug": "burgundy-wine-combinations"
+  },
+  {
+    "id": "605",
+    "title": "Cherry Red Generator",
+    "slug": "cherry-red-generator"
+  },
+  {
+    "id": "606",
+    "title": "Ruby Color Schemes",
+    "slug": "ruby-color-schemes"
+  },
+  {
+    "id": "607",
+    "title": "Rose Red Palettes",
+    "slug": "rose-red-palettes"
+  },
+  {
+    "id": "608",
+    "title": "Brick Red Generator",
+    "slug": "brick-red-generator"
+  },
+  {
+    "id": "609",
+    "title": "Fire Engine Combinations",
+    "slug": "fire-engine-combinations"
+  },
+  {
+    "id": "610",
+    "title": "Deep Red Schemes",
+    "slug": "deep-red-schemes"
+  },
+  {
+    "id": "611",
+    "title": "Light Red Palettes",
+    "slug": "light-red-palettes"
+  },
+  {
+    "id": "612",
+    "title": "Pink-Red Generator",
+    "slug": "pink-red-generator"
+  },
+  {
+    "id": "613",
+    "title": "Orange-Red Combinations",
+    "slug": "orange-red-combinations"
+  },
+  {
+    "id": "614",
+    "title": "Purple-Red Schemes",
+    "slug": "purple-red-schemes"
+  },
+  {
+    "id": "615",
+    "title": "Vintage Red Palettes",
+    "slug": "vintage-red-palettes"
+  },
+  {
+    "id": "616",
+    "title": "Modern Red Generator",
+    "slug": "modern-red-generator"
+  },
+  {
+    "id": "617",
+    "title": "Dark Red Combinations",
+    "slug": "dark-red-combinations"
+  },
+  {
+    "id": "618",
+    "title": "Bright Red Schemes",
+    "slug": "bright-red-schemes"
+  },
+  {
+    "id": "619",
+    "title": "Muted Red Palettes",
+    "slug": "muted-red-palettes"
+  },
+  {
+    "id": "620",
+    "title": "Rust Red Generator",
+    "slug": "rust-red-generator"
+  },
+  {
+    "id": "621",
+    "title": "Berry Red Combinations",
+    "slug": "berry-red-combinations"
+  },
+  {
+    "id": "622",
+    "title": "Coral Red Schemes",
+    "slug": "coral-red-schemes"
+  },
+  {
+    "id": "623",
+    "title": "Crimson Tide Palettes",
+    "slug": "crimson-tide-palettes"
+  },
+  {
+    "id": "624",
+    "title": "Red Velvet Generator",
+    "slug": "red-velvet-generator"
+  },
+  {
+    "id": "625",
+    "title": "Signature Red Combinations",
+    "slug": "signature-red-combinations"
+  },
+  {
+    "id": "626",
+    "title": "Blue Color Palette Generator",
+    "slug": "blue-color-palette-generator"
+  },
+  {
+    "id": "627",
+    "title": "Navy Blue Color Schemes",
+    "slug": "navy-blue-color-schemes"
+  },
+  {
+    "id": "628",
+    "title": "Sky Blue Palettes",
+    "slug": "sky-blue-palettes"
+  },
+  {
+    "id": "629",
+    "title": "Royal Blue Combinations",
+    "slug": "royal-blue-combinations"
+  },
+  {
+    "id": "630",
+    "title": "Baby Blue Generator",
+    "slug": "baby-blue-generator"
+  },
+  {
+    "id": "631",
+    "title": "Teal Blue Schemes",
+    "slug": "teal-blue-schemes"
+  },
+  {
+    "id": "632",
+    "title": "Turquoise Palettes",
+    "slug": "turquoise-palettes"
+  },
+  {
+    "id": "633",
+    "title": "Cerulean Generator",
+    "slug": "cerulean-generator"
+  },
+  {
+    "id": "634",
+    "title": "Indigo Combinations",
+    "slug": "indigo-combinations"
+  },
+  {
+    "id": "635",
+    "title": "Cobalt Blue Schemes",
+    "slug": "cobalt-blue-schemes"
+  },
+  {
+    "id": "636",
+    "title": "Midnight Blue Palettes",
+    "slug": "midnight-blue-palettes"
+  },
+  {
+    "id": "637",
+    "title": "Powder Blue Generator",
+    "slug": "powder-blue-generator"
+  },
+  {
+    "id": "638",
+    "title": "Steel Blue Combinations",
+    "slug": "steel-blue-combinations"
+  },
+  {
+    "id": "639",
+    "title": "Denim Blue Schemes",
+    "slug": "denim-blue-schemes"
+  },
+  {
+    "id": "640",
+    "title": "Ocean Blue Palettes",
+    "slug": "ocean-blue-palettes"
+  },
+  {
+    "id": "641",
+    "title": "Ice Blue Generator",
+    "slug": "ice-blue-generator"
+  },
+  {
+    "id": "642",
+    "title": "Azure Combinations",
+    "slug": "azure-combinations"
+  },
+  {
+    "id": "643",
+    "title": "Sapphire Schemes",
+    "slug": "sapphire-schemes"
+  },
+  {
+    "id": "644",
+    "title": "Periwinkle Palettes",
+    "slug": "periwinkle-palettes"
+  },
+  {
+    "id": "645",
+    "title": "Slate Blue Generator",
+    "slug": "slate-blue-generator"
+  },
+  {
+    "id": "646",
+    "title": "Blue-Gray Combinations",
+    "slug": "blue-gray-combinations"
+  },
+  {
+    "id": "647",
+    "title": "Electric Blue Schemes",
+    "slug": "electric-blue-schemes"
+  },
+  {
+    "id": "648",
+    "title": "Deep Blue Palettes",
+    "slug": "deep-blue-palettes"
+  },
+  {
+    "id": "649",
+    "title": "Light Blue Generator",
+    "slug": "light-blue-generator"
+  },
+  {
+    "id": "650",
+    "title": "Classic Blue Combinations",
+    "slug": "classic-blue-combinations"
+  },
+  {
+    "id": "651",
+    "title": "Green Color Palette Generator",
+    "slug": "green-color-palette-generator"
+  },
+  {
+    "id": "652",
+    "title": "Forest Green Schemes",
+    "slug": "forest-green-schemes"
+  },
+  {
+    "id": "653",
+    "title": "Emerald Green Palettes",
+    "slug": "emerald-green-palettes"
+  },
+  {
+    "id": "654",
+    "title": "Sage Green Combinations",
+    "slug": "sage-green-combinations"
+  },
+  {
+    "id": "655",
+    "title": "Mint Green Generator",
+    "slug": "mint-green-generator"
+  },
+  {
+    "id": "656",
+    "title": "Olive Green Schemes",
+    "slug": "olive-green-schemes"
+  },
+  {
+    "id": "657",
+    "title": "Lime Green Palettes",
+    "slug": "lime-green-palettes"
+  },
+  {
+    "id": "658",
+    "title": "Seafoam Generator",
+    "slug": "seafoam-generator"
+  },
+  {
+    "id": "659",
+    "title": "Pistachio Combinations",
+    "slug": "pistachio-combinations"
+  },
+  {
+    "id": "660",
+    "title": "Fern Green Schemes",
+    "slug": "fern-green-schemes"
+  },
+  {
+    "id": "661",
+    "title": "Hunter Green Palettes",
+    "slug": "hunter-green-palettes"
+  },
+  {
+    "id": "662",
+    "title": "Jungle Green Generator",
+    "slug": "jungle-green-generator"
+  },
+  {
+    "id": "663",
+    "title": "Moss Green Combinations",
+    "slug": "moss-green-combinations"
+  },
+  {
+    "id": "664",
+    "title": "Pine Green Schemes",
+    "slug": "pine-green-schemes"
+  },
+  {
+    "id": "665",
+    "title": "Spring Green Palettes",
+    "slug": "spring-green-palettes"
+  },
+  {
+    "id": "666",
+    "title": "Chartreuse Generator",
+    "slug": "chartreuse-generator"
+  },
+  {
+    "id": "667",
+    "title": "Celadon Combinations",
+    "slug": "celadon-combinations"
+  },
+  {
+    "id": "668",
+    "title": "Veridian Schemes",
+    "slug": "veridian-schemes"
+  },
+  {
+    "id": "669",
+    "title": "Green Tea Palettes",
+    "slug": "green-tea-palettes"
+  },
+  {
+    "id": "670",
+    "title": "Basil Green Generator",
+    "slug": "basil-green-generator"
+  },
+  {
+    "id": "671",
+    "title": "Army Green Combinations",
+    "slug": "army-green-combinations"
+  },
+  {
+    "id": "672",
+    "title": "Camouflage Schemes",
+    "slug": "camouflage-schemes"
+  },
+  {
+    "id": "673",
+    "title": "Neon Green Palettes",
+    "slug": "neon-green-palettes"
+  },
+  {
+    "id": "674",
+    "title": "Pastel Green Generator",
+    "slug": "pastel-green-generator"
+  },
+  {
+    "id": "675",
+    "title": "Earth Green Combinations",
+    "slug": "earth-green-combinations"
+  },
+  {
+    "id": "676",
+    "title": "Yellow Color Palette Generator",
+    "slug": "yellow-color-palette-generator"
+  },
+  {
+    "id": "677",
+    "title": "Golden Yellow Schemes",
+    "slug": "golden-yellow-schemes"
+  },
+  {
+    "id": "678",
+    "title": "Mustard Yellow Palettes",
+    "slug": "mustard-yellow-palettes"
+  },
+  {
+    "id": "679",
+    "title": "Lemon Yellow Combinations",
+    "slug": "lemon-yellow-combinations"
+  },
+  {
+    "id": "680",
+    "title": "Sunshine Yellow Generator",
+    "slug": "sunshine-yellow-generator"
+  },
+  {
+    "id": "681",
+    "title": "Orange Color Schemes",
+    "slug": "orange-color-schemes"
+  },
+  {
+    "id": "682",
+    "title": "Tangerine Palettes",
+    "slug": "tangerine-palettes"
+  },
+  {
+    "id": "683",
+    "title": "Coral Orange Generator",
+    "slug": "coral-orange-generator"
+  },
+  {
+    "id": "684",
+    "title": "Peach Orange Combinations",
+    "slug": "peach-orange-combinations"
+  },
+  {
+    "id": "685",
+    "title": "Amber Schemes",
+    "slug": "amber-schemes"
+  },
+  {
+    "id": "686",
+    "title": "Honey Yellow Palettes",
+    "slug": "honey-yellow-palettes"
+  },
+  {
+    "id": "687",
+    "title": "Saffron Generator",
+    "slug": "saffron-generator"
+  },
+  {
+    "id": "688",
+    "title": "Marigold Combinations",
+    "slug": "marigold-combinations"
+  },
+  {
+    "id": "689",
+    "title": "Apricot Schemes",
+    "slug": "apricot-schemes"
+  },
+  {
+    "id": "690",
+    "title": "Mango Yellow Palettes",
+    "slug": "mango-yellow-palettes"
+  },
+  {
+    "id": "691",
+    "title": "Pumpkin Orange Generator",
+    "slug": "pumpkin-orange-generator"
+  },
+  {
+    "id": "692",
+    "title": "Burnt Orange Combinations",
+    "slug": "burnt-orange-combinations"
+  },
+  {
+    "id": "693",
+    "title": "Rust Orange Schemes",
+    "slug": "rust-orange-schemes"
+  },
+  {
+    "id": "694",
+    "title": "Terracotta Palettes",
+    "slug": "terracotta-palettes"
+  },
+  {
+    "id": "695",
+    "title": "Citrus Yellow Generator",
+    "slug": "citrus-yellow-generator"
+  },
+  {
+    "id": "696",
+    "title": "Goldenrod Combinations",
+    "slug": "goldenrod-combinations"
+  },
+  {
+    "id": "697",
+    "title": "Butterscotch Schemes",
+    "slug": "butterscotch-schemes"
+  },
+  {
+    "id": "698",
+    "title": "Yellow-Green Palettes",
+    "slug": "yellow-green-palettes"
+  },
+  {
+    "id": "699",
+    "title": "Orange-Red Generator",
+    "slug": "orange-red-generator"
+  },
+  {
+    "id": "700",
+    "title": "Warm Yellow Combinations",
+    "slug": "warm-yellow-combinations"
+  },
+  {
+    "id": "701",
+    "title": "Purple Color Palette Generator",
+    "slug": "purple-color-palette-generator"
+  },
+  {
+    "id": "702",
+    "title": "Lavender Schemes",
+    "slug": "lavender-schemes"
+  },
+  {
+    "id": "703",
+    "title": "Plum Purple Palettes",
+    "slug": "plum-purple-palettes"
+  },
+  {
+    "id": "704",
+    "title": "Violet Combinations",
+    "slug": "violet-combinations"
+  },
+  {
+    "id": "705",
+    "title": "Lilac Generator",
+    "slug": "lilac-generator"
+  },
+  {
+    "id": "706",
+    "title": "Magenta Schemes",
+    "slug": "magenta-schemes"
+  },
+  {
+    "id": "707",
+    "title": "Fuchsia Palettes",
+    "slug": "fuchsia-palettes"
+  },
+  {
+    "id": "708",
+    "title": "Orchid Purple Generator",
+    "slug": "orchid-purple-generator"
+  },
+  {
+    "id": "709",
+    "title": "Amethyst Combinations",
+    "slug": "amethyst-combinations"
+  },
+  {
+    "id": "710",
+    "title": "Grape Purple Schemes",
+    "slug": "grape-purple-schemes"
+  },
+  {
+    "id": "711",
+    "title": "Mauve Palettes",
+    "slug": "mauve-palettes"
+  },
+  {
+    "id": "712",
+    "title": "Heather Generator",
+    "slug": "heather-generator"
+  },
+  {
+    "id": "713",
+    "title": "Eggplant Combinations",
+    "slug": "eggplant-combinations"
+  },
+  {
+    "id": "714",
+    "title": "Mulberry Schemes",
+    "slug": "mulberry-schemes"
+  },
+  {
+    "id": "715",
+    "title": "Pink Color Palettes",
+    "slug": "pink-color-palettes"
+  },
+  {
+    "id": "716",
+    "title": "Rose Pink Generator",
+    "slug": "rose-pink-generator"
+  },
+  {
+    "id": "717",
+    "title": "Blush Pink Combinations",
+    "slug": "blush-pink-combinations"
+  },
+  {
+    "id": "718",
+    "title": "Hot Pink Schemes",
+    "slug": "hot-pink-schemes"
+  },
+  {
+    "id": "719",
+    "title": "Pastel Pink Palettes",
+    "slug": "pastel-pink-palettes"
+  },
+  {
+    "id": "720",
+    "title": "Bubblegum Generator",
+    "slug": "bubblegum-generator"
+  },
+  {
+    "id": "721",
+    "title": "Salmon Pink Combinations",
+    "slug": "salmon-pink-combinations"
+  },
+  {
+    "id": "722",
+    "title": "Cerise Schemes",
+    "slug": "cerise-schemes"
+  },
+  {
+    "id": "723",
+    "title": "Raspberry Palettes",
+    "slug": "raspberry-palettes"
+  },
+  {
+    "id": "724",
+    "title": "Strawberry Pink Generator",
+    "slug": "strawberry-pink-generator"
+  },
+  {
+    "id": "725",
+    "title": "Cotton Candy Combinations",
+    "slug": "cotton-candy-combinations"
+  },
+  {
+    "id": "726",
+    "title": "Neutral Color Palette Generator",
+    "slug": "neutral-color-palette-generator"
+  },
+  {
+    "id": "727",
+    "title": "White Color Schemes",
+    "slug": "white-color-schemes"
+  },
+  {
+    "id": "728",
+    "title": "Creamy White Palettes",
+    "slug": "creamy-white-palettes"
+  },
+  {
+    "id": "729",
+    "title": "Ivory Combinations",
+    "slug": "ivory-combinations"
+  },
+  {
+    "id": "730",
+    "title": "Off-White Generator",
+    "slug": "off-white-generator"
+  },
+  {
+    "id": "731",
+    "title": "Beige Color Schemes",
+    "slug": "beige-color-schemes"
+  },
+  {
+    "id": "732",
+    "title": "Taupe Palettes",
+    "slug": "taupe-palettes"
+  },
+  {
+    "id": "733",
+    "title": "Greige Generator",
+    "slug": "greige-generator"
+  },
+  {
+    "id": "734",
+    "title": "Khaki Combinations",
+    "slug": "khaki-combinations"
+  },
+  {
+    "id": "735",
+    "title": "Camel Schemes",
+    "slug": "camel-schemes"
+  },
+  {
+    "id": "736",
+    "title": "Brown Color Palettes",
+    "slug": "brown-color-palettes"
+  },
+  {
+    "id": "737",
+    "title": "Chocolate Generator",
+    "slug": "chocolate-generator"
+  },
+  {
+    "id": "738",
+    "title": "Caramel Combinations",
+    "slug": "caramel-combinations"
+  },
+  {
+    "id": "739",
+    "title": "Chestnut Schemes",
+    "slug": "chestnut-schemes"
+  },
+  {
+    "id": "740",
+    "title": "Walnut Palettes",
+    "slug": "walnut-palettes"
+  },
+  {
+    "id": "741",
+    "title": "Gray Color Generator",
+    "slug": "gray-color-generator"
+  },
+  {
+    "id": "742",
+    "title": "Charcoal Combinations",
+    "slug": "charcoal-combinations"
+  },
+  {
+    "id": "743",
+    "title": "Silver Schemes",
+    "slug": "silver-schemes"
+  },
+  {
+    "id": "744",
+    "title": "Pewter Palettes",
+    "slug": "pewter-palettes"
+  },
+  {
+    "id": "745",
+    "title": "Stone Gray Generator",
+    "slug": "stone-gray-generator"
+  },
+  {
+    "id": "746",
+    "title": "Black Color Schemes",
+    "slug": "black-color-schemes"
+  },
+  {
+    "id": "747",
+    "title": "Jet Black Palettes",
+    "slug": "jet-black-palettes"
+  },
+  {
+    "id": "748",
+    "title": "Off-Black Generator",
+    "slug": "off-black-generator"
+  },
+  {
+    "id": "749",
+    "title": "Monochrome Combinations",
+    "slug": "monochrome-combinations"
+  },
+  {
+    "id": "750",
+    "title": "Minimalist Neutral Schemes",
+    "slug": "minimalist-neutral-schemes"
+  },
+  {
+    "id": "751",
+    "title": "CSS Variables Color Palette Export",
+    "slug": "css-variables-color-palette-export"
+  },
+  {
+    "id": "752",
+    "title": "Tailwind CSS Color Config Generator",
+    "slug": "tailwind-css-color-config-generator"
+  },
+  {
+    "id": "753",
+    "title": "SCSS Color Variable Export Tool",
+    "slug": "scss-color-variable-export-tool"
+  },
+  {
+    "id": "754",
+    "title": "JSON Color Palette Export",
+    "slug": "json-color-palette-export"
+  },
+  {
+    "id": "755",
+    "title": "Figma Color Palette Integration",
+    "slug": "figma-color-palette-integration"
+  },
+  {
+    "id": "756",
+    "title": "Adobe Color Palette Import Guide",
+    "slug": "adobe-color-palette-import-guide"
+  },
+  {
+    "id": "757",
+    "title": "Sketch Color Palette Export",
+    "slug": "sketch-color-palette-export"
+  },
+  {
+    "id": "758",
+    "title": "InVision Color Palette Sync",
+    "slug": "invision-color-palette-sync"
+  },
+  {
+    "id": "759",
+    "title": "Webflow Color Palette Integration",
+    "slug": "webflow-color-palette-integration"
+  },
+  {
+    "id": "760",
+    "title": "WordPress Color Scheme Generator",
+    "slug": "wordpress-color-scheme-generator"
+  },
+  {
+    "id": "761",
+    "title": "Shopify Color Palette Tool",
+    "slug": "shopify-color-palette-tool"
+  },
+  {
+    "id": "762",
+    "title": "Wix Color Scheme Generator",
+    "slug": "wix-color-scheme-generator"
+  },
+  {
+    "id": "763",
+    "title": "Squarespace Color Palette Tool",
+    "slug": "squarespace-color-palette-tool"
+  },
+  {
+    "id": "764",
+    "title": "React Color Theme Generator",
+    "slug": "react-color-theme-generator"
+  },
+  {
+    "id": "765",
+    "title": "Vue.js Color Palette Integration",
+    "slug": "vue-js-color-palette-integration"
+  },
+  {
+    "id": "766",
+    "title": "Angular Color Scheme Tool",
+    "slug": "angular-color-scheme-tool"
+  },
+  {
+    "id": "767",
+    "title": "Bootstrap Color Palette Generator",
+    "slug": "bootstrap-color-palette-generator"
+  },
+  {
+    "id": "768",
+    "title": "Material Design Color Schemes",
+    "slug": "material-design-color-schemes"
+  },
+  {
+    "id": "769",
+    "title": "Flutter Color Palette Export",
+    "slug": "flutter-color-palette-export"
+  },
+  {
+    "id": "770",
+    "title": "SwiftUI Color Generator",
+    "slug": "swiftui-color-generator"
+  },
+  {
+    "id": "771",
+    "title": "Android Color Scheme Tool",
+    "slug": "android-color-scheme-tool"
+  },
+  {
+    "id": "772",
+    "title": "iOS Color Palette Export",
+    "slug": "ios-color-palette-export"
+  },
+  {
+    "id": "773",
+    "title": "AR/VR Color Palette Generator",
+    "slug": "ar-vr-color-palette-generator"
+  },
+  {
+    "id": "774",
+    "title": "3D Color Scheme Tool",
+    "slug": "3d-color-scheme-tool"
+  },
+  {
+    "id": "775",
+    "title": "Print Color Palette Export (CMYK)",
+    "slug": "print-color-palette-export-cmyk"
+  },
+  {
+    "id": "776",
+    "title": "Hex Color Code Generator",
+    "slug": "hex-color-code-generator"
+  },
+  {
+    "id": "777",
+    "title": "RGB Color Palette Tool",
+    "slug": "rgb-color-palette-tool"
+  },
+  {
+    "id": "778",
+    "title": "HSL Color Scheme Generator",
+    "slug": "hsl-color-scheme-generator"
+  },
+  {
+    "id": "779",
+    "title": "OKLCH Color Palette Export",
+    "slug": "oklch-color-palette-export"
+  },
+  {
+    "id": "780",
+    "title": "P3 Wide Color Gamut Generator",
+    "slug": "p3-wide-color-gamut-generator"
+  },
+  {
+    "id": "781",
+    "title": "WCAG Compliant Color Palette Generator",
+    "slug": "wcag-compliant-color-palette-generator"
+  },
+  {
+    "id": "782",
+    "title": "Color Contrast Checker Tool",
+    "slug": "color-contrast-checker-tool"
+  },
+  {
+    "id": "783",
+    "title": "Accessible Color Schemes for Visual Impairment",
+    "slug": "accessible-color-schemes-for-visual-impairment"
+  },
+  {
+    "id": "784",
+    "title": "Color Blind Friendly Palette Generator",
+    "slug": "color-blind-friendly-palette-generator"
+  },
+  {
+    "id": "785",
+    "title": "High Contrast Color Schemes for Accessibility",
+    "slug": "high-contrast-color-schemes-for-accessibility"
+  },
+  {
+    "id": "786",
+    "title": "Low Vision Color Palette Tool",
+    "slug": "low-vision-color-palette-tool"
+  },
+  {
+    "id": "787",
+    "title": "Screen Reader Friendly Color Generator",
+    "slug": "screen-reader-friendly-color-generator"
+  },
+  {
+    "id": "788",
+    "title": "Inclusive Design Color Palettes",
+    "slug": "inclusive-design-color-palettes"
+  },
+  {
+    "id": "789",
+    "title": "Universal Design Color Schemes",
+    "slug": "universal-design-color-schemes"
+  },
+  {
+    "id": "790",
+    "title": "AA Compliant Color Generator",
+    "slug": "aa-compliant-color-generator"
+  },
+  {
+    "id": "791",
+    "title": "AAA Compliant Color Palettes",
+    "slug": "aaa-compliant-color-palettes"
+  },
+  {
+    "id": "792",
+    "title": "Large Text Contrast Color Schemes",
+    "slug": "large-text-contrast-color-schemes"
+  },
+  {
+    "id": "793",
+    "title": "Non-Text Contrast Color Generator",
+    "slug": "non-text-contrast-color-generator"
+  },
+  {
+    "id": "794",
+    "title": "User Interface Accessibility Colors",
+    "slug": "user-interface-accessibility-colors"
+  },
+  {
+    "id": "795",
+    "title": "Accessible Brand Color Palettes",
+    "slug": "accessible-brand-color-palettes"
+  },
+  {
+    "id": "796",
+    "title": "Inclusive Web Design Color Schemes",
+    "slug": "inclusive-web-design-color-schemes"
+  },
+  {
+    "id": "797",
+    "title": "WCAG 2.1 Color Compliance Tool",
+    "slug": "wcag-2-1-color-compliance-tool"
+  },
+  {
+    "id": "798",
+    "title": "WCAG 3.0 Color Generator",
+    "slug": "wcag-3-0-color-generator"
+  },
+  {
+    "id": "799",
+    "title": "APCA Contrast Color Scheme",
+    "slug": "apca-contrast-color-scheme"
+  },
+  {
+    "id": "800",
+    "title": "Dark Mode Accessibility Palettes",
+    "slug": "dark-mode-accessibility-palettes"
+  },
+  {
+    "id": "801",
+    "title": "Light Mode Accessibility Colors",
+    "slug": "light-mode-accessibility-colors"
+  },
+  {
+    "id": "802",
+    "title": "Color Perception Safe Palettes",
+    "slug": "color-perception-safe-palettes"
+  },
+  {
+    "id": "803",
+    "title": "Deuteranopia Safe Color Generator",
+    "slug": "deuteranopia-safe-color-generator"
+  },
+  {
+    "id": "804",
+    "title": "Protanopia Safe Color Schemes",
+    "slug": "protanopia-safe-color-schemes"
+  },
+  {
+    "id": "805",
+    "title": "Tritanopia Safe Palettes",
+    "slug": "tritanopia-safe-palettes"
+  },
+  {
+    "id": "806",
+    "title": "Monochromacy Safe Color Generator",
+    "slug": "monochromacy-safe-color-generator"
+  },
+  {
+    "id": "807",
+    "title": "Accessible Data Visualization Colors",
+    "slug": "accessible-data-visualization-colors"
+  },
+  {
+    "id": "808",
+    "title": "Inclusive Form Color Schemes",
+    "slug": "inclusive-form-color-schemes"
+  },
+  {
+    "id": "809",
+    "title": "Accessible Button Color Palettes",
+    "slug": "accessible-button-color-palettes"
+  },
+  {
+    "id": "810",
+    "title": "Universal Color Harmony Generator",
+    "slug": "universal-color-harmony-generator"
+  },
+  {
+    "id": "811",
+    "title": "Random Color Palette Generator",
+    "slug": "random-color-palette-generator"
+  },
+  {
+    "id": "812",
+    "title": "Image Color Extractor Tool",
+    "slug": "image-color-extractor-tool"
+  },
+  {
+    "id": "813",
+    "title": "AI Color Palette Generator",
+    "slug": "ai-color-palette-generator"
+  },
+  {
+    "id": "814",
+    "title": "Personality-Based Color Generator",
+    "slug": "personality-based-color-generator"
+  },
+  {
+    "id": "815",
+    "title": "Mood-Based Color Scheme Tool",
+    "slug": "mood-based-color-scheme-tool"
+  },
+  {
+    "id": "816",
+    "title": "Keyword-Driven Palette Generator",
+    "slug": "keyword-driven-palette-generator"
+  },
+  {
+    "id": "817",
+    "title": "Seasonal Color Palette Generator",
+    "slug": "seasonal-color-palette-generator"
+  },
+  {
+    "id": "818",
+    "title": "Trend-Based Color Scheme Tool",
+    "slug": "trend-based-color-scheme-tool"
+  },
+  {
+    "id": "819",
+    "title": "Custom Color Palette Builder",
+    "slug": "custom-color-palette-builder"
+  },
+  {
+    "id": "820",
+    "title": "Lock Color Feature Guide",
+    "slug": "lock-color-feature-guide"
+  },
+  {
+    "id": "821",
+    "title": "Palette History and Save Tool",
+    "slug": "palette-history-and-save-tool"
+  },
+  {
+    "id": "822",
+    "title": "Palette Sharing and Collaboration",
+    "slug": "palette-sharing-and-collaboration"
+  },
+  {
+    "id": "823",
+    "title": "Palette Rating and Feedback System",
+    "slug": "palette-rating-and-feedback-system"
+  },
+  {
+    "id": "824",
+    "title": "Trending Palettes This Week",
+    "slug": "trending-palettes-this-week"
+  },
+  {
+    "id": "825",
+    "title": "Most Popular Color Schemes",
+    "slug": "most-popular-color-schemes"
+  },
+  {
+    "id": "826",
+    "title": "Newly Added Palettes",
+    "slug": "newly-added-palettes"
+  },
+  {
+    "id": "827",
+    "title": "Curated Palette Collections",
+    "slug": "curated-palette-collections"
+  },
+  {
+    "id": "828",
+    "title": "User-Generated Palette Gallery",
+    "slug": "user-generated-palette-gallery"
+  },
+  {
+    "id": "829",
+    "title": "Palette Search and Filter Tool",
+    "slug": "palette-search-and-filter-tool"
+  },
+  {
+    "id": "830",
+    "title": "Color Name Generator Tool",
+    "slug": "color-name-generator-tool"
+  },
+  {
+    "id": "831",
+    "title": "Hex to Color Name Converter",
+    "slug": "hex-to-color-name-converter"
+  },
+  {
+    "id": "832",
+    "title": "Color Harmonies Explorer",
+    "slug": "color-harmonies-explorer"
+  },
+  {
+    "id": "833",
+    "title": "Color Wheel Interactive Tool",
+    "slug": "color-wheel-interactive-tool"
+  },
+  {
+    "id": "834",
+    "title": "Gradient Generator Tool",
+    "slug": "gradient-generator-tool"
+  },
+  {
+    "id": "835",
+    "title": "Texture Color Palette Tool",
+    "slug": "texture-color-palette-tool"
+  },
+  {
+    "id": "836",
+    "title": "Pattern Color Scheme Generator",
+    "slug": "pattern-color-scheme-generator"
+  },
+  {
+    "id": "837",
+    "title": "Material Color Palette Tool",
+    "slug": "material-color-palette-tool"
+  },
+  {
+    "id": "838",
+    "title": "Flat Design Color Generator",
+    "slug": "flat-design-color-generator"
+  },
+  {
+    "id": "839",
+    "title": "Minimalist Color Scheme Builder",
+    "slug": "minimalist-color-scheme-builder"
+  },
+  {
+    "id": "840",
+    "title": "Maximalist Color Palette Tool",
+    "slug": "maximalist-color-palette-tool"
+  },
+  {
+    "id": "841",
+    "title": "Color Theory Fundamentals Guide",
+    "slug": "color-theory-fundamentals-guide"
+  },
+  {
+    "id": "842",
+    "title": "Color Psychology in Design",
+    "slug": "color-psychology-in-design"
+  },
+  {
+    "id": "843",
+    "title": "Color Perception and Vision Science",
+    "slug": "color-perception-and-vision-science"
+  },
+  {
+    "id": "844",
+    "title": "Digital Color Spaces Explained",
+    "slug": "digital-color-spaces-explained"
+  },
+  {
+    "id": "845",
+    "title": "Color Temperature Guide for Designers",
+    "slug": "color-temperature-guide-for-designers"
+  },
+  {
+    "id": "846",
+    "title": "Color Saturation and Brightness Tool",
+    "slug": "color-saturation-and-brightness-tool"
+  },
+  {
+    "id": "847",
+    "title": "Hue Shifting Color Generator",
+    "slug": "hue-shifting-color-generator"
+  },
+  {
+    "id": "848",
+    "title": "Color Mixing and Blending Tool",
+    "slug": "color-mixing-and-blending-tool"
+  },
+  {
+    "id": "849",
+    "title": "Spectral Color Palette Generator",
+    "slug": "spectral-color-palette-generator"
+  },
+  {
+    "id": "850",
+    "title": "Metamerism Color Scheme Tool",
+    "slug": "metamerism-color-scheme-tool"
+  },
+  {
+    "id": "851",
+    "title": "Scandinavian Color Palette Generator",
+    "slug": "scandinavian-color-palette-generator"
+  },
+  {
+    "id": "852",
+    "title": "Nordic Minimalist Color Schemes",
+    "slug": "nordic-minimalist-color-schemes"
+  },
+  {
+    "id": "853",
+    "title": "Japanese Color Palettes",
+    "slug": "japanese-color-palettes"
+  },
+  {
+    "id": "854",
+    "title": "Wabi-Sabi Color Generator",
+    "slug": "wabi-sabi-color-generator"
+  },
+  {
+    "id": "855",
+    "title": "Korean Color Schemes",
+    "slug": "korean-color-schemes"
+  },
+  {
+    "id": "856",
+    "title": "Chinese Traditional Palettes",
+    "slug": "chinese-traditional-palettes"
+  },
+  {
+    "id": "857",
+    "title": "Indian Color Generator",
+    "slug": "indian-color-generator"
+  },
+  {
+    "id": "858",
+    "title": "Moroccan Color Schemes",
+    "slug": "moroccan-color-schemes"
+  },
+  {
+    "id": "859",
+    "title": "Mediterranean Palettes",
+    "slug": "mediterranean-palettes"
+  },
+  {
+    "id": "860",
+    "title": "Greek Island Color Generator",
+    "slug": "greek-island-color-generator"
+  },
+  {
+    "id": "861",
+    "title": "Italian Renaissance Schemes",
+    "slug": "italian-renaissance-schemes"
+  },
+  {
+    "id": "862",
+    "title": "French Chic Palettes",
+    "slug": "french-chic-palettes"
+  },
+  {
+    "id": "863",
+    "title": "English Country Generator",
+    "slug": "english-country-generator"
+  },
+  {
+    "id": "864",
+    "title": "Irish Green Schemes",
+    "slug": "irish-green-schemes"
+  },
+  {
+    "id": "865",
+    "title": "Scottish Heather Palettes",
+    "slug": "scottish-heather-palettes"
+  },
+  {
+    "id": "866",
+    "title": "Welsh Landscape Colors",
+    "slug": "welsh-landscape-colors"
+  },
+  {
+    "id": "867",
+    "title": "American Color Palettes",
+    "slug": "american-color-palettes"
+  },
+  {
+    "id": "868",
+    "title": "Mexican Fiesta Generator",
+    "slug": "mexican-fiesta-generator"
+  },
+  {
+    "id": "869",
+    "title": "Brazilian Carnival Schemes",
+    "slug": "brazilian-carnival-schemes"
+  },
+  {
+    "id": "870",
+    "title": "Argentine Tango Palettes",
+    "slug": "argentine-tango-palettes"
+  },
+  {
+    "id": "871",
+    "title": "Australian Outback Generator",
+    "slug": "australian-outback-generator"
+  },
+  {
+    "id": "872",
+    "title": "New Zealand Nature Schemes",
+    "slug": "new-zealand-nature-schemes"
+  },
+  {
+    "id": "873",
+    "title": "African Savannah Palettes",
+    "slug": "african-savannah-palettes"
+  },
+  {
+    "id": "874",
+    "title": "Egyptian Color Generator",
+    "slug": "egyptian-color-generator"
+  },
+  {
+    "id": "875",
+    "title": "Persian Color Schemes",
+    "slug": "persian-color-schemes"
+  },
+  {
+    "id": "876",
+    "title": "Ottoman Palettes",
+    "slug": "ottoman-palettes"
+  },
+  {
+    "id": "877",
+    "title": "Balinese Color Generator",
+    "slug": "balinese-color-generator"
+  },
+  {
+    "id": "878",
+    "title": "Thai Temple Schemes",
+    "slug": "thai-temple-schemes"
+  },
+  {
+    "id": "879",
+    "title": "Vietnamese Color Palettes",
+    "slug": "vietnamese-color-palettes"
+  },
+  {
+    "id": "880",
+    "title": "Filipino Fiesta Generator",
+    "slug": "filipino-fiesta-generator"
+  },
+  {
+    "id": "881",
+    "title": "Traditional Wedding Color Palettes",
+    "slug": "traditional-wedding-color-palettes"
+  },
+  {
+    "id": "882",
+    "title": "Cultural Festival Color Schemes",
+    "slug": "cultural-festival-color-schemes"
+  },
+  {
+    "id": "883",
+    "title": "Religious Color Symbolism Generator",
+    "slug": "religious-color-symbolism-generator"
+  },
+  {
+    "id": "884",
+    "title": "Indigenous Color Palettes",
+    "slug": "indigenous-color-palettes"
+  },
+  {
+    "id": "885",
+    "title": "Folk Art Color Generator",
+    "slug": "folk-art-color-generator"
+  },
+  {
+    "id": "886",
+    "title": "Traditional Textile Color Schemes",
+    "slug": "traditional-textile-color-schemes"
+  },
+  {
+    "id": "887",
+    "title": "Ceramic Color Palettes",
+    "slug": "ceramic-color-palettes"
+  },
+  {
+    "id": "888",
+    "title": "Mosaic Color Generator",
+    "slug": "mosaic-color-generator"
+  },
+  {
+    "id": "889",
+    "title": "Stained Glass Color Schemes",
+    "slug": "stained-glass-color-schemes"
+  },
+  {
+    "id": "890",
+    "title": "Tattoo Color Palettes",
+    "slug": "tattoo-color-palettes"
+  },
+  {
+    "id": "891",
+    "title": "Henna Color Generator",
+    "slug": "henna-color-generator"
+  },
+  {
+    "id": "892",
+    "title": "Batik Color Schemes",
+    "slug": "batik-color-schemes"
+  },
+  {
+    "id": "893",
+    "title": "Ikat Color Palettes",
+    "slug": "ikat-color-palettes"
+  },
+  {
+    "id": "894",
+    "title": "Kente Cloth Generator",
+    "slug": "kente-cloth-generator"
+  },
+  {
+    "id": "895",
+    "title": "Tartan Color Schemes",
+    "slug": "tartan-color-schemes"
+  },
+  {
+    "id": "896",
+    "title": "Kimono Color Palettes",
+    "slug": "kimono-color-palettes"
+  },
+  {
+    "id": "897",
+    "title": "Sari Color Generator",
+    "slug": "sari-color-generator"
+  },
+  {
+    "id": "898",
+    "title": "Embroidery Color Schemes",
+    "slug": "embroidery-color-schemes"
+  },
+  {
+    "id": "899",
+    "title": "Pottery Color Palettes",
+    "slug": "pottery-color-palettes"
+  },
+  {
+    "id": "900",
+    "title": "Cultural Heritage Color Generator",
+    "slug": "cultural-heritage-color-generator"
+  },
+  {
+    "id": "901",
+    "title": "2026 Color Trends Palette Generator",
+    "slug": "2026-color-trends-palette-generator"
+  },
+  {
+    "id": "902",
+    "title": "Pantone Color of the Year 2026 Schemes",
+    "slug": "pantone-color-of-the-year-2026-schemes"
+  },
+  {
+    "id": "903",
+    "title": "Trend Forecasting Color Palettes",
+    "slug": "trend-forecasting-color-palettes"
+  },
+  {
+    "id": "904",
+    "title": "Future-Forward Color Generator",
+    "slug": "future-forward-color-generator"
+  },
+  {
+    "id": "905",
+    "title": "Tech Innovation Color Schemes",
+    "slug": "tech-innovation-color-schemes"
+  },
+  {
+    "id": "906",
+    "title": "Sustainable Design Color Palettes",
+    "slug": "sustainable-design-color-palettes"
+  },
+  {
+    "id": "907",
+    "title": "Bio-Inspired Color Generator",
+    "slug": "bio-inspired-color-generator"
+  },
+  {
+    "id": "908",
+    "title": "Digital Art Color Trends",
+    "slug": "digital-art-color-trends"
+  },
+  {
+    "id": "909",
+    "title": "Metaverse Color Schemes",
+    "slug": "metaverse-color-schemes"
+  },
+  {
+    "id": "910",
+    "title": "NFT Art Color Palettes",
+    "slug": "nft-art-color-palettes"
+  },
+  {
+    "id": "911",
+    "title": "Gen Z Color Preferences Generator",
+    "slug": "gen-z-color-preferences-generator"
+  },
+  {
+    "id": "912",
+    "title": "Millennial Color Schemes",
+    "slug": "millennial-color-schemes"
+  },
+  {
+    "id": "913",
+    "title": "Gen Alpha Color Palettes",
+    "slug": "gen-alpha-color-palettes"
+  },
+  {
+    "id": "914",
+    "title": "Minimalist Trend Color Generator",
+    "slug": "minimalist-trend-color-generator"
+  },
+  {
+    "id": "915",
+    "title": "Maximalist Trend Color Schemes",
+    "slug": "maximalist-trend-color-schemes"
+  },
+  {
+    "id": "916",
+    "title": "Retro-Futurism Palettes",
+    "slug": "retro-futurism-palettes"
+  },
+  {
+    "id": "917",
+    "title": "Cyberpunk Color Generator",
+    "slug": "cyberpunk-color-generator"
+  },
+  {
+    "id": "918",
+    "title": "Vaporwave Color Schemes",
+    "slug": "vaporwave-color-schemes"
+  },
+  {
+    "id": "919",
+    "title": "Glitch Art Color Palettes",
+    "slug": "glitch-art-color-palettes"
+  },
+  {
+    "id": "920",
+    "title": "Holographic Color Generator",
+    "slug": "holographic-color-generator"
+  },
+  {
+    "id": "921",
+    "title": "AI Art Color Palette Generator",
+    "slug": "ai-art-color-palette-generator"
+  },
+  {
+    "id": "922",
+    "title": "Machine Learning Color Schemes",
+    "slug": "machine-learning-color-schemes"
+  },
+  {
+    "id": "923",
+    "title": "Neural Network Color Tool",
+    "slug": "neural-network-color-tool"
+  },
+  {
+    "id": "924",
+    "title": "Generative Design Color Palettes",
+    "slug": "generative-design-color-palettes"
+  },
+  {
+    "id": "925",
+    "title": "Parametric Color Generator",
+    "slug": "parametric-color-generator"
+  },
+  {
+    "id": "926",
+    "title": "Quantum Color Theory Tool",
+    "slug": "quantum-color-theory-tool"
+  },
+  {
+    "id": "927",
+    "title": "Biophilic Color Generator",
+    "slug": "biophilic-color-generator"
+  },
+  {
+    "id": "928",
+    "title": "Smart Home Color Schemes",
+    "slug": "smart-home-color-schemes"
+  },
+  {
+    "id": "929",
+    "title": "IoT Device Color Palettes",
+    "slug": "iot-device-color-palettes"
+  },
+  {
+    "id": "930",
+    "title": "Wearable Tech Color Generator",
+    "slug": "wearable-tech-color-generator"
+  },
+  {
+    "id": "931",
+    "title": "AR Filter Color Schemes",
+    "slug": "ar-filter-color-schemes"
+  },
+  {
+    "id": "932",
+    "title": "VR Environment Color Palettes",
+    "slug": "vr-environment-color-palettes"
+  },
+  {
+    "id": "933",
+    "title": "3D Printing Color Generator",
+    "slug": "3d-printing-color-generator"
+  },
+  {
+    "id": "934",
+    "title": "Laser Cutting Color Schemes",
+    "slug": "laser-cutting-color-schemes"
+  },
+  {
+    "id": "935",
+    "title": "LED Lighting Color Palettes",
+    "slug": "led-lighting-color-palettes"
+  },
+  {
+    "id": "936",
+    "title": "Projection Mapping Color Tool",
+    "slug": "projection-mapping-color-tool"
+  },
+  {
+    "id": "937",
+    "title": "Holographic Display Color Schemes",
+    "slug": "holographic-display-color-schemes"
+  },
+  {
+    "id": "938",
+    "title": "E-Ink Color Palettes",
+    "slug": "e-ink-color-palettes"
+  },
+  {
+    "id": "939",
+    "title": "Digital Fabric Color Generator",
+    "slug": "digital-fabric-color-generator"
+  },
+  {
+    "id": "940",
+    "title": "Smart Textile Color Schemes",
+    "slug": "smart-textile-color-schemes"
+  },
+  {
+    "id": "941",
+    "title": "Sustainable Color Palette Generator",
+    "slug": "sustainable-color-palette-generator"
+  },
+  {
+    "id": "942",
+    "title": "Eco-Friendly Brand Color Schemes",
+    "slug": "eco-friendly-brand-color-schemes"
+  },
+  {
+    "id": "943",
+    "title": "Green Design Color Palettes",
+    "slug": "green-design-color-palettes"
+  },
+  {
+    "id": "944",
+    "title": "Circular Economy Color Tool",
+    "slug": "circular-economy-color-tool"
+  },
+  {
+    "id": "945",
+    "title": "Upcycled Material Color Generator",
+    "slug": "upcycled-material-color-generator"
+  },
+  {
+    "id": "946",
+    "title": "Natural Dye Color Schemes",
+    "slug": "natural-dye-color-schemes"
+  },
+  {
+    "id": "947",
+    "title": "Biodegradable Color Palettes",
+    "slug": "biodegradable-color-palettes"
+  },
+  {
+    "id": "948",
+    "title": "Zero-Waste Design Colors",
+    "slug": "zero-waste-design-colors"
+  },
+  {
+    "id": "949",
+    "title": "Carbon-Neutral Color Generator",
+    "slug": "carbon-neutral-color-generator"
+  },
+  {
+    "id": "950",
+    "title": "Regenerative Design Color Schemes",
+    "slug": "regenerative-design-color-schemes"
+  },
+  {
+    "id": "951",
+    "title": "Color Palette Generator Tutorial for Beginners",
+    "slug": "color-palette-generator-tutorial-for-beginners"
+  },
+  {
+    "id": "952",
+    "title": "How to Choose Colors for Branding",
+    "slug": "how-to-choose-colors-for-branding"
+  },
+  {
+    "id": "953",
+    "title": "Color Theory for Web Designers Guide",
+    "slug": "color-theory-for-web-designers-guide"
+  },
+  {
+    "id": "954",
+    "title": "Mastering Color Harmonies Tutorial",
+    "slug": "mastering-color-harmonies-tutorial"
+  },
+  {
+    "id": "955",
+    "title": "Advanced Color Palette Techniques",
+    "slug": "advanced-color-palette-techniques"
+  },
+  {
+    "id": "956",
+    "title": "Color Psychology for Marketers Guide",
+    "slug": "color-psychology-for-marketers-guide"
+  },
+  {
+    "id": "957",
+    "title": "Accessibility in Color Design Tutorial",
+    "slug": "accessibility-in-color-design-tutorial"
+  },
+  {
+    "id": "958",
+    "title": "Exporting Palettes to Code Guide",
+    "slug": "exporting-palettes-to-code-guide"
+  },
+  {
+    "id": "959",
+    "title": "Using Color in UI/UX Design Tutorial",
+    "slug": "using-color-in-ui-ux-design-tutorial"
+  },
+  {
+    "id": "960",
+    "title": "Color Trends Analysis Guide",
+    "slug": "color-trends-analysis-guide"
+  },
+  {
+    "id": "961",
+    "title": "Building a Brand Color System",
+    "slug": "building-a-brand-color-system"
+  },
+  {
+    "id": "962",
+    "title": "Creating Cohesive Color Schemes",
+    "slug": "creating-cohesive-color-schemes"
+  },
+  {
+    "id": "963",
+    "title": "Color Palette for Social Media Guide",
+    "slug": "color-palette-for-social-media-guide"
+  },
+  {
+    "id": "964",
+    "title": "Email Design Color Tutorial",
+    "slug": "email-design-color-tutorial"
+  },
+  {
+    "id": "965",
+    "title": "Presentation Color Palette Guide",
+    "slug": "presentation-color-palette-guide"
+  },
+  {
+    "id": "966",
+    "title": "Print Design Color Management",
+    "slug": "print-design-color-management"
+  },
+  {
+    "id": "967",
+    "title": "Color for Product Photography",
+    "slug": "color-for-product-photography"
+  },
+  {
+    "id": "968",
+    "title": "Video Color Grading Palette Guide",
+    "slug": "video-color-grading-palette-guide"
+  },
+  {
+    "id": "969",
+    "title": "Animation Color Scheme Tutorial",
+    "slug": "animation-color-scheme-tutorial"
+  },
+  {
+    "id": "970",
+    "title": "Game Design Color Palette Guide",
+    "slug": "game-design-color-palette-guide"
+  },
+  {
+    "id": "971",
+    "title": "Illustration Color Techniques",
+    "slug": "illustration-color-techniques"
+  },
+  {
+    "id": "972",
+    "title": "Infographic Color Design Tutorial",
+    "slug": "infographic-color-design-tutorial"
+  },
+  {
+    "id": "973",
+    "title": "Dashboard Color Best Practices",
+    "slug": "dashboard-color-best-practices"
+  },
+  {
+    "id": "974",
+    "title": "Mobile App Color Design Guide",
+    "slug": "mobile-app-color-design-guide"
+  },
+  {
+    "id": "975",
+    "title": "Responsive Color Design Tutorial",
+    "slug": "responsive-color-design-tutorial"
+  },
+  {
+    "id": "976",
+    "title": "Color Palette Glossary and Terms",
+    "slug": "color-palette-glossary-and-terms"
+  },
+  {
+    "id": "977",
+    "title": "Color Wheel Reference Guide",
+    "slug": "color-wheel-reference-guide"
+  },
+  {
+    "id": "978",
+    "title": "Hex Code Reference Library",
+    "slug": "hex-code-reference-library"
+  },
+  {
+    "id": "979",
+    "title": "Color Name Dictionary",
+    "slug": "color-name-dictionary"
+  },
+  {
+    "id": "980",
+    "title": "RGB Values Reference Tool",
+    "slug": "rgb-values-reference-tool"
+  },
+  {
+    "id": "981",
+    "title": "HSL Color Model Guide",
+    "slug": "hsl-color-model-guide"
+  },
+  {
+    "id": "982",
+    "title": "CMYK Color Reference",
+    "slug": "cmyk-color-reference"
+  },
+  {
+    "id": "983",
+    "title": "Pantone Color Bridge Guide",
+    "slug": "pantone-color-bridge-guide"
+  },
+  {
+    "id": "984",
+    "title": "Color Contrast Reference Table",
+    "slug": "color-contrast-reference-table"
+  },
+  {
+    "id": "985",
+    "title": "Accessibility Color Standards",
+    "slug": "accessibility-color-standards"
+  },
+  {
+    "id": "986",
+    "title": "Design System Color Guidelines",
+    "slug": "design-system-color-guidelines"
+  },
+  {
+    "id": "987",
+    "title": "Brand Color Palette Examples",
+    "slug": "brand-color-palette-examples"
+  },
+  {
+    "id": "988",
+    "title": "Industry Color Reference Guide",
+    "slug": "industry-color-reference-guide"
+  },
+  {
+    "id": "989",
+    "title": "Cultural Color Symbolism Reference",
+    "slug": "cultural-color-symbolism-reference"
+  },
+  {
+    "id": "990",
+    "title": "Historical Color Palette Archive",
+    "slug": "historical-color-palette-archive"
+  },
+  {
+    "id": "991",
+    "title": "Art Movement Color References",
+    "slug": "art-movement-color-references"
+  },
+  {
+    "id": "992",
+    "title": "Architecture Color Guide",
+    "slug": "architecture-color-guide"
+  },
+  {
+    "id": "993",
+    "title": "Landscape Color Reference",
+    "slug": "landscape-color-reference"
+  },
+  {
+    "id": "994",
+    "title": "Urban Color Palette Guide",
+    "slug": "urban-color-palette-guide"
+  },
+  {
+    "id": "995",
+    "title": "Product Color Design Reference",
+    "slug": "product-color-design-reference"
+  },
+  {
+    "id": "996",
+    "title": "Packaging Color Trends Guide",
+    "slug": "packaging-color-trends-guide"
+  },
+  {
+    "id": "997",
+    "title": "Fashion Color Calendar Reference",
+    "slug": "fashion-color-calendar-reference"
+  },
+  {
+    "id": "998",
+    "title": "Interior Color Style Guide",
+    "slug": "interior-color-style-guide"
+  },
+  {
+    "id": "999",
+    "title": "Digital Color Management Reference",
+    "slug": "digital-color-management-reference"
+  },
+  {
+    "id": "1000",
+    "title": "Ultimate Color Resource Directory",
+    "slug": "ultimate-color-resource-directory"
+  }
+]
