@@ -29,9 +29,34 @@ const faqs = [
 ];
 
 export default function GeneratorPage() {
+  const howToSchema = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "How to Use the PaletteFlow Color Generator",
+    "description": "Follow these steps to generate, lock, and export your perfect color scheme.",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "name": "Press Spacebar",
+        "text": "Instantly generate a new, harmonious color palette with every tap of your spacebar."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Lock Colors",
+        "text": "Click the lock icon on individual swatches to hold them while you regenerate the rest."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Extract from Image",
+        "text": "Use the image upload tool to pull dominant colors directly from your favorite photos."
+      }
+    ]
+  };
+
   return (
     <main className="min-h-screen flex flex-col">
       <JsonLd schema={buildFaqSchema(faqs)} />
+      <JsonLd schema={howToSchema} />
       <Suspense fallback={<div className="h-screen bg-background" />}>
         <PaletteGenerator />
       </Suspense>
