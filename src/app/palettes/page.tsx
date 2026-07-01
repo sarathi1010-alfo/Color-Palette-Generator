@@ -3,6 +3,7 @@ import { buildLandingMeta } from "@/lib/seo/metaFactories";
 import { JsonLd } from "@/components/JsonLd";
 import { buildFaqSchema } from "@/lib/seo/buildSchema";
 import LibraryClientPage from "./ClientPage";
+import Link from "next/link";
 
 export const metadata = resolveMetadata(buildLandingMeta({
   title: "Color Palettes Library",
@@ -29,6 +30,9 @@ export default function LibraryPage() {
   return (
     <>
       <JsonLd schema={buildFaqSchema(faqs)} />
+      <div className="bg-primary text-background py-4 px-6 text-center font-bold">
+        New: Learn <Link href="/blog/choose-ui-color-palette" className="underline hover:text-background/80 transition-colors">how to choose a color palette for UI design</Link> using our 2026 framework.
+      </div>
       <LibraryClientPage faqs={faqs} />
     </>
   );

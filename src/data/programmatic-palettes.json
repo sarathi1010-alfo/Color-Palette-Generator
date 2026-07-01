@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "analogous-blue",
+    "name": "Analogous Blue",
+    "description": "A serene and harmonious blue palette based on analogous color theory.",
+    "colors": ["#0055ff", "#0088ff", "#00aaff", "#00ccff", "#00eeff"],
+    "harmony": "Analogous",
+    "baseColor": "Blue",
+    "faqs": [
+      {
+        "question": "What is an analogous blue color palette?",
+        "answer": "An analogous blue palette uses colors that sit next to each other on the color wheel, typically ranging from deep indigos to bright cyans, creating a serene and cohesive look."
+      },
+      {
+        "question": "When should I use analogous blue colors?",
+        "answer": "They are ideal for professional, trustworthy, and calm interfaces where you want to minimize visual friction, such as fintech or wellness applications."
+      }
+    ]
+  },
+  {
+    "slug": "triadic-red",
+    "name": "Triadic Red",
+    "description": "A vibrant and balanced palette using red in a triadic harmony.",
+    "colors": ["#ff0000", "#00ff00", "#0000ff", "#ffffff", "#000000"],
+    "harmony": "Triadic",
+    "baseColor": "Red",
+    "faqs": [
+      {
+        "question": "How does a triadic red palette work?",
+        "answer": "A triadic red palette uses red along with two other colors spaced evenly around the color wheel (usually green and blue), providing high contrast and energy."
+      },
+      {
+        "question": "Is triadic red good for UI?",
+        "answer": "Yes, but it must be balanced carefully. It is best suited for playful brands, gaming, or children's educational apps where high energy is desired."
+      }
+    ]
+  },
+  {
+    "slug": "complementary-green",
+    "name": "Complementary Green",
+    "description": "A high-contrast palette featuring green and its complement.",
+    "colors": ["#00ff00", "#ff00ff", "#ffffff", "#1a1a1a", "#333333"],
+    "harmony": "Complementary",
+    "baseColor": "Green",
+    "faqs": [
+      {
+        "question": "What colors complement green?",
+        "answer": "The direct complement of green on the color wheel is magenta or purple-red, providing the maximum possible contrast for UI elements."
+      },
+      {
+        "question": "How to use complementary green in web design?",
+        "answer": "Use green for success states or primary surfaces, and its magenta complement for high-visibility call-to-action buttons that need to stand out."
+      }
+    ]
+  },
+  {
+    "slug": "monochromatic-purple",
+    "name": "Monochromatic Purple",
+    "description": "A sophisticated palette using various shades and tints of purple.",
+    "colors": ["#4b0082", "#6a0dad", "#8a2be2", "#9370db", "#e6e6fa"],
+    "harmony": "Monochromatic",
+    "baseColor": "Purple",
+    "faqs": [
+      {
+        "question": "What defines a monochromatic purple palette?",
+        "answer": "It uses a single base purple hue and varies its lightness and saturation to create a scale of colors that are guaranteed to harmonize."
+      },
+      {
+        "question": "Is monochromatic purple modern?",
+        "answer": "Extremely. Monochromatic schemes with purple are a hallmark of modern AI startups and luxury digital products for their sophisticated and clean look."
+      }
+    ]
+  },
+  {
+    "slug": "neutral-warm",
+    "name": "Neutral Warm",
+    "description": "A cozy and inviting palette of warm neutral tones.",
+    "colors": ["#f5f5dc", "#ece0d1", "#dbc1ac", "#967969", "#634e34"],
+    "harmony": "Neutral",
+    "baseColor": "Warm Beige",
+    "faqs": [
+      {
+        "question": "What are warm neutral colors?",
+        "answer": "Warm neutrals include beiges, creams, tans, and soft browns that have undertones of yellow, orange, or red, creating a cozy and welcoming feel."
+      },
+      {
+        "question": "Where to use warm neutrals?",
+        "answer": "They are perfect for interior design portfolios, organic food brands, and lifestyle blogs where you want to evoke comfort and authenticity."
+      }
+    ]
+  }
+]
