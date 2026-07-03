@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: ProgrammaticPageProps) {
   return resolveMetadata(buildLandingMeta({
     title: `${page.name} Color Palette - Hex Codes & UI Previews`,
     description: page.description,
-    slug: `/palettes/collection/${page.slug}`,
+    slug: `/palettes/theory/${page.slug}`,
   }));
 }
 
