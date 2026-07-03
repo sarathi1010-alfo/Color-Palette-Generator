@@ -50,7 +50,7 @@ const metaDataObj: SeoMeta = {
   pageType: "article",
   author: { name: "PaletteFlow Editorial" },
   publishedAt: "2024-11-20T10:00:00Z",
-  updatedAt: "2026-06-15T10:00:00Z"
+  updatedAt: "2026-06-16T10:00:00Z"
 };
 
 const faqData = [
@@ -91,7 +91,7 @@ export default function ColorTheoryGuidePage() {
             <section className="space-y-6">
               <h2 className="text-3xl font-display font-bold text-text-primary">The Foundation: The Color Wheel</h2>
               <p>
-                Every great color palette starts with a solid understanding of the color wheel. Originating from Isaac Newton&apos;s early experiments with prisms, the color wheel visually maps the relationships between colors. Understanding these relationships is the key to moving beyond guesswork and systematically generating harmonious designs. Dive deeper into <Link href="/guides/color-theory-complementary-triadic-analogous" className="text-primary hover:underline">triadic and analogous schemes</Link>.
+                Every great color palette starts with a solid understanding of the color wheel. Originating from Isaac Newton&apos;s early experiments with prisms, the color wheel visually maps the relationships between colors. Understanding these relationships is the key to moving beyond guesswork and systematically generating harmonious designs. Dive deeper into <Link href="/guides/color-theory-complementary-triadic-analogous" className="text-primary hover:underline">triadic and analogous schemes</Link> or learn <Link href="/blog/choose-ui-color-palette" className="text-primary hover:underline font-bold">how to choose a color palette for UI design</Link>.
               </p>
             </section>
 

@@ -54,7 +54,7 @@ export default function UIColorPaletteGuide() {
               <div className="bg-surface border-l-4 border-primary p-8 rounded-r-2xl my-8">
                 <p className="text-text-primary font-bold mb-2">AI Snapshot / Quick Answer:</p>
                 <p className="m-0 text-lg leading-relaxed">
-                  To choose a color palette for UI design, define your brand&apos;s emotional goals, apply the 60-30-10 rule for visual balance, and ensure WCAG-compliant contrast. Use a <Link href="/" className="text-primary hover:underline">color generator</Link> to test harmonies like analogous or complementary schemes.
+                  To choose a color palette for UI design, define your brand&apos;s emotional goals, apply the 60-30-10 rule for visual balance, and ensure WCAG-compliant contrast. Use our <Link href="/" className="text-primary hover:underline font-bold">home tool</Link> or <Link href="/palettes" className="text-primary hover:underline font-bold">explore library</Link> to test harmonies.
                 </p>
               </div>
 
@@ -108,17 +108,17 @@ export default function UIColorPaletteGuide() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 not-prose">
                 <div className="p-6 bg-surface border border-border rounded-2xl">
                   <div className="w-10 h-10 bg-primary rounded-lg mb-4 flex items-center justify-center text-background font-bold">1</div>
-                  <h4 className="text-lg font-bold text-text-primary mb-2">Brand Colors</h4>
+                  <h3 className="text-lg font-bold text-text-primary mb-2">Brand Colors</h3>
                   <p className="text-sm text-text-secondary">Your Primary and Secondary colors. They represent your identity and appear on key interactions.</p>
                 </div>
                 <div className="p-6 bg-surface border border-border rounded-2xl">
                   <div className="w-10 h-10 bg-red-500 rounded-lg mb-4 flex items-center justify-center text-white font-bold">2</div>
-                  <h4 className="text-lg font-bold text-text-primary mb-2">Semantic Colors</h4>
+                  <h3 className="text-lg font-bold text-text-primary mb-2">Semantic Colors</h3>
                   <p className="text-sm text-text-secondary">Colors that convey meaning: Red for error, Green for success, Yellow for warning, Blue for info.</p>
                 </div>
                 <div className="p-6 bg-surface border border-border rounded-2xl">
                   <div className="w-10 h-10 bg-gray-500 rounded-lg mb-4 flex items-center justify-center text-white font-bold">3</div>
-                  <h4 className="text-lg font-bold text-text-primary mb-2">Neutral Colors</h4>
+                  <h3 className="text-lg font-bold text-text-primary mb-2">Neutral Colors</h3>
                   <p className="text-sm text-text-secondary">The unsung heroes. Grays, slates, and tints used for text, backgrounds, borders, and shadows.</p>
                 </div>
               </div>
