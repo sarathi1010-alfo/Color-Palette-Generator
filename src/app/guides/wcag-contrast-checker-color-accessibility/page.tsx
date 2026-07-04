@@ -21,7 +21,8 @@ const metaDataObj: SeoMeta = {
   slug: "/guides/wcag-contrast-checker-color-accessibility",
   pageType: "article",
   author: { name: "PaletteFlow Editorial" },
-  publishedAt: new Date().toISOString()
+  publishedAt: "2024-12-10T10:00:00Z",
+  updatedAt: "2026-06-16T12:00:00Z"
 };
 
 export default function WcagGuidePage() {
@@ -41,7 +42,7 @@ export default function WcagGuidePage() {
               WCAG Contrast Checker Guide: Making Your Designs Accessible
             </h1>
             <p className="text-xl text-text-secondary leading-relaxed">
-              Ensure your digital products are usable by everyone by mastering WCAG contrast standards and accessible color selection.
+              Ensure your digital products are usable by everyone by mastering WCAG contrast standards and accessible color selection. Check out our <Link href="/blog/choose-ui-color-palette" className="text-primary hover:underline font-bold">2026 UI Color Guide</Link> for practical implementation steps.
             </p>
           </div>
 

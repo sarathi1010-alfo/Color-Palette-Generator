@@ -11,7 +11,8 @@ const articles = [
   '/guides/css-variables-color-palette-generator',
   '/guides/color-palette-generator-vs-coolors',
   '/guides/color-psychology-branding',
-  '/guides/tailwind-css-color-palette-generator'
+  '/guides/tailwind-css-color-palette-generator',
+  '/blog/choose-ui-color-palette'
 ];
 
 export async function GET() {
