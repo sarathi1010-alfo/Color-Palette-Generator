@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: ProgrammaticPageProps) {
   return resolveMetadata(buildLandingMeta({
     title: `${page.name} Color Palette - Hex Codes & UI Previews`,
     description: page.description,
-    slug: `/palettes/collection/${page.slug}`,
+    slug: `/palettes/theory/${page.slug}`,
   }));
 }
 
@@ -103,7 +103,7 @@ export default async function ProgrammaticPalettePage({ params }: ProgrammaticPa
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
              <section className="space-y-8">
-                <h2 className="text-3xl font-display font-bold">Frequently Asked Questions</h2>
+                <h2 className="text-3xl font-display font-bold text-text-primary">Frequently Asked Questions</h2>
                 <div className="space-y-6">
                    {page.faqs.map((faq, index) => (
                       <div key={index} className="bg-surface border border-border p-6 rounded-2xl space-y-3">
@@ -114,7 +114,7 @@ export default async function ProgrammaticPalettePage({ params }: ProgrammaticPa
                 </div>
 
                 <div className="bg-text-primary text-background p-8 rounded-3xl space-y-6">
-                   <h3 className="text-2xl font-bold">Ready to use this palette?</h3>
+                   <h2 className="text-2xl font-bold">Ready to use this palette?</h2>
                    <p className="opacity-80">Export these exact hex codes directly to your codebase or iterate on them in our generator.</p>
                    <div className="flex flex-wrap gap-4">
                       <Link

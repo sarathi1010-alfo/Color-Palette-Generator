@@ -54,7 +54,7 @@ export default function UIColorPaletteGuide() {
               <div className="bg-surface border-l-4 border-primary p-8 rounded-r-2xl my-8">
                 <p className="text-text-primary font-bold mb-2">AI Snapshot / Quick Answer:</p>
                 <p className="m-0 text-lg leading-relaxed">
-                  To choose a color palette for UI design, define your brand&apos;s emotional goals, apply the 60-30-10 rule for visual balance, and ensure WCAG-compliant contrast. Use a <Link href="/" className="text-primary hover:underline">color generator</Link> to test harmonies like analogous or complementary schemes.
+                  To choose a color palette for UI design, define emotional goals, apply the 60-30-10 rule for visual balance, and ensure WCAG-compliant contrast. Use the <Link href="/" className="text-primary hover:underline">PaletteFlow generator</Link> to test harmonious schemes like analogous or complementary variations for optimal UX.
                 </p>
               </div>
 
@@ -93,7 +93,7 @@ export default function UIColorPaletteGuide() {
                 </li>
               </ul>
               <p>
-                When choosing your palette, ask yourself: What is the primary emotion I want the user to feel within the first 3 seconds? If it&apos;s &quot;calm,&quot; gravitate toward desaturated blues and greens. If it&apos;s &quot;excited,&quot; look at vibrant oranges or high-contrast tetradic schemes from our <Link href="/palettes" className="text-primary hover:underline">palette library</Link>.
+                When choosing your palette, ask yourself: What is the primary emotion I want the user to feel within the first 3 seconds? If it&apos;s &quot;calm,&quot; gravitate toward desaturated blues and greens. If it&apos;s &quot;excited,&quot; look at vibrant oranges or high-contrast tetradic schemes from our <Link href="/palettes" className="text-primary hover:underline font-bold">palette library</Link>.
               </p>
               <p>
                 Consider also the cultural context. While blue is universally &quot;trustworthy,&quot; colors like white and red have vastly different meanings between Western and Eastern design standards. If you are building a global product, your UI color palette needs to be sensitive to these nuances to avoid unintended psychological friction.
@@ -108,17 +108,17 @@ export default function UIColorPaletteGuide() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 not-prose">
                 <div className="p-6 bg-surface border border-border rounded-2xl">
                   <div className="w-10 h-10 bg-primary rounded-lg mb-4 flex items-center justify-center text-background font-bold">1</div>
-                  <h4 className="text-lg font-bold text-text-primary mb-2">Brand Colors</h4>
+                  <h3 className="text-lg font-bold text-text-primary mb-2">Brand Colors</h3>
                   <p className="text-sm text-text-secondary">Your Primary and Secondary colors. They represent your identity and appear on key interactions.</p>
                 </div>
                 <div className="p-6 bg-surface border border-border rounded-2xl">
                   <div className="w-10 h-10 bg-red-500 rounded-lg mb-4 flex items-center justify-center text-white font-bold">2</div>
-                  <h4 className="text-lg font-bold text-text-primary mb-2">Semantic Colors</h4>
+                  <h3 className="text-lg font-bold text-text-primary mb-2">Semantic Colors</h3>
                   <p className="text-sm text-text-secondary">Colors that convey meaning: Red for error, Green for success, Yellow for warning, Blue for info.</p>
                 </div>
                 <div className="p-6 bg-surface border border-border rounded-2xl">
                   <div className="w-10 h-10 bg-gray-500 rounded-lg mb-4 flex items-center justify-center text-white font-bold">3</div>
-                  <h4 className="text-lg font-bold text-text-primary mb-2">Neutral Colors</h4>
+                  <h3 className="text-lg font-bold text-text-primary mb-2">Neutral Colors</h3>
                   <p className="text-sm text-text-secondary">The unsung heroes. Grays, slates, and tints used for text, backgrounds, borders, and shadows.</p>
                 </div>
               </div>
@@ -219,7 +219,7 @@ export default function UIColorPaletteGuide() {
                   <strong className="text-text-primary">Analyze the Content:</strong> What are you selling? A data dashboard needs many subtle variations of gray and blue to distinguish between data points. A portfolio needs one strong personality color.
                 </li>
                 <li>
-                  <strong className="text-text-primary">Find Inspiration:</strong> Look at nature, architecture, or established brands in your niche. Don&apos;t copy—abstract. Use our <Link href="/palettes" className="text-primary hover:underline">Explore</Link> feature to see what&apos;s trending.
+                  <strong className="text-text-primary">Find Inspiration:</strong> Look at nature, architecture, or established brands in your niche. Don&apos;t copy—abstract. Use our <Link href="/palettes" className="text-primary hover:underline font-bold">Explore</Link> feature to see what&apos;s trending.
                 </li>
                 <li>
                   <strong className="text-text-primary">Generate the Core:</strong> Start with your primary brand color. Use a generator to find its complementary or analogous partners.
