@@ -1,0 +1,87 @@
+name: Auto Commit and Merge PRs
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+env:
+  GH_TOKEN: ${{ secrets.PAT }}
+
+jobs:
+  auto-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}
+          fetch-depth: 0
+          ref: ${{ github.head_ref }}
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+      # =========================
+      # YOUR AUTO FIX LOGIC HERE
+      # =========================
+      - name: Run Auto Fix
+        run: |
+          echo "Run your scripts here"
+
+          # examples:
+          # npm install
+          # npm run lint --fix
+          # npm run format
+          # python fix.py
+
+      # =========================
+      # COMMIT CHANGES
+      # =========================
+      - name: Commit changes
+        run: |
+          git add .
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: automated fixes [skip ci]"
+            git push
+          fi
+
+      # =========================
+      # REBASE ON MAIN
+      # =========================
+      - name: Rebase branch
+        run: |
+          git fetch origin main
+
+          git rebase origin/main || {
+            echo "Rebase conflict"
+
+            # auto accept incoming changes
+            git checkout --theirs .
+
+            git add .
+            git rebase --continue || true
+          }
+
+          git push --force-with-lease
+
+      # =========================
+      # ENABLE AUTO MERGE
+      # =========================
+      - name: Enable Auto Merge
+        run: |
+          gh pr merge ${{ github.event.pull_request.number }} \
+            --squash \
+            --auto \
+            --delete-branch
