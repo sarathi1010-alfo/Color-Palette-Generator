@@ -180,8 +180,10 @@ jobs:
           # rather than guessing the string -- per Jules docs' own recommended flow).
           sources_resp=$(curl -s "https://jules.googleapis.com/v1alpha/sources?pageSize=100" \
             -H "X-Goog-Api-Key: $JULES_API_KEY")
+          echo "Jules sources response: $sources_resp"
           source_name=$(echo "$sources_resp" | jq -r --arg o "$owner" --arg r "$repo" \
             '.sources[] | select(.githubRepo.owner==$o and .githubRepo.repo==$r) | .name')
+          echo "Resolved source_name: '$source_name'"
 
           if [ -z "$source_name" ]; then
             echo "WARNING: no Jules source found for $owner/$repo -- conflict resolution will be skipped for all PRs"
@@ -191,6 +193,20 @@ jobs:
             echo "=== PR #$pr ==="
 
             mergeable=$(gh pr view "$pr" --repo "$GITHUB_REPOSITORY" --json mergeable --jq .mergeable)
+            echo "PR #$pr initial mergeable: '$mergeable'"
+
+            # mergeable is computed async by GitHub -- if it's still UNKNOWN, poll
+            # briefly instead of trusting a value that hasn't been computed yet.
+            for k in $(seq 1 6); do
+              [ "$mergeable" != "UNKNOWN" ] && break
+              sleep 5
+              mergeable=$(gh pr view "$pr" --repo "$GITHUB_REPOSITORY" --json mergeable --jq .mergeable)
+              echo "PR #$pr mergeable recheck $k: '$mergeable'"
+            done
+
+            if [ "$mergeable" = "CONFLICTING" ] && [ -z "$source_name" ]; then
+              echo "PR #$pr has conflicts but no Jules source was found for $owner/$repo -> cannot resolve, will attempt merge as-is and likely fail"
+            fi
 
             if [ "$mergeable" = "CONFLICTING" ] && [ -n "$source_name" ]; then
               echo "PR #$pr has conflicts -> requesting Jules to resolve"
