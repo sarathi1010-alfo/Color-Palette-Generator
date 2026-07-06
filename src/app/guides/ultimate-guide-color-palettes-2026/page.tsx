@@ -65,7 +65,7 @@ export default function UltimateGuidePage() {
                     A color palette is more than a collection of swatches; it is the visual language of your brand. In the digital age, your palette must perform across high-refresh-rate OLED screens and legacy monitors alike.
                 </p>
                 <p>
-                    Selecting the right tones is a systematic process. For a detailed breakdown on implementation, see our masterclass on <Link href="/blog/choose-ui-color-palette" className="text-primary hover:underline">how to choose a color palette for UI design</Link>, which covers the latest 2026 standards.
+                    Selecting the right tones is a systematic process. For a detailed breakdown on implementation, see our masterclass on <Link href="/blog/choose-ui-color-palette" className="text-primary hover:underline font-bold">how to choose a color palette for UI design</Link>, which covers the latest 2026 standards.
                 </p>
             </section>
 

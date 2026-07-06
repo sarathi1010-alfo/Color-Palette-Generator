@@ -21,7 +21,8 @@ const metaDataObj: SeoMeta = {
   slug: "/guides/color-theory-complementary-triadic-analogous",
   pageType: "article",
   author: { name: "PaletteFlow Editorial" },
-  publishedAt: new Date().toISOString()
+  publishedAt: "2024-12-20T09:00:00Z",
+  updatedAt: "2026-06-15T10:30:00Z"
 };
 
 export default function ColorTheoryGuidePage() {
@@ -46,7 +47,7 @@ export default function ColorTheoryGuidePage() {
             <section className="space-y-6">
               <h2 className="text-3xl font-display font-bold text-text-primary">What is Color Harmony?</h2>
               <p>
-                Color harmony is the art and science of combining colors in a way that is pleasing to the eye. It creates a sense of order and balance in visual experiences. When something is not harmonious, it&apos;s either boring or chaotic.
+                Color harmony is the art and science of combining colors in a way that is pleasing to the eye. It creates a sense of order and balance in visual experiences. Understanding these rules is a prerequisite for anyone learning <Link href="/blog/choose-ui-color-palette" className="text-primary hover:underline font-bold">how to choose a color palette for UI design</Link> that is both accessible and beautiful.
               </p>
             </section>
 
