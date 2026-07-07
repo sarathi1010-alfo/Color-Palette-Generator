@@ -323,7 +323,7 @@ export default function UIColorPaletteGuide() {
             <section className="space-y-6 pt-12 border-t border-border">
               <h2 className="text-3xl font-display font-bold text-text-primary">Conclusion</h2>
               <p>
-                Choosing a color palette for UI design is a blend of science and soul. It requires a deep respect for color theory and accessibility, balanced with the intuition of a storyteller. By following the 60-30-10 rule, respecting WCAG standards, and utilizing modern tools like <Link href="/" className="text-primary hover:underline font-bold">PaletteFlow</Link>, you ensure that your interface isn&apos;t just beautiful—it&apos;s functional.
+                Choosing a color palette for UI design is a blend of science and soul. It requires a deep respect for color theory and accessibility, balanced with the intuition of a storyteller. By following the 60-30-10 rule, respecting WCAG standards, and utilizing modern tools like <Link href="/" className="text-primary hover:underline">PaletteFlow</Link>, you ensure that your interface isn&apos;t just beautiful—it&apos;s functional.
               </p>
               <p>
                 Remember: The best UI design is the one that stays out of the user&apos;s way while providing exactly enough visual guidance to make their journey effortless. Start small, test often, and never compromise on accessibility.

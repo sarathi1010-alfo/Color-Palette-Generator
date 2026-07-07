@@ -6,10 +6,13 @@
 - **URL:** `/blog/choose-ui-color-palette`
 - **Title:** "Mastering UI Color Selection: The 2026 Definitive Guide"
 - **Topic:** "How to choose a color palette for UI design"
-- **Word Count:** ~2,300 words (Comprehensive design system focus).
+- **Word Count:** ~2,300 words.
 - **AEO Optimization:** 38-word AI Snapshot included under primary H2 question.
-- **Schema:** Article JSON-LD correctly injected in the page component.
-- **Internal Links:** 2 links to pillar pages (Home, Palettes) + 2 links from older guides (`/guides/choose-website-color-palette` and `/guides/color-theory-complementary-triadic-analogous`).
+- **Schema:** Article JSON-LD correctly injected.
+- **Internal Links:**
+  - 2 bold links to the home page (/).
+  - 2 bold links to the palette library (/palettes).
+  - Retroactively linked from 2 older guides (bolded).
 
 ### Tier 2: Programmatic Pages (Color Theory Clusters)
 - **URLs (5 total):**
@@ -18,23 +21,18 @@
   - `/palettes/theory/complementary-green`
   - `/palettes/theory/monochromatic-purple`
   - `/palettes/theory/neutral-warm`
-- **Optimization:** Dynamic FAQ schema injected for each page using existing data patterns.
+- **Optimization:** Dynamic FAQ schema injected for each page.
 - **Status:** Verified 200 OK.
 
 ### Tier 3: Distribution
-- **Asset:** `DISTRIBUTION_POSTS.md` created with 10 social posts (Twitter/X, LinkedIn, Dribbble).
+- **Asset:** `DISTRIBUTION_POSTS.md` created with 10 social posts.
 
 ## 2. Technical SEO & Hygiene
 - **Sitemap:** Updated `src/app/sitemap.ts` with all 6 new URLs.
-- **Internal Linking:** Retroactively added `font-bold` class to internal SEO links in older content.
-- **Verification:** 100% pass on status code checks (200 OK). No broken assets.
-- **Technical Audit:** Completed and documented in `GSC_FIX_PLAN.md`.
+- **Internal Linking:** Retroactively updated 2 older guides (`/guides/choose-website-color-palette` and `/guides/color-psychology-branding`) with bold links to the new Tier 1 article and refreshed their `updatedAt` fields.
+- **CI/CD:** Fixed CI failure in `.github/workflows/testing.yml` by switching to `secrets.GITHUB_TOKEN`.
+- **Verification:** 100% pass on status code checks. No broken assets.
 
 ## 3. Compliance & Standards
-- **Zero Errors Policy:** Zero 4xx/5xx errors detected across the new publishing cluster.
-- **Heading Hierarchy:** Enforced exactly one H1 per page; H2/H3 for all subpoints.
-- **Schema Validation:** JSON-LD for Article and FAQ types validated against standard patterns.
-
-## 4. Next Steps
-- Execute IndexNow submission for the 6 new URLs.
-- Monitor Google Search Console for coverage of the new programmatic theory cluster.
+- **Zero Errors Policy:** Zero 4xx/5xx errors detected.
+- **Heading Hierarchy:** Validated (1x H1, H2/H3 for all subpoints).
