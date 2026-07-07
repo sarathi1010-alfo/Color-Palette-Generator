@@ -15,6 +15,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/tools/contrast-checker',
     '/tools/tints-shades',
     '/tools/image-extractor',
+    '/blog/choose-ui-color-palette',
+    '/palettes/theory/analogous-blue',
+    '/palettes/theory/triadic-red',
+    '/palettes/theory/complementary-green',
+    '/palettes/theory/monochromatic-purple',
+    '/palettes/theory/neutral-warm',
   ];
 
   return staticRoutes.map(route => ({

@@ -21,7 +21,8 @@ const metaDataObj: SeoMeta = {
   slug: "/guides/color-psychology-branding",
   pageType: "article",
   author: { name: "PaletteFlow Editorial" },
-  publishedAt: new Date().toISOString()
+  publishedAt: "2024-12-05T09:00:00Z",
+  updatedAt: "2026-06-15T12:00:00Z"
 };
 
 export default function ColorPsychologyPage() {
@@ -58,7 +59,7 @@ export default function ColorPsychologyPage() {
               </div>
 
               <p>
-                Up to 90% of snap judgments made about products can be based on color alone. Before you jump into our <Link href="/" className="text-primary hover:underline">palette generator</Link>, you need to decide what feeling you want your brand to convey. If your colors clash with your brand message, users will experience cognitive dissonance, leading to distrust and high bounce rates.
+                Up to 90% of snap judgments made about products can be based on color alone. Before you jump into our <Link href="/" className="text-primary hover:underline">palette generator</Link>, you need to decide what feeling you want your brand to convey. If you are specifically focused on digital products, we recommend reading our masterclass on <Link href="/blog/choose-ui-color-palette" className="text-primary hover:underline font-bold">how to choose a color palette for UI design</Link> for deeper technical insights. If your colors clash with your brand message, users will experience cognitive dissonance, leading to distrust and high bounce rates.
               </p>
               <p>
                 Color psychology isn&apos;t just pseudo-science; it is a vital part of conversion rate optimization (CRO). A button&apos;s color can drastically alter click-through rates. A background color can dictate whether a user reads a long-form article or leaves immediately. Understanding these psychological triggers allows you to engineer your UI for specific user behaviors.
