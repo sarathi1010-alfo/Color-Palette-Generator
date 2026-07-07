@@ -10,14 +10,14 @@ import { Palette, Zap, CheckCircle2, ShieldCheck, Eye, Layers } from "lucide-rea
 import { SeoMeta } from "@/types/seo";
 
 export const metadata = resolveMetadata(buildLandingMeta({
-  title: "How to Choose a Color Palette for UI Design (2026 Guide)",
-  description: "Master the art of selecting the perfect UI color palette. Learn about the 60-30-10 rule, accessibility standards, and color psychology for digital products.",
+  title: "Mastering UI Color Selection: The 2026 Definitive Guide",
+  description: "Expert strategies for choosing UI color palettes. Deep dive into 60-30-10 rule, WCAG 2.1 accessibility, and emotional branding for modern digital products.",
   slug: "/blog/choose-ui-color-palette",
 }));
 
 const metaDataObj: SeoMeta = {
-  title: "How to Choose a Color Palette for UI Design (2026 Guide)",
-  description: "Master the art of selecting the perfect UI color palette. Learn about the 60-30-10 rule, accessibility standards, and color psychology for digital products.",
+  title: "Mastering UI Color Selection: The 2026 Definitive Guide",
+  description: "Expert strategies for choosing UI color palettes. Deep dive into 60-30-10 rule, WCAG 2.1 accessibility, and emotional branding for modern digital products.",
   slug: "/blog/choose-ui-color-palette",
   pageType: "article",
   author: { name: "PaletteFlow Editorial" },
@@ -54,7 +54,7 @@ export default function UIColorPaletteGuide() {
               <div className="bg-surface border-l-4 border-primary p-8 rounded-r-2xl my-8">
                 <p className="text-text-primary font-bold mb-2">AI Snapshot / Quick Answer:</p>
                 <p className="m-0 text-lg leading-relaxed">
-                  To choose a color palette for UI design, define emotional goals, apply the 60-30-10 rule for visual balance, and ensure WCAG-compliant contrast. Use the <Link href="/" className="text-primary hover:underline">PaletteFlow generator</Link> to test harmonious schemes like analogous or complementary variations for optimal UX.
+                  To choose a color palette for UI design, define emotional goals, apply the 60-30-10 rule for visual balance, and ensure WCAG-compliant contrast. Use the <Link href="/" className="text-primary hover:underline font-bold">PaletteFlow generator</Link> to test harmonious schemes like analogous or complementary variations for optimal UX.
                 </p>
               </div>
 
@@ -154,7 +154,7 @@ export default function UIColorPaletteGuide() {
             <section className="space-y-6">
               <h2 className="text-3xl font-display font-bold text-text-primary">4. Essential Color Harmonies for Digital Interfaces</h2>
               <p>
-                Color theory is the mathematical framework behind beauty. By using established harmonies, you ensure that your colors have a balanced &quot;vibe&quot; from the start. When you use our <Link href="/" className="text-primary hover:underline">UI color generator</Link>, you can toggle these specific settings to see them in action:
+                Color theory is the mathematical framework behind beauty. By using established harmonies, you ensure that your colors have a balanced &quot;vibe&quot; from the start. When you use our <Link href="/" className="text-primary hover:underline font-bold">UI color generator</Link>, you can toggle these specific settings to see them in action:
               </p>
               <div className="space-y-8">
                 <div className="flex gap-6 items-start">
@@ -234,12 +234,16 @@ export default function UIColorPaletteGuide() {
             </section>
 
             <section className="space-y-6">
-              <h2 className="text-3xl font-display font-bold text-text-primary">7. Testing Your Palette Across Devices</h2>
+              <h2 className="text-3xl font-display font-bold text-text-primary">7. Testing Your Palette Across Devices & Lighting</h2>
               <p>
-                A palette that looks stunning on your expensive Pro Display XDR might look washed out on a budget Android phone in direct sunlight. Always test your colors on multiple screen types.
+                A palette that looks stunning on your expensive Pro Display XDR might look washed out on a budget Android phone in direct sunlight. Always test your colors on multiple screen types, including OLED, IPS, and low-end LCD panels. The way colors render can drastically affect the perceived &quot;quality&quot; of your product.
               </p>
               <p>
-                Furthermore, the &quot;Dark Mode&quot; shift is permanent. You are no longer choosing one palette; you are choosing two. Your dark mode palette shouldn&apos;t just be an inverted version of your light mode. You often need to increase the saturation of your primary colors in dark mode to make them appear equally vibrant against a dark backdrop.
+                Furthermore, the &quot;Dark Mode&quot; shift is permanent. You are no longer choosing one palette; you are choosing two distinct but related systems. Your dark mode palette shouldn&apos;t just be a mathematical inversion of your light mode. You often need to increase the saturation of your primary colors in dark mode to make them appear equally vibrant against a dark backdrop, a phenomenon known as &quot;perceptual color matching.&quot;
+              </p>
+              <h3 className="text-2xl font-bold text-text-primary">Micro-Interactions and State Colors</h3>
+              <p>
+                In 2026, the best UIs use color to reward user behavior. Subtle shifts in hue during a button press or a &quot;success&quot; pulse in the primary brand color can make an interface feel alive. Ensure your palette includes enough &quot;intermediate&quot; shades to support these micro-interactions without breaking the visual consistency of the overall design.
               </p>
             </section>
 
