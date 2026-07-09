@@ -22,7 +22,7 @@ const metaDataObj: SeoMeta = {
   pageType: "article",
   author: { name: "PaletteFlow Editorial" },
   publishedAt: "2024-11-05T09:00:00Z",
-  updatedAt: "2026-06-15T09:00:00Z"
+  updatedAt: "2026-07-09T09:00:00Z"
 };
 
 export default function ChoosePaletteGuidePage() {
@@ -59,7 +59,7 @@ export default function ChoosePaletteGuidePage() {
               </div>
 
               <p>
-                Colors speak faster than words. The moment a user lands on your homepage, their brain is subconsciously processing the hues, shades, and overall aesthetic. Before opening a <Link href="/" className="text-primary hover:underline">color generator</Link>, you need to understand the emotions you want to evoke. If you are specifically building digital products, you might also want to learn <Link href="/blog/choose-ui-color-palette" className="text-primary hover:underline font-bold">how to choose a color palette for UI design</Link> for more technical requirements. Audience psychology plays a massive role in how your website is perceived, dictating everything from brand trust to conversion rates.
+                Colors speak faster than words. The moment a user lands on your homepage, their brain is subconsciously processing the hues, shades, and overall aesthetic. Before opening a <Link href="/" className="text-primary hover:underline">color generator</Link>, you need to understand the emotions you want to evoke. If you are specifically building digital products, you might also want to learn how to <Link href="/blog/choose-ui-color-palette" className="text-primary hover:underline font-bold">choose a color palette for UI design</Link> for more technical requirements. Audience psychology plays a massive role in how your website is perceived, dictating everything from brand trust to conversion rates.
               </p>
               <p>
                 In 2025, website design is deeply intertwined with behavioral science. Consumers are bombarded with thousands of micro-decisions daily. If your color palette causes cognitive friction, they will bounce. Conversely, if it immediately telegraphs security, innovation, or calm, they will stay. For instance, blue builds trust in fintech, while vibrant yellows and oranges stimulate excitement in creative agencies.

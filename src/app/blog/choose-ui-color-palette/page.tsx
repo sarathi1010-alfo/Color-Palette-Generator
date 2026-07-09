@@ -52,9 +52,9 @@ export default function UIColorPaletteGuide() {
               <h2 className="text-3xl font-display font-bold text-text-primary">How to choose a color palette for UI design?</h2>
 
               <div className="bg-surface border-l-4 border-primary p-8 rounded-r-2xl my-8">
-                <p className="text-text-primary font-bold mb-2">AI Snapshot / Quick Answer:</p>
+                <p className="text-text-primary font-bold mb-2">AI Snapshot:</p>
                 <p className="m-0 text-lg leading-relaxed">
-                  To choose a color palette for UI design, define emotional goals, apply the 60-30-10 rule for visual balance, and ensure WCAG-compliant contrast. Use the <Link href="/" className="text-primary hover:underline font-bold">PaletteFlow generator</Link> to test harmonious schemes like analogous or complementary variations for optimal UX.
+                  To choose a UI color palette, first define your brand&apos;s emotional goals, then apply the 60-30-10 rule for balance, and strictly verify WCAG contrast ratios. Use established color harmonies like analogous or complementary to ensure a professional and accessible interface.
                 </p>
               </div>
 
@@ -93,7 +93,7 @@ export default function UIColorPaletteGuide() {
                 </li>
               </ul>
               <p>
-                When choosing your palette, ask yourself: What is the primary emotion I want the user to feel within the first 3 seconds? If it&apos;s &quot;calm,&quot; gravitate toward desaturated blues and greens. If it&apos;s &quot;excited,&quot; look at vibrant oranges or high-contrast tetradic schemes from our <Link href="/palettes" className="text-primary hover:underline font-bold">palette library</Link>.
+                When choosing your palette, ask yourself: What is the primary emotion I want the user to feel within the first 3 seconds? If it&apos;s &quot;calm,&quot; gravitate toward desaturated blues and greens. If it&apos;s &quot;excited,&quot; look at vibrant oranges or high-contrast tetradic schemes from our <Link href="/palettes" className="text-primary hover:underline font-bold">Explore Library</Link>.
               </p>
               <p>
                 Consider also the cultural context. While blue is universally &quot;trustworthy,&quot; colors like white and red have vastly different meanings between Western and Eastern design standards. If you are building a global product, your UI color palette needs to be sensitive to these nuances to avoid unintended psychological friction.
@@ -323,7 +323,7 @@ export default function UIColorPaletteGuide() {
             <section className="space-y-6 pt-12 border-t border-border">
               <h2 className="text-3xl font-display font-bold text-text-primary">Conclusion</h2>
               <p>
-                Choosing a color palette for UI design is a blend of science and soul. It requires a deep respect for color theory and accessibility, balanced with the intuition of a storyteller. By following the 60-30-10 rule, respecting WCAG standards, and utilizing modern tools like <Link href="/" className="text-primary hover:underline">PaletteFlow</Link>, you ensure that your interface isn&apos;t just beautiful—it&apos;s functional.
+                Choosing a color palette for UI design is a blend of science and soul. It requires a deep respect for color theory and accessibility, balanced with the intuition of a storyteller. By following the 60-30-10 rule, respecting WCAG standards, and utilizing modern tools like the <Link href="/" className="text-primary hover:underline font-bold">PaletteFlow tool</Link>, you ensure that your interface isn&apos;t just beautiful—it&apos;s functional.
               </p>
               <p>
                 Remember: The best UI design is the one that stays out of the user&apos;s way while providing exactly enough visual guidance to make their journey effortless. Start small, test often, and never compromise on accessibility.

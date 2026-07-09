@@ -21,6 +21,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/palettes/theory/complementary-green',
     '/palettes/theory/monochromatic-purple',
     '/palettes/theory/neutral-warm',
+    '/palettes/theory/split-complementary-purple',
+    '/palettes/theory/tetradic-blue',
+    '/palettes/theory/monochromatic-green',
+    '/palettes/theory/analogous-orange',
+    '/palettes/theory/triadic-yellow',
   ];
 
   return staticRoutes.map(route => ({

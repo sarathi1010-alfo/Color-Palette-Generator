@@ -88,5 +88,95 @@
         "answer": "They are perfect for interior design portfolios, organic food brands, and lifestyle blogs where you want to evoke feelings of comfort, trust, and authenticity."
       }
     ]
+  },
+  {
+    "slug": "split-complementary-purple",
+    "name": "Split-Complementary Purple",
+    "description": "A sophisticated split-complementary palette featuring deep purple balanced by warm yellow-orange and yellow-green accents.",
+    "colors": ["#6a0dad", "#ff8c00", "#9acd32", "#f0e68c", "#ffffff"],
+    "harmony": "Split-Complementary",
+    "baseColor": "Purple",
+    "faqs": [
+      {
+        "question": "What is a split-complementary purple palette?",
+        "answer": "A split-complementary purple palette uses a base purple hue along with two colors adjacent to its complement (yellow), which are yellow-orange and yellow-green, offering high contrast with less tension."
+      },
+      {
+        "question": "How to use split-complementary purple in UI?",
+        "answer": "Use purple for primary branding and backgrounds, while using the yellow-orange and yellow-green as vibrant accent colors for CTAs and highlights to create a professional yet dynamic interface."
+      }
+    ]
+  },
+  {
+    "slug": "tetradic-blue",
+    "name": "Tetradic Blue",
+    "description": "A rich and vibrant tetradic palette using blue, orange, red, and green for a complex yet balanced design system.",
+    "colors": ["#0000ff", "#ffa500", "#ff0000", "#008000", "#f8f9fa"],
+    "harmony": "Tetradic",
+    "baseColor": "Blue",
+    "faqs": [
+      {
+        "question": "How does a tetradic blue color scheme work?",
+        "answer": "A tetradic blue scheme (double-complementary) uses two pairs of complementary colors: blue/orange and red/green, creating a rich and varied palette."
+      },
+      {
+        "question": "When should I use a tetradic blue palette?",
+        "answer": "It is best for complex designs that require multiple distinct categories or high-energy marketing materials where variety and balance are equally important."
+      }
+    ]
+  },
+  {
+    "slug": "monochromatic-green",
+    "name": "Monochromatic Green",
+    "description": "A refreshing and professional palette exploring various tints and shades of emerald green.",
+    "colors": ["#004d40", "#00695c", "#00897b", "#26a69a", "#b2dfdb"],
+    "harmony": "Monochromatic",
+    "baseColor": "Green",
+    "faqs": [
+      {
+        "question": "What are the benefits of a monochromatic green palette?",
+        "answer": "It provides a highly cohesive and calming aesthetic, reducing cognitive load while suggesting growth, stability, and health."
+      },
+      {
+        "question": "Is monochromatic green suitable for SaaS products?",
+        "answer": "Yes, particularly for fintech, health-tech, or environmental platforms where a sense of security and refreshing clarity is paramount."
+      }
+    ]
+  },
+  {
+    "slug": "analogous-orange",
+    "name": "Analogous Orange",
+    "description": "A warm and energetic palette featuring orange, red-orange, and yellow-orange for a friendly, sun-kissed feel.",
+    "colors": ["#ff4500", "#ff8c00", "#ffa500", "#ffd700", "#fff5e6"],
+    "harmony": "Analogous",
+    "baseColor": "Orange",
+    "faqs": [
+      {
+        "question": "What emotions does an analogous orange palette evoke?",
+        "answer": "Analogous orange schemes evoke warmth, friendliness, enthusiasm, and creativity, making them excellent for lifestyle and social platforms."
+      },
+      {
+        "question": "How to balance analogous orange in web design?",
+        "answer": "Use the deeper red-oranges for text or accents, and lighter yellow-oranges or off-whites for backgrounds to ensure readability while maintaining high energy."
+      }
+    ]
+  },
+  {
+    "slug": "triadic-yellow",
+    "name": "Triadic Yellow",
+    "description": "An optimistic and high-contrast palette using yellow with its triadic partners, purple and cyan.",
+    "colors": ["#ffd700", "#8a2be2", "#00ced1", "#1a1a1a", "#ffffff"],
+    "harmony": "Triadic",
+    "baseColor": "Yellow",
+    "faqs": [
+      {
+        "question": "How to create a balanced triadic yellow palette?",
+        "answer": "A triadic yellow palette uses yellow, purple, and cyan. To balance it, use one color as the dominant force (usually a neutral or one of the three) and others as sharp accents."
+      },
+      {
+        "question": "Where is triadic yellow most effective?",
+        "answer": "It is highly effective in creative agencies, modern art portfolios, or any project that wants to stand out with a bold, unique, and avant-garde color story."
+      }
+    ]
   }
 ]
