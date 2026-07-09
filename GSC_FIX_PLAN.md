@@ -1,28 +1,34 @@
-# Technical SEO Audit & Google Search Console (GSC) Fix Plan
+# Google Search Console (GSC) Fix Plan - PaletteFlow
 
-## 1. Audit Findings
+## Identified Issues (Simulated & Code Scan)
 
-### Sitemap Status
-- **Current Sitemap:** `src/app/sitemap.ts` is the primary source.
-- **Action Taken:** Manually added 6 new URLs to `src/app/sitemap.ts`.
+1. **Inconsistent Internal Link Styling**:
+   - *Observation*: Several internal links to the homepage (/) and palettes (/palettes) are missing the `font-bold` class required by our SEO standards (as found in memory).
+   - *Impact*: Reduced semantic weight for primary pillar pages.
+   - *Fix*: Global search and replace to ensure consistency across all guide and blog pages.
 
-### Robots.txt & Indexing
-- **Robots.txt:** Managed dynamically at `src/app/robots.txt/route.ts`.
-- **Duplicate Content:** Middleware (`src/middleware.ts`) correctly adds `noindex` to `.vercel.app` domains.
+2. **Dated Content in Sitemaps**:
+   - *Observation*: Some legacy guides haven't been updated in several months.
+   - *Impact*: Search engines may prioritize fresher content from competitors.
+   - *Fix*: Implemented a "Refresh" cycle starting with `choose-website-color-palette` and `color-theory-complementary-triadic-analogous`.
 
-### Schema Validation
-- **Tier 1:** Article schema injected and verified.
-- **Tier 2:** FAQ schema injected and verified.
+3. **Potential Mobile Usability (Click Targets)**:
+   - *Observation*: Footer links are currently tight.
+   - *Impact*: Possible "Clickable elements too close together" errors in GSC.
+   - *Fix*: Audit `src/components/layout/Footer.tsx` and increase padding/gap between links.
 
-## 2. GSC Coverage Fix Plan
+4. **Missing Alt Tags (Proactive)**:
+   - *Observation*: Scan showed no current `alt=""` issues, but we should enforce a `lint` rule for this.
+   - *Fix*: Add `jsx-a11y/alt-text` to ESLint config if not already present.
 
-| Issue Type | Potential Cause | Fix Action | Priority |
-|------------|-----------------|------------|----------|
-| **Discovered - currently not indexed** | Rapid publishing of programmatic pages. | Trigger IndexNow API for the new batch. | High |
-| **Excluded by 'noindex' tag** | Vercel preview deployments. | Expected behavior. Ensure production domain is unaffected. | Medium |
-| **Missing Field in Schema** | `author` or `updatedAt` in Article schema. | Verified: both are present in the new Tier 1 article. | Low |
+## Fix Implementation Schedule
 
-## 3. Maintenance Tasks
-1. **IndexNow Submission:** Submit all 6 new URLs to the IndexNow API.
-2. **Internal Linking Audit:** Ensure all new pages are reachable within 2 clicks from the homepage. (Completed for Tier 1).
-3. **CI/CD Integration:** Authenticated sitemap ping and automated link checking in CI using `secrets.GITHUB_TOKEN`.
+- **Task 1 (Immediate)**: Standardize `font-bold` for internal links in all `/guides` pages.
+- **Task 2 (Immediate)**: Update `updatedAt` for 2 pillar guides (Done).
+- **Task 3 (Next Sprint)**: Refactor Footer component for better touch targets.
+- **Task 4 (Ongoing)**: Monthly content refresh for all pages with >90 days since last `updatedAt`.
+
+## Validation
+
+- Rerun `npm run lint` and `tsx scripts/validate-seo.ts` after fixes.
+- Use Playwright to check for visual regressions on mobile viewports.
