@@ -50,7 +50,7 @@ const metaDataObj: SeoMeta = {
   pageType: "article",
   author: { name: "PaletteFlow Editorial" },
   publishedAt: "2024-11-20T10:00:00Z",
-  updatedAt: "2026-06-15T10:00:00Z"
+  updatedAt: "2026-07-10T00:00:00Z"
 };
 
 const faqData = [
@@ -83,7 +83,7 @@ export default function ColorTheoryGuidePage() {
               Mastering Color Theory: <span className="text-text-secondary">How to Build Perfect Pairings</span>
             </h1>
             <p className="text-xl text-text-secondary leading-relaxed">
-              Unlock the science behind harmonious design. Learn how to systematically build stunning color palettes that balance emotion, accessibility, and visual hierarchy. Read more about choosing the best palette <Link href="/guides/choose-website-color-palette" className="text-primary hover:underline">here</Link> or dive into our <Link href="/blog/choose-ui-color-palette" className="text-primary hover:underline">UI color palette masterclass</Link>.
+              Unlock the science behind harmonious design. Learn how to systematically build stunning color palettes that balance emotion, accessibility, and visual hierarchy. Read more about choosing the best palette <Link href="/guides/choose-website-color-palette" className="text-primary hover:underline">here</Link> or dive into our <Link href="/blog/choose-ui-color-palette" className="text-primary hover:underline font-bold">UI color palette masterclass</Link>.
             </p>
           </div>
 

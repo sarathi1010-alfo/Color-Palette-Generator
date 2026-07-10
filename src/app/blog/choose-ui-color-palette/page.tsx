@@ -21,8 +21,8 @@ const metaDataObj: SeoMeta = {
   slug: "/blog/choose-ui-color-palette",
   pageType: "article",
   author: { name: "PaletteFlow Editorial" },
-  publishedAt: "2026-06-15T09:00:00Z",
-  updatedAt: "2026-06-15T09:00:00Z"
+  publishedAt: "2026-07-10T00:00:00Z",
+  updatedAt: "2026-07-10T00:00:00Z"
 };
 
 export default function UIColorPaletteGuide() {
