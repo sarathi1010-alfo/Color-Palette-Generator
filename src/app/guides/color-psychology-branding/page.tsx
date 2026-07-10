@@ -22,7 +22,7 @@ const metaDataObj: SeoMeta = {
   pageType: "article",
   author: { name: "PaletteFlow Editorial" },
   publishedAt: "2024-12-05T09:00:00Z",
-  updatedAt: "2026-06-15T12:00:00Z"
+  updatedAt: "2026-06-30T12:00:00Z"
 };
 
 export default function ColorPsychologyPage() {
