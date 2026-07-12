@@ -67,14 +67,14 @@ export default function UIColorPaletteGuide() {
             </section>
 
             <section className="space-y-6">
-              <h2 className="text-3xl font-display font-bold text-text-primary">1. Understanding the Psychology of Color in Digital Spaces</h2>
+              <h2 className="text-3xl font-display font-bold text-text-primary">How does color psychology impact digital spaces?</h2>
               <p>
                 Before you ever touch a hex code, you must understand the &quot;why&quot; behind the &quot;what.&quot; Color psychology is the study of how different hues influence human behavior and decision-making. In UI design, this is the foundation of brand trust and user engagement. It is not just about the color itself, but the context in which it is used and the density of that color within the viewport.
               </p>
               <p>
                 Psychological triggers are often subconscious. A user doesn&apos;t think &quot;I trust this bank because the header is blue&quot;; rather, the blue header provides a feeling of stability that reduces their friction during a high-stakes financial transaction. As we move deeper into 2026, designers are leveraging these psychological cues to build more &quot;human-centric&quot; products.
               </p>
-              <h3 className="text-2xl font-bold text-text-primary underline decoration-primary/30 decoration-4 underline-offset-8 mb-4">The Spectrum of UI Emotions:</h3>
+              <h3 className="text-2xl font-bold text-text-primary underline decoration-primary/30 decoration-4 underline-offset-8 mb-4">What are the common UI emotions?</h3>
               <ul className="space-y-4">
                 <li>
                   <strong className="text-blue-400">Blue (The Professional):</strong> Trust, security, and stability. This is why blue is the dominant color for fintech, insurance, and enterprise SaaS products. It feels &quot;safe.&quot; However, in 2026, we are seeing a shift away from &quot;Corporate Blue&quot; toward &quot;Electric Indigo&quot; or &quot;Slate Blue&quot; to add more personality to otherwise sterile interfaces.
@@ -101,24 +101,24 @@ export default function UIColorPaletteGuide() {
             </section>
 
             <section className="space-y-6">
-              <h2 className="text-3xl font-display font-bold text-text-primary">2. Building the Functional Hierarchy: Primary, Secondary, and Neutral Palettes</h2>
+              <h2 className="text-3xl font-display font-bold text-text-primary">How do you build a functional color hierarchy?</h2>
               <p>
                 A professional UI palette isn&apos;t just a collection of five random colors found on a mood board. It is a functional system with a clear hierarchy. In modern design systems, we categorize colors by their purpose: Brand, Semantic, and Neutral.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 not-prose">
                 <div className="p-6 bg-surface border border-border rounded-2xl">
                   <div className="w-10 h-10 bg-primary rounded-lg mb-4 flex items-center justify-center text-background font-bold">1</div>
-                  <h3 className="text-lg font-bold text-text-primary mb-2">Brand Colors</h3>
+                  <h3 className="text-lg font-bold text-text-primary mb-2">What are brand colors?</h3>
                   <p className="text-sm text-text-secondary">Your Primary and Secondary colors. They represent your identity and appear on key interactions.</p>
                 </div>
                 <div className="p-6 bg-surface border border-border rounded-2xl">
                   <div className="w-10 h-10 bg-red-500 rounded-lg mb-4 flex items-center justify-center text-white font-bold">2</div>
-                  <h3 className="text-lg font-bold text-text-primary mb-2">Semantic Colors</h3>
+                  <h3 className="text-lg font-bold text-text-primary mb-2">What are semantic colors?</h3>
                   <p className="text-sm text-text-secondary">Colors that convey meaning: Red for error, Green for success, Yellow for warning, Blue for info.</p>
                 </div>
                 <div className="p-6 bg-surface border border-border rounded-2xl">
                   <div className="w-10 h-10 bg-gray-500 rounded-lg mb-4 flex items-center justify-center text-white font-bold">3</div>
-                  <h3 className="text-lg font-bold text-text-primary mb-2">Neutral Colors</h3>
+                  <h3 className="text-lg font-bold text-text-primary mb-2">What are neutral colors?</h3>
                   <p className="text-sm text-text-secondary">The unsung heroes. Grays, slates, and tints used for text, backgrounds, borders, and shadows.</p>
                 </div>
               </div>
@@ -131,7 +131,7 @@ export default function UIColorPaletteGuide() {
             </section>
 
             <section className="space-y-6">
-              <h2 className="text-3xl font-display font-bold text-text-primary">3. The 60-30-10 Rule in UI/UX</h2>
+              <h2 className="text-3xl font-display font-bold text-text-primary">What is the 60-30-10 rule in UI/UX design?</h2>
               <p>
                 To achieve perfect visual balance, designers utilize the 60-30-10 rule. While it originated in interior design, it is perhaps even more relevant in digital interfaces where screen real estate is limited and user attention spans are even shorter.
               </p>
@@ -152,7 +152,7 @@ export default function UIColorPaletteGuide() {
             </section>
 
             <section className="space-y-6">
-              <h2 className="text-3xl font-display font-bold text-text-primary">4. Essential Color Harmonies for Digital Interfaces</h2>
+              <h2 className="text-3xl font-display font-bold text-text-primary">Which color harmonies are essential for digital interfaces?</h2>
               <p>
                 Color theory is the mathematical framework behind beauty. By using established harmonies, you ensure that your colors have a balanced &quot;vibe&quot; from the start. When you use our <Link href="/" className="text-primary hover:underline font-bold">UI color generator</Link>, you can toggle these specific settings to see them in action:
               </p>
@@ -160,28 +160,28 @@ export default function UIColorPaletteGuide() {
                 <div className="flex gap-6 items-start">
                   <div className="bg-primary/20 p-4 rounded-xl shrink-0"><Layers className="text-primary" /></div>
                   <div>
-                    <h3 className="text-xl font-bold text-text-primary mb-2">Analogous (The Calm Choice)</h3>
+                    <h3 className="text-xl font-bold text-text-primary mb-2">When should you use analogous colors?</h3>
                     <p className="m-0">Colors that sit next to each other on the color wheel (e.g., Blue, Blue-Green, and Green). This creates a very harmonious, serene look. It is perfect for content-heavy sites, such as blogs or news aggregators, where you want to minimize visual friction and let the text speak for itself.</p>
                   </div>
                 </div>
                 <div className="flex gap-6 items-start">
                   <div className="bg-primary/20 p-4 rounded-xl shrink-0"><Zap className="text-primary" /></div>
                   <div>
-                    <h3 className="text-xl font-bold text-text-primary mb-2">Complementary (The Bold Choice)</h3>
+                    <h3 className="text-xl font-bold text-text-primary mb-2">When is a complementary palette best?</h3>
                     <p className="m-0">Colors opposite each other on the wheel (e.g., Orange and Blue). This provides the highest level of visual tension and contrast. Use this harmony if you want your primary action buttons to absolutely &quot;pop&quot; against the background. It is the go-to for marketing landing pages and sales funnels.</p>
                   </div>
                 </div>
                 <div className="flex gap-6 items-start">
                   <div className="bg-primary/20 p-4 rounded-xl shrink-0"><ShieldCheck className="text-primary" /></div>
                   <div>
-                    <h3 className="text-xl font-bold text-text-primary mb-2">Triadic (The Energetic Choice)</h3>
+                    <h3 className="text-xl font-bold text-text-primary mb-2">Why choose a triadic harmony?</h3>
                     <p className="m-0">Three colors spaced evenly around the wheel. This is vibrant and playful, even if you use pale or unsaturated versions of your hues. It is often used in gaming interfaces, children&apos;s educational platforms, or brands that want to appear multi-faceted and &quot;fun.&quot;</p>
                   </div>
                 </div>
                 <div className="flex gap-6 items-start">
                   <div className="bg-primary/20 p-4 rounded-xl shrink-0"><CheckCircle2 className="text-primary" /></div>
                   <div>
-                    <h3 className="text-xl font-bold text-text-primary mb-2">Split-Complementary (The Sophisticated Choice)</h3>
+                    <h3 className="text-xl font-bold text-text-primary mb-2">What makes split-complementary sophisticated?</h3>
                     <p className="m-0">A base color and the two colors adjacent to its complement. This offers high contrast like a complementary scheme but with less &quot;jarring&quot; tension. It is a favorite among UI designers in 2026 for creating professional but visually interesting brand identities.</p>
                   </div>
                 </div>
@@ -192,18 +192,18 @@ export default function UIColorPaletteGuide() {
             </section>
 
             <section className="space-y-6">
-              <h2 className="text-3xl font-display font-bold text-text-primary">5. Accessibility: The Non-Negotiable Standard</h2>
+              <h2 className="text-3xl font-display font-bold text-text-primary">Why is accessibility a non-negotiable standard?</h2>
               <p>
                 Design without accessibility is just art. In 2026, web standards are stricter than ever. If your color palette doesn&apos;t meet WCAG (Web Content Accessibility Guidelines) requirements, your site will not only be unusable for millions but will also suffer in SEO rankings. Google and other search engines now factor in accessibility signals as part of their Core Web Vitals and user experience metrics.
               </p>
-              <h3 className="text-2xl font-bold text-text-primary">Contrast Ratios (WCAG 2.1 AA)</h3>
+              <h3 className="text-2xl font-bold text-text-primary">How do you ensure proper WCAG contrast ratios?</h3>
               <p>
                 Ensure a contrast ratio of at least <strong>4.5:1</strong> for normal text and <strong>3:1</strong> for large text. When choosing a primary color for your text, always test it against your background colors. Pure black (#000000) on pure white (#FFFFFF) can actually cause &quot;halo&quot; effects for some users with astigmatism; many professionals prefer a very deep gray (#1A1A1A) on an off-white background (#FAFAFA) for better readability.
               </p>
               <p>
                 Don&apos;t forget about your interactive states. Hover and focus states must also maintain sufficient contrast. If your button turns from a dark blue to a medium blue on hover, ensure the text remains readable during that transition.
               </p>
-              <h3 className="text-2xl font-bold text-text-primary">Color Blindness Considerations</h3>
+              <h3 className="text-2xl font-bold text-text-primary">How should you design for color blindness?</h3>
               <p>
                 Never rely on color alone to convey meaning. If a field is in an &quot;error&quot; state, don&apos;t just turn the border red. Include an icon (like an exclamation mark) or clear helper text. Approximately 8% of men and 0.5% of women globally have some form of color vision deficiency. This represents a massive segment of your potential user base.
               </p>
@@ -213,7 +213,7 @@ export default function UIColorPaletteGuide() {
             </section>
 
             <section className="space-y-6">
-              <h2 className="text-3xl font-display font-bold text-text-primary">6. Practical Steps to Building Your Palette</h2>
+              <h2 className="text-3xl font-display font-bold text-text-primary">What are the practical steps to build your palette?</h2>
               <ol className="list-decimal pl-8 space-y-6">
                 <li>
                   <strong className="text-text-primary">Analyze the Content:</strong> What are you selling? A data dashboard needs many subtle variations of gray and blue to distinguish between data points. A portfolio needs one strong personality color.
@@ -234,21 +234,21 @@ export default function UIColorPaletteGuide() {
             </section>
 
             <section className="space-y-6">
-              <h2 className="text-3xl font-display font-bold text-text-primary">7. Testing Your Palette Across Devices & Lighting</h2>
+              <h2 className="text-3xl font-display font-bold text-text-primary">How do you test palettes across devices and lighting?</h2>
               <p>
                 A palette that looks stunning on your expensive Pro Display XDR might look washed out on a budget Android phone in direct sunlight. Always test your colors on multiple screen types, including OLED, IPS, and low-end LCD panels. The way colors render can drastically affect the perceived &quot;quality&quot; of your product.
               </p>
               <p>
                 Furthermore, the &quot;Dark Mode&quot; shift is permanent. You are no longer choosing one palette; you are choosing two distinct but related systems. Your dark mode palette shouldn&apos;t just be a mathematical inversion of your light mode. You often need to increase the saturation of your primary colors in dark mode to make them appear equally vibrant against a dark backdrop, a phenomenon known as &quot;perceptual color matching.&quot;
               </p>
-              <h3 className="text-2xl font-bold text-text-primary">Micro-Interactions and State Colors</h3>
+              <h3 className="text-2xl font-bold text-text-primary">How do micro-interactions affect state colors?</h3>
               <p>
                 In 2026, the best UIs use color to reward user behavior. Subtle shifts in hue during a button press or a &quot;success&quot; pulse in the primary brand color can make an interface feel alive. Ensure your palette includes enough &quot;intermediate&quot; shades to support these micro-interactions without breaking the visual consistency of the overall design.
               </p>
             </section>
 
             <section className="space-y-6">
-              <h2 className="text-3xl font-display font-bold text-text-primary">8. Advanced Color Scaling for Modern Design Systems</h2>
+              <h2 className="text-3xl font-display font-bold text-text-primary">How does advanced color scaling work for modern design systems?</h2>
               <p>
                 In 2026, choosing five colors isn&apos;t enough. You need to build a &quot;Color System.&quot; This means creating a scale for every primary and secondary color in your palette. A typical professional system includes 9 or 10 steps of each color:
               </p>
@@ -286,7 +286,7 @@ export default function UIColorPaletteGuide() {
             </section>
 
             <section className="space-y-6">
-              <h2 className="text-3xl font-display font-bold text-text-primary">9. Common Pitfalls to Avoid in UI Color Selection</h2>
+              <h2 className="text-3xl font-display font-bold text-text-primary">What common pitfalls should you avoid in UI color selection?</h2>
               <ul className="list-disc pl-8 space-y-4">
                 <li>
                   <strong className="text-text-primary">Vibrancy Overload:</strong> If every color is at 100% saturation, the user will experience &quot;visual fatigue.&quot; The brain can only process a few high-saturation areas at once. Use desaturated colors for larger surfaces.
@@ -321,7 +321,7 @@ export default function UIColorPaletteGuide() {
             </section>
 
             <section className="space-y-6 pt-12 border-t border-border">
-              <h2 className="text-3xl font-display font-bold text-text-primary">Conclusion</h2>
+              <h2 className="text-3xl font-display font-bold text-text-primary">What is the final verdict on UI color selection?</h2>
               <p>
                 Choosing a color palette for UI design is a blend of science and soul. It requires a deep respect for color theory and accessibility, balanced with the intuition of a storyteller. By following the 60-30-10 rule, respecting WCAG standards, and utilizing modern tools like <Link href="/" className="text-primary hover:underline">PaletteFlow</Link>, you ensure that your interface isn&apos;t just beautiful—it&apos;s functional.
               </p>
