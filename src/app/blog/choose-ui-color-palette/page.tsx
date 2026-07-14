@@ -54,7 +54,7 @@ export default function UIColorPaletteGuide() {
               <div className="bg-surface border-l-4 border-primary p-8 rounded-r-2xl my-8">
                 <p className="text-text-primary font-bold mb-2">AI Snapshot / Quick Answer:</p>
                 <p className="m-0 text-lg leading-relaxed">
-                  To choose a color palette for UI design, define emotional goals, apply the 60-30-10 rule for visual balance, and ensure WCAG-compliant contrast. Use the <Link href="/" className="text-primary hover:underline font-bold">PaletteFlow generator</Link> to test harmonious schemes like analogous or complementary variations for optimal UX.
+                  To choose a color palette for UI design, define emotional goals, apply the 60-30-10 rule for visual balance, and ensure WCAG-compliant contrast. Use the <Link href="/" className="text-primary hover:underline font-bold">PaletteFlow generator</Link> to test harmonious schemes like analogous or complementary variations.
                 </p>
               </div>
 
@@ -323,7 +323,7 @@ export default function UIColorPaletteGuide() {
             <section className="space-y-6 pt-12 border-t border-border">
               <h2 className="text-3xl font-display font-bold text-text-primary">What is the final verdict on UI color selection?</h2>
               <p>
-                Choosing a color palette for UI design is a blend of science and soul. It requires a deep respect for color theory and accessibility, balanced with the intuition of a storyteller. By following the 60-30-10 rule, respecting WCAG standards, and utilizing modern tools like <Link href="/" className="text-primary hover:underline">PaletteFlow</Link>, you ensure that your interface isn&apos;t just beautiful—it&apos;s functional.
+                Choosing a color palette for UI design is a blend of science and soul. It requires a deep respect for color theory and accessibility, balanced with the intuition of a storyteller. By following the 60-30-10 rule, respecting WCAG standards, and utilizing modern tools like <Link href="/" className="text-primary hover:underline font-bold">PaletteFlow</Link>, you ensure that your interface isn&apos;t just beautiful—it&apos;s functional.
               </p>
               <p>
                 Remember: The best UI design is the one that stays out of the user&apos;s way while providing exactly enough visual guidance to make their journey effortless. Start small, test often, and never compromise on accessibility.

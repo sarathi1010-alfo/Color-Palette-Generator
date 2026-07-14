@@ -31,7 +31,7 @@ export default function LibraryPage() {
     <>
       <JsonLd schema={buildFaqSchema(faqs)} />
       <div className="bg-primary text-background py-4 px-6 text-center font-bold">
-        New: Learn <Link href="/blog/choose-ui-color-palette" className="underline hover:text-background/80 transition-colors">how to choose a color palette for UI design</Link> using our 2026 framework.
+        New: Learn <Link href="/blog/choose-ui-color-palette" className="underline hover:text-background/80 transition-colors font-bold">how to choose a color palette for UI design</Link> using our 2026 framework.
       </div>
       <LibraryClientPage faqs={faqs} />
     </>
