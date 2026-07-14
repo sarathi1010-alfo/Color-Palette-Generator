@@ -147,7 +147,7 @@ export default function HomePage() {
             <div className="flex items-end justify-between border-b border-border pb-8">
                 <div className="space-y-2">
                     <h2 className="text-4xl font-display font-bold">Trending Inspiration</h2>
-                    <p className="text-text-secondary">Explore the most popular palettes this week.</p>
+                    <p className="text-text-secondary">Explore the most popular palettes this week, or <Link href="/blog/choose-ui-color-palette" className="text-primary hover:underline font-bold">read our 2026 UI guide</Link>.</p>
                 </div>
                 <Link href="/palettes" className="text-sm font-bold underline hover:text-primary transition-colors">
                     Explore Library
