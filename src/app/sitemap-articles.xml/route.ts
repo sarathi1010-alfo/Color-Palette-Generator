@@ -11,7 +11,13 @@ const articles = [
   '/guides/css-variables-color-palette-generator',
   '/guides/color-palette-generator-vs-coolors',
   '/guides/color-psychology-branding',
-  '/guides/tailwind-css-color-palette-generator'
+  '/guides/tailwind-css-color-palette-generator',
+  '/guides/ultimate-guide-color-theory-2026',
+  '/learn/what-is-color-theory',
+  '/learn/what-is-a-monochromatic-palette',
+  '/learn/what-is-a-complementary-palette',
+  '/learn/what-is-a-triadic-palette',
+  '/learn/what-is-an-analogous-palette'
 ];
 
 export async function GET() {
