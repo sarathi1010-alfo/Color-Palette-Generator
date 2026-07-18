@@ -7,23 +7,41 @@ import Link from "next/link";
 import { BookOpen, ArrowRight } from "lucide-react";
 
 export const metadata = resolveMetadata(buildLandingMeta({
-  title: "Design Blog & Color Guides",
+  title: "PaletteFlow Blog – Expert Color Guides, Palettes & Design Insights",
   description: "Master color theory, accessibility, and design workflows with our comprehensive guides and articles.",
   slug: "/blog",
 }));
 
 const categories = [
   {
-    name: "Guides",
-    description: "Deep dives into color theory and design principles.",
-    href: "/guides",
-    count: 8
+    name: "Color Theory",
+    description: "Deep dives into color harmonies, psychology, and theoretical foundations.",
+    href: "/guides/ultimate-guide-color-theory-2026",
+    count: 1
   },
   {
-    name: "Learn",
-    description: "Quick answers to fundamental design terminology.",
-    href: "/learn",
-    count: 6
+    name: "Industry Palettes",
+    description: "Best practices and color schemes tailored for specific industries and audiences.",
+    href: "/blog",
+    count: 0
+  },
+  {
+    name: "Accessibility",
+    description: "Ensure your designs meet WCAG standards with high-contrast color choices.",
+    href: "/guides/wcag-contrast-checker-color-accessibility",
+    count: 1
+  },
+  {
+    name: "Export Guides",
+    description: "Learn how to export and use color palettes in CSS, Tailwind, Figma, and more.",
+    href: "/blog",
+    count: 0
+  },
+  {
+    name: "Data & Trends",
+    description: "Stay ahead with the latest 2026 color design trends and statistical insights.",
+    href: "/blog",
+    count: 0
   }
 ];
 
@@ -40,10 +58,10 @@ export default function BlogLandingPage() {
               <span>Resources</span>
             </div>
             <h1 className="text-5xl md:text-7xl font-display font-bold leading-tight">
-              Design <span className="text-primary italic">Blog</span>
+              PaletteFlow <span className="text-primary italic">Blog</span> – Expert Color Guides, Palettes & Design Insights
             </h1>
             <p className="text-xl text-text-secondary leading-relaxed max-w-2xl">
-              Everything you need to master colors, from basic theory to advanced developer workflows.
+              Welcome to the PaletteFlow Blog. We believe that color is the foundation of exceptional design. Our mission is to provide you with expert-level guides, data-driven insights, and practical resources to master color theory in your creative workflow. Whether you are a seasoned UI/UX designer building complex design systems, or a solo developer trying to choose the perfect primary hex code, our resources are tailored for you. Explore our comprehensive deep-dives, learn how to create accessible and inclusive digital experiences, and stay ahead of the curve with the latest 2026 industry color trends. Check out our <Link href="/generator" className="text-primary hover:underline font-bold">Palette Generator</Link>, browse the <Link href="/palettes" className="text-primary hover:underline font-bold">Palettes Library</Link>, or return to the <Link href="/" className="text-primary hover:underline font-bold">Home Page</Link> to start creating immediately.
             </p>
           </div>
 
@@ -64,7 +82,7 @@ export default function BlogLandingPage() {
                   {category.description}
                 </p>
                 <div className="pt-4 text-sm font-bold text-primary tracking-widest uppercase">
-                  Explore {category.count} Articles
+                  Explore {category.name}
                 </div>
               </Link>
             ))}
@@ -73,17 +91,17 @@ export default function BlogLandingPage() {
           <section className="mt-32 space-y-12">
              <h2 className="text-4xl font-display font-bold">Featured Content</h2>
              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <Link href="/guides/ultimate-guide-color-palettes-2026" className="group space-y-4">
+                <Link href="/guides/ultimate-guide-color-theory-2026" className="group space-y-4">
                     <div className="aspect-video bg-surface rounded-2xl border border-border group-hover:border-primary transition-colors" />
-                    <h3 className="text-xl font-bold group-hover:text-primary transition-colors">The Ultimate Guide to Color Palettes in 2026</h3>
+                    <h3 className="text-xl font-bold group-hover:text-primary transition-colors">The Ultimate Guide to Color Theory in 2026</h3>
                 </Link>
-                <Link href="/guides/wcag-contrast-checker-color-accessibility" className="group space-y-4">
+                <Link href="/learn/what-is-color-theory" className="group space-y-4">
                     <div className="aspect-video bg-surface rounded-2xl border border-border group-hover:border-primary transition-colors" />
-                    <h3 className="text-xl font-bold group-hover:text-primary transition-colors">Complete Guide to WCAG Color Accessibility</h3>
+                    <h3 className="text-xl font-bold group-hover:text-primary transition-colors">What is Color Theory?</h3>
                 </Link>
-                <Link href="/guides/color-psychology-branding" className="group space-y-4">
+                <Link href="/learn/what-is-a-monochromatic-palette" className="group space-y-4">
                     <div className="aspect-video bg-surface rounded-2xl border border-border group-hover:border-primary transition-colors" />
-                    <h3 className="text-xl font-bold group-hover:text-primary transition-colors">Color Psychology in Brand Design</h3>
+                    <h3 className="text-xl font-bold group-hover:text-primary transition-colors">What is a Monochromatic Palette?</h3>
                 </Link>
              </div>
           </section>

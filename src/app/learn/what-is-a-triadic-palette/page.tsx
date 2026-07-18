@@ -9,21 +9,21 @@ import { HelpCircle } from "lucide-react";
 import { SeoMeta } from "@/types/seo";
 
 export const metadata = resolveMetadata(buildLandingMeta({
-  title: "What is Color Theory? Design Term Explained",
-  description: "Learn what color theory means in UI/UX design, how it works, and why it is important for your creative workflow.",
-  slug: "/learn/what-is-color-theory",
+  title: "What is a Triadic Palette? Design Term Explained",
+  description: "Learn what a triadic palette means in UI/UX design, how it works, and why it is important for your creative workflow.",
+  slug: "/learn/what-is-a-triadic-palette",
 }));
 
 const metaDataObj: SeoMeta = {
-  title: "What is Color Theory? Design Term Explained",
-  description: "Learn what color theory means in UI/UX design, how it works, and why it is important for your creative workflow.",
-  slug: "/learn/what-is-color-theory",
+  title: "What is a Triadic Palette? Design Term Explained",
+  description: "Learn what a triadic palette means in UI/UX design, how it works, and why it is important for your creative workflow.",
+  slug: "/learn/what-is-a-triadic-palette",
   pageType: "article",
   author: { name: "PaletteFlow Editorial" },
   publishedAt: new Date().toISOString()
 };
 
-export default function ColorTheoryMicroPage() {
+export default function TriadicMicroPage() {
   return (
     <div className="flex flex-col min-h-screen bg-background">
       <JsonLd schema={buildArticleSchema(metaDataObj)} />
@@ -37,47 +37,47 @@ export default function ColorTheoryMicroPage() {
               <span>Glossary</span>
             </div>
             <h1 className="text-5xl md:text-6xl font-display font-bold leading-tight">
-              What is Color Theory?
+              What is a Triadic Palette?
             </h1>
             <div className="bg-surface border border-primary/20 p-8 rounded-2xl">
                <p className="text-2xl text-text-primary font-display leading-relaxed m-0 italic">
-                  &quot;Color theory is the practical combination of art and science that determines what colors look good together. It explains how humans perceive color, the visual effects of how colors mix, match or contrast with each other, and the messages colors communicate in design.&quot;
+                  &quot;A triadic color palette consists of three colors that are evenly spaced around the color wheel, forming a perfect triangle. This creates a vibrant, energetic, and highly dynamic visual scheme, even when using pale or desaturated versions of the hues.&quot;
                </p>
             </div>
           </div>
 
           <article className="prose prose-invert prose-lg max-w-none space-y-12 text-text-secondary">
             <section className="space-y-6">
-                <h2 className="text-3xl font-display font-bold text-text-primary">How Does Color Theory Work?</h2>
-                <p>Color theory works by organizing colors on a color wheel, which is divided into primary colors (red, blue, yellow), secondary colors (created by mixing primary colors), and tertiary colors. By understanding the relationships between these colors, designers can create harmonious color schemes such as complementary (opposites on the wheel), analogous (next to each other), or triadic (evenly spaced).</p>
+                <h2 className="text-3xl font-display font-bold text-text-primary">How Does a Triadic Palette Work?</h2>
+                <p>Because the three colors are spaced 120 degrees apart on the wheel (e.g., Red, Yellow, Blue; or Purple, Orange, Green), there is a strong contrast between all of them. To make a triadic scheme work in UI design without overwhelming the user, designers typically choose one color to dominate, using the second as a secondary structural color, and the third strictly as an accent.</p>
             </section>
 
             <section className="space-y-6">
-                <h2 className="text-3xl font-display font-bold text-text-primary">Real-World Example in UI Design</h2>
-                <p>In digital design, an e-commerce website might use color theory to guide user behavior. For instance, they might choose a calm, trustworthy blue for their primary branding and background elements, but use a high-contrast complementary color like bright orange for their &quot;Add to Cart&quot; buttons to draw the user&apos;s eye and encourage conversion.</p>
+                <h2 className="text-3xl font-display font-bold text-text-primary">Real-World Example in Kids&apos; Apps</h2>
+                <p>Educational or entertainment apps for children frequently use triadic schemes (like vibrant Red, Blue, and Yellow) because the high energy and contrast capture attention. In more professional software, a desaturated triad (like a soft teal, a muted gold, and a pale coral) might be used for complex data visualization to clearly differentiate chart categories.</p>
             </section>
 
             <section className="space-y-6">
-                <h2 className="text-3xl font-display font-bold text-text-primary">Why is Color Theory Important?</h2>
-                <p>Color theory is crucial because it provides a logical structure for color usage, ensuring that designs are not just visually pleasing, but also functional. It helps in creating visual hierarchy, conveying brand personality, and importantly, ensuring accessibility by maintaining proper contrast ratios between text and background elements.</p>
+                <h2 className="text-3xl font-display font-bold text-text-primary">Why is a Triadic Palette Important?</h2>
+                <p>It is important when you need a multi-colored approach that remains mathematically balanced. It allows for more variety and color coding than a monochromatic or complementary scheme while preventing the chaos of choosing colors randomly.</p>
             </section>
 
             <section className="space-y-6">
-                <h2 className="text-3xl font-display font-bold text-text-primary">Color Theory vs Color Psychology</h2>
+                <h2 className="text-3xl font-display font-bold text-text-primary">Triadic vs Complementary</h2>
                 <div className="not-prose overflow-x-auto">
                     <table className="w-full text-left border-collapse bg-surface border border-border rounded-2xl">
                         <thead>
                             <tr className="border-b border-border text-text-primary">
                                 <th className="p-4">Comparison</th>
-                                <th className="p-4">Color Theory</th>
-                                <th className="p-4">Color Psychology</th>
+                                <th className="p-4">Triadic</th>
+                                <th className="p-4">Complementary</th>
                             </tr>
                         </thead>
                         <tbody className="text-text-secondary">
                             <tr>
                                 <td className="p-4 font-bold">Key Difference</td>
-                                <td className="p-4">The technical rules of how colors mix, contrast, and harmonize visually.</td>
-                                <td className="p-4">The emotional and psychological impact that colors have on human behavior.</td>
+                                <td className="p-4">Uses 3 colors forming a triangle; complex and vibrant.</td>
+                                <td className="p-4">Uses 2 opposite colors; simple and high-contrast.</td>
                             </tr>
                         </tbody>
                     </table>
@@ -89,19 +89,15 @@ export default function ColorTheoryMicroPage() {
                 <ul className="list-none p-0 m-0 space-y-2">
                     <li className="flex items-center space-x-2">
                         <span className="w-2 h-2 rounded-full bg-primary" />
-                        <span>The Color Wheel</span>
+                        <span>Equidistant Spacing (120 degrees)</span>
                     </li>
                     <li className="flex items-center space-x-2">
                         <span className="w-2 h-2 rounded-full bg-primary" />
-                        <span>Color Harmonies (Schemes)</span>
+                        <span>High Vibrancy and Energy</span>
                     </li>
                     <li className="flex items-center space-x-2">
                         <span className="w-2 h-2 rounded-full bg-primary" />
-                        <span>Color Properties (Hue, Saturation, Value)</span>
-                    </li>
-                    <li className="flex items-center space-x-2">
-                        <span className="w-2 h-2 rounded-full bg-primary" />
-                        <span>Color Context and Contrast</span>
+                        <span>Requires careful balance (One dominant, two subordinate)</span>
                     </li>
                 </ul>
             </section>
