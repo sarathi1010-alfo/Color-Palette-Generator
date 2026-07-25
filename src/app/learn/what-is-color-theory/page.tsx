@@ -7,6 +7,7 @@ import { buildArticleSchema } from "@/lib/seo/buildSchema";
 import { PageWrapper } from "@/components/layout/PageWrapper";
 import { HelpCircle } from "lucide-react";
 import { SeoMeta } from "@/types/seo";
+import Link from "next/link";
 
 export const metadata = resolveMetadata(buildLandingMeta({
   title: "What is Color Theory? Design Term Explained",
@@ -20,7 +21,8 @@ const metaDataObj: SeoMeta = {
   slug: "/learn/what-is-color-theory",
   pageType: "article",
   author: { name: "PaletteFlow Editorial" },
-  publishedAt: new Date().toISOString()
+  publishedAt: new Date().toISOString(),
+  updatedAt: new Date().toISOString()
 };
 
 export default function ColorTheoryMicroPage() {
@@ -60,6 +62,9 @@ export default function ColorTheoryMicroPage() {
             <section className="space-y-6">
                 <h2 className="text-3xl font-display font-bold text-text-primary">Why is Color Theory Important?</h2>
                 <p>Color theory is crucial because it provides a logical structure for color usage, ensuring that designs are not just visually pleasing, but also functional. It helps in creating visual hierarchy, conveying brand personality, and importantly, ensuring accessibility by maintaining proper contrast ratios between text and background elements.</p>
+                <p>
+                   Beyond just aesthetic harmony, understanding the underlying principles of color combinations is the most important step before diving into advanced interface development. By mastering these fundamentals, you can build accessible digital products that convert. If you are ready to put this theory into practice and learn how to construct a professional, WCAG-compliant design system, you should study our complete masterclass on <Link href="/blog/choose-ui-color-palette" className="text-primary hover:underline font-bold">how to choose a color palette for UI design</Link>. This guide will teach you the 60-30-10 rule and exactly how to scale your brand colors for any modern web application.
+                </p>
             </section>
 
             <section className="space-y-6">

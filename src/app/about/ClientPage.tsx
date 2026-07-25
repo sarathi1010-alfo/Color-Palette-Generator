@@ -4,6 +4,7 @@ import { Footer } from "@/components/layout/Footer";
 import { Navbar } from "@/components/layout/Navbar";
 import { motion } from "framer-motion";
 import { Coffee, Code, Palette, Zap } from "lucide-react";
+import Link from "next/link";
 
 export default function AboutClientPage() {
   return (
@@ -56,6 +57,13 @@ export default function AboutClientPage() {
                     Built by <strong>Alfo Tech Industries</strong>, this tool is part
                     of our mission to build open, high-performance utilities for the
                     creative community.
+                </p>
+                <p>
+                    We believe that mastering color is essential for creating compelling digital experiences.
+                    That&apos;s why we continue to provide in-depth resources alongside our tools. If you are
+                    looking to understand the complete process of selecting the perfect hues for your next project,
+                    be sure to read our comprehensive guide on <Link href="/blog/choose-ui-color-palette" className="text-primary hover:underline font-bold">how to choose a color palette for UI design</Link>.
+                    It covers everything from accessibility standards to modern scaling techniques.
                 </p>
             </div>
         </section>
