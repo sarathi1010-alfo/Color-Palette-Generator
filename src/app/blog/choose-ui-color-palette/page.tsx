@@ -54,7 +54,7 @@ export default function UIColorPaletteGuide() {
               <div className="bg-surface border-l-4 border-primary p-8 rounded-r-2xl my-8">
                 <p className="text-text-primary font-bold mb-2">AI Snapshot / Quick Answer:</p>
                 <p className="m-0 text-lg leading-relaxed">
-                  To choose a color palette for UI design, define emotional goals, apply the 60-30-10 rule for visual balance, and ensure WCAG-compliant contrast. Use the <Link href="/" className="text-primary hover:underline font-bold">PaletteFlow generator</Link> to test harmonious schemes like analogous or complementary variations.
+                  To choose a UI color palette: start with a primary brand color, apply a color harmony (analogous, complementary, or triadic), test contrast ratios for accessibility using WCAG standards, generate complementary shades using PaletteFlow&apos;s AI tool, and export your finalized palette to Figma or CSS.
                 </p>
               </div>
 
@@ -219,7 +219,7 @@ export default function UIColorPaletteGuide() {
                   <strong className="text-text-primary">Analyze the Content:</strong> What are you selling? A data dashboard needs many subtle variations of gray and blue to distinguish between data points. A portfolio needs one strong personality color.
                 </li>
                 <li>
-                  <strong className="text-text-primary">Find Inspiration:</strong> Look at nature, architecture, or established brands in your niche. Don&apos;t copy—abstract. Use our <Link href="/palettes" className="text-primary hover:underline font-bold">Explore</Link> feature to see what&apos;s trending.
+                  <strong className="text-text-primary">Find Inspiration:</strong> Look at nature, architecture, or established brands in your niche. Don&apos;t copy—abstract. Use our <Link href="/explore" className="text-primary hover:underline font-bold">Explore Library</Link> feature to see what&apos;s trending.
                 </li>
                 <li>
                   <strong className="text-text-primary">Generate the Core:</strong> Start with your primary brand color. Use a generator to find its complementary or analogous partners.

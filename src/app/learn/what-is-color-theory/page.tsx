@@ -21,8 +21,8 @@ const metaDataObj: SeoMeta = {
   slug: "/learn/what-is-color-theory",
   pageType: "article",
   author: { name: "PaletteFlow Editorial" },
-  publishedAt: new Date().toISOString(),
-  updatedAt: new Date().toISOString()
+  publishedAt: "2026-07-28T11:10:46Z",
+  updatedAt: "2026-07-28T11:10:46Z"
 };
 
 export default function ColorTheoryMicroPage() {
