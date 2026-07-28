@@ -24,13 +24,14 @@ function enforceDescriptionLength(description: string, fallback: string = seoCon
     return desc.substring(0, 160);
 }
 
-export function buildLandingMeta(page: { title: string; description: string; slug: string }): SeoMeta {
+export function buildLandingMeta(page: { title: string; description: string; slug: string; updatedAt?: string }): SeoMeta {
   return {
     title: enforceTitleLength(page.title),
     description: enforceDescriptionLength(page.description),
     slug: page.slug,
     pageType: 'landing',
     noindex: false,
+    updatedAt: page.updatedAt,
     ogImage: {
       url: getOgImageUrl(page.title, 'landing'),
       alt: page.title,
