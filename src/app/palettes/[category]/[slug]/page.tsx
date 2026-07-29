@@ -99,8 +99,7 @@ export default async function PalettePage({ params }: PalettePageProps) {
             {palette.name} <span className="text-primary italic">Colors</span>
           </h1>
           <p className="text-text-secondary text-lg max-w-2xl mx-auto">
-            A beautiful, balanced color system ready for your next project.
-            Preview it live on UI components below or export it directly to your codebase.
+            {(palette as any).description || "A beautiful, balanced color system ready for your next project. Preview it live on UI components below or export it directly to your codebase."}
           </p>
           <div className="flex justify-center gap-4">
               <Link
@@ -128,6 +127,42 @@ export default async function PalettePage({ params }: PalettePageProps) {
            ))}
         </div>
 
+        {/* Extended Palette Details */}
+        {((palette as any).harmonyDescription || (palette as any).useCases || (palette as any).exportSnippet) && (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16 max-w-4xl mx-auto text-left">
+            {/* Harmony & Use Cases */}
+            <div className="space-y-8">
+              {(palette as any).harmonyDescription && (
+                <div className="p-6 bg-surface border border-border rounded-2xl">
+                  <h3 className="text-xl font-bold mb-2">Harmony Type: <span className="capitalize">{(palette as any).harmonyType}</span></h3>
+                  <p className="text-text-secondary leading-relaxed">{(palette as any).harmonyDescription}</p>
+                </div>
+              )}
+
+              {(palette as any).useCases && (
+                <div className="p-6 bg-surface border border-border rounded-2xl">
+                  <h3 className="text-xl font-bold mb-4">Recommended Use Cases</h3>
+                  <ul className="list-disc pl-5 space-y-2 text-text-secondary">
+                    {(palette as any).useCases.map((useCase: string, idx: number) => (
+                      <li key={idx}>{useCase}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+
+            {/* Export Code Snippet */}
+            {(palette as any).exportSnippet && (
+              <div className="p-6 bg-text-primary text-background rounded-2xl h-full flex flex-col">
+                <h3 className="text-xl font-bold mb-4">Quick CSS Export</h3>
+                <pre className="text-sm font-mono overflow-x-auto flex-1 opacity-90">
+                  {(palette as any).exportSnippet}
+                </pre>
+              </div>
+            )}
+          </div>
+        )}
+
         {/* Live Preview Section */}
         <div className="space-y-8 max-w-4xl mx-auto">
           <div className="text-center space-y-2">
@@ -150,7 +185,12 @@ export default async function PalettePage({ params }: PalettePageProps) {
            </div>
            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {palettesData
-                .filter(p => p.category.toLowerCase() === palette.category.toLowerCase() && p.id !== palette.id)
+                .filter(p => {
+                  if ((palette as any).relatedPalettes) {
+                     return (palette as any).relatedPalettes.includes(p.id) && p.id !== palette.id;
+                  }
+                  return p.category.toLowerCase() === palette.category.toLowerCase() && p.id !== palette.id;
+                })
                 .slice(0, 4)
                 .map((related: any) => (
                   <Link

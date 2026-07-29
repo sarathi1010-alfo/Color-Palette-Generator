@@ -15,7 +15,21 @@
       "analogous"
     ],
     "mood": "vibrant",
-    "category": "nature"
+    "category": "nature",
+    "description": "The Vibrant Nature 1 color palette features a beautiful selection of vibrant, nature, analogous tones. It is carefully curated to evoke a vibrant mood, making it perfectly suited for nature design projects.",
+    "harmonyType": "analogous",
+    "harmonyDescription": "This palette utilizes a analogous harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for nature platforms",
+      "Branding and logo design for vibrant startups",
+      "Marketing materials needing a vibrant aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #1b8ac6;\n  --color-2: #1b51c6;\n  --color-3: #1e1bc6;\n  --color-4: #571bc6;\n  --color-5: #901bc6;\n}",
+    "relatedPalettes": [
+      "palette-2",
+      "palette-6",
+      "palette-11"
+    ]
   },
   {
     "id": "palette-2",
@@ -33,7 +47,21 @@
       "tetradic"
     ],
     "mood": "nostalgic",
-    "category": "fashion"
+    "category": "fashion",
+    "description": "The Nostalgic Fashion 2 color palette features a beautiful selection of nostalgic, fashion, tetradic tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for fashion design projects.",
+    "harmonyType": "tetradic",
+    "harmonyDescription": "This palette utilizes a tetradic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for fashion platforms",
+      "Branding and logo design for nostalgic startups",
+      "Marketing materials needing a nostalgic aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #2bd9e8;\n  --color-2: #982be8;\n  --color-3: #e83a2b;\n  --color-4: #7be82b;\n  --color-5: #75ffff;\n}",
+    "relatedPalettes": [
+      "palette-3",
+      "palette-7",
+      "palette-12"
+    ]
   },
   {
     "id": "palette-3",
@@ -51,7 +79,21 @@
       "complementary"
     ],
     "mood": "warm",
-    "category": "corporate"
+    "category": "corporate",
+    "description": "The Warm Corporate 3 color palette features a beautiful selection of warm, corporate, complementary tones. It is carefully curated to evoke a warm mood, making it perfectly suited for corporate design projects.",
+    "harmonyType": "complementary",
+    "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for corporate platforms",
+      "Branding and logo design for warm startups",
+      "Marketing materials needing a warm aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #cebb96;\n  --color-2: #ddad9e;\n  --color-3: #d9a5b3;\n  --color-4: #bfa5c7;\n  --color-5: #96a9ce;\n}",
+    "relatedPalettes": [
+      "palette-4",
+      "palette-8",
+      "palette-13"
+    ]
   },
   {
     "id": "palette-4",
@@ -69,7 +111,21 @@
       "complementary"
     ],
     "mood": "calm",
-    "category": "retro"
+    "category": "retro",
+    "description": "The Calm Retro 4 color palette features a beautiful selection of calm, retro, complementary tones. It is carefully curated to evoke a calm mood, making it perfectly suited for retro design projects.",
+    "harmonyType": "complementary",
+    "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for retro platforms",
+      "Branding and logo design for calm startups",
+      "Marketing materials needing a calm aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #dc2e1b;\n  --color-2: #ac7b00;\n  --color-3: #6ea334;\n  --color-4: #04bb92;\n  --color-5: #1bc9dc;\n}",
+    "relatedPalettes": [
+      "palette-5",
+      "palette-9",
+      "palette-14"
+    ]
   },
   {
     "id": "palette-5",
@@ -87,7 +143,21 @@
       "analogous"
     ],
     "mood": "nostalgic",
-    "category": "tech"
+    "category": "tech",
+    "description": "The Nostalgic Tech 5 color palette features a beautiful selection of nostalgic, tech, analogous tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for tech design projects.",
+    "harmonyType": "analogous",
+    "harmonyDescription": "This palette utilizes a analogous harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for tech platforms",
+      "Branding and logo design for nostalgic startups",
+      "Marketing materials needing a nostalgic aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #1a039b;\n  --color-2: #4c039b;\n  --color-3: #7f039b;\n  --color-4: #9b0384;\n  --color-5: #9b0352;\n}",
+    "relatedPalettes": [
+      "palette-6",
+      "palette-10",
+      "palette-15"
+    ]
   },
   {
     "id": "palette-6",
@@ -105,7 +175,21 @@
       "analogous"
     ],
     "mood": "soft",
-    "category": "tech"
+    "category": "tech",
+    "description": "The Soft Tech 6 color palette features a beautiful selection of soft, tech, analogous tones. It is carefully curated to evoke a soft mood, making it perfectly suited for tech design projects.",
+    "harmonyType": "analogous",
+    "harmonyDescription": "This palette utilizes a analogous harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for tech platforms",
+      "Branding and logo design for soft startups",
+      "Marketing materials needing a soft aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #586c41;\n  --color-2: #496c41;\n  --color-3: #416c47;\n  --color-4: #416c55;\n  --color-5: #416c64;\n}",
+    "relatedPalettes": [
+      "palette-7",
+      "palette-11",
+      "palette-16"
+    ]
   },
   {
     "id": "palette-7",
@@ -123,7 +207,21 @@
       "monochromatic"
     ],
     "mood": "earthy",
-    "category": "modern"
+    "category": "modern",
+    "description": "The Earthy Modern 7 color palette features a beautiful selection of earthy, modern, monochromatic tones. It is carefully curated to evoke a earthy mood, making it perfectly suited for modern design projects.",
+    "harmonyType": "monochromatic",
+    "harmonyDescription": "This palette utilizes a monochromatic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for modern platforms",
+      "Branding and logo design for earthy startups",
+      "Marketing materials needing a earthy aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #e7ff9f;\n  --color-2: #b1f36b;\n  --color-3: #7be636;\n  --color-4: #3eb41b;\n  --color-5: #008200;\n}",
+    "relatedPalettes": [
+      "palette-8",
+      "palette-12",
+      "palette-17"
+    ]
   },
   {
     "id": "palette-8",
@@ -141,7 +239,21 @@
       "complementary"
     ],
     "mood": "earthy",
-    "category": "modern"
+    "category": "modern",
+    "description": "The Earthy Modern 8 color palette features a beautiful selection of earthy, modern, complementary tones. It is carefully curated to evoke a earthy mood, making it perfectly suited for modern design projects.",
+    "harmonyType": "complementary",
+    "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for modern platforms",
+      "Branding and logo design for earthy startups",
+      "Marketing materials needing a earthy aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #da4986;\n  --color-2: #e76951;\n  --color-3: #cd9733;\n  --color-4: #9bbd51;\n  --color-5: #49da9d;\n}",
+    "relatedPalettes": [
+      "palette-9",
+      "palette-13",
+      "palette-18"
+    ]
   },
   {
     "id": "palette-9",
@@ -159,7 +271,21 @@
       "analogous"
     ],
     "mood": "nostalgic",
-    "category": "minimal"
+    "category": "minimal",
+    "description": "The Nostalgic Minimal 9 color palette features a beautiful selection of nostalgic, minimal, analogous tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for minimal design projects.",
+    "harmonyType": "analogous",
+    "harmonyDescription": "This palette utilizes a analogous harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for minimal platforms",
+      "Branding and logo design for nostalgic startups",
+      "Marketing materials needing a nostalgic aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #44de5d;\n  --color-2: #44de91;\n  --color-3: #44dec4;\n  --color-4: #44c5de;\n  --color-5: #4491de;\n}",
+    "relatedPalettes": [
+      "palette-10",
+      "palette-14",
+      "palette-19"
+    ]
   },
   {
     "id": "palette-10",
@@ -177,7 +303,21 @@
       "analogous"
     ],
     "mood": "minimal",
-    "category": "fashion"
+    "category": "fashion",
+    "description": "The Minimal Fashion 10 color palette features a beautiful selection of minimal, fashion, analogous tones. It is carefully curated to evoke a minimal mood, making it perfectly suited for fashion design projects.",
+    "harmonyType": "analogous",
+    "harmonyDescription": "This palette utilizes a analogous harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for fashion platforms",
+      "Branding and logo design for minimal startups",
+      "Marketing materials needing a minimal aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #f688fc;\n  --color-2: #fc88dc;\n  --color-3: #fc88b5;\n  --color-4: #fc888e;\n  --color-5: #fca888;\n}",
+    "relatedPalettes": [
+      "palette-11",
+      "palette-15",
+      "palette-20"
+    ]
   },
   {
     "id": "palette-11",
@@ -195,7 +335,21 @@
       "complementary"
     ],
     "mood": "earthy",
-    "category": "interior"
+    "category": "interior",
+    "description": "The Earthy Interior 11 color palette features a beautiful selection of earthy, interior, complementary tones. It is carefully curated to evoke a earthy mood, making it perfectly suited for interior design projects.",
+    "harmonyType": "complementary",
+    "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for interior platforms",
+      "Branding and logo design for earthy startups",
+      "Marketing materials needing a earthy aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #9bb5e8;\n  --color-2: #d3afdf;\n  --color-3: #f6afc2;\n  --color-4: #fcbba6;\n  --color-5: #e8ce9b;\n}",
+    "relatedPalettes": [
+      "palette-12",
+      "palette-16",
+      "palette-21"
+    ]
   },
   {
     "id": "palette-12",
@@ -213,7 +367,21 @@
       "analogous"
     ],
     "mood": "earthy",
-    "category": "minimal"
+    "category": "minimal",
+    "description": "The Earthy Minimal 12 color palette features a beautiful selection of earthy, minimal, analogous tones. It is carefully curated to evoke a earthy mood, making it perfectly suited for minimal design projects.",
+    "harmonyType": "analogous",
+    "harmonyDescription": "This palette utilizes a analogous harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for minimal platforms",
+      "Branding and logo design for earthy startups",
+      "Marketing materials needing a earthy aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #e418fb;\n  --color-2: #fb18c7;\n  --color-3: #fb187b;\n  --color-4: #fb182f;\n  --color-5: #fb4c18;\n}",
+    "relatedPalettes": [
+      "palette-13",
+      "palette-17",
+      "palette-22"
+    ]
   },
   {
     "id": "palette-13",
@@ -231,7 +399,21 @@
       "complementary"
     ],
     "mood": "nostalgic",
-    "category": "fashion"
+    "category": "fashion",
+    "description": "The Nostalgic Fashion 13 color palette features a beautiful selection of nostalgic, fashion, complementary tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for fashion design projects.",
+    "harmonyType": "complementary",
+    "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for fashion platforms",
+      "Branding and logo design for nostalgic startups",
+      "Marketing materials needing a nostalgic aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #8862a4;\n  --color-2: #b95e7f;\n  --color-3: #c16f58;\n  --color-4: #a98b48;\n  --color-5: #7ea462;\n}",
+    "relatedPalettes": [
+      "palette-14",
+      "palette-18",
+      "palette-23"
+    ]
   },
   {
     "id": "palette-14",
@@ -249,7 +431,21 @@
       "complementary"
     ],
     "mood": "warm",
-    "category": "tech"
+    "category": "tech",
+    "description": "The Warm Tech 14 color palette features a beautiful selection of warm, tech, complementary tones. It is carefully curated to evoke a warm mood, making it perfectly suited for tech design projects.",
+    "harmonyType": "complementary",
+    "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for tech platforms",
+      "Branding and logo design for warm startups",
+      "Marketing materials needing a warm aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #6d221a;\n  --color-2: #5a3f07;\n  --color-3: #3e5220;\n  --color-4: #1e5e49;\n  --color-5: #1a656d;\n}",
+    "relatedPalettes": [
+      "palette-15",
+      "palette-19",
+      "palette-24"
+    ]
   },
   {
     "id": "palette-15",
@@ -267,7 +463,21 @@
       "tetradic"
     ],
     "mood": "dark",
-    "category": "brand"
+    "category": "brand",
+    "description": "The Dark Brand 15 color palette features a beautiful selection of dark, brand, tetradic tones. It is carefully curated to evoke a dark mood, making it perfectly suited for brand design projects.",
+    "harmonyType": "tetradic",
+    "harmonyDescription": "This palette utilizes a tetradic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for brand platforms",
+      "Branding and logo design for dark startups",
+      "Marketing materials needing a dark aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #25e069;\n  --color-2: #253ee0;\n  --color-3: #e0259c;\n  --color-4: #e0c625;\n  --color-5: #6eff99;\n}",
+    "relatedPalettes": [
+      "palette-16",
+      "palette-20",
+      "palette-25"
+    ]
   },
   {
     "id": "palette-16",
@@ -285,7 +495,21 @@
       "monochromatic"
     ],
     "mood": "soft",
-    "category": "interior"
+    "category": "interior",
+    "description": "The Soft Interior 16 color palette features a beautiful selection of soft, interior, monochromatic tones. It is carefully curated to evoke a soft mood, making it perfectly suited for interior design projects.",
+    "harmonyType": "monochromatic",
+    "harmonyDescription": "This palette utilizes a monochromatic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for interior platforms",
+      "Branding and logo design for soft startups",
+      "Marketing materials needing a soft aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #ffffff;\n  --color-2: #ddead4;\n  --color-3: #bad4a9;\n  --color-4: #8ba47b;\n  --color-5: #5c744e;\n}",
+    "relatedPalettes": [
+      "palette-17",
+      "palette-21",
+      "palette-26"
+    ]
   },
   {
     "id": "palette-17",
@@ -303,7 +527,21 @@
       "complementary"
     ],
     "mood": "minimal",
-    "category": "interior"
+    "category": "interior",
+    "description": "The Minimal Interior 17 color palette features a beautiful selection of minimal, interior, complementary tones. It is carefully curated to evoke a minimal mood, making it perfectly suited for interior design projects.",
+    "harmonyType": "complementary",
+    "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for interior platforms",
+      "Branding and logo design for minimal startups",
+      "Marketing materials needing a minimal aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #db9f5d;\n  --color-2: #ef8980;\n  --color-3: #e182ae;\n  --color-4: #ae8dd3;\n  --color-5: #5d99db;\n}",
+    "relatedPalettes": [
+      "palette-18",
+      "palette-22",
+      "palette-27"
+    ]
   },
   {
     "id": "palette-18",
@@ -321,7 +559,21 @@
       "tetradic"
     ],
     "mood": "professional",
-    "category": "interior"
+    "category": "interior",
+    "description": "The Professional Interior 18 color palette features a beautiful selection of professional, interior, tetradic tones. It is carefully curated to evoke a professional mood, making it perfectly suited for interior design projects.",
+    "harmonyType": "tetradic",
+    "harmonyDescription": "This palette utilizes a tetradic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for interior platforms",
+      "Branding and logo design for professional startups",
+      "Marketing materials needing a professional aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #5e4b8e;\n  --color-2: #8e4b5a;\n  --color-3: #7b8e4b;\n  --color-4: #4b8e7f;\n  --color-5: #8d77bf;\n}",
+    "relatedPalettes": [
+      "palette-19",
+      "palette-23",
+      "palette-28"
+    ]
   },
   {
     "id": "palette-19",
@@ -339,7 +591,21 @@
       "triadic"
     ],
     "mood": "calm",
-    "category": "modern"
+    "category": "modern",
+    "description": "The Calm Modern 19 color palette features a beautiful selection of calm, modern, triadic tones. It is carefully curated to evoke a calm mood, making it perfectly suited for modern design projects.",
+    "harmonyType": "triadic",
+    "harmonyDescription": "This palette utilizes a triadic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for modern platforms",
+      "Branding and logo design for calm startups",
+      "Marketing materials needing a calm aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #87572e;\n  --color-2: #2e8757;\n  --color-3: #572e87;\n  --color-4: #ba8458;\n  --color-5: #572e04;\n}",
+    "relatedPalettes": [
+      "palette-20",
+      "palette-24",
+      "palette-29"
+    ]
   },
   {
     "id": "palette-20",
@@ -357,7 +623,21 @@
       "triadic"
     ],
     "mood": "pastel",
-    "category": "retro"
+    "category": "retro",
+    "description": "The Pastel Retro 20 color palette features a beautiful selection of pastel, retro, triadic tones. It is carefully curated to evoke a pastel mood, making it perfectly suited for retro design projects.",
+    "harmonyType": "triadic",
+    "harmonyDescription": "This palette utilizes a triadic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for retro platforms",
+      "Branding and logo design for pastel startups",
+      "Marketing materials needing a pastel aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #caace2;\n  --color-2: #e2caac;\n  --color-3: #ace2ca;\n  --color-4: #fddeff;\n  --color-5: #997db0;\n}",
+    "relatedPalettes": [
+      "palette-21",
+      "palette-25",
+      "palette-30"
+    ]
   },
   {
     "id": "palette-21",
@@ -375,7 +655,21 @@
       "complementary"
     ],
     "mood": "calm",
-    "category": "interior"
+    "category": "interior",
+    "description": "The Calm Interior 21 color palette features a beautiful selection of calm, interior, complementary tones. It is carefully curated to evoke a calm mood, making it perfectly suited for interior design projects.",
+    "harmonyType": "complementary",
+    "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for interior platforms",
+      "Branding and logo design for calm startups",
+      "Marketing materials needing a calm aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #59a297;\n  --color-2: #70956d;\n  --color-3: #8c8250;\n  --color-4: #a06c4e;\n  --color-5: #a25964;\n}",
+    "relatedPalettes": [
+      "palette-22",
+      "palette-26",
+      "palette-31"
+    ]
   },
   {
     "id": "palette-22",
@@ -393,7 +687,21 @@
       "complementary"
     ],
     "mood": "nostalgic",
-    "category": "interior"
+    "category": "interior",
+    "description": "The Nostalgic Interior 22 color palette features a beautiful selection of nostalgic, interior, complementary tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for interior design projects.",
+    "harmonyType": "complementary",
+    "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for interior platforms",
+      "Branding and logo design for nostalgic startups",
+      "Marketing materials needing a nostalgic aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #3b73da;\n  --color-2: #b962c1;\n  --color-3: #ef5d8e;\n  --color-4: #f67a5a;\n  --color-5: #daa23b;\n}",
+    "relatedPalettes": [
+      "palette-23",
+      "palette-27",
+      "palette-32"
+    ]
   },
   {
     "id": "palette-23",
@@ -411,7 +719,21 @@
       "monochromatic"
     ],
     "mood": "vibrant",
-    "category": "interior"
+    "category": "interior",
+    "description": "The Vibrant Interior 23 color palette features a beautiful selection of vibrant, interior, monochromatic tones. It is carefully curated to evoke a vibrant mood, making it perfectly suited for interior design projects.",
+    "harmonyType": "monochromatic",
+    "harmonyDescription": "This palette utilizes a monochromatic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for interior platforms",
+      "Branding and logo design for vibrant startups",
+      "Marketing materials needing a vibrant aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #8bf1d3;\n  --color-2: #54bfa3;\n  --color-3: #1d8d73;\n  --color-4: #0f604a;\n  --color-5: #003320;\n}",
+    "relatedPalettes": [
+      "palette-24",
+      "palette-28",
+      "palette-33"
+    ]
   },
   {
     "id": "palette-24",
@@ -429,7 +751,21 @@
       "complementary"
     ],
     "mood": "warm",
-    "category": "interior"
+    "category": "interior",
+    "description": "The Warm Interior 24 color palette features a beautiful selection of warm, interior, complementary tones. It is carefully curated to evoke a warm mood, making it perfectly suited for interior design projects.",
+    "harmonyType": "complementary",
+    "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for interior platforms",
+      "Branding and logo design for warm startups",
+      "Marketing materials needing a warm aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #038eae;\n  --color-2: #3d7ac1;\n  --color-3: #9056ab;\n  --color-4: #bc2066;\n  --color-5: #ae2303;\n}",
+    "relatedPalettes": [
+      "palette-25",
+      "palette-29",
+      "palette-34"
+    ]
   },
   {
     "id": "palette-25",
@@ -447,7 +783,21 @@
       "monochromatic"
     ],
     "mood": "soft",
-    "category": "interior"
+    "category": "interior",
+    "description": "The Soft Interior 25 color palette features a beautiful selection of soft, interior, monochromatic tones. It is carefully curated to evoke a soft mood, making it perfectly suited for interior design projects.",
+    "harmonyType": "monochromatic",
+    "harmonyDescription": "This palette utilizes a monochromatic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for interior platforms",
+      "Branding and logo design for soft startups",
+      "Marketing materials needing a soft aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #f09363;\n  --color-2: #bb6537;\n  --color-3: #85380c;\n  --color-4: #5d1c06;\n  --color-5: #350000;\n}",
+    "relatedPalettes": [
+      "palette-26",
+      "palette-30",
+      "palette-35"
+    ]
   },
   {
     "id": "palette-26",
@@ -465,7 +815,21 @@
       "complementary"
     ],
     "mood": "energetic",
-    "category": "tech"
+    "category": "tech",
+    "description": "The Energetic Tech 26 color palette features a beautiful selection of energetic, tech, complementary tones. It is carefully curated to evoke a energetic mood, making it perfectly suited for tech design projects.",
+    "harmonyType": "complementary",
+    "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for tech platforms",
+      "Branding and logo design for energetic startups",
+      "Marketing materials needing a energetic aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #2afcaa;\n  --color-2: #a5d747;\n  --color-3: #e2a709;\n  --color-4: #ff6b3d;\n  --color-5: #fc2a7c;\n}",
+    "relatedPalettes": [
+      "palette-27",
+      "palette-31",
+      "palette-36"
+    ]
   },
   {
     "id": "palette-27",
@@ -483,7 +847,21 @@
       "analogous"
     ],
     "mood": "warm",
-    "category": "modern"
+    "category": "modern",
+    "description": "The Warm Modern 27 color palette features a beautiful selection of warm, modern, analogous tones. It is carefully curated to evoke a warm mood, making it perfectly suited for modern design projects.",
+    "harmonyType": "analogous",
+    "harmonyDescription": "This palette utilizes a analogous harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for modern platforms",
+      "Branding and logo design for warm startups",
+      "Marketing materials needing a warm aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #134866;\n  --color-2: #132d66;\n  --color-3: #151366;\n  --color-4: #311366;\n  --color-5: #4c1366;\n}",
+    "relatedPalettes": [
+      "palette-28",
+      "palette-32",
+      "palette-37"
+    ]
   },
   {
     "id": "palette-28",
@@ -501,7 +879,21 @@
       "tetradic"
     ],
     "mood": "professional",
-    "category": "modern"
+    "category": "modern",
+    "description": "The Professional Modern 28 color palette features a beautiful selection of professional, modern, tetradic tones. It is carefully curated to evoke a professional mood, making it perfectly suited for modern design projects.",
+    "harmonyType": "tetradic",
+    "harmonyDescription": "This palette utilizes a tetradic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for modern platforms",
+      "Branding and logo design for professional startups",
+      "Marketing materials needing a professional aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #db3129;\n  --color-2: #7adb29;\n  --color-3: #29d3db;\n  --color-4: #8a29db;\n  --color-5: #ff6853;\n}",
+    "relatedPalettes": [
+      "palette-29",
+      "palette-33",
+      "palette-38"
+    ]
   },
   {
     "id": "palette-29",
@@ -519,7 +911,21 @@
       "complementary"
     ],
     "mood": "earthy",
-    "category": "modern"
+    "category": "modern",
+    "description": "The Earthy Modern 29 color palette features a beautiful selection of earthy, modern, complementary tones. It is carefully curated to evoke a earthy mood, making it perfectly suited for modern design projects.",
+    "harmonyType": "complementary",
+    "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for modern platforms",
+      "Branding and logo design for earthy startups",
+      "Marketing materials needing a earthy aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #473e26;\n  --color-2: #503429;\n  --color-3: #4f2e35;\n  --color-4: #402d42;\n  --color-5: #262f47;\n}",
+    "relatedPalettes": [
+      "palette-30",
+      "palette-34",
+      "palette-39"
+    ]
   },
   {
     "id": "palette-30",
@@ -537,7 +943,21 @@
       "tetradic"
     ],
     "mood": "nostalgic",
-    "category": "modern"
+    "category": "modern",
+    "description": "The Nostalgic Modern 30 color palette features a beautiful selection of nostalgic, modern, tetradic tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for modern design projects.",
+    "harmonyType": "tetradic",
+    "harmonyDescription": "This palette utilizes a tetradic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for modern platforms",
+      "Branding and logo design for nostalgic startups",
+      "Marketing materials needing a nostalgic aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #62963e;\n  --color-2: #3e8e96;\n  --color-3: #723e96;\n  --color-4: #96463e;\n  --color-5: #92c76b;\n}",
+    "relatedPalettes": [
+      "palette-31",
+      "palette-35",
+      "palette-40"
+    ]
   },
   {
     "id": "palette-31",
@@ -555,7 +975,21 @@
       "triadic"
     ],
     "mood": "warm",
-    "category": "tech"
+    "category": "tech",
+    "description": "The Warm Tech 31 color palette features a beautiful selection of warm, tech, triadic tones. It is carefully curated to evoke a warm mood, making it perfectly suited for tech design projects.",
+    "harmonyType": "triadic",
+    "harmonyDescription": "This palette utilizes a triadic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for tech platforms",
+      "Branding and logo design for warm startups",
+      "Marketing materials needing a warm aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #8da9a3;\n  --color-2: #a38da9;\n  --color-3: #a9a38d;\n  --color-4: #bddbd4;\n  --color-5: #5f7a74;\n}",
+    "relatedPalettes": [
+      "palette-32",
+      "palette-36",
+      "palette-41"
+    ]
   },
   {
     "id": "palette-32",
@@ -573,7 +1007,21 @@
       "tetradic"
     ],
     "mood": "energetic",
-    "category": "minimal"
+    "category": "minimal",
+    "description": "The Energetic Minimal 32 color palette features a beautiful selection of energetic, minimal, tetradic tones. It is carefully curated to evoke a energetic mood, making it perfectly suited for minimal design projects.",
+    "harmonyType": "tetradic",
+    "harmonyDescription": "This palette utilizes a tetradic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for minimal platforms",
+      "Branding and logo design for energetic startups",
+      "Marketing materials needing a energetic aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #3f4bce;\n  --color-2: #ce3f92;\n  --color-3: #cec23f;\n  --color-4: #3fce7b;\n  --color-5: #7a77ff;\n}",
+    "relatedPalettes": [
+      "palette-33",
+      "palette-37",
+      "palette-42"
+    ]
   },
   {
     "id": "palette-33",
@@ -591,7 +1039,21 @@
       "tetradic"
     ],
     "mood": "soft",
-    "category": "retro"
+    "category": "retro",
+    "description": "The Soft Retro 33 color palette features a beautiful selection of soft, retro, tetradic tones. It is carefully curated to evoke a soft mood, making it perfectly suited for retro design projects.",
+    "harmonyType": "tetradic",
+    "harmonyDescription": "This palette utilizes a tetradic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for retro platforms",
+      "Branding and logo design for soft startups",
+      "Marketing materials needing a soft aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #198bc7;\n  --color-2: #ac19c7;\n  --color-3: #c75519;\n  --color-4: #34c719;\n  --color-5: #61bbfa;\n}",
+    "relatedPalettes": [
+      "palette-34",
+      "palette-38",
+      "palette-43"
+    ]
   },
   {
     "id": "palette-34",
@@ -609,7 +1071,21 @@
       "complementary"
     ],
     "mood": "pastel",
-    "category": "minimal"
+    "category": "minimal",
+    "description": "The Pastel Minimal 34 color palette features a beautiful selection of pastel, minimal, complementary tones. It is carefully curated to evoke a pastel mood, making it perfectly suited for minimal design projects.",
+    "harmonyType": "complementary",
+    "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for minimal platforms",
+      "Branding and logo design for pastel startups",
+      "Marketing materials needing a pastel aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #b91c0f;\n  --color-2: #916500;\n  --color-3: #5d8824;\n  --color-4: #0c9f77;\n  --color-5: #0facb9;\n}",
+    "relatedPalettes": [
+      "palette-35",
+      "palette-39",
+      "palette-44"
+    ]
   },
   {
     "id": "palette-35",
@@ -627,7 +1103,21 @@
       "complementary"
     ],
     "mood": "nostalgic",
-    "category": "retro"
+    "category": "retro",
+    "description": "The Nostalgic Retro 35 color palette features a beautiful selection of nostalgic, retro, complementary tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for retro design projects.",
+    "harmonyType": "complementary",
+    "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for retro platforms",
+      "Branding and logo design for nostalgic startups",
+      "Marketing materials needing a nostalgic aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #d27b6d;\n  --color-2: #bb965c;\n  --color-3: #95ad72;\n  --color-4: #70bca3;\n  --color-5: #6dc4d2;\n}",
+    "relatedPalettes": [
+      "palette-36",
+      "palette-40",
+      "palette-45"
+    ]
   },
   {
     "id": "palette-36",
@@ -645,7 +1135,21 @@
       "monochromatic"
     ],
     "mood": "nostalgic",
-    "category": "fashion"
+    "category": "fashion",
+    "description": "The Nostalgic Fashion 36 color palette features a beautiful selection of nostalgic, fashion, monochromatic tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for fashion design projects.",
+    "harmonyType": "monochromatic",
+    "harmonyDescription": "This palette utilizes a monochromatic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for fashion platforms",
+      "Branding and logo design for nostalgic startups",
+      "Marketing materials needing a nostalgic aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #ff7dc7;\n  --color-2: #ca4697;\n  --color-3: #950f68;\n  --color-4: #660840;\n  --color-5: #370018;\n}",
+    "relatedPalettes": [
+      "palette-37",
+      "palette-41",
+      "palette-46"
+    ]
   },
   {
     "id": "palette-37",
@@ -663,7 +1167,21 @@
       "monochromatic"
     ],
     "mood": "vibrant",
-    "category": "tech"
+    "category": "tech",
+    "description": "The Vibrant Tech 37 color palette features a beautiful selection of vibrant, tech, monochromatic tones. It is carefully curated to evoke a vibrant mood, making it perfectly suited for tech design projects.",
+    "harmonyType": "monochromatic",
+    "harmonyDescription": "This palette utilizes a monochromatic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for tech platforms",
+      "Branding and logo design for vibrant startups",
+      "Marketing materials needing a vibrant aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #e8ffff;\n  --color-2: #b6d2d1;\n  --color-3: #85a4a3;\n  --color-4: #597776;\n  --color-5: #2d4a49;\n}",
+    "relatedPalettes": [
+      "palette-38",
+      "palette-42",
+      "palette-47"
+    ]
   },
   {
     "id": "palette-38",
@@ -681,7 +1199,21 @@
       "triadic"
     ],
     "mood": "nostalgic",
-    "category": "retro"
+    "category": "retro",
+    "description": "The Nostalgic Retro 38 color palette features a beautiful selection of nostalgic, retro, triadic tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for retro design projects.",
+    "harmonyType": "triadic",
+    "harmonyDescription": "This palette utilizes a triadic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for retro platforms",
+      "Branding and logo design for nostalgic startups",
+      "Marketing materials needing a nostalgic aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #ca4a6b;\n  --color-2: #6bca4a;\n  --color-3: #4a6bca;\n  --color-4: #ff7b99;\n  --color-5: #951141;\n}",
+    "relatedPalettes": [
+      "palette-39",
+      "palette-43",
+      "palette-48"
+    ]
   },
   {
     "id": "palette-39",
@@ -699,7 +1231,21 @@
       "monochromatic"
     ],
     "mood": "vibrant",
-    "category": "fashion"
+    "category": "fashion",
+    "description": "The Vibrant Fashion 39 color palette features a beautiful selection of vibrant, fashion, monochromatic tones. It is carefully curated to evoke a vibrant mood, making it perfectly suited for fashion design projects.",
+    "harmonyType": "monochromatic",
+    "harmonyDescription": "This palette utilizes a monochromatic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for fashion platforms",
+      "Branding and logo design for vibrant startups",
+      "Marketing materials needing a vibrant aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #98f771;\n  --color-2: #62c43a;\n  --color-3: #2c9204;\n  --color-4: #166402;\n  --color-5: #003600;\n}",
+    "relatedPalettes": [
+      "palette-40",
+      "palette-44",
+      "palette-49"
+    ]
   },
   {
     "id": "palette-40",
@@ -717,7 +1263,21 @@
       "monochromatic"
     ],
     "mood": "energetic",
-    "category": "interior"
+    "category": "interior",
+    "description": "The Energetic Interior 40 color palette features a beautiful selection of energetic, interior, monochromatic tones. It is carefully curated to evoke a energetic mood, making it perfectly suited for interior design projects.",
+    "harmonyType": "monochromatic",
+    "harmonyDescription": "This palette utilizes a monochromatic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for interior platforms",
+      "Branding and logo design for energetic startups",
+      "Marketing materials needing a energetic aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #e3ff8b;\n  --color-2: #adeb51;\n  --color-3: #77d718;\n  --color-4: #3ca60c;\n  --color-5: #007500;\n}",
+    "relatedPalettes": [
+      "palette-41",
+      "palette-45",
+      "palette-50"
+    ]
   },
   {
     "id": "palette-41",
@@ -735,7 +1295,21 @@
       "complementary"
     ],
     "mood": "earthy",
-    "category": "modern"
+    "category": "modern",
+    "description": "The Earthy Modern 41 color palette features a beautiful selection of earthy, modern, complementary tones. It is carefully curated to evoke a earthy mood, making it perfectly suited for modern design projects.",
+    "harmonyType": "complementary",
+    "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for modern platforms",
+      "Branding and logo design for earthy startups",
+      "Marketing materials needing a earthy aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #eb67ea;\n  --color-2: #ff5a92;\n  --color-3: #ff8e3d;\n  --color-4: #d8c500;\n  --color-5: #67eb68;\n}",
+    "relatedPalettes": [
+      "palette-42",
+      "palette-46",
+      "palette-51"
+    ]
   },
   {
     "id": "palette-42",
@@ -753,7 +1327,21 @@
       "analogous"
     ],
     "mood": "soft",
-    "category": "interior"
+    "category": "interior",
+    "description": "The Soft Interior 42 color palette features a beautiful selection of soft, interior, analogous tones. It is carefully curated to evoke a soft mood, making it perfectly suited for interior design projects.",
+    "harmonyType": "analogous",
+    "harmonyDescription": "This palette utilizes a analogous harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for interior platforms",
+      "Branding and logo design for soft startups",
+      "Marketing materials needing a soft aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #9a55c3;\n  --color-2: #be55c3;\n  --color-3: #c355a3;\n  --color-4: #c3557e;\n  --color-5: #c3555a;\n}",
+    "relatedPalettes": [
+      "palette-43",
+      "palette-47",
+      "palette-52"
+    ]
   },
   {
     "id": "palette-43",
@@ -771,7 +1359,21 @@
       "tetradic"
     ],
     "mood": "calm",
-    "category": "corporate"
+    "category": "corporate",
+    "description": "The Calm Corporate 43 color palette features a beautiful selection of calm, corporate, tetradic tones. It is carefully curated to evoke a calm mood, making it perfectly suited for corporate design projects.",
+    "harmonyType": "tetradic",
+    "harmonyDescription": "This palette utilizes a tetradic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for corporate platforms",
+      "Branding and logo design for calm startups",
+      "Marketing materials needing a calm aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #74d91c;\n  --color-2: #1cd3d9;\n  --color-3: #811cd9;\n  --color-4: #d9221c;\n  --color-5: #aaff59;\n}",
+    "relatedPalettes": [
+      "palette-44",
+      "palette-48",
+      "palette-53"
+    ]
   },
   {
     "id": "palette-44",
@@ -789,7 +1391,21 @@
       "complementary"
     ],
     "mood": "earthy",
-    "category": "brand"
+    "category": "brand",
+    "description": "The Earthy Brand 44 color palette features a beautiful selection of earthy, brand, complementary tones. It is carefully curated to evoke a earthy mood, making it perfectly suited for brand design projects.",
+    "harmonyType": "complementary",
+    "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for brand platforms",
+      "Branding and logo design for earthy startups",
+      "Marketing materials needing a earthy aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #2eb35a;\n  --color-2: #8e9503;\n  --color-3: #bf6c10;\n  --color-4: #d03c4c;\n  --color-5: #b32e87;\n}",
+    "relatedPalettes": [
+      "palette-45",
+      "palette-49",
+      "palette-54"
+    ]
   },
   {
     "id": "palette-45",
@@ -807,7 +1423,21 @@
       "complementary"
     ],
     "mood": "professional",
-    "category": "brand"
+    "category": "brand",
+    "description": "The Professional Brand 45 color palette features a beautiful selection of professional, brand, complementary tones. It is carefully curated to evoke a professional mood, making it perfectly suited for brand design projects.",
+    "harmonyType": "complementary",
+    "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for brand platforms",
+      "Branding and logo design for professional startups",
+      "Marketing materials needing a professional aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #cc8623;\n  --color-2: #e5604f;\n  --color-3: #da4a85;\n  --color-4: #a456b6;\n  --color-5: #2369cc;\n}",
+    "relatedPalettes": [
+      "palette-46",
+      "palette-50",
+      "palette-55"
+    ]
   },
   {
     "id": "palette-46",
@@ -825,7 +1455,21 @@
       "complementary"
     ],
     "mood": "vibrant",
-    "category": "minimal"
+    "category": "minimal",
+    "description": "The Vibrant Minimal 46 color palette features a beautiful selection of vibrant, minimal, complementary tones. It is carefully curated to evoke a vibrant mood, making it perfectly suited for minimal design projects.",
+    "harmonyType": "complementary",
+    "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for minimal platforms",
+      "Branding and logo design for vibrant startups",
+      "Marketing materials needing a vibrant aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #ca2db1;\n  --color-2: #fb2461;\n  --color-3: #ea6d00;\n  --color-4: #aca500;\n  --color-5: #2dca46;\n}",
+    "relatedPalettes": [
+      "palette-47",
+      "palette-51",
+      "palette-56"
+    ]
   },
   {
     "id": "palette-47",
@@ -843,7 +1487,21 @@
       "complementary"
     ],
     "mood": "dark",
-    "category": "modern"
+    "category": "modern",
+    "description": "The Dark Modern 47 color palette features a beautiful selection of dark, modern, complementary tones. It is carefully curated to evoke a dark mood, making it perfectly suited for modern design projects.",
+    "harmonyType": "complementary",
+    "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for modern platforms",
+      "Branding and logo design for dark startups",
+      "Marketing materials needing a dark aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #f1cc15;\n  --color-2: #ff8324;\n  --color-3: #ff0067;\n  --color-4: #e700b2;\n  --color-5: #153af1;\n}",
+    "relatedPalettes": [
+      "palette-48",
+      "palette-52",
+      "palette-57"
+    ]
   },
   {
     "id": "palette-48",
@@ -861,7 +1519,21 @@
       "complementary"
     ],
     "mood": "pastel",
-    "category": "modern"
+    "category": "modern",
+    "description": "The Pastel Modern 48 color palette features a beautiful selection of pastel, modern, complementary tones. It is carefully curated to evoke a pastel mood, making it perfectly suited for modern design projects.",
+    "harmonyType": "complementary",
+    "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for modern platforms",
+      "Branding and logo design for pastel startups",
+      "Marketing materials needing a pastel aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #481e78;\n  --color-2: #89004c;\n  --color-3: #942b1c;\n  --color-4: #7c5800;\n  --color-5: #4e781e;\n}",
+    "relatedPalettes": [
+      "palette-49",
+      "palette-53",
+      "palette-58"
+    ]
   },
   {
     "id": "palette-49",
@@ -879,7 +1551,21 @@
       "triadic"
     ],
     "mood": "nostalgic",
-    "category": "tech"
+    "category": "tech",
+    "description": "The Nostalgic Tech 49 color palette features a beautiful selection of nostalgic, tech, triadic tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for tech design projects.",
+    "harmonyType": "triadic",
+    "harmonyDescription": "This palette utilizes a triadic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for tech platforms",
+      "Branding and logo design for nostalgic startups",
+      "Marketing materials needing a nostalgic aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #d63707;\n  --color-2: #07d637;\n  --color-3: #3707d6;\n  --color-4: #ff6b39;\n  --color-5: #9d0000;\n}",
+    "relatedPalettes": [
+      "palette-50",
+      "palette-54",
+      "palette-59"
+    ]
   },
   {
     "id": "palette-50",
@@ -897,7 +1583,21 @@
       "analogous"
     ],
     "mood": "nostalgic",
-    "category": "corporate"
+    "category": "corporate",
+    "description": "The Nostalgic Corporate 50 color palette features a beautiful selection of nostalgic, corporate, analogous tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for corporate design projects.",
+    "harmonyType": "analogous",
+    "harmonyDescription": "This palette utilizes a analogous harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
+    "useCases": [
+      "Primary UI elements for corporate platforms",
+      "Branding and logo design for nostalgic startups",
+      "Marketing materials needing a nostalgic aesthetic"
+    ],
+    "exportSnippet": ":root {\n  --color-1: #a15ffc;\n  --color-2: #d65ffc;\n  --color-3: #fc5fee;\n  --color-4: #fc5fba;\n  --color-5: #fc5f85;\n}",
+    "relatedPalettes": [
+      "palette-51",
+      "palette-55",
+      "palette-60"
+    ]
   },
   {
     "id": "palette-51",

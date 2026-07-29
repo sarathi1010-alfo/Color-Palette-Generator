@@ -55,11 +55,11 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-background flex flex-col">
-      <JsonLd schema={buildFaqSchema(faqs)} />
-      <JsonLd schema={howToSchema} />
       <Navbar />
 
       <main className="flex-1" itemScope itemType="https://schema.org/WebPage">
+        <JsonLd schema={buildFaqSchema(faqs)} />
+        <JsonLd schema={howToSchema} />
         {/* Hero Section */}
         <section className="relative overflow-hidden pt-20 pb-32 border-b border-border">
           <div className="max-w-7xl mx-auto px-6 relative z-10 text-center space-y-12">
@@ -175,26 +175,25 @@ export default function HomePage() {
                 </Link>
             </div>
         </section>
+
+        {/* FAQ / Semantic Snippets Section */}
+        <section className="py-24 bg-surface/30 border-t border-border">
+            <div className="max-w-4xl mx-auto px-6 space-y-12">
+                <div className="text-center space-y-4">
+                    <h2 className="text-4xl font-display font-bold">Frequently Asked Questions</h2>
+                    <p className="text-text-secondary text-lg">Everything you need to know about generating the perfect color palette.</p>
+                </div>
+                <div className="space-y-6">
+                    {faqs.map((faq, index) => (
+                        <div key={index} className="p-6 bg-background rounded-2xl border border-border shadow-sm">
+                            <h3 className="text-xl font-bold mb-3">{faq.question}</h3>
+                            <p className="text-text-secondary leading-relaxed">{faq.answer}</p>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </section>
       </main>
-
-
-      {/* FAQ / Semantic Snippets Section */}
-      <section className="py-24 bg-surface/30 border-t border-border">
-          <div className="max-w-4xl mx-auto px-6 space-y-12">
-              <div className="text-center space-y-4">
-                  <h2 className="text-4xl font-display font-bold">Frequently Asked Questions</h2>
-                  <p className="text-text-secondary text-lg">Everything you need to know about generating the perfect color palette.</p>
-              </div>
-              <div className="space-y-6">
-                  {faqs.map((faq, index) => (
-                      <div key={index} className="p-6 bg-background rounded-2xl border border-border shadow-sm">
-                          <h3 className="text-xl font-bold mb-3">{faq.question}</h3>
-                          <p className="text-text-secondary leading-relaxed">{faq.answer}</p>
-                      </div>
-                  ))}
-              </div>
-          </div>
-      </section>
 
       <Footer />
     </div>
