@@ -33,11 +33,13 @@ export async function generateMetadata({ params }: ProgrammaticPageProps) {
     }));
   }
 
-  return resolveMetadata(buildLandingMeta({
+  const meta = buildLandingMeta({
     title: `${page.name} Color Palette - Hex Codes & UI Previews`,
     description: page.description,
     slug: `/palettes/theory/${page.slug}`,
-  }));
+  });
+  meta.pageType = "faq";
+  return resolveMetadata(meta);
 }
 
 export default async function ProgrammaticPalettePage({ params }: ProgrammaticPageProps) {
@@ -79,7 +81,7 @@ export default async function ProgrammaticPalettePage({ params }: ProgrammaticPa
                 <span>{page.harmony} Harmony</span>
              </div>
              <h1 className="text-5xl md:text-6xl font-display font-bold text-text-primary">
-                {page.name} <span className="text-primary italic">Palette</span>
+                {page.h1Title || `${page.name} Palette`}
              </h1>
              <p className="text-xl text-text-secondary leading-relaxed">
                 {page.description} Perfect for digital products and brand identities centered around {page.baseColor}.

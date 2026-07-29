@@ -22,7 +22,7 @@ const metaDataObj: SeoMeta = {
   pageType: "article",
   author: { name: "PaletteFlow Editorial" },
   publishedAt: "2026-07-28T11:10:46Z",
-  updatedAt: "2026-07-28T11:10:46Z"
+  updatedAt: "2026-07-29T11:10:46Z"
 };
 
 export default function ColorTheoryMicroPage() {
