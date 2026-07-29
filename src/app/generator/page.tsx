@@ -54,28 +54,30 @@ export default function GeneratorPage() {
   };
 
   return (
-    <main className="min-h-screen flex flex-col">
-      <JsonLd schema={buildFaqSchema(faqs)} />
-      <JsonLd schema={howToSchema} />
-      <Suspense fallback={<div className="h-screen bg-background" />}>
-        <PaletteGenerator />
-      </Suspense>
+    <div className="min-h-screen flex flex-col">
+      <main className="flex-1 flex flex-col">
+        <JsonLd schema={buildFaqSchema(faqs)} />
+        <JsonLd schema={howToSchema} />
+        <Suspense fallback={<div className="h-screen bg-background" />}>
+          <PaletteGenerator />
+        </Suspense>
 
-      {/* AEO / FAQ Section */}
-      <section className="bg-surface py-16 px-6">
-        <div className="max-w-4xl mx-auto space-y-8">
-          <h2 className="text-3xl font-display font-bold text-center">Frequently Asked Questions</h2>
-          <div className="space-y-6">
-            {faqs.map((faq, idx) => (
-              <div key={idx} className="p-6 bg-background rounded-2xl border border-border">
-                <h3 className="text-xl font-bold mb-2">{faq.question}</h3>
-                <p className="text-text-secondary">{faq.answer}</p>
-              </div>
-            ))}
+        {/* AEO / FAQ Section */}
+        <section className="bg-surface py-16 px-6">
+          <div className="max-w-4xl mx-auto space-y-8">
+            <h2 className="text-3xl font-display font-bold text-center">Frequently Asked Questions</h2>
+            <div className="space-y-6">
+              {faqs.map((faq, idx) => (
+                <div key={idx} className="p-6 bg-background rounded-2xl border border-border">
+                  <h3 className="text-xl font-bold mb-2">{faq.question}</h3>
+                  <p className="text-text-secondary">{faq.answer}</p>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </main>
       <Footer />
-    </main>
+    </div>
   );
 }

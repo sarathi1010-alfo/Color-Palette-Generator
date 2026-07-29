@@ -26,6 +26,12 @@ const categories = [
     count: 0
   },
   {
+    name: "Mood Collections",
+    description: "Browse mood-specific color collections, from vibrant and energetic to calm and nostalgic.",
+    href: "/palettes",
+    count: 1
+  },
+  {
     name: "Accessibility",
     description: "Ensure your designs meet WCAG standards with high-contrast color choices.",
     href: "/guides/wcag-contrast-checker-color-accessibility",
@@ -58,7 +64,7 @@ export default function BlogLandingPage() {
               <span>Resources</span>
             </div>
             <h1 className="text-5xl md:text-7xl font-display font-bold leading-tight">
-              PaletteFlow <span className="text-primary italic">Blog</span> – Expert Color Guides, Palettes & Design Insights
+              PaletteFlow Blog – Expert Color Guides, Palettes & Design Insights
             </h1>
             <p className="text-xl text-text-secondary leading-relaxed max-w-2xl">
               Welcome to the PaletteFlow Blog. We believe that color is the foundation of exceptional design. Our mission is to provide you with expert-level guides, data-driven insights, and practical resources to master color theory in your creative workflow. Whether you are a seasoned UI/UX designer building complex design systems, or a solo developer trying to choose the perfect primary hex code, our resources are tailored for you. Explore our comprehensive deep-dives, learn how to create accessible and inclusive digital experiences, and stay ahead of the curve with the latest 2026 industry color trends. Check out our <Link href="/generator" className="text-primary hover:underline font-bold">Palette Generator</Link>, browse the <Link href="/palettes" className="text-primary hover:underline font-bold">Palettes Library</Link>, or return to the <Link href="/" className="text-primary hover:underline font-bold">Home Page</Link> to start creating immediately.
