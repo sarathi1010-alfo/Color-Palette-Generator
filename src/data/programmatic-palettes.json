@@ -3,7 +3,13 @@
     "slug": "analogous-blue",
     "name": "Analogous Blue",
     "description": "A serene and harmonious blue palette based on analogous color theory, perfect for professional interfaces.",
-    "colors": ["#0055ff", "#0088ff", "#00aaff", "#00ccff", "#00eeff"],
+    "colors": [
+      "#0055ff",
+      "#0088ff",
+      "#00aaff",
+      "#00ccff",
+      "#00eeff"
+    ],
     "harmony": "Analogous",
     "baseColor": "Blue",
     "faqs": [
@@ -15,13 +21,20 @@
         "question": "When should I use analogous blue colors?",
         "answer": "They are ideal for professional, trustworthy, and calm interfaces where you want to minimize visual friction, such as fintech, insurance, or wellness applications."
       }
-    ]
+    ],
+    "h1Title": "Analogous Blue Color Palettes \u2013 Calm & Cohesive UI Designs"
   },
   {
     "slug": "triadic-red",
     "name": "Triadic Red",
     "description": "A vibrant and balanced palette using red in a triadic harmony to create high-energy user experiences.",
-    "colors": ["#ff0000", "#00ff00", "#0000ff", "#ffffff", "#000000"],
+    "colors": [
+      "#ff0000",
+      "#00ff00",
+      "#0000ff",
+      "#ffffff",
+      "#000000"
+    ],
     "harmony": "Triadic",
     "baseColor": "Red",
     "faqs": [
@@ -33,13 +46,20 @@
         "question": "Is triadic red good for UI design?",
         "answer": "Yes, but it must be balanced carefully. It is best suited for playful brands, gaming interfaces, or children's educational apps where high engagement is desired."
       }
-    ]
+    ],
+    "h1Title": "Triadic Red Color Palettes \u2013 Bold & Balanced for Modern UI"
   },
   {
     "slug": "complementary-green",
     "name": "Complementary Green",
     "description": "A high-contrast palette featuring green and its magenta complement for bold call-to-actions.",
-    "colors": ["#00ff00", "#ff00ff", "#ffffff", "#1a1a1a", "#333333"],
+    "colors": [
+      "#00ff00",
+      "#ff00ff",
+      "#ffffff",
+      "#1a1a1a",
+      "#333333"
+    ],
     "harmony": "Complementary",
     "baseColor": "Green",
     "faqs": [
@@ -51,13 +71,20 @@
         "question": "How to use complementary green in web design?",
         "answer": "Use green for success states or primary brand surfaces, and its magenta complement for high-visibility call-to-action buttons that need to stand out immediately."
       }
-    ]
+    ],
+    "h1Title": "Complementary Green Color Palettes \u2013 High Contrast & Vibrant"
   },
   {
     "slug": "monochromatic-purple",
     "name": "Monochromatic Purple",
     "description": "A sophisticated palette using various shades and tints of purple, ideal for modern tech startups.",
-    "colors": ["#4b0082", "#6a0dad", "#8a2be2", "#9370db", "#e6e6fa"],
+    "colors": [
+      "#4b0082",
+      "#6a0dad",
+      "#8a2be2",
+      "#9370db",
+      "#e6e6fa"
+    ],
     "harmony": "Monochromatic",
     "baseColor": "Purple",
     "faqs": [
@@ -69,13 +96,20 @@
         "question": "Is monochromatic purple modern for UI?",
         "answer": "Extremely. Monochromatic schemes with purple are a hallmark of modern AI startups and luxury digital products for their sophisticated, clean, and futuristic look."
       }
-    ]
+    ],
+    "h1Title": "Monochromatic Purple Color Palettes \u2013 Elegant & Consistent"
   },
   {
     "slug": "neutral-warm",
     "name": "Neutral Warm",
     "description": "A cozy and inviting palette of warm neutral tones for lifestyle and organic brand identities.",
-    "colors": ["#f5f5dc", "#ece0d1", "#dbc1ac", "#967969", "#634e34"],
+    "colors": [
+      "#f5f5dc",
+      "#ece0d1",
+      "#dbc1ac",
+      "#967969",
+      "#634e34"
+    ],
     "harmony": "Neutral",
     "baseColor": "Warm Beige",
     "faqs": [
@@ -87,6 +121,7 @@
         "question": "Where should I use warm neutrals in my UI?",
         "answer": "They are perfect for interior design portfolios, organic food brands, and lifestyle blogs where you want to evoke feelings of comfort, trust, and authenticity."
       }
-    ]
+    ],
+    "h1Title": "Warm Neutral Color Palettes \u2013 Timeless & Accessible UI"
   }
 ]

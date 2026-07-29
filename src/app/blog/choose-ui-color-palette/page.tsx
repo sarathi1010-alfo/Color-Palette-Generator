@@ -39,7 +39,7 @@ export default function UIColorPaletteGuide() {
               <span>UI/UX Design Masterclass</span>
             </div>
             <h1 className="text-5xl md:text-7xl font-display font-bold leading-tight text-text-primary">
-              The Ultimate Guide: How to Choose a Color Palette for UI Design in 2026
+              How to Choose a Color Palette for UI Design in 2026
             </h1>
             <p className="text-xl text-text-secondary leading-relaxed max-w-3xl italic">
               Color is the most powerful silent communicator in your interface. Here is how to master it flawlessly.
@@ -67,7 +67,7 @@ export default function UIColorPaletteGuide() {
             </section>
 
             <section className="space-y-6">
-              <h2 className="text-3xl font-display font-bold text-text-primary">How does color psychology impact digital spaces?</h2>
+              <h2 className="text-3xl font-display font-bold text-text-primary">The Psychological Impact of Color in Design</h2>
               <p>
                 Before you ever touch a hex code, you must understand the &quot;why&quot; behind the &quot;what.&quot; Color psychology is the study of how different hues influence human behavior and decision-making. In UI design, this is the foundation of brand trust and user engagement. It is not just about the color itself, but the context in which it is used and the density of that color within the viewport.
               </p>
@@ -101,7 +101,7 @@ export default function UIColorPaletteGuide() {
             </section>
 
             <section className="space-y-6">
-              <h2 className="text-3xl font-display font-bold text-text-primary">How do you build a functional color hierarchy?</h2>
+              <h2 className="text-3xl font-display font-bold text-text-primary">Understanding Color Theory Fundamentals</h2>
               <p>
                 A professional UI palette isn&apos;t just a collection of five random colors found on a mood board. It is a functional system with a clear hierarchy. In modern design systems, we categorize colors by their purpose: Brand, Semantic, and Neutral.
               </p>
@@ -131,7 +131,7 @@ export default function UIColorPaletteGuide() {
             </section>
 
             <section className="space-y-6">
-              <h2 className="text-3xl font-display font-bold text-text-primary">What is the 60-30-10 rule in UI/UX design?</h2>
+              <h3 className="text-3xl font-display font-bold text-text-primary">What is the 60-30-10 rule in UI/UX design?</h3>
               <p>
                 To achieve perfect visual balance, designers utilize the 60-30-10 rule. While it originated in interior design, it is perhaps even more relevant in digital interfaces where screen real estate is limited and user attention spans are even shorter.
               </p>
@@ -152,7 +152,7 @@ export default function UIColorPaletteGuide() {
             </section>
 
             <section className="space-y-6">
-              <h2 className="text-3xl font-display font-bold text-text-primary">Which color harmonies are essential for digital interfaces?</h2>
+              <h3 className="text-3xl font-display font-bold text-text-primary">Which color harmonies are essential for digital interfaces?</h3>
               <p>
                 Color theory is the mathematical framework behind beauty. By using established harmonies, you ensure that your colors have a balanced &quot;vibe&quot; from the start. When you use our <Link href="/" className="text-primary hover:underline font-bold">UI color generator</Link>, you can toggle these specific settings to see them in action:
               </p>
@@ -192,7 +192,7 @@ export default function UIColorPaletteGuide() {
             </section>
 
             <section className="space-y-6">
-              <h2 className="text-3xl font-display font-bold text-text-primary">Why is accessibility a non-negotiable standard?</h2>
+              <h3 className="text-3xl font-display font-bold text-text-primary">Why is accessibility a non-negotiable standard?</h3>
               <p>
                 Design without accessibility is just art. In 2026, web standards are stricter than ever. If your color palette doesn&apos;t meet WCAG (Web Content Accessibility Guidelines) requirements, your site will not only be unusable for millions but will also suffer in SEO rankings. Google and other search engines now factor in accessibility signals as part of their Core Web Vitals and user experience metrics.
               </p>
@@ -213,7 +213,7 @@ export default function UIColorPaletteGuide() {
             </section>
 
             <section className="space-y-6">
-              <h2 className="text-3xl font-display font-bold text-text-primary">What are the practical steps to build your palette?</h2>
+              <h2 className="text-3xl font-display font-bold text-text-primary">Step-by-Step Guide to Building a UI Color Palette</h2>
               <ol className="list-decimal pl-8 space-y-6">
                 <li>
                   <strong className="text-text-primary">Analyze the Content:</strong> What are you selling? A data dashboard needs many subtle variations of gray and blue to distinguish between data points. A portfolio needs one strong personality color.
@@ -234,7 +234,7 @@ export default function UIColorPaletteGuide() {
             </section>
 
             <section className="space-y-6">
-              <h2 className="text-3xl font-display font-bold text-text-primary">How do you test palettes across devices and lighting?</h2>
+              <h3 className="text-3xl font-display font-bold text-text-primary">How do you test palettes across devices and lighting?</h3>
               <p>
                 A palette that looks stunning on your expensive Pro Display XDR might look washed out on a budget Android phone in direct sunlight. Always test your colors on multiple screen types, including OLED, IPS, and low-end LCD panels. The way colors render can drastically affect the perceived &quot;quality&quot; of your product.
               </p>
@@ -248,7 +248,7 @@ export default function UIColorPaletteGuide() {
             </section>
 
             <section className="space-y-6">
-              <h2 className="text-3xl font-display font-bold text-text-primary">How does advanced color scaling work for modern design systems?</h2>
+              <h3 className="text-3xl font-display font-bold text-text-primary">How does advanced color scaling work for modern design systems?</h3>
               <p>
                 In 2026, choosing five colors isn&apos;t enough. You need to build a &quot;Color System.&quot; This means creating a scale for every primary and secondary color in your palette. A typical professional system includes 9 or 10 steps of each color:
               </p>
@@ -286,7 +286,7 @@ export default function UIColorPaletteGuide() {
             </section>
 
             <section className="space-y-6">
-              <h2 className="text-3xl font-display font-bold text-text-primary">What common pitfalls should you avoid in UI color selection?</h2>
+              <h2 className="text-3xl font-display font-bold text-text-primary">Common UI Palette Mistakes to Avoid</h2>
               <ul className="list-disc pl-8 space-y-4">
                 <li>
                   <strong className="text-text-primary">Vibrancy Overload:</strong> If every color is at 100% saturation, the user will experience &quot;visual fatigue.&quot; The brain can only process a few high-saturation areas at once. Use desaturated colors for larger surfaces.
@@ -304,7 +304,7 @@ export default function UIColorPaletteGuide() {
             </section>
 
             <section className="bg-text-primary text-background p-12 rounded-[3rem] text-center space-y-8 not-prose shadow-2xl">
-                <h2 className="text-4xl font-display font-bold">Ready to choose your perfect UI colors?</h2>
+                <h2 className="text-4xl font-display font-bold">How PaletteFlow Simplifies the Process</h2>
                 <p className="text-xl opacity-90 max-w-2xl mx-auto">
                     Stop the guesswork and start generating professional, accessible, and balanced palettes in seconds with PaletteFlow.
                 </p>
@@ -321,7 +321,7 @@ export default function UIColorPaletteGuide() {
             </section>
 
             <section className="space-y-6 pt-12 border-t border-border">
-              <h2 className="text-3xl font-display font-bold text-text-primary">What is the final verdict on UI color selection?</h2>
+              <h3 className="text-3xl font-display font-bold text-text-primary">What is the final verdict on UI color selection?</h3>
               <p>
                 Choosing a color palette for UI design is a blend of science and soul. It requires a deep respect for color theory and accessibility, balanced with the intuition of a storyteller. By following the 60-30-10 rule, respecting WCAG standards, and utilizing modern tools like <Link href="/" className="text-primary hover:underline font-bold">PaletteFlow</Link>, you ensure that your interface isn&apos;t just beautiful—it&apos;s functional.
               </p>
