@@ -154,7 +154,7 @@ export default function UIColorPaletteGuide() {
             <section className="space-y-6">
               <h3 className="text-3xl font-display font-bold text-text-primary">Which color harmonies are essential for digital interfaces?</h3>
               <p>
-                Color theory is the mathematical framework behind beauty. By using established harmonies, you ensure that your colors have a balanced &quot;vibe&quot; from the start. When you use our <Link href="/" className="text-primary hover:underline font-bold">UI color generator</Link>, you can toggle these specific settings to see them in action:
+                Color theory is the mathematical framework behind beauty. By using established harmonies, you ensure that your colors have a balanced &quot;vibe&quot; from the start. When you use our <Link href="/" className="text-primary hover:underline font-bold">PaletteFlow generator</Link>, you can toggle these specific settings to see them in action:
               </p>
               <div className="space-y-8">
                 <div className="flex gap-6 items-start">
