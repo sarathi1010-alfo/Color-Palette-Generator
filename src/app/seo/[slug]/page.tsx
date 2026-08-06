@@ -51,7 +51,8 @@ export default async function SeoPage({ params }: { params: Promise<{ slug: stri
     slug: `/seo/${slug}`,
     pageType: "article",
     author: { name: "PaletteFlow Editorial" },
-    publishedAt: new Date().toISOString()
+    publishedAt: new Date().toISOString(),
+    updatedAt: pageData.slug === 'color-theory-fundamentals-guide' ? "2026-06-30T00:00:00Z" : undefined
   };
 
   const faqs = [
@@ -98,6 +99,11 @@ export default async function SeoPage({ params }: { params: Promise<{ slug: stri
                <p>
                  Color plays a pivotal role in visual communication. Mastering {pageData.title.toLowerCase()} allows creators to evoke the right emotions, establish brand identity, and improve accessibility.
                </p>
+               {pageData.slug === 'color-theory-fundamentals-guide' && (
+                 <p className="mt-4">
+                   For a deeper dive into applying these concepts, check out our comprehensive guide on <a href="/blog/choose-ui-color-palette" className="text-primary hover:underline font-bold">how to choose a color palette for UI design</a>.
+                 </p>
+               )}
              </section>
 
              <section className="space-y-8 pt-12 border-t border-border">
