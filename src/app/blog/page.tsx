@@ -67,7 +67,7 @@ export default function BlogLandingPage() {
               PaletteFlow Blog – Expert Color Guides, Palettes & Design Insights
             </h1>
             <p className="text-xl text-text-secondary leading-relaxed max-w-2xl">
-              Welcome to the PaletteFlow Blog. We believe that color is the foundation of exceptional design. Our mission is to provide you with expert-level guides, data-driven insights, and practical resources to master color theory in your creative workflow. Whether you are a seasoned UI/UX designer building complex design systems, or a solo developer trying to choose the perfect primary hex code, our resources are tailored for you. Explore our comprehensive deep-dives, learn how to create accessible and inclusive digital experiences, and stay ahead of the curve with the latest 2026 industry color trends. Check out our <Link href="/generator" className="text-primary hover:underline font-bold">Palette Generator</Link>, browse the <Link href="/palettes" className="text-primary hover:underline font-bold">Palettes Library</Link>, or return to the <Link href="/" className="text-primary hover:underline font-bold">Home Page</Link> to start creating immediately.
+              Welcome to the PaletteFlow Blog, your ultimate destination for mastering color in digital design. We believe that color is the foundation of exceptional user experiences. Our mission is to provide expert-level guides, data-driven insights, and practical resources to elevate your creative workflow. Whether you are a seasoned UI/UX designer building robust design systems, or a solo developer choosing the perfect primary hex code, this hub is tailored for you. Explore our comprehensive deep-dives into color theory, learn how to build accessible interfaces that meet strict WCAG standards, and discover industry-specific palettes that convert users. We also cover practical implementation with export guides for Tailwind CSS and Figma, and keep you ahead of the curve with the latest 2026 design trends. Check out our <Link href="/generator" className="text-primary hover:underline font-bold">Palette Generator</Link>, browse the <Link href="/palettes" className="text-primary hover:underline font-bold">Palettes Library</Link>, or return to the <Link href="/" className="text-primary hover:underline font-bold">Home Page</Link> to start creating immediately.
             </p>
           </div>
 
@@ -95,7 +95,7 @@ export default function BlogLandingPage() {
           </div>
 
           <section className="mt-32 space-y-12">
-             <h2 className="text-4xl font-display font-bold">Featured Content</h2>
+             <h2 className="text-4xl font-display font-bold">Featured Content: Week 1 Guides</h2>
              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <Link href="/guides/ultimate-guide-color-theory-2026" className="group space-y-4">
                     <div className="aspect-video bg-surface rounded-2xl border border-border group-hover:border-primary transition-colors" />
@@ -108,6 +108,26 @@ export default function BlogLandingPage() {
                 <Link href="/learn/what-is-a-monochromatic-palette" className="group space-y-4">
                     <div className="aspect-video bg-surface rounded-2xl border border-border group-hover:border-primary transition-colors" />
                     <h3 className="text-xl font-bold group-hover:text-primary transition-colors">What is a Monochromatic Palette?</h3>
+                </Link>
+                <Link href="/learn/what-is-a-complementary-palette" className="group space-y-4">
+                    <div className="aspect-video bg-surface rounded-2xl border border-border group-hover:border-primary transition-colors" />
+                    <h3 className="text-xl font-bold group-hover:text-primary transition-colors">What is a Complementary Palette?</h3>
+                </Link>
+                <Link href="/learn/what-is-a-triadic-palette" className="group space-y-4">
+                    <div className="aspect-video bg-surface rounded-2xl border border-border group-hover:border-primary transition-colors" />
+                    <h3 className="text-xl font-bold group-hover:text-primary transition-colors">What is a Triadic Palette?</h3>
+                </Link>
+                <Link href="/learn/what-is-an-analogous-palette" className="group space-y-4">
+                    <div className="aspect-video bg-surface rounded-2xl border border-border group-hover:border-primary transition-colors" />
+                    <h3 className="text-xl font-bold group-hover:text-primary transition-colors">What is an Analogous Palette?</h3>
+                </Link>
+                <Link href="/guides/color-palette-generator-vs-coolors" className="group space-y-4">
+                    <div className="aspect-video bg-surface rounded-2xl border border-border group-hover:border-primary transition-colors" />
+                    <h3 className="text-xl font-bold group-hover:text-primary transition-colors">PaletteFlow vs Coolors</h3>
+                </Link>
+                <Link href="/guides/paletteflow-vs-adobe-color" className="group space-y-4">
+                    <div className="aspect-video bg-surface rounded-2xl border border-border group-hover:border-primary transition-colors" />
+                    <h3 className="text-xl font-bold group-hover:text-primary transition-colors">PaletteFlow vs Adobe Color</h3>
                 </Link>
              </div>
           </section>
