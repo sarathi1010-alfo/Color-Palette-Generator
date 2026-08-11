@@ -11,6 +11,6 @@ INDEXNOW_KEY=${INDEXNOW_KEY:-"d2c0b497b7b140689b6574f9d8544d93"}
 # Trigger IndexNow
 curl -s -X POST https://api.indexnow.org/indexnow \
   -H "Content-Type: application/json" \
-  -d "{\"host\":\"paletteflow.alfo.online\",\"key\":\"${INDEXNOW_KEY}\",\"urlList\":[\"https://paletteflow.alfo.online/blog\"]}" > /dev/null
+  -d "{\"host\":\"paletteflow.alfo.online\",\"key\":\"${INDEXNOW_KEY}\",\"urlList\":[\"https://paletteflow.alfo.online/blog/choose-ui-color-palette\",\"https://paletteflow.alfo.online/palettes/theory/analogous-blue\",\"https://paletteflow.alfo.online/palettes/theory/triadic-red\",\"https://paletteflow.alfo.online/palettes/theory/complementary-green\",\"https://paletteflow.alfo.online/palettes/theory/monochromatic-purple\",\"https://paletteflow.alfo.online/palettes/theory/neutral-warm\"]}" > /dev/null
 
 echo "Post-publish automation complete."
