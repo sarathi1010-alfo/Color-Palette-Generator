@@ -54,7 +54,7 @@ export default function UIColorPaletteGuide() {
               <div className="bg-surface border-l-4 border-primary p-8 rounded-r-2xl my-8">
                 <p className="text-text-primary font-bold mb-2">AI Snapshot / Quick Answer:</p>
                 <p className="m-0 text-lg leading-relaxed">
-                  To choose a UI color palette: start with a primary brand color, apply a color harmony (analogous, complementary, or triadic), test contrast ratios for accessibility using WCAG standards, generate complementary shades using PaletteFlow&apos;s AI tool, and export your finalized palette to Figma or CSS.
+                  To choose a UI color palette: start with a primary brand color, apply a color harmony (analogous, complementary, or triadic), test contrast ratios for accessibility using WCAG standards, generate complementary shades using PaletteFlow&apos;s AI tool, and export to Figma.
                 </p>
               </div>
 
