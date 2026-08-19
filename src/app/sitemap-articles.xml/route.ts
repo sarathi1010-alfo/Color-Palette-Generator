@@ -17,7 +17,8 @@ const articles = [
   '/learn/what-is-a-monochromatic-palette',
   '/learn/what-is-a-complementary-palette',
   '/learn/what-is-a-triadic-palette',
-  '/learn/what-is-an-analogous-palette'
+  '/learn/what-is-an-analogous-palette',
+  '/blog/choose-ui-color-palette'
 ];
 
 export async function GET() {
