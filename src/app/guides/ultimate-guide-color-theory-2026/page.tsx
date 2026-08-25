@@ -20,7 +20,8 @@ const metaDataObj: SeoMeta = {
   slug: "/guides/ultimate-guide-color-theory-2026",
   pageType: "article",
   author: { name: "PaletteFlow Editorial" },
-  publishedAt: new Date().toISOString()
+  publishedAt: new Date().toISOString(),
+  updatedAt: "2026-08-25T00:00:00Z"
 };
 
 const faqs = [
@@ -121,7 +122,7 @@ export default function ColorTheoryPillarPage() {
             <section id="tech" className="scroll-mt-24 space-y-8">
                 <h2 className="text-5xl font-display font-bold text-text-primary">Technical Foundations</h2>
                 <p>
-                    Understanding color theory requires grasping a few core concepts: the color wheel, color harmonies, and color properties (Hue, Saturation, Lightness).
+                    Understanding color theory requires grasping a few core concepts: the color wheel, color harmonies, and color properties (Hue, Saturation, Lightness). When you transition from theory to practice, especially in digital interfaces, these core concepts become the building blocks for an accessible and cohesive design system. To dive deeper into applying these concepts effectively, and learn how to construct a professional, WCAG-compliant design system, you should study our complete masterclass on <a href="/blog/choose-ui-color-palette" className="text-primary hover:underline font-bold">how to choose a color palette for UI design</a>. This extensive guide will teach you the 60-30-10 rule and exactly how to scale your brand colors for any modern web application, ensuring you can immediately put these color theory fundamentals to use.
                 </p>
                 <div className="not-prose bg-surface border border-border p-12 rounded-[2.5rem] space-y-6">
                     <h3 className="text-2xl font-bold text-text-primary">Color Usage in Top SaaS Companies (2026 Data)</h3>
