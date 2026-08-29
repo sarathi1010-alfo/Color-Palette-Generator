@@ -16,11 +16,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/tools/tints-shades',
     '/tools/image-extractor',
     '/blog/choose-ui-color-palette',
-    '/palettes/theory/analogous-blue',
-    '/palettes/theory/triadic-red',
-    '/palettes/theory/complementary-green',
-    '/palettes/theory/monochromatic-purple',
-    '/palettes/theory/neutral-warm',
+    '/palettes/analogous-blue',
+    '/palettes/triadic-red',
+    '/palettes/complementary-green',
+    '/palettes/monochromatic-purple',
+    '/palettes/neutral-warm',
   ];
 
   return staticRoutes.map(route => ({
