@@ -22,7 +22,13 @@ const metaDataObj: SeoMeta = {
   pageType: "article",
   author: { name: "PaletteFlow Editorial" },
   publishedAt: "2026-07-10T00:00:00Z",
-  updatedAt: "2026-08-27T00:00:00Z"
+  updatedAt: "2026-08-27T00:00:00Z",
+  ogImage: {
+    url: "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=1200&auto=format&fit=crop&fm=webp",
+    width: 1200,
+    height: 630,
+    alt: "UI Color Palette Design"
+  }
 };
 
 export default function UIColorPaletteGuide() {
@@ -47,6 +53,15 @@ export default function UIColorPaletteGuide() {
           </div>
 
           <article className="prose prose-invert prose-lg max-w-none space-y-12 text-text-secondary">
+
+            <img
+              src="https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=1200&auto=format&fit=crop&fm=webp"
+              alt="UI Color Palette Design"
+              width={1200}
+              height={630}
+              loading="lazy"
+              className="rounded-2xl shadow-xl w-full h-auto object-cover"
+            />
 
             <section className="space-y-6">
               <h2 className="text-3xl font-display font-bold text-text-primary">How to choose a color palette for UI design?</h2>
