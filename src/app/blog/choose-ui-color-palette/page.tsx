@@ -249,7 +249,7 @@ export default function UIColorPaletteGuide() {
             </section>
 
             <section className="space-y-6">
-              <h3 className="text-3xl font-display font-bold text-text-primary">How do you test palettes across devices and lighting?</h3>
+              <h2 className="text-3xl font-display font-bold text-text-primary">How do you test palettes across devices and lighting?</h2>
               <p>
                 A palette that looks stunning on your expensive Pro Display XDR might look washed out on a budget Android phone in direct sunlight. Always test your colors on multiple screen types, including OLED, IPS, and low-end LCD panels. The way colors render can drastically affect the perceived &quot;quality&quot; of your product.
               </p>
@@ -263,7 +263,7 @@ export default function UIColorPaletteGuide() {
             </section>
 
             <section className="space-y-6">
-              <h3 className="text-3xl font-display font-bold text-text-primary">How does advanced color scaling work for modern design systems?</h3>
+              <h2 className="text-3xl font-display font-bold text-text-primary">How does advanced color scaling work for modern design systems?</h2>
               <p>
                 In 2026, choosing five colors isn&apos;t enough. You need to build a &quot;Color System.&quot; This means creating a scale for every primary and secondary color in your palette. A typical professional system includes 9 or 10 steps of each color:
               </p>
@@ -336,7 +336,7 @@ export default function UIColorPaletteGuide() {
             </section>
 
             <section className="space-y-6 pt-12 border-t border-border">
-              <h3 className="text-3xl font-display font-bold text-text-primary">What is the final verdict on UI color selection?</h3>
+              <h2 className="text-3xl font-display font-bold text-text-primary">What is the final verdict on UI color selection?</h2>
               <p>
                 Choosing a color palette for UI design is a blend of science and soul. It requires a deep respect for color theory and accessibility, balanced with the intuition of a storyteller. By following the 60-30-10 rule, respecting WCAG standards, and utilizing modern tools like <Link href="/" className="text-primary hover:underline font-bold">PaletteFlow</Link>, you ensure that your interface isn&apos;t just beautiful—it&apos;s functional.
               </p>
