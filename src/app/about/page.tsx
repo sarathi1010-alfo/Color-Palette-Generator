@@ -10,7 +10,7 @@ export const metadata = resolveMetadata(buildLandingMeta({
   title: "About | Color Palette Generator",
   description: "Learn about ALFO, the design tool for the modern web built for speed and algorithmic color harmony.",
   slug: "/about",
-  updatedAt: "2026-09-02T00:00:00Z",
+  updatedAt: "2026-06-30T00:00:00Z",
 }));
 
 const faqs = [
