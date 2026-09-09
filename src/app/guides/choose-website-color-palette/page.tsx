@@ -22,7 +22,7 @@ const metaDataObj: SeoMeta = {
   pageType: "article",
   author: { name: "PaletteFlow Editorial" },
   publishedAt: "2024-11-05T09:00:00Z",
-  updatedAt: "2026-07-16T10:51:21Z"
+  updatedAt: "2026-06-30T00:00:00Z"
 };
 
 export default function ChoosePaletteGuidePage() {
