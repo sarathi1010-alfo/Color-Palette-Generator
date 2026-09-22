@@ -9,12 +9,6 @@ import Link from "next/link";
 import { Palette, Zap, CheckCircle2, ShieldCheck, Eye, Layers } from "lucide-react";
 import { SeoMeta } from "@/types/seo";
 
-export const metadata = resolveMetadata(buildLandingMeta({
-  title: "Mastering UI Color Selection: The 2026 Definitive Guide",
-  description: "Expert strategies for choosing UI color palettes. Deep dive into 60-30-10 rule, WCAG 2.1 accessibility, and emotional branding for modern digital products.",
-  slug: "/blog/choose-ui-color-palette",
-}));
-
 const metaDataObj: SeoMeta = {
   title: "Mastering UI Color Selection: The 2026 Definitive Guide",
   description: "Expert strategies for choosing UI color palettes. Deep dive into 60-30-10 rule, WCAG 2.1 accessibility, and emotional branding for modern digital products.",
@@ -30,6 +24,8 @@ const metaDataObj: SeoMeta = {
     alt: "UI Color Palette Design"
   }
 };
+
+export const metadata = resolveMetadata(buildLandingMeta(metaDataObj));
 
 export default function UIColorPaletteGuide() {
   return (
