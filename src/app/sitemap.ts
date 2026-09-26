@@ -21,6 +21,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/palettes/complementary-green',
     '/palettes/monochromatic-purple',
     '/palettes/neutral-warm',
+    '/blog',
+    '/guides/ultimate-guide-color-theory-2026',
+    '/learn/what-is-color-theory',
+    '/learn/what-is-a-monochromatic-palette',
+    '/learn/what-is-a-complementary-palette',
+    '/learn/what-is-a-triadic-palette',
+    '/learn/what-is-an-analogous-palette',
   ];
 
   return staticRoutes.map(route => ({

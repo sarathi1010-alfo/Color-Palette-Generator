@@ -6,7 +6,14 @@ const urls = [
   '/palettes/theory/triadic-red',
   '/palettes/theory/complementary-green',
   '/palettes/theory/monochromatic-purple',
-  '/palettes/theory/neutral-warm'
+  '/palettes/theory/neutral-warm',
+  '/blog',
+  '/guides/ultimate-guide-color-theory-2026',
+  '/learn/what-is-color-theory',
+  '/learn/what-is-a-monochromatic-palette',
+  '/learn/what-is-a-complementary-palette',
+  '/learn/what-is-a-triadic-palette',
+  '/learn/what-is-an-analogous-palette'
 ];
 
 test.describe('Verify new URLs', () => {

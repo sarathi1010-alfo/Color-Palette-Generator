@@ -7,7 +7,14 @@ const urls = [
   'http://localhost:3000/palettes/theory/triadic-red',
   'http://localhost:3000/palettes/theory/complementary-green',
   'http://localhost:3000/palettes/theory/monochromatic-purple',
-  'http://localhost:3000/palettes/theory/neutral-warm'
+  'http://localhost:3000/palettes/theory/neutral-warm',
+  'http://localhost:3000/blog',
+  'http://localhost:3000/guides/ultimate-guide-color-theory-2026',
+  'http://localhost:3000/learn/what-is-color-theory',
+  'http://localhost:3000/learn/what-is-a-monochromatic-palette',
+  'http://localhost:3000/learn/what-is-a-complementary-palette',
+  'http://localhost:3000/learn/what-is-a-triadic-palette',
+  'http://localhost:3000/learn/what-is-an-analogous-palette'
 ];
 
 test.describe('Status Code & Console Error Checks', () => {
