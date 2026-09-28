@@ -34,6 +34,8 @@ export function buildLandingMeta(page: { title: string; description: string; slu
     updatedAt: page.updatedAt,
     ogImage: {
       url: getOgImageUrl(page.title, 'landing'),
+      width: 1200,
+      height: 630,
       alt: page.title,
     },
     breadcrumbs: [
@@ -51,6 +53,8 @@ export function buildToolMeta(tool: { title: string; description: string; slug: 
     noindex: false,
     ogImage: {
       url: getOgImageUrl(tool.title, 'tool'),
+      width: 1200,
+      height: 630,
       alt: tool.title,
     },
     breadcrumbs: [
@@ -74,6 +78,8 @@ export function buildColorMeta(color: { name: string; hex: string; description?:
     noindex: false,
     ogImage: {
       url: getOgImageUrl(title, 'color'),
+      width: 1200,
+      height: 630,
       alt: `Color ${color.name} ${color.hex}`,
     },
     productData: {
@@ -107,6 +113,8 @@ export function buildPaletteMeta(palette: { title: string; slug: string; descrip
     noindex: false,
     ogImage: {
       url: getOgImageUrl(title, 'palette'),
+      width: 1200,
+      height: 630,
       alt: `${palette.title} Color Palette`,
     },
     breadcrumbs: [
@@ -133,6 +141,8 @@ export function buildCategoryMeta(category: { name: string; slug: string; descri
     noindex: false,
     ogImage: {
       url: getOgImageUrl(title, 'category'),
+      width: 1200,
+      height: 630,
       alt: `${category.name} Color Palettes`,
     },
     breadcrumbs: [
@@ -153,6 +163,8 @@ export function buildFaqMeta(page: { title: string; description: string; slug: s
     noindex: false,
     ogImage: {
       url: getOgImageUrl(page.title, 'faq'),
+      width: 1200,
+      height: 630,
       alt: page.title,
     },
     breadcrumbs: [

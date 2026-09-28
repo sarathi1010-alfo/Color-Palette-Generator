@@ -19,8 +19,8 @@ export interface SeoMeta {
   nofollow?: boolean;
   ogImage?: {
     url: string;
-    width?: number;
-    height?: number;
+    width: number;
+    height: number;
     alt: string;
   };
   publishedAt?: string;           // ISO 8601
