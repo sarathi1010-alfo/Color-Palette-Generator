@@ -22,7 +22,7 @@ const categories = [
   {
     name: "Industry Palettes",
     description: "Best practices and color schemes tailored for specific industries and audiences.",
-    href: "/blog",
+    href: "/palettes/category/industry",
     count: 0
   },
   {
@@ -67,7 +67,7 @@ export default function BlogLandingPage() {
               PaletteFlow Blog – Expert Color Guides, Palettes & Design Insights
             </h1>
             <p className="text-xl text-text-secondary leading-relaxed max-w-2xl">
-              Welcome to the PaletteFlow Blog, your ultimate destination for mastering color in digital design. We believe that color is the foundation of exceptional user experiences. Our mission is to provide expert-level guides, data-driven insights, and practical resources to elevate your creative workflow. Whether you are a seasoned UI/UX designer building robust design systems, or a solo developer choosing the perfect primary hex code, this hub is tailored for you. Explore our comprehensive deep-dives into color theory, learn how to build accessible interfaces that meet strict WCAG standards, and discover industry-specific palettes that convert users. We also cover practical implementation with export guides for Tailwind CSS and Figma, and keep you ahead of the curve with the latest 2026 design trends. Check out our <Link href="/generator" className="text-primary hover:underline font-bold">Palette Generator</Link>, browse the <Link href="/palettes" className="text-primary hover:underline font-bold">Palettes Library</Link>, or return to the <Link href="/" className="text-primary hover:underline font-bold">Home Page</Link> to start creating immediately.
+              Welcome to the PaletteFlow Blog, your ultimate destination for mastering color in digital design. We believe that color is the foundation of exceptional user experiences. Our mission is to provide expert-level guides, data-driven insights, and practical resources to elevate your creative workflow. Whether you are a seasoned UI/UX designer building robust design systems, or a solo developer choosing the perfect primary hex code, this hub is tailored for you. Explore our comprehensive deep-dives into color theory, learn how to build accessible interfaces that meet strict WCAG standards, and discover industry-specific palettes that convert users. We also cover practical implementation with export guides for Tailwind CSS and Figma, and keep you ahead of the curve with the latest 2026 design trends. Check out our <Link href="/generator" className="text-primary hover:underline font-bold">Palette Generator</Link>, browse the <Link href="/palettes" className="text-primary hover:underline font-bold">Palettes Library</Link>, or return to the <Link href="/" className="text-primary hover:underline font-bold">Home Page</Link> to start creating beautiful color combinations instantly for your next digital design project today.
             </p>
           </div>
 

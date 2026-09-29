@@ -56,6 +56,7 @@ export default function GeneratorPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <main className="flex-1 flex flex-col">
+        {/* Added FAQ Schema */}
         <JsonLd schema={buildFaqSchema(faqs)} />
         <JsonLd schema={howToSchema} />
         <Suspense fallback={<div className="h-screen bg-background" />}>

@@ -58,6 +58,7 @@ export default function HomePage() {
       <Navbar />
 
       <main className="flex-1" itemScope itemType="https://schema.org/WebPage">
+        {/* Added FAQ Schema */}
         <JsonLd schema={buildFaqSchema(faqs)} />
         <JsonLd schema={howToSchema} />
         {/* Hero Section */}

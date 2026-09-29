@@ -30,10 +30,10 @@ export const metadata = resolveMetadata(buildLandingMeta(metaDataObj));
 export default function UIColorPaletteGuide() {
   return (
     <div className="flex flex-col min-h-screen bg-background">
-      <JsonLd schema={buildArticleSchema(metaDataObj)} />
       <Navbar />
 
-      <main className="flex-1">
+      <main className="flex-1" itemScope itemType="https://schema.org/CreativeWork">
+        <JsonLd schema={buildArticleSchema(metaDataObj)} />
         <PageWrapper className="py-20 max-w-4xl">
           <div className="space-y-6 mb-16 border-b border-border pb-12">
             <div className="flex items-center space-x-2 text-primary font-bold text-sm tracking-widest uppercase">
