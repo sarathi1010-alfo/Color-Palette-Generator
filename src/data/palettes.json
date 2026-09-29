@@ -16,7 +16,7 @@
     ],
     "mood": "vibrant",
     "category": "nature",
-    "description": "The Vibrant Nature 1 color palette features a beautiful selection of vibrant, nature, analogous tones. It is carefully curated to evoke a vibrant mood, making it perfectly suited for nature design projects.",
+    "description": "The Vibrant Nature 1 color palette features a beautiful selection of vibrant, nature, analogous tones. It is carefully curated to evoke a vibrant mood, making it perfectly suited for nature projects. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience.",
     "harmonyType": "analogous",
     "harmonyDescription": "This palette utilizes a analogous harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -29,7 +29,8 @@
       "palette-2",
       "palette-6",
       "palette-11"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #1b8ac6;\n  --color-2: #1b51c6;\n  --color-3: #1e1bc6;\n  --color-4: #571bc6;\n  --color-5: #901bc6;\n}"
   },
   {
     "id": "palette-2",
@@ -48,7 +49,7 @@
     ],
     "mood": "nostalgic",
     "category": "fashion",
-    "description": "The Nostalgic Fashion 2 color palette features a beautiful selection of nostalgic, fashion, tetradic tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for fashion design projects.",
+    "description": "The Nostalgic Fashion 2 color palette features a beautiful selection of nostalgic, fashion, tetradic tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for fashion projects. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust.",
     "harmonyType": "tetradic",
     "harmonyDescription": "This palette utilizes a tetradic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -61,7 +62,8 @@
       "palette-3",
       "palette-7",
       "palette-12"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #2bd9e8;\n  --color-2: #982be8;\n  --color-3: #e83a2b;\n  --color-4: #7be82b;\n  --color-5: #75ffff;\n}"
   },
   {
     "id": "palette-3",
@@ -80,7 +82,7 @@
     ],
     "mood": "warm",
     "category": "corporate",
-    "description": "The Warm Corporate 3 color palette features a beautiful selection of warm, corporate, complementary tones. It is carefully curated to evoke a warm mood, making it perfectly suited for corporate design projects.",
+    "description": "The Warm Corporate 3 color palette features a beautiful selection of warm, corporate, complementary tones. It is carefully curated to evoke a warm mood, making it perfectly suited for corporate projects. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment.",
     "harmonyType": "complementary",
     "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -93,7 +95,8 @@
       "palette-4",
       "palette-8",
       "palette-13"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #cebb96;\n  --color-2: #ddad9e;\n  --color-3: #d9a5b3;\n  --color-4: #bfa5c7;\n  --color-5: #96a9ce;\n}"
   },
   {
     "id": "palette-4",
@@ -112,7 +115,7 @@
     ],
     "mood": "calm",
     "category": "retro",
-    "description": "The Calm Retro 4 color palette features a beautiful selection of calm, retro, complementary tones. It is carefully curated to evoke a calm mood, making it perfectly suited for retro design projects.",
+    "description": "The Calm Retro 4 color palette features a beautiful selection of calm, retro, complementary tones. It is carefully curated to evoke a calm mood, making it perfectly suited for retro projects. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user.",
     "harmonyType": "complementary",
     "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -125,7 +128,8 @@
       "palette-5",
       "palette-9",
       "palette-14"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #dc2e1b;\n  --color-2: #ac7b00;\n  --color-3: #6ea334;\n  --color-4: #04bb92;\n  --color-5: #1bc9dc;\n}"
   },
   {
     "id": "palette-5",
@@ -144,7 +148,7 @@
     ],
     "mood": "nostalgic",
     "category": "tech",
-    "description": "The Nostalgic Tech 5 color palette features a beautiful selection of nostalgic, tech, analogous tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for tech design projects.",
+    "description": "The Nostalgic Tech 5 color palette features a beautiful selection of nostalgic, tech, analogous tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for tech projects. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions.",
     "harmonyType": "analogous",
     "harmonyDescription": "This palette utilizes a analogous harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -157,7 +161,8 @@
       "palette-6",
       "palette-10",
       "palette-15"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #1a039b;\n  --color-2: #4c039b;\n  --color-3: #7f039b;\n  --color-4: #9b0384;\n  --color-5: #9b0352;\n}"
   },
   {
     "id": "palette-6",
@@ -176,7 +181,7 @@
     ],
     "mood": "soft",
     "category": "tech",
-    "description": "The Soft Tech 6 color palette features a beautiful selection of soft, tech, analogous tones. It is carefully curated to evoke a soft mood, making it perfectly suited for tech design projects.",
+    "description": "The Soft Tech 6 color palette features a beautiful selection of soft, tech, analogous tones. It is carefully curated to evoke a soft mood, making it perfectly suited for tech projects. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience.",
     "harmonyType": "analogous",
     "harmonyDescription": "This palette utilizes a analogous harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -189,7 +194,8 @@
       "palette-7",
       "palette-11",
       "palette-16"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #586c41;\n  --color-2: #496c41;\n  --color-3: #416c47;\n  --color-4: #416c55;\n  --color-5: #416c64;\n}"
   },
   {
     "id": "palette-7",
@@ -208,7 +214,7 @@
     ],
     "mood": "earthy",
     "category": "modern",
-    "description": "The Earthy Modern 7 color palette features a beautiful selection of earthy, modern, monochromatic tones. It is carefully curated to evoke a earthy mood, making it perfectly suited for modern design projects.",
+    "description": "The Earthy Modern 7 color palette features a beautiful selection of earthy, modern, monochromatic tones. It is carefully curated to evoke a earthy mood, making it perfectly suited for modern projects. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust.",
     "harmonyType": "monochromatic",
     "harmonyDescription": "This palette utilizes a monochromatic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -221,7 +227,8 @@
       "palette-8",
       "palette-12",
       "palette-17"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #e7ff9f;\n  --color-2: #b1f36b;\n  --color-3: #7be636;\n  --color-4: #3eb41b;\n  --color-5: #008200;\n}"
   },
   {
     "id": "palette-8",
@@ -240,7 +247,7 @@
     ],
     "mood": "earthy",
     "category": "modern",
-    "description": "The Earthy Modern 8 color palette features a beautiful selection of earthy, modern, complementary tones. It is carefully curated to evoke a earthy mood, making it perfectly suited for modern design projects.",
+    "description": "The Earthy Modern 8 color palette features a beautiful selection of earthy, modern, complementary tones. It is carefully curated to evoke a earthy mood, making it perfectly suited for modern projects. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment.",
     "harmonyType": "complementary",
     "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -253,7 +260,8 @@
       "palette-9",
       "palette-13",
       "palette-18"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #da4986;\n  --color-2: #e76951;\n  --color-3: #cd9733;\n  --color-4: #9bbd51;\n  --color-5: #49da9d;\n}"
   },
   {
     "id": "palette-9",
@@ -272,7 +280,7 @@
     ],
     "mood": "nostalgic",
     "category": "minimal",
-    "description": "The Nostalgic Minimal 9 color palette features a beautiful selection of nostalgic, minimal, analogous tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for minimal design projects.",
+    "description": "The Nostalgic Minimal 9 color palette features a beautiful selection of nostalgic, minimal, analogous tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for minimal projects. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user.",
     "harmonyType": "analogous",
     "harmonyDescription": "This palette utilizes a analogous harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -285,7 +293,8 @@
       "palette-10",
       "palette-14",
       "palette-19"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #44de5d;\n  --color-2: #44de91;\n  --color-3: #44dec4;\n  --color-4: #44c5de;\n  --color-5: #4491de;\n}"
   },
   {
     "id": "palette-10",
@@ -304,7 +313,7 @@
     ],
     "mood": "minimal",
     "category": "fashion",
-    "description": "The Minimal Fashion 10 color palette features a beautiful selection of minimal, fashion, analogous tones. It is carefully curated to evoke a minimal mood, making it perfectly suited for fashion design projects.",
+    "description": "The Minimal Fashion 10 color palette features a beautiful selection of minimal, fashion, analogous tones. It is carefully curated to evoke a minimal mood, making it perfectly suited for fashion projects. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions.",
     "harmonyType": "analogous",
     "harmonyDescription": "This palette utilizes a analogous harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -317,7 +326,8 @@
       "palette-11",
       "palette-15",
       "palette-20"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #f688fc;\n  --color-2: #fc88dc;\n  --color-3: #fc88b5;\n  --color-4: #fc888e;\n  --color-5: #fca888;\n}"
   },
   {
     "id": "palette-11",
@@ -336,7 +346,7 @@
     ],
     "mood": "earthy",
     "category": "interior",
-    "description": "The Earthy Interior 11 color palette features a beautiful selection of earthy, interior, complementary tones. It is carefully curated to evoke a earthy mood, making it perfectly suited for interior design projects.",
+    "description": "The Earthy Interior 11 color palette features a beautiful selection of earthy, interior, complementary tones. It is carefully curated to evoke a earthy mood, making it perfectly suited for interior projects. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience.",
     "harmonyType": "complementary",
     "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -349,7 +359,8 @@
       "palette-12",
       "palette-16",
       "palette-21"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #9bb5e8;\n  --color-2: #d3afdf;\n  --color-3: #f6afc2;\n  --color-4: #fcbba6;\n  --color-5: #e8ce9b;\n}"
   },
   {
     "id": "palette-12",
@@ -368,7 +379,7 @@
     ],
     "mood": "earthy",
     "category": "minimal",
-    "description": "The Earthy Minimal 12 color palette features a beautiful selection of earthy, minimal, analogous tones. It is carefully curated to evoke a earthy mood, making it perfectly suited for minimal design projects.",
+    "description": "The Earthy Minimal 12 color palette features a beautiful selection of earthy, minimal, analogous tones. It is carefully curated to evoke a earthy mood, making it perfectly suited for minimal projects. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust.",
     "harmonyType": "analogous",
     "harmonyDescription": "This palette utilizes a analogous harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -381,7 +392,8 @@
       "palette-13",
       "palette-17",
       "palette-22"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #e418fb;\n  --color-2: #fb18c7;\n  --color-3: #fb187b;\n  --color-4: #fb182f;\n  --color-5: #fb4c18;\n}"
   },
   {
     "id": "palette-13",
@@ -400,7 +412,7 @@
     ],
     "mood": "nostalgic",
     "category": "fashion",
-    "description": "The Nostalgic Fashion 13 color palette features a beautiful selection of nostalgic, fashion, complementary tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for fashion design projects.",
+    "description": "The Nostalgic Fashion 13 color palette features a beautiful selection of nostalgic, fashion, complementary tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for fashion projects. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment.",
     "harmonyType": "complementary",
     "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -413,7 +425,8 @@
       "palette-14",
       "palette-18",
       "palette-23"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #8862a4;\n  --color-2: #b95e7f;\n  --color-3: #c16f58;\n  --color-4: #a98b48;\n  --color-5: #7ea462;\n}"
   },
   {
     "id": "palette-14",
@@ -432,7 +445,7 @@
     ],
     "mood": "warm",
     "category": "tech",
-    "description": "The Warm Tech 14 color palette features a beautiful selection of warm, tech, complementary tones. It is carefully curated to evoke a warm mood, making it perfectly suited for tech design projects.",
+    "description": "The Warm Tech 14 color palette features a beautiful selection of warm, tech, complementary tones. It is carefully curated to evoke a warm mood, making it perfectly suited for tech projects. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user.",
     "harmonyType": "complementary",
     "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -445,7 +458,8 @@
       "palette-15",
       "palette-19",
       "palette-24"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #6d221a;\n  --color-2: #5a3f07;\n  --color-3: #3e5220;\n  --color-4: #1e5e49;\n  --color-5: #1a656d;\n}"
   },
   {
     "id": "palette-15",
@@ -464,7 +478,7 @@
     ],
     "mood": "dark",
     "category": "brand",
-    "description": "The Dark Brand 15 color palette features a beautiful selection of dark, brand, tetradic tones. It is carefully curated to evoke a dark mood, making it perfectly suited for brand design projects.",
+    "description": "The Dark Brand 15 color palette features a beautiful selection of dark, brand, tetradic tones. It is carefully curated to evoke a dark mood, making it perfectly suited for brand projects. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions.",
     "harmonyType": "tetradic",
     "harmonyDescription": "This palette utilizes a tetradic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -477,7 +491,8 @@
       "palette-16",
       "palette-20",
       "palette-25"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #25e069;\n  --color-2: #253ee0;\n  --color-3: #e0259c;\n  --color-4: #e0c625;\n  --color-5: #6eff99;\n}"
   },
   {
     "id": "palette-16",
@@ -496,7 +511,7 @@
     ],
     "mood": "soft",
     "category": "interior",
-    "description": "The Soft Interior 16 color palette features a beautiful selection of soft, interior, monochromatic tones. It is carefully curated to evoke a soft mood, making it perfectly suited for interior design projects.",
+    "description": "The Soft Interior 16 color palette features a beautiful selection of soft, interior, monochromatic tones. It is carefully curated to evoke a soft mood, making it perfectly suited for interior projects. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience.",
     "harmonyType": "monochromatic",
     "harmonyDescription": "This palette utilizes a monochromatic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -509,7 +524,8 @@
       "palette-17",
       "palette-21",
       "palette-26"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #ffffff;\n  --color-2: #ddead4;\n  --color-3: #bad4a9;\n  --color-4: #8ba47b;\n  --color-5: #5c744e;\n}"
   },
   {
     "id": "palette-17",
@@ -528,7 +544,7 @@
     ],
     "mood": "minimal",
     "category": "interior",
-    "description": "The Minimal Interior 17 color palette features a beautiful selection of minimal, interior, complementary tones. It is carefully curated to evoke a minimal mood, making it perfectly suited for interior design projects.",
+    "description": "The Minimal Interior 17 color palette features a beautiful selection of minimal, interior, complementary tones. It is carefully curated to evoke a minimal mood, making it perfectly suited for interior projects. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust.",
     "harmonyType": "complementary",
     "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -541,7 +557,8 @@
       "palette-18",
       "palette-22",
       "palette-27"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #db9f5d;\n  --color-2: #ef8980;\n  --color-3: #e182ae;\n  --color-4: #ae8dd3;\n  --color-5: #5d99db;\n}"
   },
   {
     "id": "palette-18",
@@ -560,7 +577,7 @@
     ],
     "mood": "professional",
     "category": "interior",
-    "description": "The Professional Interior 18 color palette features a beautiful selection of professional, interior, tetradic tones. It is carefully curated to evoke a professional mood, making it perfectly suited for interior design projects.",
+    "description": "The Professional Interior 18 color palette features a beautiful selection of professional, interior, tetradic tones. It is carefully curated to evoke a professional mood, making it perfectly suited for interior projects. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment.",
     "harmonyType": "tetradic",
     "harmonyDescription": "This palette utilizes a tetradic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -573,7 +590,8 @@
       "palette-19",
       "palette-23",
       "palette-28"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #5e4b8e;\n  --color-2: #8e4b5a;\n  --color-3: #7b8e4b;\n  --color-4: #4b8e7f;\n  --color-5: #8d77bf;\n}"
   },
   {
     "id": "palette-19",
@@ -592,7 +610,7 @@
     ],
     "mood": "calm",
     "category": "modern",
-    "description": "The Calm Modern 19 color palette features a beautiful selection of calm, modern, triadic tones. It is carefully curated to evoke a calm mood, making it perfectly suited for modern design projects.",
+    "description": "The Calm Modern 19 color palette features a beautiful selection of calm, modern, triadic tones. It is carefully curated to evoke a calm mood, making it perfectly suited for modern projects. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user.",
     "harmonyType": "triadic",
     "harmonyDescription": "This palette utilizes a triadic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -605,7 +623,8 @@
       "palette-20",
       "palette-24",
       "palette-29"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #87572e;\n  --color-2: #2e8757;\n  --color-3: #572e87;\n  --color-4: #ba8458;\n  --color-5: #572e04;\n}"
   },
   {
     "id": "palette-20",
@@ -624,7 +643,7 @@
     ],
     "mood": "pastel",
     "category": "retro",
-    "description": "The Pastel Retro 20 color palette features a beautiful selection of pastel, retro, triadic tones. It is carefully curated to evoke a pastel mood, making it perfectly suited for retro design projects.",
+    "description": "The Pastel Retro 20 color palette features a beautiful selection of pastel, retro, triadic tones. It is carefully curated to evoke a pastel mood, making it perfectly suited for retro projects. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions.",
     "harmonyType": "triadic",
     "harmonyDescription": "This palette utilizes a triadic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -637,7 +656,8 @@
       "palette-21",
       "palette-25",
       "palette-30"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #caace2;\n  --color-2: #e2caac;\n  --color-3: #ace2ca;\n  --color-4: #fddeff;\n  --color-5: #997db0;\n}"
   },
   {
     "id": "palette-21",
@@ -656,7 +676,7 @@
     ],
     "mood": "calm",
     "category": "interior",
-    "description": "The Calm Interior 21 color palette features a beautiful selection of calm, interior, complementary tones. It is carefully curated to evoke a calm mood, making it perfectly suited for interior design projects.",
+    "description": "The Calm Interior 21 color palette features a beautiful selection of calm, interior, complementary tones. It is carefully curated to evoke a calm mood, making it perfectly suited for interior projects. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience.",
     "harmonyType": "complementary",
     "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -669,7 +689,8 @@
       "palette-22",
       "palette-26",
       "palette-31"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #59a297;\n  --color-2: #70956d;\n  --color-3: #8c8250;\n  --color-4: #a06c4e;\n  --color-5: #a25964;\n}"
   },
   {
     "id": "palette-22",
@@ -688,7 +709,7 @@
     ],
     "mood": "nostalgic",
     "category": "interior",
-    "description": "The Nostalgic Interior 22 color palette features a beautiful selection of nostalgic, interior, complementary tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for interior design projects.",
+    "description": "The Nostalgic Interior 22 color palette features a beautiful selection of nostalgic, interior, complementary tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for interior projects. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust.",
     "harmonyType": "complementary",
     "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -701,7 +722,8 @@
       "palette-23",
       "palette-27",
       "palette-32"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #3b73da;\n  --color-2: #b962c1;\n  --color-3: #ef5d8e;\n  --color-4: #f67a5a;\n  --color-5: #daa23b;\n}"
   },
   {
     "id": "palette-23",
@@ -720,7 +742,7 @@
     ],
     "mood": "vibrant",
     "category": "interior",
-    "description": "The Vibrant Interior 23 color palette features a beautiful selection of vibrant, interior, monochromatic tones. It is carefully curated to evoke a vibrant mood, making it perfectly suited for interior design projects.",
+    "description": "The Vibrant Interior 23 color palette features a beautiful selection of vibrant, interior, monochromatic tones. It is carefully curated to evoke a vibrant mood, making it perfectly suited for interior projects. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment.",
     "harmonyType": "monochromatic",
     "harmonyDescription": "This palette utilizes a monochromatic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -733,7 +755,8 @@
       "palette-24",
       "palette-28",
       "palette-33"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #8bf1d3;\n  --color-2: #54bfa3;\n  --color-3: #1d8d73;\n  --color-4: #0f604a;\n  --color-5: #003320;\n}"
   },
   {
     "id": "palette-24",
@@ -752,7 +775,7 @@
     ],
     "mood": "warm",
     "category": "interior",
-    "description": "The Warm Interior 24 color palette features a beautiful selection of warm, interior, complementary tones. It is carefully curated to evoke a warm mood, making it perfectly suited for interior design projects.",
+    "description": "The Warm Interior 24 color palette features a beautiful selection of warm, interior, complementary tones. It is carefully curated to evoke a warm mood, making it perfectly suited for interior projects. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user.",
     "harmonyType": "complementary",
     "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -765,7 +788,8 @@
       "palette-25",
       "palette-29",
       "palette-34"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #038eae;\n  --color-2: #3d7ac1;\n  --color-3: #9056ab;\n  --color-4: #bc2066;\n  --color-5: #ae2303;\n}"
   },
   {
     "id": "palette-25",
@@ -784,7 +808,7 @@
     ],
     "mood": "soft",
     "category": "interior",
-    "description": "The Soft Interior 25 color palette features a beautiful selection of soft, interior, monochromatic tones. It is carefully curated to evoke a soft mood, making it perfectly suited for interior design projects.",
+    "description": "The Soft Interior 25 color palette features a beautiful selection of soft, interior, monochromatic tones. It is carefully curated to evoke a soft mood, making it perfectly suited for interior projects. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions.",
     "harmonyType": "monochromatic",
     "harmonyDescription": "This palette utilizes a monochromatic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -797,7 +821,8 @@
       "palette-26",
       "palette-30",
       "palette-35"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #f09363;\n  --color-2: #bb6537;\n  --color-3: #85380c;\n  --color-4: #5d1c06;\n  --color-5: #350000;\n}"
   },
   {
     "id": "palette-26",
@@ -816,7 +841,7 @@
     ],
     "mood": "energetic",
     "category": "tech",
-    "description": "The Energetic Tech 26 color palette features a beautiful selection of energetic, tech, complementary tones. It is carefully curated to evoke a energetic mood, making it perfectly suited for tech design projects.",
+    "description": "The Energetic Tech 26 color palette features a beautiful selection of energetic, tech, complementary tones. It is carefully curated to evoke a energetic mood, making it perfectly suited for tech projects. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience.",
     "harmonyType": "complementary",
     "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -829,7 +854,8 @@
       "palette-27",
       "palette-31",
       "palette-36"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #2afcaa;\n  --color-2: #a5d747;\n  --color-3: #e2a709;\n  --color-4: #ff6b3d;\n  --color-5: #fc2a7c;\n}"
   },
   {
     "id": "palette-27",
@@ -848,7 +874,7 @@
     ],
     "mood": "warm",
     "category": "modern",
-    "description": "The Warm Modern 27 color palette features a beautiful selection of warm, modern, analogous tones. It is carefully curated to evoke a warm mood, making it perfectly suited for modern design projects.",
+    "description": "The Warm Modern 27 color palette features a beautiful selection of warm, modern, analogous tones. It is carefully curated to evoke a warm mood, making it perfectly suited for modern projects. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust.",
     "harmonyType": "analogous",
     "harmonyDescription": "This palette utilizes a analogous harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -861,7 +887,8 @@
       "palette-28",
       "palette-32",
       "palette-37"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #134866;\n  --color-2: #132d66;\n  --color-3: #151366;\n  --color-4: #311366;\n  --color-5: #4c1366;\n}"
   },
   {
     "id": "palette-28",
@@ -880,7 +907,7 @@
     ],
     "mood": "professional",
     "category": "modern",
-    "description": "The Professional Modern 28 color palette features a beautiful selection of professional, modern, tetradic tones. It is carefully curated to evoke a professional mood, making it perfectly suited for modern design projects.",
+    "description": "The Professional Modern 28 color palette features a beautiful selection of professional, modern, tetradic tones. It is carefully curated to evoke a professional mood, making it perfectly suited for modern projects. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment.",
     "harmonyType": "tetradic",
     "harmonyDescription": "This palette utilizes a tetradic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -893,7 +920,8 @@
       "palette-29",
       "palette-33",
       "palette-38"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #db3129;\n  --color-2: #7adb29;\n  --color-3: #29d3db;\n  --color-4: #8a29db;\n  --color-5: #ff6853;\n}"
   },
   {
     "id": "palette-29",
@@ -912,7 +940,7 @@
     ],
     "mood": "earthy",
     "category": "modern",
-    "description": "The Earthy Modern 29 color palette features a beautiful selection of earthy, modern, complementary tones. It is carefully curated to evoke a earthy mood, making it perfectly suited for modern design projects.",
+    "description": "The Earthy Modern 29 color palette features a beautiful selection of earthy, modern, complementary tones. It is carefully curated to evoke a earthy mood, making it perfectly suited for modern projects. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user.",
     "harmonyType": "complementary",
     "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -925,7 +953,8 @@
       "palette-30",
       "palette-34",
       "palette-39"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #473e26;\n  --color-2: #503429;\n  --color-3: #4f2e35;\n  --color-4: #402d42;\n  --color-5: #262f47;\n}"
   },
   {
     "id": "palette-30",
@@ -944,7 +973,7 @@
     ],
     "mood": "nostalgic",
     "category": "modern",
-    "description": "The Nostalgic Modern 30 color palette features a beautiful selection of nostalgic, modern, tetradic tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for modern design projects.",
+    "description": "The Nostalgic Modern 30 color palette features a beautiful selection of nostalgic, modern, tetradic tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for modern projects. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions.",
     "harmonyType": "tetradic",
     "harmonyDescription": "This palette utilizes a tetradic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -957,7 +986,8 @@
       "palette-31",
       "palette-35",
       "palette-40"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #62963e;\n  --color-2: #3e8e96;\n  --color-3: #723e96;\n  --color-4: #96463e;\n  --color-5: #92c76b;\n}"
   },
   {
     "id": "palette-31",
@@ -976,7 +1006,7 @@
     ],
     "mood": "warm",
     "category": "tech",
-    "description": "The Warm Tech 31 color palette features a beautiful selection of warm, tech, triadic tones. It is carefully curated to evoke a warm mood, making it perfectly suited for tech design projects.",
+    "description": "The Warm Tech 31 color palette features a beautiful selection of warm, tech, triadic tones. It is carefully curated to evoke a warm mood, making it perfectly suited for tech projects. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience.",
     "harmonyType": "triadic",
     "harmonyDescription": "This palette utilizes a triadic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -989,7 +1019,8 @@
       "palette-32",
       "palette-36",
       "palette-41"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #8da9a3;\n  --color-2: #a38da9;\n  --color-3: #a9a38d;\n  --color-4: #bddbd4;\n  --color-5: #5f7a74;\n}"
   },
   {
     "id": "palette-32",
@@ -1008,7 +1039,7 @@
     ],
     "mood": "energetic",
     "category": "minimal",
-    "description": "The Energetic Minimal 32 color palette features a beautiful selection of energetic, minimal, tetradic tones. It is carefully curated to evoke a energetic mood, making it perfectly suited for minimal design projects.",
+    "description": "The Energetic Minimal 32 color palette features a beautiful selection of energetic, minimal, tetradic tones. It is carefully curated to evoke a energetic mood, making it perfectly suited for minimal projects. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust.",
     "harmonyType": "tetradic",
     "harmonyDescription": "This palette utilizes a tetradic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -1021,7 +1052,8 @@
       "palette-33",
       "palette-37",
       "palette-42"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #3f4bce;\n  --color-2: #ce3f92;\n  --color-3: #cec23f;\n  --color-4: #3fce7b;\n  --color-5: #7a77ff;\n}"
   },
   {
     "id": "palette-33",
@@ -1040,7 +1072,7 @@
     ],
     "mood": "soft",
     "category": "retro",
-    "description": "The Soft Retro 33 color palette features a beautiful selection of soft, retro, tetradic tones. It is carefully curated to evoke a soft mood, making it perfectly suited for retro design projects.",
+    "description": "The Soft Retro 33 color palette features a beautiful selection of soft, retro, tetradic tones. It is carefully curated to evoke a soft mood, making it perfectly suited for retro projects. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment.",
     "harmonyType": "tetradic",
     "harmonyDescription": "This palette utilizes a tetradic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -1053,7 +1085,8 @@
       "palette-34",
       "palette-38",
       "palette-43"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #198bc7;\n  --color-2: #ac19c7;\n  --color-3: #c75519;\n  --color-4: #34c719;\n  --color-5: #61bbfa;\n}"
   },
   {
     "id": "palette-34",
@@ -1072,7 +1105,7 @@
     ],
     "mood": "pastel",
     "category": "minimal",
-    "description": "The Pastel Minimal 34 color palette features a beautiful selection of pastel, minimal, complementary tones. It is carefully curated to evoke a pastel mood, making it perfectly suited for minimal design projects.",
+    "description": "The Pastel Minimal 34 color palette features a beautiful selection of pastel, minimal, complementary tones. It is carefully curated to evoke a pastel mood, making it perfectly suited for minimal projects. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user.",
     "harmonyType": "complementary",
     "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -1085,7 +1118,8 @@
       "palette-35",
       "palette-39",
       "palette-44"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #b91c0f;\n  --color-2: #916500;\n  --color-3: #5d8824;\n  --color-4: #0c9f77;\n  --color-5: #0facb9;\n}"
   },
   {
     "id": "palette-35",
@@ -1104,7 +1138,7 @@
     ],
     "mood": "nostalgic",
     "category": "retro",
-    "description": "The Nostalgic Retro 35 color palette features a beautiful selection of nostalgic, retro, complementary tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for retro design projects.",
+    "description": "The Nostalgic Retro 35 color palette features a beautiful selection of nostalgic, retro, complementary tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for retro projects. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions.",
     "harmonyType": "complementary",
     "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -1117,7 +1151,8 @@
       "palette-36",
       "palette-40",
       "palette-45"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #d27b6d;\n  --color-2: #bb965c;\n  --color-3: #95ad72;\n  --color-4: #70bca3;\n  --color-5: #6dc4d2;\n}"
   },
   {
     "id": "palette-36",
@@ -1136,7 +1171,7 @@
     ],
     "mood": "nostalgic",
     "category": "fashion",
-    "description": "The Nostalgic Fashion 36 color palette features a beautiful selection of nostalgic, fashion, monochromatic tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for fashion design projects.",
+    "description": "The Nostalgic Fashion 36 color palette features a beautiful selection of nostalgic, fashion, monochromatic tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for fashion projects. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience.",
     "harmonyType": "monochromatic",
     "harmonyDescription": "This palette utilizes a monochromatic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -1149,7 +1184,8 @@
       "palette-37",
       "palette-41",
       "palette-46"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #ff7dc7;\n  --color-2: #ca4697;\n  --color-3: #950f68;\n  --color-4: #660840;\n  --color-5: #370018;\n}"
   },
   {
     "id": "palette-37",
@@ -1168,7 +1204,7 @@
     ],
     "mood": "vibrant",
     "category": "tech",
-    "description": "The Vibrant Tech 37 color palette features a beautiful selection of vibrant, tech, monochromatic tones. It is carefully curated to evoke a vibrant mood, making it perfectly suited for tech design projects.",
+    "description": "The Vibrant Tech 37 color palette features a beautiful selection of vibrant, tech, monochromatic tones. It is carefully curated to evoke a vibrant mood, making it perfectly suited for tech projects. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust.",
     "harmonyType": "monochromatic",
     "harmonyDescription": "This palette utilizes a monochromatic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -1181,7 +1217,8 @@
       "palette-38",
       "palette-42",
       "palette-47"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #e8ffff;\n  --color-2: #b6d2d1;\n  --color-3: #85a4a3;\n  --color-4: #597776;\n  --color-5: #2d4a49;\n}"
   },
   {
     "id": "palette-38",
@@ -1200,7 +1237,7 @@
     ],
     "mood": "nostalgic",
     "category": "retro",
-    "description": "The Nostalgic Retro 38 color palette features a beautiful selection of nostalgic, retro, triadic tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for retro design projects.",
+    "description": "The Nostalgic Retro 38 color palette features a beautiful selection of nostalgic, retro, triadic tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for retro projects. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment.",
     "harmonyType": "triadic",
     "harmonyDescription": "This palette utilizes a triadic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -1213,7 +1250,8 @@
       "palette-39",
       "palette-43",
       "palette-48"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #ca4a6b;\n  --color-2: #6bca4a;\n  --color-3: #4a6bca;\n  --color-4: #ff7b99;\n  --color-5: #951141;\n}"
   },
   {
     "id": "palette-39",
@@ -1232,7 +1270,7 @@
     ],
     "mood": "vibrant",
     "category": "fashion",
-    "description": "The Vibrant Fashion 39 color palette features a beautiful selection of vibrant, fashion, monochromatic tones. It is carefully curated to evoke a vibrant mood, making it perfectly suited for fashion design projects.",
+    "description": "The Vibrant Fashion 39 color palette features a beautiful selection of vibrant, fashion, monochromatic tones. It is carefully curated to evoke a vibrant mood, making it perfectly suited for fashion projects. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user.",
     "harmonyType": "monochromatic",
     "harmonyDescription": "This palette utilizes a monochromatic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -1245,7 +1283,8 @@
       "palette-40",
       "palette-44",
       "palette-49"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #98f771;\n  --color-2: #62c43a;\n  --color-3: #2c9204;\n  --color-4: #166402;\n  --color-5: #003600;\n}"
   },
   {
     "id": "palette-40",
@@ -1264,7 +1303,7 @@
     ],
     "mood": "energetic",
     "category": "interior",
-    "description": "The Energetic Interior 40 color palette features a beautiful selection of energetic, interior, monochromatic tones. It is carefully curated to evoke a energetic mood, making it perfectly suited for interior design projects.",
+    "description": "The Energetic Interior 40 color palette features a beautiful selection of energetic, interior, monochromatic tones. It is carefully curated to evoke a energetic mood, making it perfectly suited for interior projects. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions.",
     "harmonyType": "monochromatic",
     "harmonyDescription": "This palette utilizes a monochromatic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -1277,7 +1316,8 @@
       "palette-41",
       "palette-45",
       "palette-50"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #e3ff8b;\n  --color-2: #adeb51;\n  --color-3: #77d718;\n  --color-4: #3ca60c;\n  --color-5: #007500;\n}"
   },
   {
     "id": "palette-41",
@@ -1296,7 +1336,7 @@
     ],
     "mood": "earthy",
     "category": "modern",
-    "description": "The Earthy Modern 41 color palette features a beautiful selection of earthy, modern, complementary tones. It is carefully curated to evoke a earthy mood, making it perfectly suited for modern design projects.",
+    "description": "The Earthy Modern 41 color palette features a beautiful selection of earthy, modern, complementary tones. It is carefully curated to evoke a earthy mood, making it perfectly suited for modern projects. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience.",
     "harmonyType": "complementary",
     "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -1309,7 +1349,8 @@
       "palette-42",
       "palette-46",
       "palette-51"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #eb67ea;\n  --color-2: #ff5a92;\n  --color-3: #ff8e3d;\n  --color-4: #d8c500;\n  --color-5: #67eb68;\n}"
   },
   {
     "id": "palette-42",
@@ -1328,7 +1369,7 @@
     ],
     "mood": "soft",
     "category": "interior",
-    "description": "The Soft Interior 42 color palette features a beautiful selection of soft, interior, analogous tones. It is carefully curated to evoke a soft mood, making it perfectly suited for interior design projects.",
+    "description": "The Soft Interior 42 color palette features a beautiful selection of soft, interior, analogous tones. It is carefully curated to evoke a soft mood, making it perfectly suited for interior projects. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust.",
     "harmonyType": "analogous",
     "harmonyDescription": "This palette utilizes a analogous harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -1341,7 +1382,8 @@
       "palette-43",
       "palette-47",
       "palette-52"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #9a55c3;\n  --color-2: #be55c3;\n  --color-3: #c355a3;\n  --color-4: #c3557e;\n  --color-5: #c3555a;\n}"
   },
   {
     "id": "palette-43",
@@ -1360,7 +1402,7 @@
     ],
     "mood": "calm",
     "category": "corporate",
-    "description": "The Calm Corporate 43 color palette features a beautiful selection of calm, corporate, tetradic tones. It is carefully curated to evoke a calm mood, making it perfectly suited for corporate design projects.",
+    "description": "The Calm Corporate 43 color palette features a beautiful selection of calm, corporate, tetradic tones. It is carefully curated to evoke a calm mood, making it perfectly suited for corporate projects. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment.",
     "harmonyType": "tetradic",
     "harmonyDescription": "This palette utilizes a tetradic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -1373,7 +1415,8 @@
       "palette-44",
       "palette-48",
       "palette-53"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #74d91c;\n  --color-2: #1cd3d9;\n  --color-3: #811cd9;\n  --color-4: #d9221c;\n  --color-5: #aaff59;\n}"
   },
   {
     "id": "palette-44",
@@ -1392,7 +1435,7 @@
     ],
     "mood": "earthy",
     "category": "brand",
-    "description": "The Earthy Brand 44 color palette features a beautiful selection of earthy, brand, complementary tones. It is carefully curated to evoke a earthy mood, making it perfectly suited for brand design projects.",
+    "description": "The Earthy Brand 44 color palette features a beautiful selection of earthy, brand, complementary tones. It is carefully curated to evoke a earthy mood, making it perfectly suited for brand projects. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user.",
     "harmonyType": "complementary",
     "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -1405,7 +1448,8 @@
       "palette-45",
       "palette-49",
       "palette-54"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #2eb35a;\n  --color-2: #8e9503;\n  --color-3: #bf6c10;\n  --color-4: #d03c4c;\n  --color-5: #b32e87;\n}"
   },
   {
     "id": "palette-45",
@@ -1424,7 +1468,7 @@
     ],
     "mood": "professional",
     "category": "brand",
-    "description": "The Professional Brand 45 color palette features a beautiful selection of professional, brand, complementary tones. It is carefully curated to evoke a professional mood, making it perfectly suited for brand design projects.",
+    "description": "The Professional Brand 45 color palette features a beautiful selection of professional, brand, complementary tones. It is carefully curated to evoke a professional mood, making it perfectly suited for brand projects. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions.",
     "harmonyType": "complementary",
     "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -1437,7 +1481,8 @@
       "palette-46",
       "palette-50",
       "palette-55"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #cc8623;\n  --color-2: #e5604f;\n  --color-3: #da4a85;\n  --color-4: #a456b6;\n  --color-5: #2369cc;\n}"
   },
   {
     "id": "palette-46",
@@ -1456,7 +1501,7 @@
     ],
     "mood": "vibrant",
     "category": "minimal",
-    "description": "The Vibrant Minimal 46 color palette features a beautiful selection of vibrant, minimal, complementary tones. It is carefully curated to evoke a vibrant mood, making it perfectly suited for minimal design projects.",
+    "description": "The Vibrant Minimal 46 color palette features a beautiful selection of vibrant, minimal, complementary tones. It is carefully curated to evoke a vibrant mood, making it perfectly suited for minimal projects. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience.",
     "harmonyType": "complementary",
     "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -1469,7 +1514,8 @@
       "palette-47",
       "palette-51",
       "palette-56"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #ca2db1;\n  --color-2: #fb2461;\n  --color-3: #ea6d00;\n  --color-4: #aca500;\n  --color-5: #2dca46;\n}"
   },
   {
     "id": "palette-47",
@@ -1488,7 +1534,7 @@
     ],
     "mood": "dark",
     "category": "modern",
-    "description": "The Dark Modern 47 color palette features a beautiful selection of dark, modern, complementary tones. It is carefully curated to evoke a dark mood, making it perfectly suited for modern design projects.",
+    "description": "The Dark Modern 47 color palette features a beautiful selection of dark, modern, complementary tones. It is carefully curated to evoke a dark mood, making it perfectly suited for modern projects. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust.",
     "harmonyType": "complementary",
     "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -1501,7 +1547,8 @@
       "palette-48",
       "palette-52",
       "palette-57"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #f1cc15;\n  --color-2: #ff8324;\n  --color-3: #ff0067;\n  --color-4: #e700b2;\n  --color-5: #153af1;\n}"
   },
   {
     "id": "palette-48",
@@ -1520,7 +1567,7 @@
     ],
     "mood": "pastel",
     "category": "modern",
-    "description": "The Pastel Modern 48 color palette features a beautiful selection of pastel, modern, complementary tones. It is carefully curated to evoke a pastel mood, making it perfectly suited for modern design projects.",
+    "description": "The Pastel Modern 48 color palette features a beautiful selection of pastel, modern, complementary tones. It is carefully curated to evoke a pastel mood, making it perfectly suited for modern projects. By incorporating this palette into your workflow, you can ensure consistency and professionalism throughout your digital presence. Leverage these carefully selected hues to guide user attention, define structural hierarchy, and convey the right emotional resonance for your target audience. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment.",
     "harmonyType": "complementary",
     "harmonyDescription": "This palette utilizes a complementary harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -1533,7 +1580,8 @@
       "palette-49",
       "palette-53",
       "palette-58"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #481e78;\n  --color-2: #89004c;\n  --color-3: #942b1c;\n  --color-4: #7c5800;\n  --color-5: #4e781e;\n}"
   },
   {
     "id": "palette-49",
@@ -1552,7 +1600,7 @@
     ],
     "mood": "nostalgic",
     "category": "tech",
-    "description": "The Nostalgic Tech 49 color palette features a beautiful selection of nostalgic, tech, triadic tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for tech design projects.",
+    "description": "The Nostalgic Tech 49 color palette features a beautiful selection of nostalgic, tech, triadic tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for tech projects. Use this palette to elevate your next creative endeavor and deliver an experience that feels both polished and intentional. Mastering color implementation is key to driving user engagement and fostering brand trust. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user.",
     "harmonyType": "triadic",
     "harmonyDescription": "This palette utilizes a triadic harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -1565,7 +1613,8 @@
       "palette-50",
       "palette-54",
       "palette-59"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #d63707;\n  --color-2: #07d637;\n  --color-3: #3707d6;\n  --color-4: #ff6b39;\n  --color-5: #9d0000;\n}"
   },
   {
     "id": "palette-50",
@@ -1584,7 +1633,7 @@
     ],
     "mood": "nostalgic",
     "category": "corporate",
-    "description": "The Nostalgic Corporate 50 color palette features a beautiful selection of nostalgic, corporate, analogous tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for corporate design projects.",
+    "description": "The Nostalgic Corporate 50 color palette features a beautiful selection of nostalgic, corporate, analogous tones. It is carefully curated to evoke a nostalgic mood, making it perfectly suited for corporate projects. From subtle background tints to striking primary actions, this collection provides the complete spectrum needed for robust design systems. It is optimized for both light and dark modes, ensuring your application looks stunning in any environment. When crafting modern user interfaces or engaging brand identities, finding the perfect balance of color is essential. This palette offers precisely that—a seamless integration of shades that work together to create depth and visual interest without overwhelming the user. Whether you are building a sleek digital product, designing a sophisticated marketing campaign, or establishing a cohesive aesthetic for a new startup, this palette provides a versatile foundation. Its tones are designed to maintain high readability and aesthetic appeal across various screen types and lighting conditions.",
     "harmonyType": "analogous",
     "harmonyDescription": "This palette utilizes a analogous harmony strategy. This ensures visual coherence while maintaining appropriate contrast and vibrancy across the color scheme.",
     "useCases": [
@@ -1597,7 +1646,8 @@
       "palette-51",
       "palette-55",
       "palette-60"
-    ]
+    ],
+    "exportCode": ":root {\n  --color-1: #a15ffc;\n  --color-2: #d65ffc;\n  --color-3: #fc5fee;\n  --color-4: #fc5fba;\n  --color-5: #fc5f85;\n}"
   },
   {
     "id": "palette-51",
