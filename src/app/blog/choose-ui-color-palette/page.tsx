@@ -15,8 +15,8 @@ const metaDataObj: SeoMeta = {
   slug: "/blog/choose-ui-color-palette",
   pageType: "article",
   author: { name: "PaletteFlow Editorial" },
-  publishedAt: "2026-07-10T00:00:00Z",
-  updatedAt: "2026-08-27T00:00:00Z",
+  publishedAt: "2026-09-30T00:00:00Z",
+  updatedAt: "2026-09-30T00:00:00Z",
   ogImage: {
     url: "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=1200&auto=format&fit=crop&fm=webp",
     width: 1200,
