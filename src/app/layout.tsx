@@ -49,13 +49,6 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-        <JsonLd schema={buildOrganizationSchema()} />
-      </head>
-      <body
-        className={`${fraunces.variable} ${dmSans.variable} ${jetbrainsMono.variable} font-sans antialiased`}
-      >
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-HZQ3QT11QC" strategy="afterInteractive" />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
@@ -65,6 +58,13 @@ export default function RootLayout({
             gtag('config', 'G-HZQ3QT11QC');
           `}
         </Script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <JsonLd schema={buildOrganizationSchema()} />
+      </head>
+      <body
+        className={`${fraunces.variable} ${dmSans.variable} ${jetbrainsMono.variable} font-sans antialiased`}
+      >
         <ThemeProvider attribute="class" defaultTheme="dark" disableTransitionOnChange>
           {children}
           <Toaster position="bottom-right" />
