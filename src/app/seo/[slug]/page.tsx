@@ -102,6 +102,7 @@ export default async function SeoPage({ params }: { params: Promise<{ slug: stri
                {pageData.slug === 'color-theory-fundamentals-guide' && (
                  <p className="mt-4">
                    For a deeper dive into applying these concepts, check out our comprehensive guide on <a href="/blog/choose-ui-color-palette" className="text-primary hover:underline font-bold">how to choose a color palette for UI design</a>.
+                   This exhaustive resource covers essential topics ranging from evaluating accessible contrast ratios according to WCAG 2.1 standards to building robust, future-proof color scales. It is an indispensable read for designers seeking to understand both the science and the soul behind professional digital interfaces in 2026.
                  </p>
                )}
              </section>
