@@ -8,6 +8,7 @@ import { Toaster } from "react-hot-toast";
 import { JsonLd } from "@/components/JsonLd";
 import { buildOrganizationSchema } from "@/lib/seo/buildSchema";
 import Script from "next/script";
+import { AnalyticsEvents } from "@/components/AnalyticsEvents";
 
 const fraunces = Fraunces({
   variable: "--font-fraunces",
@@ -66,6 +67,7 @@ export default function RootLayout({
         className={`${fraunces.variable} ${dmSans.variable} ${jetbrainsMono.variable} font-sans antialiased`}
       >
         <ThemeProvider attribute="class" defaultTheme="dark" disableTransitionOnChange>
+          <AnalyticsEvents />
           {children}
           <Toaster position="bottom-right" />
         </ThemeProvider>
