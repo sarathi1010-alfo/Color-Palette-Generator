@@ -3,7 +3,7 @@
 echo "Appending new URLs to /sitemap.xml..."
 
 # Get API key from env or use a default test one
-INDEXNOW_KEY=${INDEXNOW_KEY:-"d2c0b497b7b140689b6574f9d8544d93"}
+INDEXNOW_KEY="d2c0b497b7b140689b6574f9d8544d93"
 
 # Trigger IndexNow
 curl -s -X POST https://api.indexnow.org/indexnow \
