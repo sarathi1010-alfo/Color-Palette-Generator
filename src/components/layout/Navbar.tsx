@@ -41,16 +41,21 @@ export function Navbar() {
         </div>
       </div>
 
-      <div className="flex items-center space-x-4">
+      <div className="flex items-center space-x-2">
         {mounted && (
           <button
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-            className="p-2 rounded-full hover:bg-surface transition-colors"
+            className="min-w-[44px] min-h-[44px] flex items-center justify-center rounded-full hover:bg-surface transition-colors"
+            aria-label="Toggle theme"
           >
             {theme === "dark" ? <Sun size={20} /> : <Moon size={20} />}
           </button>
         )}
-        <Link href="/about" className="p-2 rounded-full hover:bg-surface transition-colors">
+        <Link
+          href="/about"
+          className="min-w-[44px] min-h-[44px] flex items-center justify-center rounded-full hover:bg-surface transition-colors"
+          aria-label="About PaletteFlow"
+        >
           <Info size={20} />
         </Link>
       </div>
