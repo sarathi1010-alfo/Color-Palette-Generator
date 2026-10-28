@@ -32,11 +32,32 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  ...resolveMetadata(buildLandingMeta({
-    title: "Color Palette Generator",
-    description: "The fastest, most visual color palette tool on the web — generate, explore, copy, and export beautiful palettes in seconds.",
-    slug: "/",
-  }), true),
+  title: "Color Palette Generator | Harmonious Schemes - PaletteFlow",
+  description: "Generate balanced, accessible color palettes in seconds. Spacebar generator, WCAG contrast checking, hex code export, and color theory modes.",
+  alternates: {
+    canonical: "https://paletteflow.alfo.online/",
+  },
+  openGraph: {
+    title: "Color Palette Generator | Harmonious Schemes - PaletteFlow",
+    description: "Generate balanced, accessible color palettes in seconds. Spacebar generator, WCAG contrast checking, hex code export, and color theory modes.",
+    url: "https://paletteflow.alfo.online/",
+    siteName: "PaletteFlow",
+    type: "website",
+    images: [
+      {
+        url: "https://paletteflow.alfo.online/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "PaletteFlow - Color Palette Generator",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Color Palette Generator | Harmonious Schemes - PaletteFlow",
+    description: "Generate balanced, accessible color palettes in seconds. Spacebar generator, WCAG contrast checking, hex code export, and color theory modes.",
+    images: ["https://paletteflow.alfo.online/og-image.png"],
+  },
   other: {
     "google-adsense-account": "ca-pub-6393936268623951",
   },
@@ -66,6 +87,13 @@ export default function RootLayout({
       <body
         className={`${fraunces.variable} ${dmSans.variable} ${jetbrainsMono.variable} font-sans antialiased`}
       >
+        <a
+          href="#main-content"
+          id="skip-link"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-blue-600 focus:text-white focus:rounded-md focus:shadow-lg focus:outline-none"
+        >
+          Skip to content
+        </a>
         <ThemeProvider attribute="class" defaultTheme="dark" disableTransitionOnChange>
           <AnalyticsEvents />
           {children}

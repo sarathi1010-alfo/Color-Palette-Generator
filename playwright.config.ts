@@ -1,10 +1,11 @@
 import { defineConfig, devices } from '@playwright/test';
+
 export default defineConfig({
   testDir: './tests',
   fullyParallel: true,
   reporter: 'list',
   use: {
-    baseURL: 'http://localhost:3000',
+    baseURL: 'http://localhost:3017',
     trace: 'on-first-retry',
   },
   projects: [
@@ -14,8 +15,9 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: 'npm run start',
-    url: 'http://localhost:3000',
-    reuseExistingServer: true,
+    command: 'npx next start -p 3017',
+    url: 'http://localhost:3017',
+    reuseExistingServer: !process.env.CI,
+    timeout: 120000,
   },
 });

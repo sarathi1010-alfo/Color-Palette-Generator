@@ -13,42 +13,87 @@ import { buildFaqSchema } from "@/lib/seo/buildSchema";
 
 const faqs = [
   {
-    question: "What is a color palette generator?",
-    answer: "A color palette generator is a tool that helps designers and developers create harmonious, balanced, and accessible color schemes for their projects instantly using color theory algorithms."
+    question: "How do I generate new color palettes in PaletteFlow?",
+    answer: "Simply tap the Spacebar on your keyboard or click the 'Generate' button to produce a fresh, harmonious 5-color palette instantly."
   },
   {
-    question: "How do I choose the best color palette for my website?",
-    answer: "Start with your brand's core emotion or industry. Use our Personality Generator to find semantic associations, then ensure your primary and background colors pass WCAG accessibility contrast checks."
+    question: "How does PaletteFlow ensure color accessibility?",
+    answer: "PaletteFlow integrates real-time WCAG 2.1 contrast ratio calculations, evaluating text-to-background contrast to ensure AA and AAA compliance for accessibility."
   },
   {
-    question: "Is this color generator free to use?",
-    answer: "Yes, PaletteFlow is completely free to use. You can generate unlimited palettes, extract colors from images, and export directly to CSS, Tailwind, or Figma without signing up."
+    question: "Can I generate palettes from an existing brand hex code?",
+    answer: "Yes, paste your base brand hex code into any swatch, lock that color, and the engine calculates complementary, analogous, or triadic harmonies around it."
+  },
+  {
+    question: "What export formats does PaletteFlow support?",
+    answer: "You can export palettes as CSS Custom Properties (variables), Tailwind CSS configuration snippets, JSON, SVG swatches, and URL permalinks."
+  },
+  {
+    question: "What color harmony algorithms are available?",
+    answer: "PaletteFlow supports Monochromatic, Analogous, Complementary, Split-Complementary, Triadic, Tetradic, and Golden Ratio algorithms."
   }
 ];
 
 export default function HomePage() {
   const featuredPalettes = palettesData.slice(0, 4);
 
+  const webAppSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "PaletteFlow - Color Palette Generator",
+    "url": "https://paletteflow.alfo.online/",
+    "description": "Generate balanced, accessible color palettes in seconds. Spacebar generator, WCAG contrast checking, hex code export, and color theory modes.",
+    "applicationCategory": "DesignApplication",
+    "operatingSystem": "All",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://paletteflow.alfo.online/"
+      }
+    ]
+  };
+
   const howToSchema = {
     "@context": "https://schema.org",
     "@type": "HowTo",
-    "name": "How to Generate a Professional Color Palette",
+    "name": "How to Generate Harmonious and Accessible Color Palettes",
     "description": "Learn how to use PaletteFlow to create a cohesive and accessible color scheme for your design projects.",
     "step": [
       {
         "@type": "HowToStep",
-        "name": "Launch the Generator",
-        "text": "Open the PaletteFlow generator to start with a fresh set of harmonious colors."
+        "position": 1,
+        "name": "Press Spacebar",
+        "text": "Instant algorithmic color palette generation based on harmonic color theory."
       },
       {
         "@type": "HowToStep",
-        "name": "Iterate and Lock",
-        "text": "Press spacebar to generate new colors. Click the lock icon on any colors you want to keep."
+        "position": 2,
+        "name": "Lock Favorite Shades",
+        "text": "Click the lock icon on individual hex colors to keep them while refreshing remaining slots."
       },
       {
         "@type": "HowToStep",
-        "name": "Export to Code",
-        "text": "Once satisfied, copy the CSS variables or Tailwind config directly into your project."
+        "position": 3,
+        "name": "Verify Contrast & Harmony",
+        "text": "Toggle WCAG AA/AAA accessibility checks to guarantee readability for typography and buttons."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 4,
+        "name": "Copy Hex or Export",
+        "text": "Copy individual hex codes with one click or export complete CSS, SCSS, or Tailwind configurations."
       }
     ]
   };
@@ -57,10 +102,11 @@ export default function HomePage() {
     <div className="min-h-screen bg-background flex flex-col">
       <Navbar />
 
-      <main className="flex-1" itemScope itemType="https://schema.org/WebPage">
-        {/* Added FAQ Schema */}
+      <main id="main-content" className="flex-1" itemScope itemType="https://schema.org/WebPage">
+        <JsonLd schema={webAppSchema} />
         <JsonLd schema={buildFaqSchema(faqs)} />
         <JsonLd schema={howToSchema} />
+        <JsonLd schema={breadcrumbSchema} />
         {/* Hero Section */}
         <section className="relative overflow-hidden pt-20 pb-32 border-b border-border">
           <div className="max-w-7xl mx-auto px-6 relative z-10 text-center space-y-12">
@@ -72,12 +118,11 @@ export default function HomePage() {
               <span className="px-4 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-widest">
                 The Fastest Design Utility
               </span>
-              <h1 className="text-6xl md:text-8xl font-display font-bold tracking-tight max-w-4xl mx-auto" itemProp="name">
-                Build Beautiful Colors. <span className="text-primary italic">Instantly.</span>
+              <h1 className="text-4xl sm:text-6xl md:text-7xl font-display font-bold tracking-tight max-w-5xl mx-auto" itemProp="name">
+                Generate Harmonious and Accessible Color Palettes
               </h1>
-              <p className="text-text-secondary text-xl max-w-2xl mx-auto leading-relaxed" itemProp="description">
-                Generate, explore, and export stunning color palettes for your next UI,
-                branding, or web project. Zero friction, zero login.
+              <p className="text-text-secondary text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed" itemProp="description">
+                Create harmonious, production-ready color schemes instantly with PaletteFlow. Press the spacebar to generate balanced palettes based on proven color harmonies (analogous, complementary, triadic, tetradic). Lock favorite hues, inspect real-time WCAG 2.1 accessibility contrast scores, and export directly to CSS variables, Tailwind config, or SVG swatches.
               </p>
             </motion.div>
 
@@ -141,6 +186,51 @@ export default function HomePage() {
                     </p>
                 </div>
             </div>
+        </section>
+
+        {/* How It Works Section */}
+        <section className="py-24 border-b border-border bg-background">
+          <div className="max-w-7xl mx-auto px-6 space-y-12">
+            <div className="text-center space-y-4">
+              <span className="px-4 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-widest">
+                Simple 4-Step Process
+              </span>
+              <h2 className="text-4xl font-display font-bold">How It Works</h2>
+              <p className="text-text-secondary text-lg max-w-2xl mx-auto">
+                Create harmonious, production-ready color palettes in seconds with our streamlined workflow.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+              <div className="p-6 bg-surface/50 border border-border rounded-2xl space-y-3">
+                <div className="w-10 h-10 rounded-xl bg-blue-500/10 text-blue-500 font-bold flex items-center justify-center text-lg">1</div>
+                <h3 className="text-xl font-bold">Press Spacebar</h3>
+                <p className="text-text-secondary text-sm leading-relaxed">
+                  Instant algorithmic color palette generation based on harmonic color theory.
+                </p>
+              </div>
+              <div className="p-6 bg-surface/50 border border-border rounded-2xl space-y-3">
+                <div className="w-10 h-10 rounded-xl bg-green-500/10 text-green-500 font-bold flex items-center justify-center text-lg">2</div>
+                <h3 className="text-xl font-bold">Lock Favorite Shades</h3>
+                <p className="text-text-secondary text-sm leading-relaxed">
+                  Click the lock icon on individual hex colors to keep them while refreshing remaining slots.
+                </p>
+              </div>
+              <div className="p-6 bg-surface/50 border border-border rounded-2xl space-y-3">
+                <div className="w-10 h-10 rounded-xl bg-purple-500/10 text-purple-500 font-bold flex items-center justify-center text-lg">3</div>
+                <h3 className="text-xl font-bold">Verify Contrast & Harmony</h3>
+                <p className="text-text-secondary text-sm leading-relaxed">
+                  Toggle WCAG AA/AAA accessibility checks to guarantee readability for typography and buttons.
+                </p>
+              </div>
+              <div className="p-6 bg-surface/50 border border-border rounded-2xl space-y-3">
+                <div className="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-500 font-bold flex items-center justify-center text-lg">4</div>
+                <h3 className="text-xl font-bold">Copy Hex or Export</h3>
+                <p className="text-text-secondary text-sm leading-relaxed">
+                  Copy individual hex codes with one click or export complete CSS, SCSS, or Tailwind configurations.
+                </p>
+              </div>
+            </div>
+          </div>
         </section>
 
         {/* Featured Palettes */}
