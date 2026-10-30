@@ -13,6 +13,7 @@ import { Download, Copy, Check } from "lucide-react";
 import { toCssVariables, toTailwindConfig, toScssVariables, toJson, toFigmaTokens } from "@/lib/export/formats";
 import { cn, copyToClipboard } from "@/lib/utils";
 import { toast } from "react-hot-toast";
+import { trackEvent } from "@/lib/gtag";
 
 interface ExportPanelProps {
   swatches: Swatch[];
@@ -40,6 +41,7 @@ export function ExportPanel({ swatches }: ExportPanelProps) {
   };
 
   const handleCopy = () => {
+    trackEvent('export_palette', { format });
     copyToClipboard(getExportContent());
     setCopied(true);
     toast.success("Copied to clipboard!");
@@ -62,7 +64,10 @@ export function ExportPanel({ swatches }: ExportPanelProps) {
           {(["css", "tailwind", "scss", "json", "figma"] as ExportFormat[]).map((f) => (
             <button
               key={f}
-              onClick={() => setFormat(f)}
+              onClick={() => {
+                setFormat(f);
+                trackEvent('export_palette', { format: f });
+              }}
               className={cn(
                 "px-4 py-2 text-sm font-bold uppercase tracking-wider rounded-md transition-colors",
                 format === f ? "bg-text-primary text-background" : "hover:bg-surface text-text-secondary"

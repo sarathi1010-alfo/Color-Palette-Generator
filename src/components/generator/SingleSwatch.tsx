@@ -9,6 +9,7 @@ import { cn, copyToClipboard } from "@/lib/utils";
 import { toast } from "react-hot-toast";
 import { useRef } from "react";
 import { motion } from "framer-motion";
+import { trackEvent } from "@/lib/gtag";
 
 interface SingleSwatchProps {
   swatch: Swatch;
@@ -38,6 +39,7 @@ export function SingleSwatch({ swatch, onToggleLock, onUpdateColor }: SingleSwat
   const contrastColor = getContrastColor(swatch.hex);
 
   const handleCopy = () => {
+    trackEvent('copy_hex', { hex: swatch.hex.toUpperCase() });
     copyToClipboard(swatch.hex.toUpperCase());
     toast.success(`Copied ${swatch.hex.toUpperCase()}`, {
       style: {
