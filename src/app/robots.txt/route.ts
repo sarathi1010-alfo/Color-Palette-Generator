@@ -20,6 +20,14 @@ Content-Signal: ai-train=no, search=yes, ai-input=yes
 ------------------------------------------------------------------------------
 TIER 1 – GLOBAL SEARCH ENGINES
 ------------------------------------------------------------------------------
+# AhrefsBot Unblocked
+User-agent: AhrefsBot
+Allow: /
+#                                                                           #
+#                                                                           #
+#                                                                           #
+#                                                                           #
+
 User-agent: Googlebot
 User-agent: Google-InspectionTool
 User-agent: Googlebot-Image
@@ -343,7 +351,6 @@ Disallow: /
 ------------------------------------------------------------------------------
 AGGRESSIVE SECURITY SCRAPERS (BLOCKED)
 ------------------------------------------------------------------------------
-User-agent: AhrefsBot
 User-agent: SemrushBot
 User-agent: MajesticBot
 User-agent: rogerbot

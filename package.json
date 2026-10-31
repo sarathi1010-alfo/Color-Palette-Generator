@@ -8,7 +8,9 @@
     "prebuild": "npm run validate-seo",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "postbuild": "node scripts/indexnow-ping.mjs",
+    "test": "playwright test"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
