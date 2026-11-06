@@ -79,8 +79,8 @@ export default function AboutClientPage() {
                 </div>
             </div>
             <div className="flex space-x-4">
-                <a href="#" className="px-6 py-3 rounded-xl bg-surface border border-border font-bold hover:bg-border transition-colors">Twitter</a>
-                <a href="#" className="px-6 py-3 rounded-xl bg-surface border border-border font-bold hover:bg-border transition-colors">GitHub</a>
+                <a href="https://alfo.online" target="_blank" rel="noopener" className="px-6 py-3 rounded-xl bg-surface border border-border font-bold hover:bg-border transition-colors">Alfo Online</a>
+                <a href="https://github.com/sarathi1010-alfo" target="_blank" rel="noopener" className="px-6 py-3 rounded-xl bg-surface border border-border font-bold hover:bg-border transition-colors">GitHub</a>
             </div>
         </section>
       </main>

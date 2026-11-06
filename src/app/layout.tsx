@@ -32,6 +32,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://paletteflow.alfo.online"),
   title: "Color Palette Generator | Harmonious Schemes - PaletteFlow",
   description: "Generate balanced, accessible color palettes in seconds. Spacebar generator, WCAG contrast checking, hex code export, and color theory modes.",
   alternates: {
@@ -77,7 +78,16 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-HZQ3QT11QC');
+
+            if (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
+              window['ga-disable-G-HZQ3QT11QC'] = true;
+            } else {
+              gtag('config', 'G-HZQ3QT11QC', {
+                cookie_domain: 'auto',
+                linker: { domains: ['alfo.online', 'sm-clinics.vercel.app', 'pdfutility.app'] },
+                cookie_flags: 'SameSite=None;Secure'
+              });
+            }
           `}
         </Script>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
